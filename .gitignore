@@ -5,3 +5,7 @@
 .DS_Store
 .vs/
 *.user
+
+.env
+.env.*
+.idea/
