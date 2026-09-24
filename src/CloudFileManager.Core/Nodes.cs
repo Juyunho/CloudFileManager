@@ -11,7 +11,18 @@ public abstract class FsNode
         if (name is "." or ".." || name.Any(c => char.IsControl(c) || c is '/' or '\\'))
             throw new ArgumentException("Name cannot be a path or contain control characters.", nameof(name));
         Name = name; CreatedAt = createdAt; Parent = parent;
+        State = parent?.State ?? new TreeState();
     }
+    internal TreeState State { get; }
+    private readonly HashSet<TagKind> tags = [];
+    public IReadOnlyList<TagKind> Tags => Array.AsReadOnly(tags.Order().ToArray());
+    internal bool SetTag(TagKind tag, bool present)
+    {
+        var changed = present ? tags.Add(tag) : tags.Remove(tag);
+        if (changed) State.Revision++;
+        return changed;
+    }
+    internal void LoadTags(IEnumerable<TagKind> values) => tags.UnionWith(values);
     public Guid Id { get; } = Guid.NewGuid();
     public string Name { get; }
     public DateTimeOffset CreatedAt { get; }
@@ -33,7 +44,7 @@ public sealed class DirectoryNode : FsNode
 {
     private readonly List<FsNode> children = [];
     private readonly ReadOnlyCollection<FsNode> view;
-    private DirectoryNode(string name, DateTimeOffset createdAt, DirectoryNode? parent, string? xmlAlias)
+    internal DirectoryNode(string name, DateTimeOffset createdAt, DirectoryNode? parent, string? xmlAlias)
         : base(name, createdAt, parent)
     {
         if (xmlAlias is not null) ArgumentException.ThrowIfNullOrWhiteSpace(xmlAlias);
@@ -49,7 +60,21 @@ public sealed class DirectoryNode : FsNode
         if (children.Any(c => string.Equals(c.Name, node.Name, StringComparison.Ordinal)))
             throw new ArgumentException("A sibling already has this name.", nameof(node));
         children.Add(node);
+        State.Revision++;
         return node;
+    }
+    internal void Insert(int index, FsNode node, bool notify = true)
+    {
+        if (!ReferenceEquals(node.Parent, this)) throw new InvalidOperationException("Parent mismatch.");
+        if (children.Any(c => string.Equals(c.Name, node.Name, StringComparison.Ordinal)))
+            throw new ArgumentException("A sibling already has this name.");
+        children.Insert(index, node);
+        if (notify) State.Revision++;
+    }
+    internal void Remove(FsNode node)
+    {
+        if (!children.Remove(node)) throw new InvalidOperationException("Node is not attached.");
+        State.Revision++;
     }
     public DirectoryNode AddDirectory(string name, DateTimeOffset createdAt, string? xmlAlias = null)
         => Attach(new DirectoryNode(name, createdAt, this, xmlAlias));
@@ -128,3 +153,5 @@ public static class BinarySize
         return bytes.ToString(CultureInfo.InvariantCulture) + "B";
     }
 }
+
+internal sealed class TreeState { internal long Revision; }

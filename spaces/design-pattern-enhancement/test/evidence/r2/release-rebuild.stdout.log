@@ -1,0 +1,12 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CloudFileManager.Core -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/src/CloudFileManager.Core/bin/Release/net10.0/CloudFileManager.Core.dll
+  CloudFileManager.Console -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/src/CloudFileManager.Console/bin/Release/net10.0/CloudFileManager.Console.dll
+  CloudFileManager.Tests -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.dll
+  CloudFileManager.BonusTests -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.BonusTests/bin/Release/net10.0/CloudFileManager.BonusTests.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.76

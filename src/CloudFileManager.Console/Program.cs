@@ -2,12 +2,13 @@ using CloudFileManager.Core;
 using System.Text;
 
 Console.OutputEncoding = Encoding.UTF8;
-if (args.Length > 1 || (args.Length == 1 && args[0] is not ("--xml" or "--help")))
+if (args.Length > 1 || (args.Length == 1 && args[0] is not ("--xml" or "--help" or "--bonus")))
 {
-    Console.Error.WriteLine("Usage: CloudFileManager [--xml|--help]");
+    Console.Error.WriteLine("Usage: CloudFileManager [--xml|--help|--bonus]");
     return 2;
 }
-if (args.Contains("--help")) { Console.WriteLine("CloudFileManager: no arguments for demo; --xml for XML only."); return 0; }
+if (args.Contains("--help")) { Console.WriteLine("CloudFileManager: no arguments for demo; --xml for XML only; --bonus for editing/sorting/tags demo."); return 0; }
+if (args.Contains("--bonus")) { BonusDemo.Run(); return 0; }
 var root = SampleTree.Create();
 if (args.Contains("--xml")) { Console.WriteLine(TreeOperations.ToXml(root)); return 0; }
 Console.WriteLine("容量採二進位：1 KB = 1024 B；1 MB = 1024 KB");

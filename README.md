@@ -44,6 +44,26 @@ PM → SA → DEV → TEST，每角色使用專案版 grill-me，保存來源、
 
 ## 範圍
 
-必做功能完成；不含 GUI、實際雲端上傳、資料庫存取與 Bonus（排序、編輯、標籤、Undo/Redo）。XML 依題目格式，是展示格式而非可逆保存協定。沒有實作 reparent，避免形成孤立檔案、多重父節點與循環。
+TASK-001 必做功能完成；TASK-002 新增 Bonus（排序、編輯、標籤、Undo/Redo），不含 GUI、實際雲端上傳、資料庫存取。XML 依題目格式，是展示格式而非可逆保存協定。沒有實作 reparent，避免形成孤立檔案、多重父節點與循環。
 
 本機專案名為 CloudFileManager；GitHub repository 為使用者指定的 CloudFlieManager。本輪尚未 commit／push。
+
+## TASK-002 Bonus
+
+```sh
+dotnet run --project src/CloudFileManager.Console -c Release -- --bonus
+dotnet run --project tests/CloudFileManager.BonusTests -c Release
+python3 tests/verify_tag_schema.py
+```
+
+`--bonus` 是可重現的 Console 示範；Core API 可供呼叫端選取節點與操作。無參數及 `--xml` 沿用原有格式，Tags 僅在 Bonus 顯示名稱／顏色，不新增 XML 格式。
+
+- `SortedView.Children(directory, strategy, direction)`：目錄固定在前；名稱／大小／副檔名升降冪，文字 OrdinalIgnoreCase，同值保留原順序，不改 Children。目錄大小為完整子樹 bytes、副檔名空值。
+- `EditingSession(root)`：`Copy` 保存當下完整值快照，`Paste` 建立獨立副本並拒絕 Ordinal 同名；`Delete` 移除整棵子樹，`Undo`/`Redo` 恢復原位置與 identity；root 不可 Delete。
+- `AddTag`/`RemoveTag`：Urgent 紅、Work 藍、Personal 綠，檔案／目錄均可多 Tag。只有成功且改變 Domain State 的新操作建立歷史並清除 Redo；no-op／失敗／Copy／Sorting 不影響歷史。
+- session 為單執行緒記憶體生命週期，不保存至磁碟。建立 session 後請使用該 session 編輯；外部 Add* 或其他 session 改動同一棵樹會使其歷史過期，後續操作明確拒絕，需建立新 session。
+- 刪除節點保留原 parent 的 tombstone 引用供 Undo，但已不屬於活樹；API 拒絕對其 Copy／Delete／Tag 操作。不是公開 reparent 功能。
+- Composite 延續；Strategy／Command 採用；Visitor／Singleton 拒絕，完整理由見 `spaces/design-pattern-enhancement/sa/design.md`。
+- `schema-tags.sql` 在 `schema.sql` 後載入，供 ER 約束驗證；程式仍不連接資料庫。
+
+本次完整 evidence、Gate、限制與驗收見 `spaces/design-pattern-enhancement/`；TASK-001 歷史保留原樣。

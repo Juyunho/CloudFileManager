@@ -1,0 +1,10 @@
+{
+  "ended": "2026-09-24T18:47:35+08:00",
+  "gate": "REWORK",
+  "failures": [
+    "Schema count is not 12/12"
+  ],
+  "same_inputs": true,
+  "input_file_count": 38,
+  "protected_count": 85
+}

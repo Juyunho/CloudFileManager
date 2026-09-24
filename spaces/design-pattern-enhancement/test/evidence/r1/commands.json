@@ -1,0 +1,242 @@
+[
+  {
+    "name": "environment",
+    "command": [
+      "dotnet",
+      "--info"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-09-24T18:47:28+08:00",
+    "ended": "2026-09-24T18:47:28+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "environment.stdout.log",
+    "stderr": "environment.stderr.log"
+  },
+  {
+    "name": "head",
+    "command": [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-09-24T18:47:28+08:00",
+    "ended": "2026-09-24T18:47:28+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "head.stdout.log",
+    "stderr": "head.stderr.log"
+  },
+  {
+    "name": "git-before",
+    "command": [
+      "git",
+      "status",
+      "--short"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-09-24T18:47:28+08:00",
+    "ended": "2026-09-24T18:47:28+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "git-before.stdout.log",
+    "stderr": "git-before.stderr.log"
+  },
+  {
+    "name": "release-rebuild",
+    "command": [
+      "dotnet",
+      "build",
+      "CloudFileManager.slnx",
+      "-c",
+      "Release",
+      "-t:Rebuild"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-09-24T18:47:28+08:00",
+    "ended": "2026-09-24T18:47:30+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "release-rebuild.stdout.log",
+    "stderr": "release-rebuild.stderr.log"
+  },
+  {
+    "name": "core",
+    "command": [
+      "dotnet",
+      "run",
+      "--project",
+      "tests/CloudFileManager.Tests",
+      "-c",
+      "Release",
+      "--no-build"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-09-24T18:47:30+08:00",
+    "ended": "2026-09-24T18:47:31+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "core.stdout.log",
+    "stderr": "core.stderr.log"
+  },
+  {
+    "name": "bonus",
+    "command": [
+      "dotnet",
+      "run",
+      "--project",
+      "tests/CloudFileManager.BonusTests",
+      "-c",
+      "Release",
+      "--no-build"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-09-24T18:47:31+08:00",
+    "ended": "2026-09-24T18:47:32+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "bonus.stdout.log",
+    "stderr": "bonus.stderr.log"
+  },
+  {
+    "name": "schema",
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.9/bin/python3",
+      "tests/verify_schema.py"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-09-24T18:47:32+08:00",
+    "ended": "2026-09-24T18:47:32+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "schema.stdout.log",
+    "stderr": "schema.stderr.log"
+  },
+  {
+    "name": "tag-schema",
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.9/bin/python3",
+      "tests/verify_tag_schema.py"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-09-24T18:47:32+08:00",
+    "ended": "2026-09-24T18:47:32+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "tag-schema.stdout.log",
+    "stderr": "tag-schema.stderr.log"
+  },
+  {
+    "name": "console",
+    "command": [
+      "dotnet",
+      "run",
+      "--project",
+      "src/CloudFileManager.Console",
+      "-c",
+      "Release",
+      "--no-build"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-09-24T18:47:32+08:00",
+    "ended": "2026-09-24T18:47:33+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "console.stdout.log",
+    "stderr": "console.stderr.log"
+  },
+  {
+    "name": "console-xml",
+    "command": [
+      "dotnet",
+      "run",
+      "--project",
+      "src/CloudFileManager.Console",
+      "-c",
+      "Release",
+      "--no-build",
+      "--",
+      "--xml"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-09-24T18:47:33+08:00",
+    "ended": "2026-09-24T18:47:34+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "console-xml.stdout.log",
+    "stderr": "console-xml.stderr.log"
+  },
+  {
+    "name": "console-bonus",
+    "command": [
+      "dotnet",
+      "run",
+      "--project",
+      "src/CloudFileManager.Console",
+      "-c",
+      "Release",
+      "--no-build",
+      "--",
+      "--bonus"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-09-24T18:47:34+08:00",
+    "ended": "2026-09-24T18:47:34+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "console-bonus.stdout.log",
+    "stderr": "console-bonus.stderr.log"
+  },
+  {
+    "name": "console-invalid",
+    "command": [
+      "dotnet",
+      "run",
+      "--project",
+      "src/CloudFileManager.Console",
+      "-c",
+      "Release",
+      "--no-build",
+      "--",
+      "--invalid"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-09-24T18:47:34+08:00",
+    "ended": "2026-09-24T18:47:35+08:00",
+    "expected_exit_code": 2,
+    "exit_code": 2,
+    "stdout": "console-invalid.stdout.log",
+    "stderr": "console-invalid.stderr.log"
+  },
+  {
+    "name": "diff-check",
+    "command": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-09-24T18:47:35+08:00",
+    "ended": "2026-09-24T18:47:35+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "diff-check.stdout.log",
+    "stderr": "diff-check.stderr.log"
+  },
+  {
+    "name": "git-after",
+    "command": [
+      "git",
+      "status",
+      "--short"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-09-24T18:47:35+08:00",
+    "ended": "2026-09-24T18:47:35+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "git-after.stdout.log",
+    "stderr": "git-after.stderr.log"
+  }
+]

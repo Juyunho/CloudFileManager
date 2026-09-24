@@ -1,0 +1,14 @@
+ M CloudFileManager.slnx
+ M README.md
+ M src/CloudFileManager.Console/Program.cs
+ M src/CloudFileManager.Core/Nodes.cs
+?? schema-tags.sql
+?? spaces/design-pattern-enhancement/
+?? src/CloudFileManager.Console/BonusDemo.cs
+?? src/CloudFileManager.Core/EditingSession.cs
+?? src/CloudFileManager.Core/NodeSnapshot.cs
+?? src/CloudFileManager.Core/Sorting.cs
+?? src/CloudFileManager.Core/Tags.cs
+?? tests/CloudFileManager.BonusTests/
+?? tests/run_task002_verification.py
+?? tests/verify_tag_schema.py
