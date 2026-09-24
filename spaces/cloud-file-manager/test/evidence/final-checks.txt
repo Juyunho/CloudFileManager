@@ -1,0 +1,4 @@
+Time: 2026-09-24T17:21:54+08:00
+Markdown relative links: 60, broken: 0
+CLI XML parsed: 9 nodes, expected root tag
+Manual UML/ER-to-code review: matching types, fields, parent cardinality and documented constraints

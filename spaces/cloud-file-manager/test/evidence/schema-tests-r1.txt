@@ -1,0 +1,7 @@
+SQLite 3.35.5
+Traceback (most recent call last):
+  File "/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/verify_schema.py", line 87, in <module>
+    with db() as connection:
+  File "/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/verify_schema.py", line 9, in db
+    c.executescript(SCHEMA)
+sqlite3.OperationalError: near "STRICT": syntax error

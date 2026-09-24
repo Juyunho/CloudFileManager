@@ -1,0 +1,7 @@
+
+# Local build / editor artifacts
+**/bin/
+**/obj/
+.DS_Store
+.vs/
+*.user

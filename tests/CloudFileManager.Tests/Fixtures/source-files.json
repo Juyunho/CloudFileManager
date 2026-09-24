@@ -1,0 +1,37 @@
+[
+  {
+    "name": "需求規格書.docx",
+    "path": "根目錄 (Root)/專案文件 (Project_Docs)/需求規格書.docx",
+    "value": 500,
+    "unit": "KB",
+    "sourceLine": "│   ├── 需求規格書.docx [Word 檔案] (頁數: 15, 大小: 500KB)"
+  },
+  {
+    "name": "系統架構圖.png",
+    "path": "根目錄 (Root)/專案文件 (Project_Docs)/系統架構圖.png",
+    "value": 2,
+    "unit": "MB",
+    "sourceLine": "│   └── 系統架構圖.png [圖片] (解析度: 1920x1080, 大小: 2MB)"
+  },
+  {
+    "name": "待辦清單.txt",
+    "path": "根目錄 (Root)/個人筆記 (Personal_Notes)/待辦清單.txt",
+    "value": 1,
+    "unit": "KB",
+    "sourceLine": "│   ├── 待辦清單.txt [純文字檔] (編碼: UTF-8, 大小: 1KB)"
+  },
+  {
+    "name": "舊會議記錄.docx",
+    "path": "根目錄 (Root)/個人筆記 (Personal_Notes)/2025備份 (Archive_2025)/舊會議記錄.docx",
+    "value": 200,
+    "unit": "KB",
+    "sourceLine": "│       └── 舊會議記錄.docx [Word 檔案] (頁數: 5, 大小: 200KB)"
+  },
+  {
+    "name": "README.txt",
+    "path": "根目錄 (Root)/README.txt",
+    "value": 500,
+    "unit": "B",
+    "sourceLine": "└── README.txt [純文字檔] (編碼: ASCII, 大小: 500B)"
+  }
+]

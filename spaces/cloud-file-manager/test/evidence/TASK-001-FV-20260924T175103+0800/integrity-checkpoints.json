@@ -1,0 +1,149 @@
+[
+  {
+    "checkpoint": "git-before before",
+    "time": "2026-09-24T17:51:03+08:00",
+    "inputChanged": [],
+    "releaseBinaryChanged": [],
+    "passed": true
+  },
+  {
+    "checkpoint": "git-before after",
+    "time": "2026-09-24T17:51:03+08:00",
+    "inputChanged": [],
+    "releaseBinaryChanged": [],
+    "passed": true
+  },
+  {
+    "checkpoint": "environment before",
+    "time": "2026-09-24T17:51:03+08:00",
+    "inputChanged": [],
+    "releaseBinaryChanged": [],
+    "passed": true
+  },
+  {
+    "checkpoint": "environment after",
+    "time": "2026-09-24T17:51:03+08:00",
+    "inputChanged": [],
+    "releaseBinaryChanged": [],
+    "passed": true
+  },
+  {
+    "checkpoint": "python-environment before",
+    "time": "2026-09-24T17:51:03+08:00",
+    "inputChanged": [],
+    "releaseBinaryChanged": [],
+    "passed": true
+  },
+  {
+    "checkpoint": "python-environment after",
+    "time": "2026-09-24T17:51:03+08:00",
+    "inputChanged": [],
+    "releaseBinaryChanged": [],
+    "passed": true
+  },
+  {
+    "checkpoint": "release-build before",
+    "time": "2026-09-24T17:51:03+08:00",
+    "inputChanged": [],
+    "releaseBinaryChanged": [],
+    "passed": true
+  },
+  {
+    "checkpoint": "release-build after",
+    "time": "2026-09-24T17:51:05+08:00",
+    "inputChanged": [],
+    "releaseBinaryChanged": [],
+    "passed": true
+  },
+  {
+    "checkpoint": "core-tests before",
+    "time": "2026-09-24T17:51:05+08:00",
+    "inputChanged": [],
+    "releaseBinaryChanged": [],
+    "passed": true
+  },
+  {
+    "checkpoint": "core-tests after",
+    "time": "2026-09-24T17:51:07+08:00",
+    "inputChanged": [],
+    "releaseBinaryChanged": [],
+    "passed": true
+  },
+  {
+    "checkpoint": "schema-tests before",
+    "time": "2026-09-24T17:51:07+08:00",
+    "inputChanged": [],
+    "releaseBinaryChanged": [],
+    "passed": true
+  },
+  {
+    "checkpoint": "schema-tests after",
+    "time": "2026-09-24T17:51:07+08:00",
+    "inputChanged": [],
+    "releaseBinaryChanged": [],
+    "passed": true
+  },
+  {
+    "checkpoint": "console-demo before",
+    "time": "2026-09-24T17:51:07+08:00",
+    "inputChanged": [],
+    "releaseBinaryChanged": [],
+    "passed": true
+  },
+  {
+    "checkpoint": "console-demo after",
+    "time": "2026-09-24T17:51:08+08:00",
+    "inputChanged": [],
+    "releaseBinaryChanged": [],
+    "passed": true
+  },
+  {
+    "checkpoint": "console-xml before",
+    "time": "2026-09-24T17:51:08+08:00",
+    "inputChanged": [],
+    "releaseBinaryChanged": [],
+    "passed": true
+  },
+  {
+    "checkpoint": "console-xml after",
+    "time": "2026-09-24T17:51:09+08:00",
+    "inputChanged": [],
+    "releaseBinaryChanged": [],
+    "passed": true
+  },
+  {
+    "checkpoint": "console-invalid before",
+    "time": "2026-09-24T17:51:09+08:00",
+    "inputChanged": [],
+    "releaseBinaryChanged": [],
+    "passed": true
+  },
+  {
+    "checkpoint": "console-invalid after",
+    "time": "2026-09-24T17:51:09+08:00",
+    "inputChanged": [],
+    "releaseBinaryChanged": [],
+    "passed": true
+  },
+  {
+    "checkpoint": "smoke-assertions before",
+    "time": "2026-09-24T17:51:10+08:00",
+    "inputChanged": [],
+    "releaseBinaryChanged": [],
+    "passed": true
+  },
+  {
+    "checkpoint": "smoke-assertions after",
+    "time": "2026-09-24T17:51:10+08:00",
+    "inputChanged": [],
+    "releaseBinaryChanged": [],
+    "passed": true
+  },
+  {
+    "checkpoint": "all-executions-finished",
+    "time": "2026-09-24T17:51:10+08:00",
+    "inputChanged": [],
+    "releaseBinaryChanged": [],
+    "passed": true
+  }
+]

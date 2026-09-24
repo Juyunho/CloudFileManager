@@ -1,0 +1,21 @@
+{
+  "run": "TASK-001-FV-20260924T175103+0800",
+  "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+  "time": "2026-09-24T17:51:03+08:00",
+  "inputManifestSha256": "e2ad0c7f9e2dd940193d20e95703a40f45889003002ee17a2eb4c3d3ca2fef29",
+  "exclusions": [
+    ".git",
+    "bin",
+    "obj",
+    "__pycache__",
+    ".DS_Store",
+    "spaces/cloud-file-manager/test/evidence/TASK-001-FV-20260924T175103+0800",
+    "spaces/cloud-file-manager/status.md",
+    "spaces/cloud-file-manager/test/defects.md",
+    "spaces/cloud-file-manager/test/final-verification.md",
+    "spaces/cloud-file-manager/test/grill-me.md",
+    "spaces/cloud-file-manager/test/handoff.md",
+    "spaces/cloud-file-manager/timeline.md"
+  ],
+  "scope": "All other existing repository files, including request, source, tests, fixtures, schema, settings, skills, and prior evidence. Verification metadata is excluded because it must be updated."
+}

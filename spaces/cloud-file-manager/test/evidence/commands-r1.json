@@ -1,0 +1,96 @@
+[
+  {
+    "name": "build",
+    "command": [
+      "dotnet",
+      "build",
+      "CloudFileManager.slnx",
+      "-c",
+      "Release",
+      "--nologo"
+    ],
+    "time": "2026-09-24T17:17:50+08:00",
+    "exitCode": 0,
+    "expectedExitCode": 0,
+    "passed": true
+  },
+  {
+    "name": "core-tests",
+    "command": [
+      "dotnet",
+      "run",
+      "--project",
+      "tests/CloudFileManager.Tests",
+      "-c",
+      "Release",
+      "--no-build"
+    ],
+    "time": "2026-09-24T17:17:51+08:00",
+    "exitCode": 0,
+    "expectedExitCode": 0,
+    "passed": true
+  },
+  {
+    "name": "schema-tests",
+    "command": [
+      "python3",
+      "tests/verify_schema.py"
+    ],
+    "time": "2026-09-24T17:17:51+08:00",
+    "exitCode": 1,
+    "expectedExitCode": 0,
+    "passed": false
+  },
+  {
+    "name": "demo",
+    "command": [
+      "dotnet",
+      "run",
+      "--project",
+      "src/CloudFileManager.Console",
+      "-c",
+      "Release",
+      "--no-build"
+    ],
+    "time": "2026-09-24T17:17:52+08:00",
+    "exitCode": 0,
+    "expectedExitCode": 0,
+    "passed": true
+  },
+  {
+    "name": "xml",
+    "command": [
+      "dotnet",
+      "run",
+      "--project",
+      "src/CloudFileManager.Console",
+      "-c",
+      "Release",
+      "--no-build",
+      "--",
+      "--xml"
+    ],
+    "time": "2026-09-24T17:17:52+08:00",
+    "exitCode": 0,
+    "expectedExitCode": 0,
+    "passed": true
+  },
+  {
+    "name": "invalid-args",
+    "command": [
+      "dotnet",
+      "run",
+      "--project",
+      "src/CloudFileManager.Console",
+      "-c",
+      "Release",
+      "--no-build",
+      "--",
+      "--unknown"
+    ],
+    "time": "2026-09-24T17:17:53+08:00",
+    "exitCode": 2,
+    "expectedExitCode": 2,
+    "passed": true
+  }
+]

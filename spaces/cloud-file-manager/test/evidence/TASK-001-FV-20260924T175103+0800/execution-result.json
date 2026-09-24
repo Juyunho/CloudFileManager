@@ -1,0 +1,18 @@
+{
+  "run": "TASK-001-FV-20260924T175103+0800",
+  "required": [
+    "console-demo",
+    "console-invalid",
+    "console-xml",
+    "core-tests",
+    "release-build",
+    "schema-tests",
+    "smoke-assertions"
+  ],
+  "executionPassed": true,
+  "gate": "PASS",
+  "inputManifestSha256": "e2ad0c7f9e2dd940193d20e95703a40f45889003002ee17a2eb4c3d3ca2fef29",
+  "requestUnchanged": true,
+  "reviewedAt": "2026-09-24T17:53:21+08:00",
+  "reviewReport": "../../final-verification.md"
+}

@@ -1,0 +1,21 @@
+{
+  "src/CloudFileManager.Core/bin/Release/net10.0/CloudFileManager.Core.dll": "d015edac8827b6481fec03bdcb6fded7aacc861106b17afbb06c146da32fb26f",
+  "src/CloudFileManager.Core/bin/Release/net10.0/CloudFileManager.Core.deps.json": "18419ba72ed63bf5ee4313bfb61f8978650ee9f0311fcf6232da2ed5283e43d2",
+  "src/CloudFileManager.Core/bin/Release/net10.0/CloudFileManager.Core.pdb": "489f7638282e4821d96e43084967a7a19ab9a1450475fa935bf608fff5497afc",
+  "src/CloudFileManager.Console/bin/Release/net10.0/CloudFileManager.Console.runtimeconfig.json": "9950d4583cfc9a106857c0d5b8a75b53e8774852b57b80bc3823a74d44a4d87f",
+  "src/CloudFileManager.Console/bin/Release/net10.0/CloudFileManager.Console.deps.json": "dcbeebed54b8b48afaf29a6c92c4129a37450f7a5c6a8a335a5c1799696b6897",
+  "src/CloudFileManager.Console/bin/Release/net10.0/CloudFileManager.Console": "8d9061f0e2ae366a2c24c3e074148c04abaf1415dfc2865580d7fb520ca73ce8",
+  "src/CloudFileManager.Console/bin/Release/net10.0/CloudFileManager.Core.dll": "d015edac8827b6481fec03bdcb6fded7aacc861106b17afbb06c146da32fb26f",
+  "src/CloudFileManager.Console/bin/Release/net10.0/CloudFileManager.Console.dll": "350435480def5f912dbb0deec77ae2f26a6723ff464e01cda16f0fdc11ed33c1",
+  "src/CloudFileManager.Console/bin/Release/net10.0/CloudFileManager.Console.pdb": "5eb9c2364d4ce54cccab348374a30162ea6c627509d68fffcc1a8d379c3ebd22",
+  "src/CloudFileManager.Console/bin/Release/net10.0/CloudFileManager.Core.pdb": "489f7638282e4821d96e43084967a7a19ab9a1450475fa935bf608fff5497afc",
+  "tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.pdb": "4264ca3da9515dae39f43218b2b01386d8152a7396a63c3be2917feb9e268c6f",
+  "tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests": "9fc038a7638a0412d925b343a9db9056a881ea501b668f9e047271587034bff8",
+  "tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.dll": "4425f715335f6e372a903c11d83f591c1af8de31dd4dc8063b1bba1c8986c907",
+  "tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.deps.json": "00eeb61a876b96fcd86bda89f236519bea170d04050e5e1e35447f2e3d599111",
+  "tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.runtimeconfig.json": "9950d4583cfc9a106857c0d5b8a75b53e8774852b57b80bc3823a74d44a4d87f",
+  "tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Core.dll": "d015edac8827b6481fec03bdcb6fded7aacc861106b17afbb06c146da32fb26f",
+  "tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Core.pdb": "489f7638282e4821d96e43084967a7a19ab9a1450475fa935bf608fff5497afc",
+  "tests/CloudFileManager.Tests/bin/Release/net10.0/Fixtures/expected.xml": "bd2850b7db7acf4b969d990bca84258184cacc5083fe937cc4e4fc087a508f49",
+  "tests/CloudFileManager.Tests/bin/Release/net10.0/Fixtures/source-files.json": "9bce2d10a337aafc8693d5e6f48bd2010ceb7d183dde8b9774ab7910910ff120"
+}

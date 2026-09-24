@@ -1,0 +1,14 @@
+{
+  "modified": [
+    "spaces/cloud-file-manager/status.md",
+    "spaces/cloud-file-manager/test/grill-me.md",
+    "spaces/cloud-file-manager/test/handoff.md",
+    "spaces/cloud-file-manager/timeline.md"
+  ],
+  "added": [
+    "spaces/cloud-file-manager/test/final-verification.md",
+    "spaces/cloud-file-manager/test/evidence/TASK-001-FV-20260924T175103+0800/"
+  ],
+  "requestUnchanged": true,
+  "sourceTestsSchemaUnchanged": true
+}

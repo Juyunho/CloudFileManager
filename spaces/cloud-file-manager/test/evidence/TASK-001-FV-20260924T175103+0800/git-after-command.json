@@ -1,0 +1,12 @@
+{
+  "command": [
+    "git",
+    "--no-optional-locks",
+    "status",
+    "--short",
+    "--branch"
+  ],
+  "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+  "exitCode": 0,
+  "time": "2026-09-24T17:53:21+08:00"
+}

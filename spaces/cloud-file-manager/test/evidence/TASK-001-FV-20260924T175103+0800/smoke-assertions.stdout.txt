@@ -1,0 +1,6 @@
+PASS capacity independently summed from current fixture: 2815476 B
+PASS sample tree: 4 directories, 5 files, all type details
+PASS search: two expected full .docx paths
+PASS traversal: 9 nodes in each of two operations
+PASS XML: demo and --xml parse and match current golden fixture
+PASS exact counts: Core 14/14, Schema 12/12
