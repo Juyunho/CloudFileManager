@@ -1,0 +1,13 @@
+{
+  "independent_bytes": 2815476,
+  "source_fixture": "tests/CloudFileManager.Tests/Fixtures/source-files.json",
+  "checked": [
+    "sample tree",
+    "independent sum",
+    "exact search paths",
+    "both traversal sequences",
+    "XML structure/content/order",
+    "Bonus Tags/colors/history/sort",
+    "invalid CLI exit 2"
+  ]
+}

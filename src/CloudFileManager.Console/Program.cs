@@ -9,7 +9,9 @@ if (args.Length > 1 || (args.Length == 1 && args[0] is not ("--xml" or "--help" 
 }
 if (args.Contains("--help")) { Console.WriteLine("CloudFileManager: no arguments for demo; --xml for XML only; --bonus for editing/sorting/tags demo."); return 0; }
 if (args.Contains("--bonus")) { BonusDemo.Run(); return 0; }
-var root = SampleTree.Create();
+var session = FileSystemSession.Instance;
+session.Reset(SampleTree.Create());
+var root = session.Root;
 if (args.Contains("--xml")) { Console.WriteLine(TreeOperations.ToXml(root)); return 0; }
 Console.WriteLine("容量採二進位：1 KB = 1024 B；1 MB = 1024 KB");
 Console.WriteLine("建立時間為固定示範值，非題目提供的真實時間。\n");

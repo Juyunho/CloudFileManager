@@ -1,0 +1,50 @@
+[
+  {
+    "command": [
+      "dotnet",
+      "build",
+      "CloudFileManager.slnx",
+      "-c",
+      "Release"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-09-24T20:09:52.715372+08:00",
+    "exit_code": 0,
+    "stdout": "build.stdout.log",
+    "stderr": "build.stderr.log"
+  },
+  {
+    "command": [
+      "dotnet",
+      "run",
+      "--project",
+      "tests/CloudFileManager.ArchitectureTests",
+      "-c",
+      "Release",
+      "--no-build"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-09-24T20:10:00.578526+08:00",
+    "exit_code": 0,
+    "stdout": "architecture.stdout.log",
+    "stderr": "architecture.stderr.log"
+  },
+  {
+    "command": [
+      "dotnet",
+      "run",
+      "--project",
+      "src/CloudFileManager.Console",
+      "-c",
+      "Release",
+      "--no-build",
+      "--",
+      "--bonus"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-09-24T20:10:04.440725+08:00",
+    "exit_code": 0,
+    "stdout": "bonus-console.stdout.log",
+    "stderr": "bonus-console.stderr.log"
+  }
+]

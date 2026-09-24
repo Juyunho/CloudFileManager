@@ -1,0 +1,12 @@
+ M CloudFileManager.slnx
+ M README.md
+ M src/CloudFileManager.Console/BonusDemo.cs
+ M src/CloudFileManager.Console/Program.cs
+ M src/CloudFileManager.Core/Nodes.cs
+ M src/CloudFileManager.Core/Sorting.cs
+ M src/CloudFileManager.Core/TreeOperations.cs
+?? spaces/visitor-singleton-enhancement/
+?? src/CloudFileManager.Core/FileSystemSession.cs
+?? src/CloudFileManager.Core/Visitors.cs
+?? tests/CloudFileManager.ArchitectureTests/
+?? tests/run_task003_verification.py

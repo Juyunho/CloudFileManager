@@ -1,0 +1,11 @@
+test_catalog (__main__.TagSchemaTests) ... ok
+test_duplicate_rejected (__main__.TagSchemaTests) ... ok
+test_fixed_catalog (__main__.TagSchemaTests) ... ok
+test_foreign_keys_and_null (__main__.TagSchemaTests) ... ok
+test_multitag_both_kinds (__main__.TagSchemaTests) ... ok
+test_node_deletion_cascades_association (__main__.TagSchemaTests) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.022s
+
+OK

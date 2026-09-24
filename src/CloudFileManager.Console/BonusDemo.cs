@@ -7,7 +7,8 @@ internal static class BonusDemo
         var root = SampleTree.Create();
         var destination = root.AddDirectory("Bonus_Copies", root.CreatedAt);
         var source = (DirectoryNode)root.Children[0];
-        var session = new EditingSession(root);
+        var session = FileSystemSession.Instance;
+        session.Reset(root);
         Console.WriteLine("=== TASK-002 Bonus: in-memory session ===");
         session.AddTag(source, TagKind.Work); session.AddTag(source.Children[0], TagKind.Urgent);
         session.AddTag(source.Children[0], TagKind.Personal);
@@ -35,7 +36,7 @@ internal static class BonusDemo
             }
         Console.WriteLine("BONUS COMPLETE");
     }
-    private static void Show(DirectoryNode root, EditingSession session, string title)
+    private static void Show(DirectoryNode root, FileSystemSession session, string title)
     {
         Console.WriteLine($"=== {title} | Undo={session.UndoCount} Redo={session.RedoCount} ===");
         var pending = new Stack<FsNode>(); pending.Push(root);

@@ -63,7 +63,26 @@ python3 tests/verify_tag_schema.py
 - `AddTag`/`RemoveTag`：Urgent 紅、Work 藍、Personal 綠，檔案／目錄均可多 Tag。只有成功且改變 Domain State 的新操作建立歷史並清除 Redo；no-op／失敗／Copy／Sorting 不影響歷史。
 - session 為單執行緒記憶體生命週期，不保存至磁碟。建立 session 後請使用該 session 編輯；外部 Add* 或其他 session 改動同一棵樹會使其歷史過期，後續操作明確拒絕，需建立新 session。
 - 刪除節點保留原 parent 的 tombstone 引用供 Undo，但已不屬於活樹；API 拒絕對其 Copy／Delete／Tag 操作。不是公開 reparent 功能。
-- Composite 延續；Strategy／Command 採用；Visitor／Singleton 拒絕，完整理由見 `spaces/design-pattern-enhancement/sa/design.md`。
+- TASK-002 採用 Composite／Strategy／Command，當時拒絕 Visitor／Singleton 的歷史理由保存在 `spaces/design-pattern-enhancement/sa/design.md`；TASK-003 依新的 architecture requirement 實際導入兩者，見下方。
 - `schema-tags.sql` 在 `schema.sql` 後載入，供 ER 約束驗證；程式仍不連接資料庫。
 
 本次完整 evidence、Gate、限制與驗收見 `spaces/design-pattern-enhancement/`；TASK-001 歷史保留原樣。
+
+## TASK-003 Visitor / Singleton
+
+容量及搜尋的 production 路徑為 `TreeOperations → FileSystemTraversal → FsNode.Accept → SizeVisitor / ExtensionSearchVisitor`。大小排序也使用 SizeVisitor，保持 Strategy 選鍵與穩定排序責任。Render／XML 不機械式改寫，原輸出相容。
+
+Console 透過 `FileSystemSession.Instance` 管理 Root 與私有 EditingSession；Copy／Paste／Delete／Tags／Undo／Redo 仍使用原 Command 邏輯。必須先 `Reset(newRoot)` 初始化；Reset 換 Root、清 Clipboard／Undo／Redo，不是 Command、不可 Undo。非法 Root 會保留目前狀態；傳入同一 Root 仍會清 session 歷史，但不清 Root 的子節點或 Tags。
+
+這是 **single-threaded Console application session**：Root、Clipboard、Command History、Reset 都不承諾 thread-safe，沒有加入 locking／同步／thread-affinity guard。Singleton instance uniqueness 不等於 thread safety。不可將它直接當作多使用者或並行服務的安全共用 context。
+
+共享 instance 的測試需依序執行，前後 Reset 清理；獨立 domain 測試仍可建立 EditingSession，無需使用全域 context。Root 暴露的是 domain reference，保留原 Add* builder／revision 過期檢查契約；不要在 session 編輯期間從外部修改樹。
+
+```sh
+dotnet run --project tests/CloudFileManager.ArchitectureTests -c Release
+python3 tests/run_task003_verification.py r1
+```
+
+完整重跑請使用未使用的 rN，例如已存在 r1 時使用 r2，以保留 evidence。舊 `run_task002_verification.py` 保留為歷史，不用於 TASK-003：它會寫入 TASK-002 且含當時 source 指紋政策。本次新 runner 執行全部原 Core／Bonus／Schema／Tag schema tests，加 Architecture tests、Release／Console smoke，所有 evidence 寫入 `spaces/visitor-singleton-enhancement/`。
+
+設計與 trade-off、四角色 Gate 見 TASK-003 的 `sa/design.md` 與 `status.md`，不改寫 TASK-001／002 的歷史決策。

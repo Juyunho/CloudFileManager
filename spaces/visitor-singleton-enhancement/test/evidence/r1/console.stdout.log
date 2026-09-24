@@ -1,0 +1,52 @@
+容量採二進位：1 KB = 1024 B；1 MB = 1024 KB
+建立時間為固定示範值，非題目提供的真實時間。
+
+根目錄 (Root) [目錄] (目錄, 建立: 2025-01-01T00:00:00.0000000+00:00)
+├── 專案文件 (Project_Docs) [目錄] (目錄, 建立: 2025-01-01T00:00:00.0000000+00:00)
+│   ├── 需求規格書.docx [Word 檔案] (頁數: 15, 大小: 500KB, 建立: 2025-01-01T00:00:00.0000000+00:00)
+│   └── 系統架構圖.png [圖片] (解析度: 1920x1080, 大小: 2MB, 建立: 2025-01-01T00:00:00.0000000+00:00)
+├── 個人筆記 (Personal_Notes) [目錄] (目錄, 建立: 2025-01-01T00:00:00.0000000+00:00)
+│   ├── 待辦清單.txt [純文字檔] (編碼: UTF-8, 大小: 1KB, 建立: 2025-01-01T00:00:00.0000000+00:00)
+│   └── 2025備份 (Archive_2025) [目錄] (目錄, 建立: 2025-01-01T00:00:00.0000000+00:00)
+│       └── 舊會議記錄.docx [Word 檔案] (頁數: 5, 大小: 200KB, 建立: 2025-01-01T00:00:00.0000000+00:00)
+└── README.txt [純文字檔] (編碼: ASCII, 大小: 500B, 建立: 2025-01-01T00:00:00.0000000+00:00)
+
+=== 計算總容量 ===
+Visiting: 根目錄 (Root)
+Visiting: 根目錄 (Root)/專案文件 (Project_Docs)
+Visiting: 根目錄 (Root)/專案文件 (Project_Docs)/需求規格書.docx
+Visiting: 根目錄 (Root)/專案文件 (Project_Docs)/系統架構圖.png
+Visiting: 根目錄 (Root)/個人筆記 (Personal_Notes)
+Visiting: 根目錄 (Root)/個人筆記 (Personal_Notes)/待辦清單.txt
+Visiting: 根目錄 (Root)/個人筆記 (Personal_Notes)/2025備份 (Archive_2025)
+Visiting: 根目錄 (Root)/個人筆記 (Personal_Notes)/2025備份 (Archive_2025)/舊會議記錄.docx
+Visiting: 根目錄 (Root)/README.txt
+總容量: 2815476 B
+
+=== 搜尋 .docx ===
+Visiting: 根目錄 (Root)
+Visiting: 根目錄 (Root)/專案文件 (Project_Docs)
+Visiting: 根目錄 (Root)/專案文件 (Project_Docs)/需求規格書.docx
+Visiting: 根目錄 (Root)/專案文件 (Project_Docs)/系統架構圖.png
+Visiting: 根目錄 (Root)/個人筆記 (Personal_Notes)
+Visiting: 根目錄 (Root)/個人筆記 (Personal_Notes)/待辦清單.txt
+Visiting: 根目錄 (Root)/個人筆記 (Personal_Notes)/2025備份 (Archive_2025)
+Visiting: 根目錄 (Root)/個人筆記 (Personal_Notes)/2025備份 (Archive_2025)/舊會議記錄.docx
+Visiting: 根目錄 (Root)/README.txt
+Found: 根目錄 (Root)/專案文件 (Project_Docs)/需求規格書.docx
+Found: 根目錄 (Root)/個人筆記 (Personal_Notes)/2025備份 (Archive_2025)/舊會議記錄.docx
+
+=== XML ===
+<根目錄_Root>
+  <專案文件_Project_Docs>
+    <需求規格書_docx>頁數: 15, 大小: 500KB</需求規格書_docx>
+    <系統架構圖_png>解析度: 1920x1080, 大小: 2MB</系統架構圖_png>
+  </專案文件_Project_Docs>
+  <個人筆記_Personal_Notes>
+    <待辦清單_txt>編碼: UTF-8, 大小: 1KB</待辦清單_txt>
+    <Archive_2025>
+      <舊會議記錄_docx>頁數: 5, 大小: 200KB</舊會議記錄_docx>
+    </Archive_2025>
+  </個人筆記_Personal_Notes>
+  <README_txt>編碼: ASCII, 大小: 500B</README_txt>
+</根目錄_Root>

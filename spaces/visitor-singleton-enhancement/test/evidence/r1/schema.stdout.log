@@ -1,0 +1,14 @@
+SQLite 3.35.5
+PASS S01 valid hierarchy
+PASS S02 orphan rejection
+PASS S03 parent must be directory
+PASS S04 one root
+PASS S05 sibling names unique
+PASS S06 subtype constraints
+PASS S07 nonnegative size positive dimensions
+PASS S08 immutable topology cycles
+PASS S09 referenced parent deletion
+PASS S10 invalid names
+PASS S11 encoding and update constraints
+PASS S12 integer storage
+RESULT 12 passed; 0 failed

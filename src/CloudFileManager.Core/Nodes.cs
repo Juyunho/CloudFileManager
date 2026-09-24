@@ -29,6 +29,7 @@ public abstract class FsNode
     public DirectoryNode? Parent { get; }
     public virtual IReadOnlyList<FsNode> Children => Array.Empty<FsNode>();
     public abstract string Details { get; }
+    public abstract void Accept(IFileSystemVisitor visitor);
     public string FullPath
     {
         get
@@ -50,6 +51,8 @@ public sealed class DirectoryNode : FsNode
         if (xmlAlias is not null) ArgumentException.ThrowIfNullOrWhiteSpace(xmlAlias);
         XmlAlias = xmlAlias; view = children.AsReadOnly();
     }
+    public override void Accept(IFileSystemVisitor visitor)
+    { ArgumentNullException.ThrowIfNull(visitor); visitor.Visit(this); }
     public string? XmlAlias { get; }
     public override IReadOnlyList<FsNode> Children => view;
     public override string Details => "目錄";
@@ -104,6 +107,8 @@ public sealed class WordFile : FileNode
     internal WordFile(string name, long bytes, int pages, DateTimeOffset createdAt, DirectoryNode parent)
         : base(name, bytes, createdAt, parent)
     { ArgumentOutOfRangeException.ThrowIfNegativeOrZero(pages); Pages = pages; }
+    public override void Accept(IFileSystemVisitor visitor)
+    { ArgumentNullException.ThrowIfNull(visitor); visitor.Visit(this); }
     public int Pages { get; }
     public override string Details => $"頁數: {Pages}, 大小: {BinarySize.Format(SizeBytes)}";
 }
@@ -117,6 +122,8 @@ public sealed class ImageFile : FileNode
         ArgumentOutOfRangeException.ThrowIfNegativeOrZero(height);
         Width = width; Height = height;
     }
+    public override void Accept(IFileSystemVisitor visitor)
+    { ArgumentNullException.ThrowIfNull(visitor); visitor.Visit(this); }
     public int Width { get; }
     public int Height { get; }
     public override string Details => $"解析度: {Width}x{Height}, 大小: {BinarySize.Format(SizeBytes)}";
@@ -131,6 +138,8 @@ public sealed class TextFile : FileNode
         if (encoding.Any(char.IsControl)) throw new ArgumentException("Encoding cannot contain control characters.", nameof(encoding));
         Encoding = encoding;
     }
+    public override void Accept(IFileSystemVisitor visitor)
+    { ArgumentNullException.ThrowIfNull(visitor); visitor.Visit(this); }
     public string Encoding { get; }
     public override string Details => $"編碼: {Encoding}, 大小: {BinarySize.Format(SizeBytes)}";
 }

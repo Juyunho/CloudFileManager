@@ -28,14 +28,9 @@ public sealed class SizeSortStrategy : INodeSortStrategy
     public static long Size(FsNode root)
     {
         ArgumentNullException.ThrowIfNull(root);
-        long total = 0;
-        var stack = new Stack<FsNode>(); stack.Push(root);
-        while (stack.TryPop(out var node))
-        {
-            if (node is FileNode f) total = checked(total + f.SizeBytes);
-            foreach (var child in node.Children) stack.Push(child);
-        }
-        return total;
+        var visitor = new SizeVisitor();
+        FileSystemTraversal.Visit(root, visitor);
+        return visitor.TotalBytes;
     }
 }
 public static class SortedView

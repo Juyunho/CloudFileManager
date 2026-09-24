@@ -5,43 +5,19 @@ namespace CloudFileManager.Core;
 
 public static class TreeOperations
 {
-    private static IEnumerable<FsNode> Walk(FsNode root)
-    {
-        var stack = new Stack<FsNode>(); stack.Push(root);
-        while (stack.TryPop(out var node))
-        {
-            yield return node;
-            for (var i = node.Children.Count - 1; i >= 0; i--) stack.Push(node.Children[i]);
-        }
-    }
     public static long CalculateTotalSize(DirectoryNode root, TextWriter? log = null)
     {
-        ArgumentNullException.ThrowIfNull(root); log ??= Console.Out;
-        long total = 0;
-        foreach (var node in Walk(root))
-        {
-            log.WriteLine($"Visiting: {node.FullPath}");
-            if (node is FileNode file) total = checked(total + file.SizeBytes);
-        }
-        return total;
+        ArgumentNullException.ThrowIfNull(root);
+        var visitor = new SizeVisitor();
+        FileSystemTraversal.Visit(root, visitor, log ?? Console.Out);
+        return visitor.TotalBytes;
     }
     public static IReadOnlyList<string> SearchByExtension(DirectoryNode root, string extension, TextWriter? log = null)
     {
         ArgumentNullException.ThrowIfNull(root);
-        ArgumentException.ThrowIfNullOrWhiteSpace(extension);
-        extension = extension.Trim();
-        if (!extension.StartsWith('.')) extension = "." + extension;
-        if (extension.Length == 1 || extension[1..].Any(c => c is '.' or '/' or '\\' or '*' or '?' || char.IsWhiteSpace(c)))
-            throw new ArgumentException("Supply a single extension, for example .docx.", nameof(extension));
-        log ??= Console.Out;
-        var result = new List<string>();
-        foreach (var node in Walk(root))
-        {
-            log.WriteLine($"Visiting: {node.FullPath}");
-            if (node is FileNode file && string.Equals(file.Extension, extension, StringComparison.OrdinalIgnoreCase))
-                result.Add(file.FullPath);
-        }
-        return result.AsReadOnly();
+        var visitor = new ExtensionSearchVisitor(extension);
+        FileSystemTraversal.Visit(root, visitor, log ?? Console.Out);
+        return visitor.Paths;
     }
     public static string Render(DirectoryNode root)
     {
