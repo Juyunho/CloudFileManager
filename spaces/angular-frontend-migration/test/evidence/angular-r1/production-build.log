@@ -1,0 +1,16 @@
+
+> cloud-file-manager-angular@1.0.0 build
+> ng build
+
+❯ Building...
+✔ Building...
+Initial chunk files | Names         |  Raw size | Estimated transfer size
+main-2TO7EJCM.js    | main          | 135.51 kB |                40.45 kB
+styles-XZQKT6FL.css | styles        |   6.56 kB |                 1.92 kB
+
+                    | Initial total | 142.07 kB |                42.37 kB
+
+Application bundle generation complete. [0.857 seconds] - 2026-09-24T18:37:40.231Z
+
+Output location: /Users/juyunho/Documents/Code/winbond/CloudFileManager/src/CloudFileManager.Web/wwwroot
+

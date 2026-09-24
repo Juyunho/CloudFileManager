@@ -1,0 +1,20 @@
+
+> cloud-file-manager-angular@1.0.0 test
+> node --test tests/*.test.ts
+
+✔ UTF-8 Chinese text split at every byte survives (4.870416ms)
+✔ ordered progress/match/result events in one chunk (0.149084ms)
+✔ final record without newline is emitted (0.088417ms)
+✔ blank lines and CRLF framing (0.075125ms)
+✔ empty stream has no fabricated events (0.064291ms)
+✔ malformed JSON rejects rather than faking success (0.1675ms)
+✔ invalid UTF-8 rejects (0.075083ms)
+✔ early consumer exit cancels stream and releases lock (0.213333ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 88.618708

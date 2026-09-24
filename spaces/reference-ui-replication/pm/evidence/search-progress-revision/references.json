@@ -1,0 +1,23 @@
+{
+  "recorded_at": "2026-09-25T01:23:27+08:00",
+  "references": [
+    {
+      "absolute_path": "/Users/juyunho/Documents/Code/winbond/CloudFileManager/docs/reference-ui.png",
+      "repository_path": "docs/reference-ui.png",
+      "sha256": "17ae6d73bbc29b661c7e13106cc6cc4e7c8a3e0f7bea2c578da1fffc2e6efa05",
+      "width_pixels": 2914,
+      "height_pixels": 948,
+      "role": "primary layout",
+      "source": "USER_CONFIRMED; second image actually opened with tools.view_image"
+    },
+    {
+      "absolute_path": "/Users/juyunho/Documents/Code/winbond/CloudFileManager/docs/reference-ui-search-progress.png",
+      "repository_path": "docs/reference-ui-search-progress.png",
+      "sha256": "a73fae86c62507606adfbe14c25880f7554c069cbbfda3bd39472fa789fbafa4",
+      "width_pixels": 2028,
+      "height_pixels": 682,
+      "role": "supplemental Search/Observer/Console",
+      "source": "USER_CONFIRMED; second image actually opened with tools.view_image"
+    }
+  ]
+}

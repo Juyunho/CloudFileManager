@@ -1,0 +1,12 @@
+<button class="icon-button" id="undo" title="Undo" aria-label="Undo" [disabled]="busy() || model().undoCount === 0" (click)="request.emit({action:'undo'})"><svg appIcon name="undo"></svg></button>
+<button class="icon-button" id="redo" title="Redo" aria-label="Redo" [disabled]="busy() || model().redoCount === 0" (click)="request.emit({action:'redo'})"><svg appIcon name="redo"></svg></button><i class="divider"></i>
+<button id="copy" [disabled]="busy()" (click)="request.emit({action:'copy'})"><svg appIcon name="copy"></svg>複製</button>
+<button id="paste" [disabled]="busy() || !model().canPaste" (click)="request.emit({action:'paste'})"><svg appIcon name="paste"></svg>貼上</button>
+<button id="delete" class="danger" [disabled]="busy() || !model().canDelete" (click)="request.emit({action:'delete'})"><svg appIcon name="delete"></svg>刪除</button><i class="divider"></i><span id="list-icon" class="group-icon" aria-hidden="true"><svg appIcon name="list"></svg></span>
+@for (sort of sorts; track sort.key) {
+  <button [class.active]="model().criterion === sort.key" [attr.aria-pressed]="model().criterion === sort.key" [disabled]="busy()" (click)="request.emit({action:'sort',criterion:sort.key})">{{ sort.label }}{{ model().criterion === sort.key ? (model().direction === 'Asc' ? ' ↑' : ' ↓') : '' }}</button>
+}
+<i class="divider"></i><span id="tag-icon" class="group-icon" aria-hidden="true"><svg appIcon name="tag"></svg></span>
+@for (tag of tags; track tag) {
+  <button [class]="'tag-add ' + tag.toLowerCase()" [disabled]="busy()" (click)="request.emit({action:'addTag',tag:tag})">+ {{ tag }}<span class="count" [hidden]="model().counts[tag] === 0">{{ model().counts[tag] }}</span></button>
+}

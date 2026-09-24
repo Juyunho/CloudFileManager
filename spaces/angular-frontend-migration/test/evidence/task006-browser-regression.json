@@ -1,0 +1,3686 @@
+[
+  {
+    "name": "root-docx",
+    "buttons": [
+      {
+        "disabled": true,
+        "id": "undo",
+        "pressed": null,
+        "text": "",
+        "title": "Undo"
+      },
+      {
+        "disabled": true,
+        "id": "redo",
+        "pressed": null,
+        "text": "",
+        "title": "Redo"
+      },
+      {
+        "disabled": false,
+        "id": "copy",
+        "pressed": null,
+        "text": "複製",
+        "title": null
+      },
+      {
+        "disabled": true,
+        "id": "paste",
+        "pressed": null,
+        "text": "貼上",
+        "title": null
+      },
+      {
+        "disabled": true,
+        "id": "delete",
+        "pressed": null,
+        "text": "刪除",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "名稱",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "true",
+        "text": "大小 ↑",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "類型",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "標籤",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Urgent0",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Work1",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Personal2",
+        "title": null
+      }
+    ],
+    "logs": "掃描檔案: README.txt掃描檔案: 系統架構圖.png[符合] 需求規格書.docx掃描檔案: 需求規格書.docx[符合] API介面定義.docx掃描檔案: API介面定義.docx搜尋目錄: 專案文件掃描檔案: 待辦清單.txt[符合] 會議記錄.docx掃描檔案: 會議記錄.docx搜尋目錄: 2025備份搜尋目錄: 個人筆記搜尋目錄: 我的根目錄找到 3 項",
+    "observer": "監控 (Observer)LIVE目前節點README.txt掃描進度100%10 / 10 Nodes",
+    "rows": [
+      {
+        "id": "aae4fa8b-8021-4657-85f5-2aae1e1d8553",
+        "match": false,
+        "selected": "true",
+        "text": "我的根目錄(0 KB)"
+      },
+      {
+        "id": "ce82b4cb-abe8-45d2-b199-8797dd92ba58",
+        "match": false,
+        "selected": "false",
+        "text": "個人筆記(0 KB)"
+      },
+      {
+        "id": "15d1e672-d643-410d-880d-cc0130a75938",
+        "match": false,
+        "selected": "false",
+        "text": "2025備份(0 KB)PERSONAL×"
+      },
+      {
+        "id": "63f25e2d-5784-4a86-977e-508ad0b60f0d",
+        "match": true,
+        "selected": "false",
+        "text": "會議記錄.docx(200 KB, pages: 5)WORK×"
+      },
+      {
+        "id": "0ae92ee5-2485-4d56-ba97-4e9ac2b2a9dc",
+        "match": false,
+        "selected": "false",
+        "text": "待辦清單.txt(1 KB, enc: UTF-8)"
+      },
+      {
+        "id": "9d27338f-1b00-45f8-af8a-ef236b7a08f0",
+        "match": false,
+        "selected": "false",
+        "text": "專案文件(0 KB)"
+      },
+      {
+        "id": "a204833b-129b-4e53-ae7e-08d21484a6c1",
+        "match": true,
+        "selected": "false",
+        "text": "API介面定義.docx(120 KB, pages: 12)PERSONAL×"
+      },
+      {
+        "id": "d7f65aec-da1a-4572-b54d-a32369efb571",
+        "match": true,
+        "selected": "false",
+        "text": "需求規格書.docx(500 KB, pages: 35)"
+      },
+      {
+        "id": "30a81959-606e-40e0-acd9-d31803f5af7f",
+        "match": false,
+        "selected": "false",
+        "text": "系統架構圖.png(2048 KB, res: 1920x1080)"
+      },
+      {
+        "id": "9343cac6-0b56-4cdd-807c-ee499209b97e",
+        "match": false,
+        "selected": "false",
+        "text": "README.txt(0.5 KB, enc: ASCII)"
+      }
+    ]
+  },
+  {
+    "name": "name-asc",
+    "buttons": [
+      {
+        "disabled": true,
+        "id": "undo",
+        "pressed": null,
+        "text": "",
+        "title": "Undo"
+      },
+      {
+        "disabled": true,
+        "id": "redo",
+        "pressed": null,
+        "text": "",
+        "title": "Redo"
+      },
+      {
+        "disabled": false,
+        "id": "copy",
+        "pressed": null,
+        "text": "複製",
+        "title": null
+      },
+      {
+        "disabled": true,
+        "id": "paste",
+        "pressed": null,
+        "text": "貼上",
+        "title": null
+      },
+      {
+        "disabled": true,
+        "id": "delete",
+        "pressed": null,
+        "text": "刪除",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "true",
+        "text": "名稱 ↑",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "大小",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "類型",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "標籤",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Urgent0",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Work1",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Personal2",
+        "title": null
+      }
+    ],
+    "logs": "[Strategy] 執行 Name Asc 排序策略掃描檔案: README.txt掃描檔案: 系統架構圖.png[符合] 需求規格書.docx掃描檔案: 需求規格書.docx[符合] API介面定義.docx掃描檔案: API介面定義.docx搜尋目錄: 專案文件掃描檔案: 待辦清單.txt[符合] 會議記錄.docx掃描檔案: 會議記錄.docx搜尋目錄: 2025備份搜尋目錄: 個人筆記搜尋目錄: 我的根目錄找到 3 項",
+    "observer": "監控 (Observer)LIVE目前節點README.txt掃描進度100%10 / 10 Nodes",
+    "rows": [
+      {
+        "id": "aae4fa8b-8021-4657-85f5-2aae1e1d8553",
+        "match": false,
+        "selected": "true",
+        "text": "我的根目錄(0 KB)"
+      },
+      {
+        "id": "ce82b4cb-abe8-45d2-b199-8797dd92ba58",
+        "match": false,
+        "selected": "false",
+        "text": "個人筆記(0 KB)"
+      },
+      {
+        "id": "15d1e672-d643-410d-880d-cc0130a75938",
+        "match": false,
+        "selected": "false",
+        "text": "2025備份(0 KB)PERSONAL×"
+      },
+      {
+        "id": "63f25e2d-5784-4a86-977e-508ad0b60f0d",
+        "match": true,
+        "selected": "false",
+        "text": "會議記錄.docx(200 KB, pages: 5)WORK×"
+      },
+      {
+        "id": "0ae92ee5-2485-4d56-ba97-4e9ac2b2a9dc",
+        "match": false,
+        "selected": "false",
+        "text": "待辦清單.txt(1 KB, enc: UTF-8)"
+      },
+      {
+        "id": "9d27338f-1b00-45f8-af8a-ef236b7a08f0",
+        "match": false,
+        "selected": "false",
+        "text": "專案文件(0 KB)"
+      },
+      {
+        "id": "a204833b-129b-4e53-ae7e-08d21484a6c1",
+        "match": true,
+        "selected": "false",
+        "text": "API介面定義.docx(120 KB, pages: 12)PERSONAL×"
+      },
+      {
+        "id": "30a81959-606e-40e0-acd9-d31803f5af7f",
+        "match": false,
+        "selected": "false",
+        "text": "系統架構圖.png(2048 KB, res: 1920x1080)"
+      },
+      {
+        "id": "d7f65aec-da1a-4572-b54d-a32369efb571",
+        "match": true,
+        "selected": "false",
+        "text": "需求規格書.docx(500 KB, pages: 35)"
+      },
+      {
+        "id": "9343cac6-0b56-4cdd-807c-ee499209b97e",
+        "match": false,
+        "selected": "false",
+        "text": "README.txt(0.5 KB, enc: ASCII)"
+      }
+    ]
+  },
+  {
+    "name": "name-desc",
+    "buttons": [
+      {
+        "disabled": true,
+        "id": "undo",
+        "pressed": null,
+        "text": "",
+        "title": "Undo"
+      },
+      {
+        "disabled": true,
+        "id": "redo",
+        "pressed": null,
+        "text": "",
+        "title": "Redo"
+      },
+      {
+        "disabled": false,
+        "id": "copy",
+        "pressed": null,
+        "text": "複製",
+        "title": null
+      },
+      {
+        "disabled": true,
+        "id": "paste",
+        "pressed": null,
+        "text": "貼上",
+        "title": null
+      },
+      {
+        "disabled": true,
+        "id": "delete",
+        "pressed": null,
+        "text": "刪除",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "true",
+        "text": "名稱 ↓",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "大小",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "類型",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "標籤",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Urgent0",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Work1",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Personal2",
+        "title": null
+      }
+    ],
+    "logs": "[Strategy] 執行 Name Desc 排序策略[Strategy] 執行 Name Asc 排序策略掃描檔案: README.txt掃描檔案: 系統架構圖.png[符合] 需求規格書.docx掃描檔案: 需求規格書.docx[符合] API介面定義.docx掃描檔案: API介面定義.docx搜尋目錄: 專案文件掃描檔案: 待辦清單.txt[符合] 會議記錄.docx掃描檔案: 會議記錄.docx搜尋目錄: 2025備份搜尋目錄: 個人筆記搜尋目錄: 我的根目錄找到 3 項",
+    "observer": "監控 (Observer)LIVE目前節點README.txt掃描進度100%10 / 10 Nodes",
+    "rows": [
+      {
+        "id": "aae4fa8b-8021-4657-85f5-2aae1e1d8553",
+        "match": false,
+        "selected": "true",
+        "text": "我的根目錄(0 KB)"
+      },
+      {
+        "id": "9d27338f-1b00-45f8-af8a-ef236b7a08f0",
+        "match": false,
+        "selected": "false",
+        "text": "專案文件(0 KB)"
+      },
+      {
+        "id": "d7f65aec-da1a-4572-b54d-a32369efb571",
+        "match": true,
+        "selected": "false",
+        "text": "需求規格書.docx(500 KB, pages: 35)"
+      },
+      {
+        "id": "30a81959-606e-40e0-acd9-d31803f5af7f",
+        "match": false,
+        "selected": "false",
+        "text": "系統架構圖.png(2048 KB, res: 1920x1080)"
+      },
+      {
+        "id": "a204833b-129b-4e53-ae7e-08d21484a6c1",
+        "match": true,
+        "selected": "false",
+        "text": "API介面定義.docx(120 KB, pages: 12)PERSONAL×"
+      },
+      {
+        "id": "ce82b4cb-abe8-45d2-b199-8797dd92ba58",
+        "match": false,
+        "selected": "false",
+        "text": "個人筆記(0 KB)"
+      },
+      {
+        "id": "15d1e672-d643-410d-880d-cc0130a75938",
+        "match": false,
+        "selected": "false",
+        "text": "2025備份(0 KB)PERSONAL×"
+      },
+      {
+        "id": "63f25e2d-5784-4a86-977e-508ad0b60f0d",
+        "match": true,
+        "selected": "false",
+        "text": "會議記錄.docx(200 KB, pages: 5)WORK×"
+      },
+      {
+        "id": "0ae92ee5-2485-4d56-ba97-4e9ac2b2a9dc",
+        "match": false,
+        "selected": "false",
+        "text": "待辦清單.txt(1 KB, enc: UTF-8)"
+      },
+      {
+        "id": "9343cac6-0b56-4cdd-807c-ee499209b97e",
+        "match": false,
+        "selected": "false",
+        "text": "README.txt(0.5 KB, enc: ASCII)"
+      }
+    ]
+  },
+  {
+    "name": "extension-asc",
+    "buttons": [
+      {
+        "disabled": true,
+        "id": "undo",
+        "pressed": null,
+        "text": "",
+        "title": "Undo"
+      },
+      {
+        "disabled": true,
+        "id": "redo",
+        "pressed": null,
+        "text": "",
+        "title": "Redo"
+      },
+      {
+        "disabled": false,
+        "id": "copy",
+        "pressed": null,
+        "text": "複製",
+        "title": null
+      },
+      {
+        "disabled": true,
+        "id": "paste",
+        "pressed": null,
+        "text": "貼上",
+        "title": null
+      },
+      {
+        "disabled": true,
+        "id": "delete",
+        "pressed": null,
+        "text": "刪除",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "名稱",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "大小",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "true",
+        "text": "類型 ↑",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "標籤",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Urgent0",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Work1",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Personal2",
+        "title": null
+      }
+    ],
+    "logs": "[Strategy] 執行 Extension Asc 排序策略[Strategy] 執行 Name Desc 排序策略[Strategy] 執行 Name Asc 排序策略掃描檔案: README.txt掃描檔案: 系統架構圖.png[符合] 需求規格書.docx掃描檔案: 需求規格書.docx[符合] API介面定義.docx掃描檔案: API介面定義.docx搜尋目錄: 專案文件掃描檔案: 待辦清單.txt[符合] 會議記錄.docx掃描檔案: 會議記錄.docx搜尋目錄: 2025備份搜尋目錄: 個人筆記搜尋目錄: 我的根目錄找到 3 項",
+    "observer": "監控 (Observer)LIVE目前節點README.txt掃描進度100%10 / 10 Nodes",
+    "rows": [
+      {
+        "id": "aae4fa8b-8021-4657-85f5-2aae1e1d8553",
+        "match": false,
+        "selected": "true",
+        "text": "我的根目錄(0 KB)"
+      },
+      {
+        "id": "ce82b4cb-abe8-45d2-b199-8797dd92ba58",
+        "match": false,
+        "selected": "false",
+        "text": "個人筆記(0 KB)"
+      },
+      {
+        "id": "15d1e672-d643-410d-880d-cc0130a75938",
+        "match": false,
+        "selected": "false",
+        "text": "2025備份(0 KB)PERSONAL×"
+      },
+      {
+        "id": "63f25e2d-5784-4a86-977e-508ad0b60f0d",
+        "match": true,
+        "selected": "false",
+        "text": "會議記錄.docx(200 KB, pages: 5)WORK×"
+      },
+      {
+        "id": "0ae92ee5-2485-4d56-ba97-4e9ac2b2a9dc",
+        "match": false,
+        "selected": "false",
+        "text": "待辦清單.txt(1 KB, enc: UTF-8)"
+      },
+      {
+        "id": "9d27338f-1b00-45f8-af8a-ef236b7a08f0",
+        "match": false,
+        "selected": "false",
+        "text": "專案文件(0 KB)"
+      },
+      {
+        "id": "a204833b-129b-4e53-ae7e-08d21484a6c1",
+        "match": true,
+        "selected": "false",
+        "text": "API介面定義.docx(120 KB, pages: 12)PERSONAL×"
+      },
+      {
+        "id": "d7f65aec-da1a-4572-b54d-a32369efb571",
+        "match": true,
+        "selected": "false",
+        "text": "需求規格書.docx(500 KB, pages: 35)"
+      },
+      {
+        "id": "30a81959-606e-40e0-acd9-d31803f5af7f",
+        "match": false,
+        "selected": "false",
+        "text": "系統架構圖.png(2048 KB, res: 1920x1080)"
+      },
+      {
+        "id": "9343cac6-0b56-4cdd-807c-ee499209b97e",
+        "match": false,
+        "selected": "false",
+        "text": "README.txt(0.5 KB, enc: ASCII)"
+      }
+    ]
+  },
+  {
+    "name": "tag-asc",
+    "buttons": [
+      {
+        "disabled": true,
+        "id": "undo",
+        "pressed": null,
+        "text": "",
+        "title": "Undo"
+      },
+      {
+        "disabled": true,
+        "id": "redo",
+        "pressed": null,
+        "text": "",
+        "title": "Redo"
+      },
+      {
+        "disabled": false,
+        "id": "copy",
+        "pressed": null,
+        "text": "複製",
+        "title": null
+      },
+      {
+        "disabled": true,
+        "id": "paste",
+        "pressed": null,
+        "text": "貼上",
+        "title": null
+      },
+      {
+        "disabled": true,
+        "id": "delete",
+        "pressed": null,
+        "text": "刪除",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "名稱",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "大小",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "類型",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "true",
+        "text": "標籤 ↑",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Urgent0",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Work1",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Personal2",
+        "title": null
+      }
+    ],
+    "logs": "[Strategy] 執行 Tag Asc 排序策略[Strategy] 執行 Extension Asc 排序策略[Strategy] 執行 Name Desc 排序策略[Strategy] 執行 Name Asc 排序策略掃描檔案: README.txt掃描檔案: 系統架構圖.png[符合] 需求規格書.docx掃描檔案: 需求規格書.docx[符合] API介面定義.docx掃描檔案: API介面定義.docx搜尋目錄: 專案文件掃描檔案: 待辦清單.txt[符合] 會議記錄.docx掃描檔案: 會議記錄.docx搜尋目錄: 2025備份搜尋目錄: 個人筆記搜尋目錄: 我的根目錄找到 3 項",
+    "observer": "監控 (Observer)LIVE目前節點README.txt掃描進度100%10 / 10 Nodes",
+    "rows": [
+      {
+        "id": "aae4fa8b-8021-4657-85f5-2aae1e1d8553",
+        "match": false,
+        "selected": "true",
+        "text": "我的根目錄(0 KB)"
+      },
+      {
+        "id": "ce82b4cb-abe8-45d2-b199-8797dd92ba58",
+        "match": false,
+        "selected": "false",
+        "text": "個人筆記(0 KB)"
+      },
+      {
+        "id": "15d1e672-d643-410d-880d-cc0130a75938",
+        "match": false,
+        "selected": "false",
+        "text": "2025備份(0 KB)PERSONAL×"
+      },
+      {
+        "id": "63f25e2d-5784-4a86-977e-508ad0b60f0d",
+        "match": true,
+        "selected": "false",
+        "text": "會議記錄.docx(200 KB, pages: 5)WORK×"
+      },
+      {
+        "id": "0ae92ee5-2485-4d56-ba97-4e9ac2b2a9dc",
+        "match": false,
+        "selected": "false",
+        "text": "待辦清單.txt(1 KB, enc: UTF-8)"
+      },
+      {
+        "id": "9d27338f-1b00-45f8-af8a-ef236b7a08f0",
+        "match": false,
+        "selected": "false",
+        "text": "專案文件(0 KB)"
+      },
+      {
+        "id": "a204833b-129b-4e53-ae7e-08d21484a6c1",
+        "match": true,
+        "selected": "false",
+        "text": "API介面定義.docx(120 KB, pages: 12)PERSONAL×"
+      },
+      {
+        "id": "d7f65aec-da1a-4572-b54d-a32369efb571",
+        "match": true,
+        "selected": "false",
+        "text": "需求規格書.docx(500 KB, pages: 35)"
+      },
+      {
+        "id": "30a81959-606e-40e0-acd9-d31803f5af7f",
+        "match": false,
+        "selected": "false",
+        "text": "系統架構圖.png(2048 KB, res: 1920x1080)"
+      },
+      {
+        "id": "9343cac6-0b56-4cdd-807c-ee499209b97e",
+        "match": false,
+        "selected": "false",
+        "text": "README.txt(0.5 KB, enc: ASCII)"
+      }
+    ]
+  },
+  {
+    "name": "tag-desc",
+    "buttons": [
+      {
+        "disabled": true,
+        "id": "undo",
+        "pressed": null,
+        "text": "",
+        "title": "Undo"
+      },
+      {
+        "disabled": true,
+        "id": "redo",
+        "pressed": null,
+        "text": "",
+        "title": "Redo"
+      },
+      {
+        "disabled": false,
+        "id": "copy",
+        "pressed": null,
+        "text": "複製",
+        "title": null
+      },
+      {
+        "disabled": true,
+        "id": "paste",
+        "pressed": null,
+        "text": "貼上",
+        "title": null
+      },
+      {
+        "disabled": true,
+        "id": "delete",
+        "pressed": null,
+        "text": "刪除",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "名稱",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "大小",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "類型",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "true",
+        "text": "標籤 ↓",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Urgent0",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Work1",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Personal2",
+        "title": null
+      }
+    ],
+    "logs": "[Strategy] 執行 Tag Desc 排序策略[Strategy] 執行 Tag Asc 排序策略[Strategy] 執行 Extension Asc 排序策略[Strategy] 執行 Name Desc 排序策略[Strategy] 執行 Name Asc 排序策略掃描檔案: README.txt掃描檔案: 系統架構圖.png[符合] 需求規格書.docx掃描檔案: 需求規格書.docx[符合] API介面定義.docx掃描檔案: API介面定義.docx搜尋目錄: 專案文件掃描檔案: 待辦清單.txt[符合] 會議記錄.docx掃描檔案: 會議記錄.docx搜尋目錄: 2025備份搜尋目錄: 個人筆記搜尋目錄: 我的根目錄找到 3 項",
+    "observer": "監控 (Observer)LIVE目前節點README.txt掃描進度100%10 / 10 Nodes",
+    "rows": [
+      {
+        "id": "aae4fa8b-8021-4657-85f5-2aae1e1d8553",
+        "match": false,
+        "selected": "true",
+        "text": "我的根目錄(0 KB)"
+      },
+      {
+        "id": "ce82b4cb-abe8-45d2-b199-8797dd92ba58",
+        "match": false,
+        "selected": "false",
+        "text": "個人筆記(0 KB)"
+      },
+      {
+        "id": "15d1e672-d643-410d-880d-cc0130a75938",
+        "match": false,
+        "selected": "false",
+        "text": "2025備份(0 KB)PERSONAL×"
+      },
+      {
+        "id": "63f25e2d-5784-4a86-977e-508ad0b60f0d",
+        "match": true,
+        "selected": "false",
+        "text": "會議記錄.docx(200 KB, pages: 5)WORK×"
+      },
+      {
+        "id": "0ae92ee5-2485-4d56-ba97-4e9ac2b2a9dc",
+        "match": false,
+        "selected": "false",
+        "text": "待辦清單.txt(1 KB, enc: UTF-8)"
+      },
+      {
+        "id": "9d27338f-1b00-45f8-af8a-ef236b7a08f0",
+        "match": false,
+        "selected": "false",
+        "text": "專案文件(0 KB)"
+      },
+      {
+        "id": "a204833b-129b-4e53-ae7e-08d21484a6c1",
+        "match": true,
+        "selected": "false",
+        "text": "API介面定義.docx(120 KB, pages: 12)PERSONAL×"
+      },
+      {
+        "id": "d7f65aec-da1a-4572-b54d-a32369efb571",
+        "match": true,
+        "selected": "false",
+        "text": "需求規格書.docx(500 KB, pages: 35)"
+      },
+      {
+        "id": "30a81959-606e-40e0-acd9-d31803f5af7f",
+        "match": false,
+        "selected": "false",
+        "text": "系統架構圖.png(2048 KB, res: 1920x1080)"
+      },
+      {
+        "id": "9343cac6-0b56-4cdd-807c-ee499209b97e",
+        "match": false,
+        "selected": "false",
+        "text": "README.txt(0.5 KB, enc: ASCII)"
+      }
+    ]
+  },
+  {
+    "name": "add-urgent",
+    "buttons": [
+      {
+        "disabled": false,
+        "id": "undo",
+        "pressed": null,
+        "text": "",
+        "title": "Undo"
+      },
+      {
+        "disabled": true,
+        "id": "redo",
+        "pressed": null,
+        "text": "",
+        "title": "Redo"
+      },
+      {
+        "disabled": false,
+        "id": "copy",
+        "pressed": null,
+        "text": "複製",
+        "title": null
+      },
+      {
+        "disabled": true,
+        "id": "paste",
+        "pressed": null,
+        "text": "貼上",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "delete",
+        "pressed": null,
+        "text": "刪除",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "名稱",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "大小",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "類型",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "true",
+        "text": "標籤 ↓",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Urgent1",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Work1",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Personal2",
+        "title": null
+      }
+    ],
+    "logs": "[Command] 執行 新增標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Strategy] 執行 Tag Desc 排序策略[Strategy] 執行 Tag Asc 排序策略[Strategy] 執行 Extension Asc 排序策略[Strategy] 執行 Name Desc 排序策略[Strategy] 執行 Name Asc 排序策略掃描檔案: README.txt掃描檔案: 系統架構圖.png[符合] 需求規格書.docx掃描檔案: 需求規格書.docx[符合] API介面定義.docx掃描檔案: API介面定義.docx搜尋目錄: 專案文件掃描檔案: 待辦清單.txt[符合] 會議記錄.docx掃描檔案: 會議記錄.docx搜尋目錄: 2025備份搜尋目錄: 個人筆記搜尋目錄: 我的根目錄找到 3 項",
+    "observer": "監控 (Observer)LIVE目前節點README.txt掃描進度100%10 / 10 Nodes",
+    "rows": [
+      {
+        "id": "aae4fa8b-8021-4657-85f5-2aae1e1d8553",
+        "match": false,
+        "selected": "false",
+        "text": "我的根目錄(0 KB)"
+      },
+      {
+        "id": "ce82b4cb-abe8-45d2-b199-8797dd92ba58",
+        "match": false,
+        "selected": "false",
+        "text": "個人筆記(0 KB)"
+      },
+      {
+        "id": "15d1e672-d643-410d-880d-cc0130a75938",
+        "match": false,
+        "selected": "false",
+        "text": "2025備份(0 KB)PERSONAL×"
+      },
+      {
+        "id": "63f25e2d-5784-4a86-977e-508ad0b60f0d",
+        "match": true,
+        "selected": "false",
+        "text": "會議記錄.docx(200 KB, pages: 5)WORK×"
+      },
+      {
+        "id": "0ae92ee5-2485-4d56-ba97-4e9ac2b2a9dc",
+        "match": false,
+        "selected": "false",
+        "text": "待辦清單.txt(1 KB, enc: UTF-8)"
+      },
+      {
+        "id": "9d27338f-1b00-45f8-af8a-ef236b7a08f0",
+        "match": false,
+        "selected": "false",
+        "text": "專案文件(0 KB)"
+      },
+      {
+        "id": "a204833b-129b-4e53-ae7e-08d21484a6c1",
+        "match": true,
+        "selected": "true",
+        "text": "API介面定義.docx(120 KB, pages: 12)URGENT×PERSONAL×"
+      },
+      {
+        "id": "d7f65aec-da1a-4572-b54d-a32369efb571",
+        "match": true,
+        "selected": "false",
+        "text": "需求規格書.docx(500 KB, pages: 35)"
+      },
+      {
+        "id": "30a81959-606e-40e0-acd9-d31803f5af7f",
+        "match": false,
+        "selected": "false",
+        "text": "系統架構圖.png(2048 KB, res: 1920x1080)"
+      },
+      {
+        "id": "9343cac6-0b56-4cdd-807c-ee499209b97e",
+        "match": false,
+        "selected": "false",
+        "text": "README.txt(0.5 KB, enc: ASCII)"
+      }
+    ]
+  },
+  {
+    "name": "undo-tag",
+    "buttons": [
+      {
+        "disabled": true,
+        "id": "undo",
+        "pressed": null,
+        "text": "",
+        "title": "Undo"
+      },
+      {
+        "disabled": false,
+        "id": "redo",
+        "pressed": null,
+        "text": "",
+        "title": "Redo"
+      },
+      {
+        "disabled": false,
+        "id": "copy",
+        "pressed": null,
+        "text": "複製",
+        "title": null
+      },
+      {
+        "disabled": true,
+        "id": "paste",
+        "pressed": null,
+        "text": "貼上",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "delete",
+        "pressed": null,
+        "text": "刪除",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "名稱",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "大小",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "類型",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "true",
+        "text": "標籤 ↓",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Urgent0",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Work1",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Personal2",
+        "title": null
+      }
+    ],
+    "logs": "[Undo] 復原上一個變更[Command] 執行 新增標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Strategy] 執行 Tag Desc 排序策略[Strategy] 執行 Tag Asc 排序策略[Strategy] 執行 Extension Asc 排序策略[Strategy] 執行 Name Desc 排序策略[Strategy] 執行 Name Asc 排序策略掃描檔案: README.txt掃描檔案: 系統架構圖.png[符合] 需求規格書.docx掃描檔案: 需求規格書.docx[符合] API介面定義.docx掃描檔案: API介面定義.docx搜尋目錄: 專案文件掃描檔案: 待辦清單.txt[符合] 會議記錄.docx掃描檔案: 會議記錄.docx搜尋目錄: 2025備份搜尋目錄: 個人筆記搜尋目錄: 我的根目錄找到 3 項",
+    "observer": "監控 (Observer)LIVE目前節點README.txt掃描進度100%10 / 10 Nodes",
+    "rows": [
+      {
+        "id": "aae4fa8b-8021-4657-85f5-2aae1e1d8553",
+        "match": false,
+        "selected": "false",
+        "text": "我的根目錄(0 KB)"
+      },
+      {
+        "id": "ce82b4cb-abe8-45d2-b199-8797dd92ba58",
+        "match": false,
+        "selected": "false",
+        "text": "個人筆記(0 KB)"
+      },
+      {
+        "id": "15d1e672-d643-410d-880d-cc0130a75938",
+        "match": false,
+        "selected": "false",
+        "text": "2025備份(0 KB)PERSONAL×"
+      },
+      {
+        "id": "63f25e2d-5784-4a86-977e-508ad0b60f0d",
+        "match": true,
+        "selected": "false",
+        "text": "會議記錄.docx(200 KB, pages: 5)WORK×"
+      },
+      {
+        "id": "0ae92ee5-2485-4d56-ba97-4e9ac2b2a9dc",
+        "match": false,
+        "selected": "false",
+        "text": "待辦清單.txt(1 KB, enc: UTF-8)"
+      },
+      {
+        "id": "9d27338f-1b00-45f8-af8a-ef236b7a08f0",
+        "match": false,
+        "selected": "false",
+        "text": "專案文件(0 KB)"
+      },
+      {
+        "id": "a204833b-129b-4e53-ae7e-08d21484a6c1",
+        "match": true,
+        "selected": "true",
+        "text": "API介面定義.docx(120 KB, pages: 12)PERSONAL×"
+      },
+      {
+        "id": "d7f65aec-da1a-4572-b54d-a32369efb571",
+        "match": true,
+        "selected": "false",
+        "text": "需求規格書.docx(500 KB, pages: 35)"
+      },
+      {
+        "id": "30a81959-606e-40e0-acd9-d31803f5af7f",
+        "match": false,
+        "selected": "false",
+        "text": "系統架構圖.png(2048 KB, res: 1920x1080)"
+      },
+      {
+        "id": "9343cac6-0b56-4cdd-807c-ee499209b97e",
+        "match": false,
+        "selected": "false",
+        "text": "README.txt(0.5 KB, enc: ASCII)"
+      }
+    ]
+  },
+  {
+    "name": "noop-preserves-redo",
+    "buttons": [
+      {
+        "disabled": true,
+        "id": "undo",
+        "pressed": null,
+        "text": "",
+        "title": "Undo"
+      },
+      {
+        "disabled": false,
+        "id": "redo",
+        "pressed": null,
+        "text": "",
+        "title": "Redo"
+      },
+      {
+        "disabled": false,
+        "id": "copy",
+        "pressed": null,
+        "text": "複製",
+        "title": null
+      },
+      {
+        "disabled": true,
+        "id": "paste",
+        "pressed": null,
+        "text": "貼上",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "delete",
+        "pressed": null,
+        "text": "刪除",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "名稱",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "大小",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "類型",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "true",
+        "text": "標籤 ↓",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Urgent0",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Work1",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Personal2",
+        "title": null
+      }
+    ],
+    "logs": "[Undo] 復原上一個變更[Command] 執行 新增標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Strategy] 執行 Tag Desc 排序策略[Strategy] 執行 Tag Asc 排序策略[Strategy] 執行 Extension Asc 排序策略[Strategy] 執行 Name Desc 排序策略[Strategy] 執行 Name Asc 排序策略掃描檔案: README.txt掃描檔案: 系統架構圖.png[符合] 需求規格書.docx掃描檔案: 需求規格書.docx[符合] API介面定義.docx掃描檔案: API介面定義.docx搜尋目錄: 專案文件掃描檔案: 待辦清單.txt[符合] 會議記錄.docx掃描檔案: 會議記錄.docx搜尋目錄: 2025備份搜尋目錄: 個人筆記搜尋目錄: 我的根目錄找到 3 項",
+    "observer": "監控 (Observer)LIVE目前節點README.txt掃描進度100%10 / 10 Nodes",
+    "rows": [
+      {
+        "id": "aae4fa8b-8021-4657-85f5-2aae1e1d8553",
+        "match": false,
+        "selected": "false",
+        "text": "我的根目錄(0 KB)"
+      },
+      {
+        "id": "ce82b4cb-abe8-45d2-b199-8797dd92ba58",
+        "match": false,
+        "selected": "false",
+        "text": "個人筆記(0 KB)"
+      },
+      {
+        "id": "15d1e672-d643-410d-880d-cc0130a75938",
+        "match": false,
+        "selected": "false",
+        "text": "2025備份(0 KB)PERSONAL×"
+      },
+      {
+        "id": "63f25e2d-5784-4a86-977e-508ad0b60f0d",
+        "match": true,
+        "selected": "false",
+        "text": "會議記錄.docx(200 KB, pages: 5)WORK×"
+      },
+      {
+        "id": "0ae92ee5-2485-4d56-ba97-4e9ac2b2a9dc",
+        "match": false,
+        "selected": "false",
+        "text": "待辦清單.txt(1 KB, enc: UTF-8)"
+      },
+      {
+        "id": "9d27338f-1b00-45f8-af8a-ef236b7a08f0",
+        "match": false,
+        "selected": "false",
+        "text": "專案文件(0 KB)"
+      },
+      {
+        "id": "a204833b-129b-4e53-ae7e-08d21484a6c1",
+        "match": true,
+        "selected": "true",
+        "text": "API介面定義.docx(120 KB, pages: 12)PERSONAL×"
+      },
+      {
+        "id": "d7f65aec-da1a-4572-b54d-a32369efb571",
+        "match": true,
+        "selected": "false",
+        "text": "需求規格書.docx(500 KB, pages: 35)"
+      },
+      {
+        "id": "30a81959-606e-40e0-acd9-d31803f5af7f",
+        "match": false,
+        "selected": "false",
+        "text": "系統架構圖.png(2048 KB, res: 1920x1080)"
+      },
+      {
+        "id": "9343cac6-0b56-4cdd-807c-ee499209b97e",
+        "match": false,
+        "selected": "false",
+        "text": "README.txt(0.5 KB, enc: ASCII)"
+      }
+    ]
+  },
+  {
+    "name": "redo-tag",
+    "buttons": [
+      {
+        "disabled": false,
+        "id": "undo",
+        "pressed": null,
+        "text": "",
+        "title": "Undo"
+      },
+      {
+        "disabled": true,
+        "id": "redo",
+        "pressed": null,
+        "text": "",
+        "title": "Redo"
+      },
+      {
+        "disabled": false,
+        "id": "copy",
+        "pressed": null,
+        "text": "複製",
+        "title": null
+      },
+      {
+        "disabled": true,
+        "id": "paste",
+        "pressed": null,
+        "text": "貼上",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "delete",
+        "pressed": null,
+        "text": "刪除",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "名稱",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "大小",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "類型",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "true",
+        "text": "標籤 ↓",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Urgent1",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Work1",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Personal2",
+        "title": null
+      }
+    ],
+    "logs": "[Redo] 重做上一個變更[Undo] 復原上一個變更[Command] 執行 新增標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Strategy] 執行 Tag Desc 排序策略[Strategy] 執行 Tag Asc 排序策略[Strategy] 執行 Extension Asc 排序策略[Strategy] 執行 Name Desc 排序策略[Strategy] 執行 Name Asc 排序策略掃描檔案: README.txt掃描檔案: 系統架構圖.png[符合] 需求規格書.docx掃描檔案: 需求規格書.docx[符合] API介面定義.docx掃描檔案: API介面定義.docx搜尋目錄: 專案文件掃描檔案: 待辦清單.txt[符合] 會議記錄.docx掃描檔案: 會議記錄.docx搜尋目錄: 2025備份搜尋目錄: 個人筆記搜尋目錄: 我的根目錄找到 3 項",
+    "observer": "監控 (Observer)LIVE目前節點README.txt掃描進度100%10 / 10 Nodes",
+    "rows": [
+      {
+        "id": "aae4fa8b-8021-4657-85f5-2aae1e1d8553",
+        "match": false,
+        "selected": "false",
+        "text": "我的根目錄(0 KB)"
+      },
+      {
+        "id": "ce82b4cb-abe8-45d2-b199-8797dd92ba58",
+        "match": false,
+        "selected": "false",
+        "text": "個人筆記(0 KB)"
+      },
+      {
+        "id": "15d1e672-d643-410d-880d-cc0130a75938",
+        "match": false,
+        "selected": "false",
+        "text": "2025備份(0 KB)PERSONAL×"
+      },
+      {
+        "id": "63f25e2d-5784-4a86-977e-508ad0b60f0d",
+        "match": true,
+        "selected": "false",
+        "text": "會議記錄.docx(200 KB, pages: 5)WORK×"
+      },
+      {
+        "id": "0ae92ee5-2485-4d56-ba97-4e9ac2b2a9dc",
+        "match": false,
+        "selected": "false",
+        "text": "待辦清單.txt(1 KB, enc: UTF-8)"
+      },
+      {
+        "id": "9d27338f-1b00-45f8-af8a-ef236b7a08f0",
+        "match": false,
+        "selected": "false",
+        "text": "專案文件(0 KB)"
+      },
+      {
+        "id": "a204833b-129b-4e53-ae7e-08d21484a6c1",
+        "match": true,
+        "selected": "true",
+        "text": "API介面定義.docx(120 KB, pages: 12)URGENT×PERSONAL×"
+      },
+      {
+        "id": "d7f65aec-da1a-4572-b54d-a32369efb571",
+        "match": true,
+        "selected": "false",
+        "text": "需求規格書.docx(500 KB, pages: 35)"
+      },
+      {
+        "id": "30a81959-606e-40e0-acd9-d31803f5af7f",
+        "match": false,
+        "selected": "false",
+        "text": "系統架構圖.png(2048 KB, res: 1920x1080)"
+      },
+      {
+        "id": "9343cac6-0b56-4cdd-807c-ee499209b97e",
+        "match": false,
+        "selected": "false",
+        "text": "README.txt(0.5 KB, enc: ASCII)"
+      }
+    ]
+  },
+  {
+    "name": "remove-keeps-selection",
+    "buttons": [
+      {
+        "disabled": false,
+        "id": "undo",
+        "pressed": null,
+        "text": "",
+        "title": "Undo"
+      },
+      {
+        "disabled": true,
+        "id": "redo",
+        "pressed": null,
+        "text": "",
+        "title": "Redo"
+      },
+      {
+        "disabled": false,
+        "id": "copy",
+        "pressed": null,
+        "text": "複製",
+        "title": null
+      },
+      {
+        "disabled": true,
+        "id": "paste",
+        "pressed": null,
+        "text": "貼上",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "delete",
+        "pressed": null,
+        "text": "刪除",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "名稱",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "大小",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "類型",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "true",
+        "text": "標籤 ↓",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Urgent0",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Work1",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Personal2",
+        "title": null
+      }
+    ],
+    "logs": "[Command] 執行 移除標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Redo] 重做上一個變更[Undo] 復原上一個變更[Command] 執行 新增標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Strategy] 執行 Tag Desc 排序策略[Strategy] 執行 Tag Asc 排序策略[Strategy] 執行 Extension Asc 排序策略[Strategy] 執行 Name Desc 排序策略[Strategy] 執行 Name Asc 排序策略掃描檔案: README.txt掃描檔案: 系統架構圖.png[符合] 需求規格書.docx掃描檔案: 需求規格書.docx[符合] API介面定義.docx掃描檔案: API介面定義.docx搜尋目錄: 專案文件掃描檔案: 待辦清單.txt[符合] 會議記錄.docx掃描檔案: 會議記錄.docx搜尋目錄: 2025備份搜尋目錄: 個人筆記搜尋目錄: 我的根目錄找到 3 項",
+    "observer": "監控 (Observer)LIVE目前節點README.txt掃描進度100%10 / 10 Nodes",
+    "rows": [
+      {
+        "id": "aae4fa8b-8021-4657-85f5-2aae1e1d8553",
+        "match": false,
+        "selected": "false",
+        "text": "我的根目錄(0 KB)"
+      },
+      {
+        "id": "ce82b4cb-abe8-45d2-b199-8797dd92ba58",
+        "match": false,
+        "selected": "false",
+        "text": "個人筆記(0 KB)"
+      },
+      {
+        "id": "15d1e672-d643-410d-880d-cc0130a75938",
+        "match": false,
+        "selected": "false",
+        "text": "2025備份(0 KB)PERSONAL×"
+      },
+      {
+        "id": "63f25e2d-5784-4a86-977e-508ad0b60f0d",
+        "match": true,
+        "selected": "false",
+        "text": "會議記錄.docx(200 KB, pages: 5)WORK×"
+      },
+      {
+        "id": "0ae92ee5-2485-4d56-ba97-4e9ac2b2a9dc",
+        "match": false,
+        "selected": "false",
+        "text": "待辦清單.txt(1 KB, enc: UTF-8)"
+      },
+      {
+        "id": "9d27338f-1b00-45f8-af8a-ef236b7a08f0",
+        "match": false,
+        "selected": "false",
+        "text": "專案文件(0 KB)"
+      },
+      {
+        "id": "a204833b-129b-4e53-ae7e-08d21484a6c1",
+        "match": true,
+        "selected": "true",
+        "text": "API介面定義.docx(120 KB, pages: 12)PERSONAL×"
+      },
+      {
+        "id": "d7f65aec-da1a-4572-b54d-a32369efb571",
+        "match": true,
+        "selected": "false",
+        "text": "需求規格書.docx(500 KB, pages: 35)"
+      },
+      {
+        "id": "30a81959-606e-40e0-acd9-d31803f5af7f",
+        "match": false,
+        "selected": "false",
+        "text": "系統架構圖.png(2048 KB, res: 1920x1080)"
+      },
+      {
+        "id": "9343cac6-0b56-4cdd-807c-ee499209b97e",
+        "match": false,
+        "selected": "false",
+        "text": "README.txt(0.5 KB, enc: ASCII)"
+      }
+    ]
+  },
+  {
+    "name": "copy-file-paste-disabled",
+    "buttons": [
+      {
+        "disabled": false,
+        "id": "undo",
+        "pressed": null,
+        "text": "",
+        "title": "Undo"
+      },
+      {
+        "disabled": true,
+        "id": "redo",
+        "pressed": null,
+        "text": "",
+        "title": "Redo"
+      },
+      {
+        "disabled": false,
+        "id": "copy",
+        "pressed": null,
+        "text": "複製",
+        "title": null
+      },
+      {
+        "disabled": true,
+        "id": "paste",
+        "pressed": null,
+        "text": "貼上",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "delete",
+        "pressed": null,
+        "text": "刪除",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "名稱",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "大小",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "類型",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "true",
+        "text": "標籤 ↓",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Urgent0",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Work1",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Personal2",
+        "title": null
+      }
+    ],
+    "logs": "[Prototype] 複製快照：我的根目錄/專案文件/API介面定義.docx[Command] 執行 移除標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Redo] 重做上一個變更[Undo] 復原上一個變更[Command] 執行 新增標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Strategy] 執行 Tag Desc 排序策略[Strategy] 執行 Tag Asc 排序策略[Strategy] 執行 Extension Asc 排序策略[Strategy] 執行 Name Desc 排序策略[Strategy] 執行 Name Asc 排序策略掃描檔案: README.txt掃描檔案: 系統架構圖.png[符合] 需求規格書.docx掃描檔案: 需求規格書.docx[符合] API介面定義.docx掃描檔案: API介面定義.docx搜尋目錄: 專案文件掃描檔案: 待辦清單.txt[符合] 會議記錄.docx掃描檔案: 會議記錄.docx搜尋目錄: 2025備份搜尋目錄: 個人筆記搜尋目錄: 我的根目錄找到 3 項",
+    "observer": "監控 (Observer)LIVE目前節點README.txt掃描進度100%10 / 10 Nodes",
+    "rows": [
+      {
+        "id": "aae4fa8b-8021-4657-85f5-2aae1e1d8553",
+        "match": false,
+        "selected": "false",
+        "text": "我的根目錄(0 KB)"
+      },
+      {
+        "id": "ce82b4cb-abe8-45d2-b199-8797dd92ba58",
+        "match": false,
+        "selected": "false",
+        "text": "個人筆記(0 KB)"
+      },
+      {
+        "id": "15d1e672-d643-410d-880d-cc0130a75938",
+        "match": false,
+        "selected": "false",
+        "text": "2025備份(0 KB)PERSONAL×"
+      },
+      {
+        "id": "63f25e2d-5784-4a86-977e-508ad0b60f0d",
+        "match": true,
+        "selected": "false",
+        "text": "會議記錄.docx(200 KB, pages: 5)WORK×"
+      },
+      {
+        "id": "0ae92ee5-2485-4d56-ba97-4e9ac2b2a9dc",
+        "match": false,
+        "selected": "false",
+        "text": "待辦清單.txt(1 KB, enc: UTF-8)"
+      },
+      {
+        "id": "9d27338f-1b00-45f8-af8a-ef236b7a08f0",
+        "match": false,
+        "selected": "false",
+        "text": "專案文件(0 KB)"
+      },
+      {
+        "id": "a204833b-129b-4e53-ae7e-08d21484a6c1",
+        "match": true,
+        "selected": "true",
+        "text": "API介面定義.docx(120 KB, pages: 12)PERSONAL×"
+      },
+      {
+        "id": "d7f65aec-da1a-4572-b54d-a32369efb571",
+        "match": true,
+        "selected": "false",
+        "text": "需求規格書.docx(500 KB, pages: 35)"
+      },
+      {
+        "id": "30a81959-606e-40e0-acd9-d31803f5af7f",
+        "match": false,
+        "selected": "false",
+        "text": "系統架構圖.png(2048 KB, res: 1920x1080)"
+      },
+      {
+        "id": "9343cac6-0b56-4cdd-807c-ee499209b97e",
+        "match": false,
+        "selected": "false",
+        "text": "README.txt(0.5 KB, enc: ASCII)"
+      }
+    ]
+  },
+  {
+    "name": "paste-keeps-directory",
+    "buttons": [
+      {
+        "disabled": false,
+        "id": "undo",
+        "pressed": null,
+        "text": "",
+        "title": "Undo"
+      },
+      {
+        "disabled": true,
+        "id": "redo",
+        "pressed": null,
+        "text": "",
+        "title": "Redo"
+      },
+      {
+        "disabled": false,
+        "id": "copy",
+        "pressed": null,
+        "text": "複製",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "paste",
+        "pressed": null,
+        "text": "貼上",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "delete",
+        "pressed": null,
+        "text": "刪除",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "名稱",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "大小",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "類型",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "true",
+        "text": "標籤 ↓",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Urgent0",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Work1",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Personal3",
+        "title": null
+      }
+    ],
+    "logs": "[Command] 執行 貼上項目至 我的根目錄/個人筆記[Prototype] 建立獨立副本：我的根目錄/個人筆記/API介面定義.docx[Prototype] 複製快照：我的根目錄/專案文件/API介面定義.docx[Command] 執行 移除標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Redo] 重做上一個變更[Undo] 復原上一個變更[Command] 執行 新增標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Strategy] 執行 Tag Desc 排序策略[Strategy] 執行 Tag Asc 排序策略[Strategy] 執行 Extension Asc 排序策略[Strategy] 執行 Name Desc 排序策略[Strategy] 執行 Name Asc 排序策略掃描檔案: README.txt掃描檔案: 系統架構圖.png[符合] 需求規格書.docx掃描檔案: 需求規格書.docx[符合] API介面定義.docx掃描檔案: API介面定義.docx搜尋目錄: 專案文件掃描檔案: 待辦清單.txt[符合] 會議記錄.docx掃描檔案: 會議記錄.docx搜尋目錄: 2025備份搜尋目錄: 個人筆記搜尋目錄: 我的根目錄找到 3 項",
+    "observer": "監控 (Observer)LIVE目前節點README.txt掃描進度100%10 / 10 Nodes",
+    "rows": [
+      {
+        "id": "aae4fa8b-8021-4657-85f5-2aae1e1d8553",
+        "match": false,
+        "selected": "false",
+        "text": "我的根目錄(0 KB)"
+      },
+      {
+        "id": "ce82b4cb-abe8-45d2-b199-8797dd92ba58",
+        "match": false,
+        "selected": "true",
+        "text": "個人筆記(0 KB)"
+      },
+      {
+        "id": "15d1e672-d643-410d-880d-cc0130a75938",
+        "match": false,
+        "selected": "false",
+        "text": "2025備份(0 KB)PERSONAL×"
+      },
+      {
+        "id": "63f25e2d-5784-4a86-977e-508ad0b60f0d",
+        "match": true,
+        "selected": "false",
+        "text": "會議記錄.docx(200 KB, pages: 5)WORK×"
+      },
+      {
+        "id": "88a89efb-7660-47a5-9cba-fff51cf42461",
+        "match": false,
+        "selected": "false",
+        "text": "API介面定義.docx(120 KB, pages: 12)PERSONAL×"
+      },
+      {
+        "id": "0ae92ee5-2485-4d56-ba97-4e9ac2b2a9dc",
+        "match": false,
+        "selected": "false",
+        "text": "待辦清單.txt(1 KB, enc: UTF-8)"
+      },
+      {
+        "id": "9d27338f-1b00-45f8-af8a-ef236b7a08f0",
+        "match": false,
+        "selected": "false",
+        "text": "專案文件(0 KB)"
+      },
+      {
+        "id": "a204833b-129b-4e53-ae7e-08d21484a6c1",
+        "match": true,
+        "selected": "false",
+        "text": "API介面定義.docx(120 KB, pages: 12)PERSONAL×"
+      },
+      {
+        "id": "d7f65aec-da1a-4572-b54d-a32369efb571",
+        "match": true,
+        "selected": "false",
+        "text": "需求規格書.docx(500 KB, pages: 35)"
+      },
+      {
+        "id": "30a81959-606e-40e0-acd9-d31803f5af7f",
+        "match": false,
+        "selected": "false",
+        "text": "系統架構圖.png(2048 KB, res: 1920x1080)"
+      },
+      {
+        "id": "9343cac6-0b56-4cdd-807c-ee499209b97e",
+        "match": false,
+        "selected": "false",
+        "text": "README.txt(0.5 KB, enc: ASCII)"
+      }
+    ]
+  },
+  {
+    "name": "paste-conflict",
+    "buttons": [
+      {
+        "disabled": false,
+        "id": "undo",
+        "pressed": null,
+        "text": "",
+        "title": "Undo"
+      },
+      {
+        "disabled": true,
+        "id": "redo",
+        "pressed": null,
+        "text": "",
+        "title": "Redo"
+      },
+      {
+        "disabled": false,
+        "id": "copy",
+        "pressed": null,
+        "text": "複製",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "paste",
+        "pressed": null,
+        "text": "貼上",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "delete",
+        "pressed": null,
+        "text": "刪除",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "名稱",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "大小",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "類型",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "true",
+        "text": "標籤 ↓",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Urgent0",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Work1",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Personal3",
+        "title": null
+      }
+    ],
+    "logs": "[Error] A sibling already has this name.[Command] 執行 貼上項目至 我的根目錄/個人筆記[Prototype] 建立獨立副本：我的根目錄/個人筆記/API介面定義.docx[Prototype] 複製快照：我的根目錄/專案文件/API介面定義.docx[Command] 執行 移除標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Redo] 重做上一個變更[Undo] 復原上一個變更[Command] 執行 新增標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Strategy] 執行 Tag Desc 排序策略[Strategy] 執行 Tag Asc 排序策略[Strategy] 執行 Extension Asc 排序策略[Strategy] 執行 Name Desc 排序策略[Strategy] 執行 Name Asc 排序策略掃描檔案: README.txt掃描檔案: 系統架構圖.png[符合] 需求規格書.docx掃描檔案: 需求規格書.docx[符合] API介面定義.docx掃描檔案: API介面定義.docx搜尋目錄: 專案文件掃描檔案: 待辦清單.txt[符合] 會議記錄.docx掃描檔案: 會議記錄.docx搜尋目錄: 2025備份搜尋目錄: 個人筆記搜尋目錄: 我的根目錄找到 3 項",
+    "observer": "監控 (Observer)LIVE目前節點README.txt掃描進度100%10 / 10 Nodes",
+    "rows": [
+      {
+        "id": "aae4fa8b-8021-4657-85f5-2aae1e1d8553",
+        "match": false,
+        "selected": "false",
+        "text": "我的根目錄(0 KB)"
+      },
+      {
+        "id": "ce82b4cb-abe8-45d2-b199-8797dd92ba58",
+        "match": false,
+        "selected": "true",
+        "text": "個人筆記(0 KB)"
+      },
+      {
+        "id": "15d1e672-d643-410d-880d-cc0130a75938",
+        "match": false,
+        "selected": "false",
+        "text": "2025備份(0 KB)PERSONAL×"
+      },
+      {
+        "id": "63f25e2d-5784-4a86-977e-508ad0b60f0d",
+        "match": true,
+        "selected": "false",
+        "text": "會議記錄.docx(200 KB, pages: 5)WORK×"
+      },
+      {
+        "id": "88a89efb-7660-47a5-9cba-fff51cf42461",
+        "match": false,
+        "selected": "false",
+        "text": "API介面定義.docx(120 KB, pages: 12)PERSONAL×"
+      },
+      {
+        "id": "0ae92ee5-2485-4d56-ba97-4e9ac2b2a9dc",
+        "match": false,
+        "selected": "false",
+        "text": "待辦清單.txt(1 KB, enc: UTF-8)"
+      },
+      {
+        "id": "9d27338f-1b00-45f8-af8a-ef236b7a08f0",
+        "match": false,
+        "selected": "false",
+        "text": "專案文件(0 KB)"
+      },
+      {
+        "id": "a204833b-129b-4e53-ae7e-08d21484a6c1",
+        "match": true,
+        "selected": "false",
+        "text": "API介面定義.docx(120 KB, pages: 12)PERSONAL×"
+      },
+      {
+        "id": "d7f65aec-da1a-4572-b54d-a32369efb571",
+        "match": true,
+        "selected": "false",
+        "text": "需求規格書.docx(500 KB, pages: 35)"
+      },
+      {
+        "id": "30a81959-606e-40e0-acd9-d31803f5af7f",
+        "match": false,
+        "selected": "false",
+        "text": "系統架構圖.png(2048 KB, res: 1920x1080)"
+      },
+      {
+        "id": "9343cac6-0b56-4cdd-807c-ee499209b97e",
+        "match": false,
+        "selected": "false",
+        "text": "README.txt(0.5 KB, enc: ASCII)"
+      }
+    ]
+  },
+  {
+    "name": "undo-paste",
+    "buttons": [
+      {
+        "disabled": false,
+        "id": "undo",
+        "pressed": null,
+        "text": "",
+        "title": "Undo"
+      },
+      {
+        "disabled": false,
+        "id": "redo",
+        "pressed": null,
+        "text": "",
+        "title": "Redo"
+      },
+      {
+        "disabled": false,
+        "id": "copy",
+        "pressed": null,
+        "text": "複製",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "paste",
+        "pressed": null,
+        "text": "貼上",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "delete",
+        "pressed": null,
+        "text": "刪除",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "名稱",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "大小",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "類型",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "true",
+        "text": "標籤 ↓",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Urgent0",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Work1",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Personal2",
+        "title": null
+      }
+    ],
+    "logs": "[Undo] 復原上一個變更[Error] A sibling already has this name.[Command] 執行 貼上項目至 我的根目錄/個人筆記[Prototype] 建立獨立副本：我的根目錄/個人筆記/API介面定義.docx[Prototype] 複製快照：我的根目錄/專案文件/API介面定義.docx[Command] 執行 移除標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Redo] 重做上一個變更[Undo] 復原上一個變更[Command] 執行 新增標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Strategy] 執行 Tag Desc 排序策略[Strategy] 執行 Tag Asc 排序策略[Strategy] 執行 Extension Asc 排序策略[Strategy] 執行 Name Desc 排序策略[Strategy] 執行 Name Asc 排序策略掃描檔案: README.txt掃描檔案: 系統架構圖.png[符合] 需求規格書.docx掃描檔案: 需求規格書.docx[符合] API介面定義.docx掃描檔案: API介面定義.docx搜尋目錄: 專案文件掃描檔案: 待辦清單.txt[符合] 會議記錄.docx掃描檔案: 會議記錄.docx搜尋目錄: 2025備份搜尋目錄: 個人筆記搜尋目錄: 我的根目錄找到 3 項",
+    "observer": "監控 (Observer)LIVE目前節點README.txt掃描進度100%10 / 10 Nodes",
+    "rows": [
+      {
+        "id": "aae4fa8b-8021-4657-85f5-2aae1e1d8553",
+        "match": false,
+        "selected": "false",
+        "text": "我的根目錄(0 KB)"
+      },
+      {
+        "id": "ce82b4cb-abe8-45d2-b199-8797dd92ba58",
+        "match": false,
+        "selected": "true",
+        "text": "個人筆記(0 KB)"
+      },
+      {
+        "id": "15d1e672-d643-410d-880d-cc0130a75938",
+        "match": false,
+        "selected": "false",
+        "text": "2025備份(0 KB)PERSONAL×"
+      },
+      {
+        "id": "63f25e2d-5784-4a86-977e-508ad0b60f0d",
+        "match": true,
+        "selected": "false",
+        "text": "會議記錄.docx(200 KB, pages: 5)WORK×"
+      },
+      {
+        "id": "0ae92ee5-2485-4d56-ba97-4e9ac2b2a9dc",
+        "match": false,
+        "selected": "false",
+        "text": "待辦清單.txt(1 KB, enc: UTF-8)"
+      },
+      {
+        "id": "9d27338f-1b00-45f8-af8a-ef236b7a08f0",
+        "match": false,
+        "selected": "false",
+        "text": "專案文件(0 KB)"
+      },
+      {
+        "id": "a204833b-129b-4e53-ae7e-08d21484a6c1",
+        "match": true,
+        "selected": "false",
+        "text": "API介面定義.docx(120 KB, pages: 12)PERSONAL×"
+      },
+      {
+        "id": "d7f65aec-da1a-4572-b54d-a32369efb571",
+        "match": true,
+        "selected": "false",
+        "text": "需求規格書.docx(500 KB, pages: 35)"
+      },
+      {
+        "id": "30a81959-606e-40e0-acd9-d31803f5af7f",
+        "match": false,
+        "selected": "false",
+        "text": "系統架構圖.png(2048 KB, res: 1920x1080)"
+      },
+      {
+        "id": "9343cac6-0b56-4cdd-807c-ee499209b97e",
+        "match": false,
+        "selected": "false",
+        "text": "README.txt(0.5 KB, enc: ASCII)"
+      }
+    ]
+  },
+  {
+    "name": "redo-paste",
+    "buttons": [
+      {
+        "disabled": false,
+        "id": "undo",
+        "pressed": null,
+        "text": "",
+        "title": "Undo"
+      },
+      {
+        "disabled": true,
+        "id": "redo",
+        "pressed": null,
+        "text": "",
+        "title": "Redo"
+      },
+      {
+        "disabled": false,
+        "id": "copy",
+        "pressed": null,
+        "text": "複製",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "paste",
+        "pressed": null,
+        "text": "貼上",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "delete",
+        "pressed": null,
+        "text": "刪除",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "名稱",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "大小",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "類型",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "true",
+        "text": "標籤 ↓",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Urgent0",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Work1",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Personal3",
+        "title": null
+      }
+    ],
+    "logs": "[Redo] 重做上一個變更[Undo] 復原上一個變更[Error] A sibling already has this name.[Command] 執行 貼上項目至 我的根目錄/個人筆記[Prototype] 建立獨立副本：我的根目錄/個人筆記/API介面定義.docx[Prototype] 複製快照：我的根目錄/專案文件/API介面定義.docx[Command] 執行 移除標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Redo] 重做上一個變更[Undo] 復原上一個變更[Command] 執行 新增標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Strategy] 執行 Tag Desc 排序策略[Strategy] 執行 Tag Asc 排序策略[Strategy] 執行 Extension Asc 排序策略[Strategy] 執行 Name Desc 排序策略[Strategy] 執行 Name Asc 排序策略掃描檔案: README.txt掃描檔案: 系統架構圖.png[符合] 需求規格書.docx掃描檔案: 需求規格書.docx[符合] API介面定義.docx掃描檔案: API介面定義.docx搜尋目錄: 專案文件掃描檔案: 待辦清單.txt[符合] 會議記錄.docx掃描檔案: 會議記錄.docx搜尋目錄: 2025備份搜尋目錄: 個人筆記搜尋目錄: 我的根目錄找到 3 項",
+    "observer": "監控 (Observer)LIVE目前節點README.txt掃描進度100%10 / 10 Nodes",
+    "rows": [
+      {
+        "id": "aae4fa8b-8021-4657-85f5-2aae1e1d8553",
+        "match": false,
+        "selected": "false",
+        "text": "我的根目錄(0 KB)"
+      },
+      {
+        "id": "ce82b4cb-abe8-45d2-b199-8797dd92ba58",
+        "match": false,
+        "selected": "true",
+        "text": "個人筆記(0 KB)"
+      },
+      {
+        "id": "15d1e672-d643-410d-880d-cc0130a75938",
+        "match": false,
+        "selected": "false",
+        "text": "2025備份(0 KB)PERSONAL×"
+      },
+      {
+        "id": "63f25e2d-5784-4a86-977e-508ad0b60f0d",
+        "match": true,
+        "selected": "false",
+        "text": "會議記錄.docx(200 KB, pages: 5)WORK×"
+      },
+      {
+        "id": "88a89efb-7660-47a5-9cba-fff51cf42461",
+        "match": false,
+        "selected": "false",
+        "text": "API介面定義.docx(120 KB, pages: 12)PERSONAL×"
+      },
+      {
+        "id": "0ae92ee5-2485-4d56-ba97-4e9ac2b2a9dc",
+        "match": false,
+        "selected": "false",
+        "text": "待辦清單.txt(1 KB, enc: UTF-8)"
+      },
+      {
+        "id": "9d27338f-1b00-45f8-af8a-ef236b7a08f0",
+        "match": false,
+        "selected": "false",
+        "text": "專案文件(0 KB)"
+      },
+      {
+        "id": "a204833b-129b-4e53-ae7e-08d21484a6c1",
+        "match": true,
+        "selected": "false",
+        "text": "API介面定義.docx(120 KB, pages: 12)PERSONAL×"
+      },
+      {
+        "id": "d7f65aec-da1a-4572-b54d-a32369efb571",
+        "match": true,
+        "selected": "false",
+        "text": "需求規格書.docx(500 KB, pages: 35)"
+      },
+      {
+        "id": "30a81959-606e-40e0-acd9-d31803f5af7f",
+        "match": false,
+        "selected": "false",
+        "text": "系統架構圖.png(2048 KB, res: 1920x1080)"
+      },
+      {
+        "id": "9343cac6-0b56-4cdd-807c-ee499209b97e",
+        "match": false,
+        "selected": "false",
+        "text": "README.txt(0.5 KB, enc: ASCII)"
+      }
+    ]
+  },
+  {
+    "name": "restore-before-delete",
+    "buttons": [
+      {
+        "disabled": false,
+        "id": "undo",
+        "pressed": null,
+        "text": "",
+        "title": "Undo"
+      },
+      {
+        "disabled": false,
+        "id": "redo",
+        "pressed": null,
+        "text": "",
+        "title": "Redo"
+      },
+      {
+        "disabled": false,
+        "id": "copy",
+        "pressed": null,
+        "text": "複製",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "paste",
+        "pressed": null,
+        "text": "貼上",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "delete",
+        "pressed": null,
+        "text": "刪除",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "名稱",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "大小",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "類型",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "true",
+        "text": "標籤 ↓",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Urgent0",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Work1",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Personal2",
+        "title": null
+      }
+    ],
+    "logs": "[Undo] 復原上一個變更[Redo] 重做上一個變更[Undo] 復原上一個變更[Error] A sibling already has this name.[Command] 執行 貼上項目至 我的根目錄/個人筆記[Prototype] 建立獨立副本：我的根目錄/個人筆記/API介面定義.docx[Prototype] 複製快照：我的根目錄/專案文件/API介面定義.docx[Command] 執行 移除標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Redo] 重做上一個變更[Undo] 復原上一個變更[Command] 執行 新增標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Strategy] 執行 Tag Desc 排序策略[Strategy] 執行 Tag Asc 排序策略[Strategy] 執行 Extension Asc 排序策略[Strategy] 執行 Name Desc 排序策略[Strategy] 執行 Name Asc 排序策略掃描檔案: README.txt掃描檔案: 系統架構圖.png[符合] 需求規格書.docx掃描檔案: 需求規格書.docx[符合] API介面定義.docx掃描檔案: API介面定義.docx搜尋目錄: 專案文件掃描檔案: 待辦清單.txt[符合] 會議記錄.docx掃描檔案: 會議記錄.docx搜尋目錄: 2025備份搜尋目錄: 個人筆記搜尋目錄: 我的根目錄找到 3 項",
+    "observer": "監控 (Observer)LIVE目前節點README.txt掃描進度100%10 / 10 Nodes",
+    "rows": [
+      {
+        "id": "aae4fa8b-8021-4657-85f5-2aae1e1d8553",
+        "match": false,
+        "selected": "false",
+        "text": "我的根目錄(0 KB)"
+      },
+      {
+        "id": "ce82b4cb-abe8-45d2-b199-8797dd92ba58",
+        "match": false,
+        "selected": "true",
+        "text": "個人筆記(0 KB)"
+      },
+      {
+        "id": "15d1e672-d643-410d-880d-cc0130a75938",
+        "match": false,
+        "selected": "false",
+        "text": "2025備份(0 KB)PERSONAL×"
+      },
+      {
+        "id": "63f25e2d-5784-4a86-977e-508ad0b60f0d",
+        "match": true,
+        "selected": "false",
+        "text": "會議記錄.docx(200 KB, pages: 5)WORK×"
+      },
+      {
+        "id": "0ae92ee5-2485-4d56-ba97-4e9ac2b2a9dc",
+        "match": false,
+        "selected": "false",
+        "text": "待辦清單.txt(1 KB, enc: UTF-8)"
+      },
+      {
+        "id": "9d27338f-1b00-45f8-af8a-ef236b7a08f0",
+        "match": false,
+        "selected": "false",
+        "text": "專案文件(0 KB)"
+      },
+      {
+        "id": "a204833b-129b-4e53-ae7e-08d21484a6c1",
+        "match": true,
+        "selected": "false",
+        "text": "API介面定義.docx(120 KB, pages: 12)PERSONAL×"
+      },
+      {
+        "id": "d7f65aec-da1a-4572-b54d-a32369efb571",
+        "match": true,
+        "selected": "false",
+        "text": "需求規格書.docx(500 KB, pages: 35)"
+      },
+      {
+        "id": "30a81959-606e-40e0-acd9-d31803f5af7f",
+        "match": false,
+        "selected": "false",
+        "text": "系統架構圖.png(2048 KB, res: 1920x1080)"
+      },
+      {
+        "id": "9343cac6-0b56-4cdd-807c-ee499209b97e",
+        "match": false,
+        "selected": "false",
+        "text": "README.txt(0.5 KB, enc: ASCII)"
+      }
+    ]
+  },
+  {
+    "name": "delete-fallback-prunes-highlight",
+    "buttons": [
+      {
+        "disabled": false,
+        "id": "undo",
+        "pressed": null,
+        "text": "",
+        "title": "Undo"
+      },
+      {
+        "disabled": true,
+        "id": "redo",
+        "pressed": null,
+        "text": "",
+        "title": "Redo"
+      },
+      {
+        "disabled": false,
+        "id": "copy",
+        "pressed": null,
+        "text": "複製",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "paste",
+        "pressed": null,
+        "text": "貼上",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "delete",
+        "pressed": null,
+        "text": "刪除",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "名稱",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "大小",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "類型",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "true",
+        "text": "標籤 ↓",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Urgent0",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Work1",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Personal1",
+        "title": null
+      }
+    ],
+    "logs": "[Command] 執行 刪除 我的根目錄/專案文件/API介面定義.docx[Undo] 復原上一個變更[Redo] 重做上一個變更[Undo] 復原上一個變更[Error] A sibling already has this name.[Command] 執行 貼上項目至 我的根目錄/個人筆記[Prototype] 建立獨立副本：我的根目錄/個人筆記/API介面定義.docx[Prototype] 複製快照：我的根目錄/專案文件/API介面定義.docx[Command] 執行 移除標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Redo] 重做上一個變更[Undo] 復原上一個變更[Command] 執行 新增標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Strategy] 執行 Tag Desc 排序策略[Strategy] 執行 Tag Asc 排序策略[Strategy] 執行 Extension Asc 排序策略[Strategy] 執行 Name Desc 排序策略[Strategy] 執行 Name Asc 排序策略掃描檔案: README.txt掃描檔案: 系統架構圖.png[符合] 需求規格書.docx掃描檔案: 需求規格書.docx[符合] API介面定義.docx掃描檔案: API介面定義.docx搜尋目錄: 專案文件掃描檔案: 待辦清單.txt[符合] 會議記錄.docx掃描檔案: 會議記錄.docx搜尋目錄: 2025備份搜尋目錄: 個人筆記搜尋目錄: 我的根目錄找到 3 項",
+    "observer": "監控 (Observer)LIVE目前節點README.txt掃描進度100%10 / 10 Nodes",
+    "rows": [
+      {
+        "id": "aae4fa8b-8021-4657-85f5-2aae1e1d8553",
+        "match": false,
+        "selected": "false",
+        "text": "我的根目錄(0 KB)"
+      },
+      {
+        "id": "ce82b4cb-abe8-45d2-b199-8797dd92ba58",
+        "match": false,
+        "selected": "false",
+        "text": "個人筆記(0 KB)"
+      },
+      {
+        "id": "15d1e672-d643-410d-880d-cc0130a75938",
+        "match": false,
+        "selected": "false",
+        "text": "2025備份(0 KB)PERSONAL×"
+      },
+      {
+        "id": "63f25e2d-5784-4a86-977e-508ad0b60f0d",
+        "match": true,
+        "selected": "false",
+        "text": "會議記錄.docx(200 KB, pages: 5)WORK×"
+      },
+      {
+        "id": "0ae92ee5-2485-4d56-ba97-4e9ac2b2a9dc",
+        "match": false,
+        "selected": "false",
+        "text": "待辦清單.txt(1 KB, enc: UTF-8)"
+      },
+      {
+        "id": "9d27338f-1b00-45f8-af8a-ef236b7a08f0",
+        "match": false,
+        "selected": "true",
+        "text": "專案文件(0 KB)"
+      },
+      {
+        "id": "d7f65aec-da1a-4572-b54d-a32369efb571",
+        "match": true,
+        "selected": "false",
+        "text": "需求規格書.docx(500 KB, pages: 35)"
+      },
+      {
+        "id": "30a81959-606e-40e0-acd9-d31803f5af7f",
+        "match": false,
+        "selected": "false",
+        "text": "系統架構圖.png(2048 KB, res: 1920x1080)"
+      },
+      {
+        "id": "9343cac6-0b56-4cdd-807c-ee499209b97e",
+        "match": false,
+        "selected": "false",
+        "text": "README.txt(0.5 KB, enc: ASCII)"
+      }
+    ]
+  },
+  {
+    "name": "undo-delete-keeps-fallback",
+    "buttons": [
+      {
+        "disabled": false,
+        "id": "undo",
+        "pressed": null,
+        "text": "",
+        "title": "Undo"
+      },
+      {
+        "disabled": false,
+        "id": "redo",
+        "pressed": null,
+        "text": "",
+        "title": "Redo"
+      },
+      {
+        "disabled": false,
+        "id": "copy",
+        "pressed": null,
+        "text": "複製",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "paste",
+        "pressed": null,
+        "text": "貼上",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "delete",
+        "pressed": null,
+        "text": "刪除",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "名稱",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "大小",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "類型",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "true",
+        "text": "標籤 ↓",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Urgent0",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Work1",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Personal2",
+        "title": null
+      }
+    ],
+    "logs": "[Undo] 復原上一個變更[Command] 執行 刪除 我的根目錄/專案文件/API介面定義.docx[Undo] 復原上一個變更[Redo] 重做上一個變更[Undo] 復原上一個變更[Error] A sibling already has this name.[Command] 執行 貼上項目至 我的根目錄/個人筆記[Prototype] 建立獨立副本：我的根目錄/個人筆記/API介面定義.docx[Prototype] 複製快照：我的根目錄/專案文件/API介面定義.docx[Command] 執行 移除標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Redo] 重做上一個變更[Undo] 復原上一個變更[Command] 執行 新增標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Strategy] 執行 Tag Desc 排序策略[Strategy] 執行 Tag Asc 排序策略[Strategy] 執行 Extension Asc 排序策略[Strategy] 執行 Name Desc 排序策略[Strategy] 執行 Name Asc 排序策略掃描檔案: README.txt掃描檔案: 系統架構圖.png[符合] 需求規格書.docx掃描檔案: 需求規格書.docx[符合] API介面定義.docx掃描檔案: API介面定義.docx搜尋目錄: 專案文件掃描檔案: 待辦清單.txt[符合] 會議記錄.docx掃描檔案: 會議記錄.docx搜尋目錄: 2025備份搜尋目錄: 個人筆記搜尋目錄: 我的根目錄找到 3 項",
+    "observer": "監控 (Observer)LIVE目前節點README.txt掃描進度100%10 / 10 Nodes",
+    "rows": [
+      {
+        "id": "aae4fa8b-8021-4657-85f5-2aae1e1d8553",
+        "match": false,
+        "selected": "false",
+        "text": "我的根目錄(0 KB)"
+      },
+      {
+        "id": "ce82b4cb-abe8-45d2-b199-8797dd92ba58",
+        "match": false,
+        "selected": "false",
+        "text": "個人筆記(0 KB)"
+      },
+      {
+        "id": "15d1e672-d643-410d-880d-cc0130a75938",
+        "match": false,
+        "selected": "false",
+        "text": "2025備份(0 KB)PERSONAL×"
+      },
+      {
+        "id": "63f25e2d-5784-4a86-977e-508ad0b60f0d",
+        "match": true,
+        "selected": "false",
+        "text": "會議記錄.docx(200 KB, pages: 5)WORK×"
+      },
+      {
+        "id": "0ae92ee5-2485-4d56-ba97-4e9ac2b2a9dc",
+        "match": false,
+        "selected": "false",
+        "text": "待辦清單.txt(1 KB, enc: UTF-8)"
+      },
+      {
+        "id": "9d27338f-1b00-45f8-af8a-ef236b7a08f0",
+        "match": false,
+        "selected": "true",
+        "text": "專案文件(0 KB)"
+      },
+      {
+        "id": "a204833b-129b-4e53-ae7e-08d21484a6c1",
+        "match": false,
+        "selected": "false",
+        "text": "API介面定義.docx(120 KB, pages: 12)PERSONAL×"
+      },
+      {
+        "id": "d7f65aec-da1a-4572-b54d-a32369efb571",
+        "match": true,
+        "selected": "false",
+        "text": "需求規格書.docx(500 KB, pages: 35)"
+      },
+      {
+        "id": "30a81959-606e-40e0-acd9-d31803f5af7f",
+        "match": false,
+        "selected": "false",
+        "text": "系統架構圖.png(2048 KB, res: 1920x1080)"
+      },
+      {
+        "id": "9343cac6-0b56-4cdd-807c-ee499209b97e",
+        "match": false,
+        "selected": "false",
+        "text": "README.txt(0.5 KB, enc: ASCII)"
+      }
+    ]
+  },
+  {
+    "name": "file-scope-case-insensitive",
+    "buttons": [
+      {
+        "disabled": false,
+        "id": "undo",
+        "pressed": null,
+        "text": "",
+        "title": "Undo"
+      },
+      {
+        "disabled": false,
+        "id": "redo",
+        "pressed": null,
+        "text": "",
+        "title": "Redo"
+      },
+      {
+        "disabled": false,
+        "id": "copy",
+        "pressed": null,
+        "text": "複製",
+        "title": null
+      },
+      {
+        "disabled": true,
+        "id": "paste",
+        "pressed": null,
+        "text": "貼上",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "delete",
+        "pressed": null,
+        "text": "刪除",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "名稱",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "大小",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "類型",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "true",
+        "text": "標籤 ↓",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Urgent0",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Work1",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Personal2",
+        "title": null
+      }
+    ],
+    "logs": "[符合] API介面定義.docx掃描檔案: API介面定義.docx[Undo] 復原上一個變更[Command] 執行 刪除 我的根目錄/專案文件/API介面定義.docx[Undo] 復原上一個變更[Redo] 重做上一個變更[Undo] 復原上一個變更[Error] A sibling already has this name.[Command] 執行 貼上項目至 我的根目錄/個人筆記[Prototype] 建立獨立副本：我的根目錄/個人筆記/API介面定義.docx[Prototype] 複製快照：我的根目錄/專案文件/API介面定義.docx[Command] 執行 移除標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Redo] 重做上一個變更[Undo] 復原上一個變更[Command] 執行 新增標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Strategy] 執行 Tag Desc 排序策略[Strategy] 執行 Tag Asc 排序策略[Strategy] 執行 Extension Asc 排序策略[Strategy] 執行 Name Desc 排序策略[Strategy] 執行 Name Asc 排序策略掃描檔案: README.txt掃描檔案: 系統架構圖.png[符合] 需求規格書.docx掃描檔案: 需求規格書.docx[符合] API介面定義.docx掃描檔案: API介面定義.docx搜尋目錄: 專案文件掃描檔案: 待辦清單.txt[符合] 會議記錄.docx掃描檔案: 會議記錄.docx搜尋目錄: 2025備份搜尋目錄: 個人筆記搜尋目錄: 我的根目錄找到 1 項",
+    "observer": "監控 (Observer)LIVE目前節點API介面定義.docx掃描進度100%1 / 1 Nodes",
+    "rows": [
+      {
+        "id": "aae4fa8b-8021-4657-85f5-2aae1e1d8553",
+        "match": false,
+        "selected": "false",
+        "text": "我的根目錄(0 KB)"
+      },
+      {
+        "id": "ce82b4cb-abe8-45d2-b199-8797dd92ba58",
+        "match": false,
+        "selected": "false",
+        "text": "個人筆記(0 KB)"
+      },
+      {
+        "id": "15d1e672-d643-410d-880d-cc0130a75938",
+        "match": false,
+        "selected": "false",
+        "text": "2025備份(0 KB)PERSONAL×"
+      },
+      {
+        "id": "63f25e2d-5784-4a86-977e-508ad0b60f0d",
+        "match": false,
+        "selected": "false",
+        "text": "會議記錄.docx(200 KB, pages: 5)WORK×"
+      },
+      {
+        "id": "0ae92ee5-2485-4d56-ba97-4e9ac2b2a9dc",
+        "match": false,
+        "selected": "false",
+        "text": "待辦清單.txt(1 KB, enc: UTF-8)"
+      },
+      {
+        "id": "9d27338f-1b00-45f8-af8a-ef236b7a08f0",
+        "match": false,
+        "selected": "false",
+        "text": "專案文件(0 KB)"
+      },
+      {
+        "id": "a204833b-129b-4e53-ae7e-08d21484a6c1",
+        "match": true,
+        "selected": "true",
+        "text": "API介面定義.docx(120 KB, pages: 12)PERSONAL×"
+      },
+      {
+        "id": "d7f65aec-da1a-4572-b54d-a32369efb571",
+        "match": false,
+        "selected": "false",
+        "text": "需求規格書.docx(500 KB, pages: 35)"
+      },
+      {
+        "id": "30a81959-606e-40e0-acd9-d31803f5af7f",
+        "match": false,
+        "selected": "false",
+        "text": "系統架構圖.png(2048 KB, res: 1920x1080)"
+      },
+      {
+        "id": "9343cac6-0b56-4cdd-807c-ee499209b97e",
+        "match": false,
+        "selected": "false",
+        "text": "README.txt(0.5 KB, enc: ASCII)"
+      }
+    ]
+  },
+  {
+    "name": "zero-clears-highlights",
+    "buttons": [
+      {
+        "disabled": false,
+        "id": "undo",
+        "pressed": null,
+        "text": "",
+        "title": "Undo"
+      },
+      {
+        "disabled": false,
+        "id": "redo",
+        "pressed": null,
+        "text": "",
+        "title": "Redo"
+      },
+      {
+        "disabled": false,
+        "id": "copy",
+        "pressed": null,
+        "text": "複製",
+        "title": null
+      },
+      {
+        "disabled": true,
+        "id": "paste",
+        "pressed": null,
+        "text": "貼上",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "delete",
+        "pressed": null,
+        "text": "刪除",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "名稱",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "大小",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "類型",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "true",
+        "text": "標籤 ↓",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Urgent0",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Work1",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Personal2",
+        "title": null
+      }
+    ],
+    "logs": "掃描檔案: API介面定義.docx[符合] API介面定義.docx掃描檔案: API介面定義.docx[Undo] 復原上一個變更[Command] 執行 刪除 我的根目錄/專案文件/API介面定義.docx[Undo] 復原上一個變更[Redo] 重做上一個變更[Undo] 復原上一個變更[Error] A sibling already has this name.[Command] 執行 貼上項目至 我的根目錄/個人筆記[Prototype] 建立獨立副本：我的根目錄/個人筆記/API介面定義.docx[Prototype] 複製快照：我的根目錄/專案文件/API介面定義.docx[Command] 執行 移除標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Redo] 重做上一個變更[Undo] 復原上一個變更[Command] 執行 新增標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Strategy] 執行 Tag Desc 排序策略[Strategy] 執行 Tag Asc 排序策略[Strategy] 執行 Extension Asc 排序策略[Strategy] 執行 Name Desc 排序策略[Strategy] 執行 Name Asc 排序策略掃描檔案: README.txt掃描檔案: 系統架構圖.png[符合] 需求規格書.docx掃描檔案: 需求規格書.docx[符合] API介面定義.docx掃描檔案: API介面定義.docx搜尋目錄: 專案文件掃描檔案: 待辦清單.txt[符合] 會議記錄.docx掃描檔案: 會議記錄.docx搜尋目錄: 2025備份搜尋目錄: 個人筆記搜尋目錄: 我的根目錄找到 0 項",
+    "observer": "監控 (Observer)LIVE目前節點API介面定義.docx掃描進度100%1 / 1 Nodes",
+    "rows": [
+      {
+        "id": "aae4fa8b-8021-4657-85f5-2aae1e1d8553",
+        "match": false,
+        "selected": "false",
+        "text": "我的根目錄(0 KB)"
+      },
+      {
+        "id": "ce82b4cb-abe8-45d2-b199-8797dd92ba58",
+        "match": false,
+        "selected": "false",
+        "text": "個人筆記(0 KB)"
+      },
+      {
+        "id": "15d1e672-d643-410d-880d-cc0130a75938",
+        "match": false,
+        "selected": "false",
+        "text": "2025備份(0 KB)PERSONAL×"
+      },
+      {
+        "id": "63f25e2d-5784-4a86-977e-508ad0b60f0d",
+        "match": false,
+        "selected": "false",
+        "text": "會議記錄.docx(200 KB, pages: 5)WORK×"
+      },
+      {
+        "id": "0ae92ee5-2485-4d56-ba97-4e9ac2b2a9dc",
+        "match": false,
+        "selected": "false",
+        "text": "待辦清單.txt(1 KB, enc: UTF-8)"
+      },
+      {
+        "id": "9d27338f-1b00-45f8-af8a-ef236b7a08f0",
+        "match": false,
+        "selected": "false",
+        "text": "專案文件(0 KB)"
+      },
+      {
+        "id": "a204833b-129b-4e53-ae7e-08d21484a6c1",
+        "match": false,
+        "selected": "true",
+        "text": "API介面定義.docx(120 KB, pages: 12)PERSONAL×"
+      },
+      {
+        "id": "d7f65aec-da1a-4572-b54d-a32369efb571",
+        "match": false,
+        "selected": "false",
+        "text": "需求規格書.docx(500 KB, pages: 35)"
+      },
+      {
+        "id": "30a81959-606e-40e0-acd9-d31803f5af7f",
+        "match": false,
+        "selected": "false",
+        "text": "系統架構圖.png(2048 KB, res: 1920x1080)"
+      },
+      {
+        "id": "9343cac6-0b56-4cdd-807c-ee499209b97e",
+        "match": false,
+        "selected": "false",
+        "text": "README.txt(0.5 KB, enc: ASCII)"
+      }
+    ]
+  },
+  {
+    "name": "directory-size",
+    "buttons": [
+      {
+        "disabled": false,
+        "id": "undo",
+        "pressed": null,
+        "text": "",
+        "title": "Undo"
+      },
+      {
+        "disabled": false,
+        "id": "redo",
+        "pressed": null,
+        "text": "",
+        "title": "Redo"
+      },
+      {
+        "disabled": false,
+        "id": "copy",
+        "pressed": null,
+        "text": "複製",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "paste",
+        "pressed": null,
+        "text": "貼上",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "delete",
+        "pressed": null,
+        "text": "刪除",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "名稱",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "大小",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "類型",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "true",
+        "text": "標籤 ↓",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Urgent0",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Work1",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Personal2",
+        "title": null
+      }
+    ],
+    "logs": "[Visitor] 計算大小：我的根目錄/個人筆記 = 205824 B (201 KB)掃描檔案: API介面定義.docx[符合] API介面定義.docx掃描檔案: API介面定義.docx[Undo] 復原上一個變更[Command] 執行 刪除 我的根目錄/專案文件/API介面定義.docx[Undo] 復原上一個變更[Redo] 重做上一個變更[Undo] 復原上一個變更[Error] A sibling already has this name.[Command] 執行 貼上項目至 我的根目錄/個人筆記[Prototype] 建立獨立副本：我的根目錄/個人筆記/API介面定義.docx[Prototype] 複製快照：我的根目錄/專案文件/API介面定義.docx[Command] 執行 移除標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Redo] 重做上一個變更[Undo] 復原上一個變更[Command] 執行 新增標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Strategy] 執行 Tag Desc 排序策略[Strategy] 執行 Tag Asc 排序策略[Strategy] 執行 Extension Asc 排序策略[Strategy] 執行 Name Desc 排序策略[Strategy] 執行 Name Asc 排序策略掃描檔案: README.txt掃描檔案: 系統架構圖.png[符合] 需求規格書.docx掃描檔案: 需求規格書.docx[符合] API介面定義.docx掃描檔案: API介面定義.docx搜尋目錄: 專案文件掃描檔案: 待辦清單.txt[符合] 會議記錄.docx掃描檔案: 會議記錄.docx搜尋目錄: 2025備份搜尋目錄: 個人筆記搜尋目錄: 我的根目錄找到 0 項",
+    "observer": "監控 (Observer)LIVE目前節點待辦清單.txt掃描進度100%4 / 4 Nodes",
+    "rows": [
+      {
+        "id": "aae4fa8b-8021-4657-85f5-2aae1e1d8553",
+        "match": false,
+        "selected": "false",
+        "text": "我的根目錄(0 KB)"
+      },
+      {
+        "id": "ce82b4cb-abe8-45d2-b199-8797dd92ba58",
+        "match": false,
+        "selected": "true",
+        "text": "個人筆記(0 KB)"
+      },
+      {
+        "id": "15d1e672-d643-410d-880d-cc0130a75938",
+        "match": false,
+        "selected": "false",
+        "text": "2025備份(0 KB)PERSONAL×"
+      },
+      {
+        "id": "63f25e2d-5784-4a86-977e-508ad0b60f0d",
+        "match": false,
+        "selected": "false",
+        "text": "會議記錄.docx(200 KB, pages: 5)WORK×"
+      },
+      {
+        "id": "0ae92ee5-2485-4d56-ba97-4e9ac2b2a9dc",
+        "match": false,
+        "selected": "false",
+        "text": "待辦清單.txt(1 KB, enc: UTF-8)"
+      },
+      {
+        "id": "9d27338f-1b00-45f8-af8a-ef236b7a08f0",
+        "match": false,
+        "selected": "false",
+        "text": "專案文件(0 KB)"
+      },
+      {
+        "id": "a204833b-129b-4e53-ae7e-08d21484a6c1",
+        "match": false,
+        "selected": "false",
+        "text": "API介面定義.docx(120 KB, pages: 12)PERSONAL×"
+      },
+      {
+        "id": "d7f65aec-da1a-4572-b54d-a32369efb571",
+        "match": false,
+        "selected": "false",
+        "text": "需求規格書.docx(500 KB, pages: 35)"
+      },
+      {
+        "id": "30a81959-606e-40e0-acd9-d31803f5af7f",
+        "match": false,
+        "selected": "false",
+        "text": "系統架構圖.png(2048 KB, res: 1920x1080)"
+      },
+      {
+        "id": "9343cac6-0b56-4cdd-807c-ee499209b97e",
+        "match": false,
+        "selected": "false",
+        "text": "README.txt(0.5 KB, enc: ASCII)"
+      }
+    ]
+  },
+  {
+    "name": "refresh-retains-session",
+    "buttons": [
+      {
+        "disabled": false,
+        "id": "undo",
+        "pressed": null,
+        "text": "",
+        "title": "Undo"
+      },
+      {
+        "disabled": false,
+        "id": "redo",
+        "pressed": null,
+        "text": "",
+        "title": "Redo"
+      },
+      {
+        "disabled": false,
+        "id": "copy",
+        "pressed": null,
+        "text": "複製",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "paste",
+        "pressed": null,
+        "text": "貼上",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "delete",
+        "pressed": null,
+        "text": "刪除",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "名稱",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "大小",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "類型",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "true",
+        "text": "標籤 ↓",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Urgent0",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Work1",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Personal2",
+        "title": null
+      }
+    ],
+    "logs": "[Visitor] 計算大小：我的根目錄/個人筆記 = 205824 B (201 KB)掃描檔案: API介面定義.docx[符合] API介面定義.docx掃描檔案: API介面定義.docx[Undo] 復原上一個變更[Command] 執行 刪除 我的根目錄/專案文件/API介面定義.docx[Undo] 復原上一個變更[Redo] 重做上一個變更[Undo] 復原上一個變更[Error] A sibling already has this name.[Command] 執行 貼上項目至 我的根目錄/個人筆記[Prototype] 建立獨立副本：我的根目錄/個人筆記/API介面定義.docx[Prototype] 複製快照：我的根目錄/專案文件/API介面定義.docx[Command] 執行 移除標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Redo] 重做上一個變更[Undo] 復原上一個變更[Command] 執行 新增標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Strategy] 執行 Tag Desc 排序策略[Strategy] 執行 Tag Asc 排序策略[Strategy] 執行 Extension Asc 排序策略[Strategy] 執行 Name Desc 排序策略[Strategy] 執行 Name Asc 排序策略掃描檔案: README.txt掃描檔案: 系統架構圖.png[符合] 需求規格書.docx掃描檔案: 需求規格書.docx[符合] API介面定義.docx掃描檔案: API介面定義.docx搜尋目錄: 專案文件掃描檔案: 待辦清單.txt[符合] 會議記錄.docx掃描檔案: 會議記錄.docx搜尋目錄: 2025備份搜尋目錄: 個人筆記搜尋目錄: 我的根目錄找到 0 項",
+    "observer": "監控 (Observer)LIVE目前節點待辦清單.txt掃描進度100%4 / 4 Nodes",
+    "rows": [
+      {
+        "id": "aae4fa8b-8021-4657-85f5-2aae1e1d8553",
+        "match": false,
+        "selected": "false",
+        "text": "我的根目錄(0 KB)"
+      },
+      {
+        "id": "ce82b4cb-abe8-45d2-b199-8797dd92ba58",
+        "match": false,
+        "selected": "true",
+        "text": "個人筆記(0 KB)"
+      },
+      {
+        "id": "15d1e672-d643-410d-880d-cc0130a75938",
+        "match": false,
+        "selected": "false",
+        "text": "2025備份(0 KB)PERSONAL×"
+      },
+      {
+        "id": "63f25e2d-5784-4a86-977e-508ad0b60f0d",
+        "match": false,
+        "selected": "false",
+        "text": "會議記錄.docx(200 KB, pages: 5)WORK×"
+      },
+      {
+        "id": "0ae92ee5-2485-4d56-ba97-4e9ac2b2a9dc",
+        "match": false,
+        "selected": "false",
+        "text": "待辦清單.txt(1 KB, enc: UTF-8)"
+      },
+      {
+        "id": "9d27338f-1b00-45f8-af8a-ef236b7a08f0",
+        "match": false,
+        "selected": "false",
+        "text": "專案文件(0 KB)"
+      },
+      {
+        "id": "a204833b-129b-4e53-ae7e-08d21484a6c1",
+        "match": false,
+        "selected": "false",
+        "text": "API介面定義.docx(120 KB, pages: 12)PERSONAL×"
+      },
+      {
+        "id": "d7f65aec-da1a-4572-b54d-a32369efb571",
+        "match": false,
+        "selected": "false",
+        "text": "需求規格書.docx(500 KB, pages: 35)"
+      },
+      {
+        "id": "30a81959-606e-40e0-acd9-d31803f5af7f",
+        "match": false,
+        "selected": "false",
+        "text": "系統架構圖.png(2048 KB, res: 1920x1080)"
+      },
+      {
+        "id": "9343cac6-0b56-4cdd-807c-ee499209b97e",
+        "match": false,
+        "selected": "false",
+        "text": "README.txt(0.5 KB, enc: ASCII)"
+      }
+    ]
+  },
+  {
+    "name": "xml-export",
+    "buttons": [
+      {
+        "disabled": false,
+        "id": "undo",
+        "pressed": null,
+        "text": "",
+        "title": "Undo"
+      },
+      {
+        "disabled": false,
+        "id": "redo",
+        "pressed": null,
+        "text": "",
+        "title": "Redo"
+      },
+      {
+        "disabled": false,
+        "id": "copy",
+        "pressed": null,
+        "text": "複製",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "paste",
+        "pressed": null,
+        "text": "貼上",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "delete",
+        "pressed": null,
+        "text": "刪除",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "名稱",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "大小",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "false",
+        "text": "類型",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": "true",
+        "text": "標籤 ↓",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Urgent0",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Work1",
+        "title": null
+      },
+      {
+        "disabled": false,
+        "id": "",
+        "pressed": null,
+        "text": "+ Personal2",
+        "title": null
+      }
+    ],
+    "logs": "[Visitor] XML 匯出完成：我的根目錄/個人筆記[Visitor] 計算大小：我的根目錄/個人筆記 = 205824 B (201 KB)掃描檔案: API介面定義.docx[符合] API介面定義.docx掃描檔案: API介面定義.docx[Undo] 復原上一個變更[Command] 執行 刪除 我的根目錄/專案文件/API介面定義.docx[Undo] 復原上一個變更[Redo] 重做上一個變更[Undo] 復原上一個變更[Error] A sibling already has this name.[Command] 執行 貼上項目至 我的根目錄/個人筆記[Prototype] 建立獨立副本：我的根目錄/個人筆記/API介面定義.docx[Prototype] 複製快照：我的根目錄/專案文件/API介面定義.docx[Command] 執行 移除標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Redo] 重做上一個變更[Undo] 復原上一個變更[Command] 執行 新增標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx[Strategy] 執行 Tag Desc 排序策略[Strategy] 執行 Tag Asc 排序策略[Strategy] 執行 Extension Asc 排序策略[Strategy] 執行 Name Desc 排序策略[Strategy] 執行 Name Asc 排序策略掃描檔案: README.txt掃描檔案: 系統架構圖.png[符合] 需求規格書.docx掃描檔案: 需求規格書.docx[符合] API介面定義.docx掃描檔案: API介面定義.docx搜尋目錄: 專案文件掃描檔案: 待辦清單.txt[符合] 會議記錄.docx掃描檔案: 會議記錄.docx搜尋目錄: 2025備份搜尋目錄: 個人筆記搜尋目錄: 我的根目錄找到 0 項",
+    "observer": "監控 (Observer)LIVE目前節點待辦清單.txt掃描進度100%4 / 4 Nodes",
+    "rows": [
+      {
+        "id": "aae4fa8b-8021-4657-85f5-2aae1e1d8553",
+        "match": false,
+        "selected": "false",
+        "text": "我的根目錄(0 KB)"
+      },
+      {
+        "id": "ce82b4cb-abe8-45d2-b199-8797dd92ba58",
+        "match": false,
+        "selected": "true",
+        "text": "個人筆記(0 KB)"
+      },
+      {
+        "id": "15d1e672-d643-410d-880d-cc0130a75938",
+        "match": false,
+        "selected": "false",
+        "text": "2025備份(0 KB)PERSONAL×"
+      },
+      {
+        "id": "63f25e2d-5784-4a86-977e-508ad0b60f0d",
+        "match": false,
+        "selected": "false",
+        "text": "會議記錄.docx(200 KB, pages: 5)WORK×"
+      },
+      {
+        "id": "0ae92ee5-2485-4d56-ba97-4e9ac2b2a9dc",
+        "match": false,
+        "selected": "false",
+        "text": "待辦清單.txt(1 KB, enc: UTF-8)"
+      },
+      {
+        "id": "9d27338f-1b00-45f8-af8a-ef236b7a08f0",
+        "match": false,
+        "selected": "false",
+        "text": "專案文件(0 KB)"
+      },
+      {
+        "id": "a204833b-129b-4e53-ae7e-08d21484a6c1",
+        "match": false,
+        "selected": "false",
+        "text": "API介面定義.docx(120 KB, pages: 12)PERSONAL×"
+      },
+      {
+        "id": "d7f65aec-da1a-4572-b54d-a32369efb571",
+        "match": false,
+        "selected": "false",
+        "text": "需求規格書.docx(500 KB, pages: 35)"
+      },
+      {
+        "id": "30a81959-606e-40e0-acd9-d31803f5af7f",
+        "match": false,
+        "selected": "false",
+        "text": "系統架構圖.png(2048 KB, res: 1920x1080)"
+      },
+      {
+        "id": "9343cac6-0b56-4cdd-807c-ee499209b97e",
+        "match": false,
+        "selected": "false",
+        "text": "README.txt(0.5 KB, enc: ASCII)"
+      }
+    ]
+  }
+]

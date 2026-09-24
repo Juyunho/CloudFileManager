@@ -1,0 +1,8 @@
+{
+  "ended": "2026-09-25T01:03:05+08:00",
+  "gate": "PASS",
+  "failures": [],
+  "same_inputs": true,
+  "input_file_count": 55,
+  "protected_count": 264
+}

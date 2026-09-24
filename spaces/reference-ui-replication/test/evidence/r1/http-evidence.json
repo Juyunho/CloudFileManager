@@ -1,0 +1,2046 @@
+{
+  "result": "PASS",
+  "checks": [
+    "scope actual progress 1..N plus terminal",
+    "UTF8 parseable XML payload",
+    "no XML Console dump",
+    "domain/history/Redo unchanged",
+    "README exact 500 bytes",
+    "file scope extension no match",
+    "state GET persistence"
+  ],
+  "records": [
+    {
+      "request": {
+        "action": "select",
+        "id": "f103284b-efa5-4611-afe0-594ff1189560"
+      },
+      "headers": {
+        "Connection": "close",
+        "Content-Type": "application/x-ndjson; charset=utf-8",
+        "Date": "Thu, 24 Sep 2026 17:08:21 GMT",
+        "Server": "Kestrel",
+        "Transfer-Encoding": "chunked"
+      },
+      "events": [
+        {
+          "type": "result",
+          "state": {
+            "rows": [
+              {
+                "id": "f103284b-efa5-4611-afe0-594ff1189560",
+                "name": "我的根目錄",
+                "path": "我的根目錄",
+                "depth": 0,
+                "directory": true,
+                "kind": "DirectoryNode",
+                "details": "0 KB",
+                "sizeBytes": null,
+                "tags": []
+              },
+              {
+                "id": "181b8240-a588-436e-a21b-6afe14de46d8",
+                "name": "個人筆記",
+                "path": "我的根目錄/個人筆記",
+                "depth": 1,
+                "directory": true,
+                "kind": "DirectoryNode",
+                "details": "0 KB",
+                "sizeBytes": null,
+                "tags": []
+              },
+              {
+                "id": "c96b51fd-82d8-4aba-bed5-db45fde8d0c6",
+                "name": "2025備份",
+                "path": "我的根目錄/個人筆記/2025備份",
+                "depth": 2,
+                "directory": true,
+                "kind": "DirectoryNode",
+                "details": "0 KB",
+                "sizeBytes": null,
+                "tags": [
+                  "Personal"
+                ]
+              },
+              {
+                "id": "7bfe4663-9919-442f-9835-2cb6ccd62ffe",
+                "name": "會議記錄.docx",
+                "path": "我的根目錄/個人筆記/2025備份/會議記錄.docx",
+                "depth": 3,
+                "directory": false,
+                "kind": "WordFile",
+                "details": "200 KB, pages: 5",
+                "sizeBytes": 204800,
+                "tags": [
+                  "Work"
+                ]
+              },
+              {
+                "id": "ccd30217-46e0-4577-b6de-0603684cfc12",
+                "name": "待辦清單.txt",
+                "path": "我的根目錄/個人筆記/待辦清單.txt",
+                "depth": 2,
+                "directory": false,
+                "kind": "TextFile",
+                "details": "1 KB, enc: UTF-8",
+                "sizeBytes": 1024,
+                "tags": []
+              },
+              {
+                "id": "d38b9df8-5aa9-4475-877c-820d54cf9fef",
+                "name": "專案文件",
+                "path": "我的根目錄/專案文件",
+                "depth": 1,
+                "directory": true,
+                "kind": "DirectoryNode",
+                "details": "0 KB",
+                "sizeBytes": null,
+                "tags": []
+              },
+              {
+                "id": "84162121-c187-40f1-8a9b-8cae272057cd",
+                "name": "API介面定義.docx",
+                "path": "我的根目錄/專案文件/API介面定義.docx",
+                "depth": 2,
+                "directory": false,
+                "kind": "WordFile",
+                "details": "120 KB, pages: 12",
+                "sizeBytes": 122880,
+                "tags": [
+                  "Personal"
+                ]
+              },
+              {
+                "id": "3284b66b-5462-4368-8369-102476124f8f",
+                "name": "需求規格書.docx",
+                "path": "我的根目錄/專案文件/需求規格書.docx",
+                "depth": 2,
+                "directory": false,
+                "kind": "WordFile",
+                "details": "500 KB, pages: 35",
+                "sizeBytes": 512000,
+                "tags": []
+              },
+              {
+                "id": "0088deca-4e26-4028-8601-1d7f512e4dfb",
+                "name": "系統架構圖.png",
+                "path": "我的根目錄/專案文件/系統架構圖.png",
+                "depth": 2,
+                "directory": false,
+                "kind": "ImageFile",
+                "details": "2048 KB, res: 1920x1080",
+                "sizeBytes": 2097152,
+                "tags": []
+              },
+              {
+                "id": "8059d147-6372-422e-afa7-bf5b48bd7c96",
+                "name": "README.txt",
+                "path": "我的根目錄/README.txt",
+                "depth": 1,
+                "directory": false,
+                "kind": "TextFile",
+                "details": "0.5 KB, enc: ASCII",
+                "sizeBytes": 500,
+                "tags": []
+              }
+            ],
+            "selected": "f103284b-efa5-4611-afe0-594ff1189560",
+            "criterion": "Size",
+            "direction": "Asc",
+            "undoCount": 0,
+            "redoCount": 3,
+            "canPaste": true,
+            "canDelete": false,
+            "counts": {
+              "Urgent": 0,
+              "Work": 1,
+              "Personal": 2
+            },
+            "logs": [
+              {
+                "kind": "Visitor",
+                "text": "計算大小：我的根目錄/專案文件/API介面定義.docx = 122880 B (120 KB)"
+              },
+              {
+                "kind": "Command",
+                "text": "執行 新增標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx"
+              },
+              {
+                "kind": "Undo",
+                "text": "復原上一個變更"
+              },
+              {
+                "kind": "Redo",
+                "text": "重做上一個變更"
+              },
+              {
+                "kind": "Prototype",
+                "text": "複製快照：我的根目錄/專案文件/API介面定義.docx"
+              },
+              {
+                "kind": "Prototype",
+                "text": "建立獨立副本：我的根目錄/個人筆記/API介面定義.docx"
+              },
+              {
+                "kind": "Command",
+                "text": "執行 貼上項目至 我的根目錄/個人筆記"
+              },
+              {
+                "kind": "Command",
+                "text": "執行 刪除 我的根目錄/個人筆記"
+              },
+              {
+                "kind": "Undo",
+                "text": "復原上一個變更"
+              },
+              {
+                "kind": "Visitor",
+                "text": "搜尋：我的根目錄 / DOCX，4 筆"
+              },
+              {
+                "kind": "Visitor",
+                "text": "我的根目錄/個人筆記/2025備份/會議記錄.docx"
+              },
+              {
+                "kind": "Visitor",
+                "text": "我的根目錄/個人筆記/API介面定義.docx"
+              },
+              {
+                "kind": "Visitor",
+                "text": "我的根目錄/專案文件/API介面定義.docx"
+              },
+              {
+                "kind": "Visitor",
+                "text": "我的根目錄/專案文件/需求規格書.docx"
+              },
+              {
+                "kind": "Visitor",
+                "text": "XML 匯出完成：我的根目錄"
+              },
+              {
+                "kind": "Strategy",
+                "text": "執行 Tag Asc 排序策略"
+              },
+              {
+                "kind": "Strategy",
+                "text": "執行 Tag Desc 排序策略"
+              },
+              {
+                "kind": "Strategy",
+                "text": "執行 Size Asc 排序策略"
+              },
+              {
+                "kind": "Undo",
+                "text": "復原上一個變更"
+              },
+              {
+                "kind": "Undo",
+                "text": "復原上一個變更"
+              },
+              {
+                "kind": "Visitor",
+                "text": "計算大小：我的根目錄/專案文件/API介面定義.docx = 122880 B (120 KB)"
+              }
+            ],
+            "progress": {
+              "status": "completed",
+              "name": "API介面定義.docx",
+              "visited": 1,
+              "total": 1,
+              "path": "我的根目錄/專案文件/API介面定義.docx"
+            }
+          },
+          "download": null
+        }
+      ]
+    },
+    {
+      "request": {
+        "action": "size"
+      },
+      "headers": {
+        "Connection": "close",
+        "Content-Type": "application/x-ndjson; charset=utf-8",
+        "Date": "Thu, 24 Sep 2026 17:08:21 GMT",
+        "Server": "Kestrel",
+        "Transfer-Encoding": "chunked"
+      },
+      "events": [
+        {
+          "type": "progress",
+          "progress": {
+            "status": "running",
+            "name": "我的根目錄",
+            "visited": 1,
+            "total": 10,
+            "path": "我的根目錄"
+          }
+        },
+        {
+          "type": "progress",
+          "progress": {
+            "status": "running",
+            "name": "個人筆記",
+            "visited": 2,
+            "total": 10,
+            "path": "我的根目錄/個人筆記"
+          }
+        },
+        {
+          "type": "progress",
+          "progress": {
+            "status": "running",
+            "name": "2025備份",
+            "visited": 3,
+            "total": 10,
+            "path": "我的根目錄/個人筆記/2025備份"
+          }
+        },
+        {
+          "type": "progress",
+          "progress": {
+            "status": "running",
+            "name": "會議記錄.docx",
+            "visited": 4,
+            "total": 10,
+            "path": "我的根目錄/個人筆記/2025備份/會議記錄.docx"
+          }
+        },
+        {
+          "type": "progress",
+          "progress": {
+            "status": "running",
+            "name": "待辦清單.txt",
+            "visited": 5,
+            "total": 10,
+            "path": "我的根目錄/個人筆記/待辦清單.txt"
+          }
+        },
+        {
+          "type": "progress",
+          "progress": {
+            "status": "running",
+            "name": "專案文件",
+            "visited": 6,
+            "total": 10,
+            "path": "我的根目錄/專案文件"
+          }
+        },
+        {
+          "type": "progress",
+          "progress": {
+            "status": "running",
+            "name": "API介面定義.docx",
+            "visited": 7,
+            "total": 10,
+            "path": "我的根目錄/專案文件/API介面定義.docx"
+          }
+        },
+        {
+          "type": "progress",
+          "progress": {
+            "status": "running",
+            "name": "需求規格書.docx",
+            "visited": 8,
+            "total": 10,
+            "path": "我的根目錄/專案文件/需求規格書.docx"
+          }
+        },
+        {
+          "type": "progress",
+          "progress": {
+            "status": "running",
+            "name": "系統架構圖.png",
+            "visited": 9,
+            "total": 10,
+            "path": "我的根目錄/專案文件/系統架構圖.png"
+          }
+        },
+        {
+          "type": "progress",
+          "progress": {
+            "status": "running",
+            "name": "README.txt",
+            "visited": 10,
+            "total": 10,
+            "path": "我的根目錄/README.txt"
+          }
+        },
+        {
+          "type": "progress",
+          "progress": {
+            "status": "completed",
+            "name": "README.txt",
+            "visited": 10,
+            "total": 10,
+            "path": "我的根目錄/README.txt"
+          }
+        },
+        {
+          "type": "result",
+          "state": {
+            "rows": [
+              {
+                "id": "f103284b-efa5-4611-afe0-594ff1189560",
+                "name": "我的根目錄",
+                "path": "我的根目錄",
+                "depth": 0,
+                "directory": true,
+                "kind": "DirectoryNode",
+                "details": "0 KB",
+                "sizeBytes": null,
+                "tags": []
+              },
+              {
+                "id": "181b8240-a588-436e-a21b-6afe14de46d8",
+                "name": "個人筆記",
+                "path": "我的根目錄/個人筆記",
+                "depth": 1,
+                "directory": true,
+                "kind": "DirectoryNode",
+                "details": "0 KB",
+                "sizeBytes": null,
+                "tags": []
+              },
+              {
+                "id": "c96b51fd-82d8-4aba-bed5-db45fde8d0c6",
+                "name": "2025備份",
+                "path": "我的根目錄/個人筆記/2025備份",
+                "depth": 2,
+                "directory": true,
+                "kind": "DirectoryNode",
+                "details": "0 KB",
+                "sizeBytes": null,
+                "tags": [
+                  "Personal"
+                ]
+              },
+              {
+                "id": "7bfe4663-9919-442f-9835-2cb6ccd62ffe",
+                "name": "會議記錄.docx",
+                "path": "我的根目錄/個人筆記/2025備份/會議記錄.docx",
+                "depth": 3,
+                "directory": false,
+                "kind": "WordFile",
+                "details": "200 KB, pages: 5",
+                "sizeBytes": 204800,
+                "tags": [
+                  "Work"
+                ]
+              },
+              {
+                "id": "ccd30217-46e0-4577-b6de-0603684cfc12",
+                "name": "待辦清單.txt",
+                "path": "我的根目錄/個人筆記/待辦清單.txt",
+                "depth": 2,
+                "directory": false,
+                "kind": "TextFile",
+                "details": "1 KB, enc: UTF-8",
+                "sizeBytes": 1024,
+                "tags": []
+              },
+              {
+                "id": "d38b9df8-5aa9-4475-877c-820d54cf9fef",
+                "name": "專案文件",
+                "path": "我的根目錄/專案文件",
+                "depth": 1,
+                "directory": true,
+                "kind": "DirectoryNode",
+                "details": "0 KB",
+                "sizeBytes": null,
+                "tags": []
+              },
+              {
+                "id": "84162121-c187-40f1-8a9b-8cae272057cd",
+                "name": "API介面定義.docx",
+                "path": "我的根目錄/專案文件/API介面定義.docx",
+                "depth": 2,
+                "directory": false,
+                "kind": "WordFile",
+                "details": "120 KB, pages: 12",
+                "sizeBytes": 122880,
+                "tags": [
+                  "Personal"
+                ]
+              },
+              {
+                "id": "3284b66b-5462-4368-8369-102476124f8f",
+                "name": "需求規格書.docx",
+                "path": "我的根目錄/專案文件/需求規格書.docx",
+                "depth": 2,
+                "directory": false,
+                "kind": "WordFile",
+                "details": "500 KB, pages: 35",
+                "sizeBytes": 512000,
+                "tags": []
+              },
+              {
+                "id": "0088deca-4e26-4028-8601-1d7f512e4dfb",
+                "name": "系統架構圖.png",
+                "path": "我的根目錄/專案文件/系統架構圖.png",
+                "depth": 2,
+                "directory": false,
+                "kind": "ImageFile",
+                "details": "2048 KB, res: 1920x1080",
+                "sizeBytes": 2097152,
+                "tags": []
+              },
+              {
+                "id": "8059d147-6372-422e-afa7-bf5b48bd7c96",
+                "name": "README.txt",
+                "path": "我的根目錄/README.txt",
+                "depth": 1,
+                "directory": false,
+                "kind": "TextFile",
+                "details": "0.5 KB, enc: ASCII",
+                "sizeBytes": 500,
+                "tags": []
+              }
+            ],
+            "selected": "f103284b-efa5-4611-afe0-594ff1189560",
+            "criterion": "Size",
+            "direction": "Asc",
+            "undoCount": 0,
+            "redoCount": 3,
+            "canPaste": true,
+            "canDelete": false,
+            "counts": {
+              "Urgent": 0,
+              "Work": 1,
+              "Personal": 2
+            },
+            "logs": [
+              {
+                "kind": "Visitor",
+                "text": "計算大小：我的根目錄/專案文件/API介面定義.docx = 122880 B (120 KB)"
+              },
+              {
+                "kind": "Command",
+                "text": "執行 新增標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx"
+              },
+              {
+                "kind": "Undo",
+                "text": "復原上一個變更"
+              },
+              {
+                "kind": "Redo",
+                "text": "重做上一個變更"
+              },
+              {
+                "kind": "Prototype",
+                "text": "複製快照：我的根目錄/專案文件/API介面定義.docx"
+              },
+              {
+                "kind": "Prototype",
+                "text": "建立獨立副本：我的根目錄/個人筆記/API介面定義.docx"
+              },
+              {
+                "kind": "Command",
+                "text": "執行 貼上項目至 我的根目錄/個人筆記"
+              },
+              {
+                "kind": "Command",
+                "text": "執行 刪除 我的根目錄/個人筆記"
+              },
+              {
+                "kind": "Undo",
+                "text": "復原上一個變更"
+              },
+              {
+                "kind": "Visitor",
+                "text": "搜尋：我的根目錄 / DOCX，4 筆"
+              },
+              {
+                "kind": "Visitor",
+                "text": "我的根目錄/個人筆記/2025備份/會議記錄.docx"
+              },
+              {
+                "kind": "Visitor",
+                "text": "我的根目錄/個人筆記/API介面定義.docx"
+              },
+              {
+                "kind": "Visitor",
+                "text": "我的根目錄/專案文件/API介面定義.docx"
+              },
+              {
+                "kind": "Visitor",
+                "text": "我的根目錄/專案文件/需求規格書.docx"
+              },
+              {
+                "kind": "Visitor",
+                "text": "XML 匯出完成：我的根目錄"
+              },
+              {
+                "kind": "Strategy",
+                "text": "執行 Tag Asc 排序策略"
+              },
+              {
+                "kind": "Strategy",
+                "text": "執行 Tag Desc 排序策略"
+              },
+              {
+                "kind": "Strategy",
+                "text": "執行 Size Asc 排序策略"
+              },
+              {
+                "kind": "Undo",
+                "text": "復原上一個變更"
+              },
+              {
+                "kind": "Undo",
+                "text": "復原上一個變更"
+              },
+              {
+                "kind": "Visitor",
+                "text": "計算大小：我的根目錄/專案文件/API介面定義.docx = 122880 B (120 KB)"
+              },
+              {
+                "kind": "Visitor",
+                "text": "計算大小：我的根目錄 = 2938356 B (2869.4883 KB)"
+              }
+            ],
+            "progress": {
+              "status": "completed",
+              "name": "README.txt",
+              "visited": 10,
+              "total": 10,
+              "path": "我的根目錄/README.txt"
+            }
+          },
+          "download": null
+        }
+      ]
+    },
+    {
+      "request": {
+        "action": "xml"
+      },
+      "headers": {
+        "Connection": "close",
+        "Content-Type": "application/x-ndjson; charset=utf-8",
+        "Date": "Thu, 24 Sep 2026 17:08:21 GMT",
+        "Server": "Kestrel",
+        "Transfer-Encoding": "chunked"
+      },
+      "events": [
+        {
+          "type": "progress",
+          "progress": {
+            "status": "running",
+            "name": "我的根目錄",
+            "visited": 1,
+            "total": 10,
+            "path": "我的根目錄"
+          }
+        },
+        {
+          "type": "progress",
+          "progress": {
+            "status": "running",
+            "name": "個人筆記",
+            "visited": 2,
+            "total": 10,
+            "path": "我的根目錄/個人筆記"
+          }
+        },
+        {
+          "type": "progress",
+          "progress": {
+            "status": "running",
+            "name": "2025備份",
+            "visited": 3,
+            "total": 10,
+            "path": "我的根目錄/個人筆記/2025備份"
+          }
+        },
+        {
+          "type": "progress",
+          "progress": {
+            "status": "running",
+            "name": "會議記錄.docx",
+            "visited": 4,
+            "total": 10,
+            "path": "我的根目錄/個人筆記/2025備份/會議記錄.docx"
+          }
+        },
+        {
+          "type": "progress",
+          "progress": {
+            "status": "running",
+            "name": "待辦清單.txt",
+            "visited": 5,
+            "total": 10,
+            "path": "我的根目錄/個人筆記/待辦清單.txt"
+          }
+        },
+        {
+          "type": "progress",
+          "progress": {
+            "status": "running",
+            "name": "專案文件",
+            "visited": 6,
+            "total": 10,
+            "path": "我的根目錄/專案文件"
+          }
+        },
+        {
+          "type": "progress",
+          "progress": {
+            "status": "running",
+            "name": "API介面定義.docx",
+            "visited": 7,
+            "total": 10,
+            "path": "我的根目錄/專案文件/API介面定義.docx"
+          }
+        },
+        {
+          "type": "progress",
+          "progress": {
+            "status": "running",
+            "name": "需求規格書.docx",
+            "visited": 8,
+            "total": 10,
+            "path": "我的根目錄/專案文件/需求規格書.docx"
+          }
+        },
+        {
+          "type": "progress",
+          "progress": {
+            "status": "running",
+            "name": "系統架構圖.png",
+            "visited": 9,
+            "total": 10,
+            "path": "我的根目錄/專案文件/系統架構圖.png"
+          }
+        },
+        {
+          "type": "progress",
+          "progress": {
+            "status": "running",
+            "name": "README.txt",
+            "visited": 10,
+            "total": 10,
+            "path": "我的根目錄/README.txt"
+          }
+        },
+        {
+          "type": "progress",
+          "progress": {
+            "status": "completed",
+            "name": "README.txt",
+            "visited": 10,
+            "total": 10,
+            "path": "我的根目錄/README.txt"
+          }
+        },
+        {
+          "type": "result",
+          "state": {
+            "rows": [
+              {
+                "id": "f103284b-efa5-4611-afe0-594ff1189560",
+                "name": "我的根目錄",
+                "path": "我的根目錄",
+                "depth": 0,
+                "directory": true,
+                "kind": "DirectoryNode",
+                "details": "0 KB",
+                "sizeBytes": null,
+                "tags": []
+              },
+              {
+                "id": "181b8240-a588-436e-a21b-6afe14de46d8",
+                "name": "個人筆記",
+                "path": "我的根目錄/個人筆記",
+                "depth": 1,
+                "directory": true,
+                "kind": "DirectoryNode",
+                "details": "0 KB",
+                "sizeBytes": null,
+                "tags": []
+              },
+              {
+                "id": "c96b51fd-82d8-4aba-bed5-db45fde8d0c6",
+                "name": "2025備份",
+                "path": "我的根目錄/個人筆記/2025備份",
+                "depth": 2,
+                "directory": true,
+                "kind": "DirectoryNode",
+                "details": "0 KB",
+                "sizeBytes": null,
+                "tags": [
+                  "Personal"
+                ]
+              },
+              {
+                "id": "7bfe4663-9919-442f-9835-2cb6ccd62ffe",
+                "name": "會議記錄.docx",
+                "path": "我的根目錄/個人筆記/2025備份/會議記錄.docx",
+                "depth": 3,
+                "directory": false,
+                "kind": "WordFile",
+                "details": "200 KB, pages: 5",
+                "sizeBytes": 204800,
+                "tags": [
+                  "Work"
+                ]
+              },
+              {
+                "id": "ccd30217-46e0-4577-b6de-0603684cfc12",
+                "name": "待辦清單.txt",
+                "path": "我的根目錄/個人筆記/待辦清單.txt",
+                "depth": 2,
+                "directory": false,
+                "kind": "TextFile",
+                "details": "1 KB, enc: UTF-8",
+                "sizeBytes": 1024,
+                "tags": []
+              },
+              {
+                "id": "d38b9df8-5aa9-4475-877c-820d54cf9fef",
+                "name": "專案文件",
+                "path": "我的根目錄/專案文件",
+                "depth": 1,
+                "directory": true,
+                "kind": "DirectoryNode",
+                "details": "0 KB",
+                "sizeBytes": null,
+                "tags": []
+              },
+              {
+                "id": "84162121-c187-40f1-8a9b-8cae272057cd",
+                "name": "API介面定義.docx",
+                "path": "我的根目錄/專案文件/API介面定義.docx",
+                "depth": 2,
+                "directory": false,
+                "kind": "WordFile",
+                "details": "120 KB, pages: 12",
+                "sizeBytes": 122880,
+                "tags": [
+                  "Personal"
+                ]
+              },
+              {
+                "id": "3284b66b-5462-4368-8369-102476124f8f",
+                "name": "需求規格書.docx",
+                "path": "我的根目錄/專案文件/需求規格書.docx",
+                "depth": 2,
+                "directory": false,
+                "kind": "WordFile",
+                "details": "500 KB, pages: 35",
+                "sizeBytes": 512000,
+                "tags": []
+              },
+              {
+                "id": "0088deca-4e26-4028-8601-1d7f512e4dfb",
+                "name": "系統架構圖.png",
+                "path": "我的根目錄/專案文件/系統架構圖.png",
+                "depth": 2,
+                "directory": false,
+                "kind": "ImageFile",
+                "details": "2048 KB, res: 1920x1080",
+                "sizeBytes": 2097152,
+                "tags": []
+              },
+              {
+                "id": "8059d147-6372-422e-afa7-bf5b48bd7c96",
+                "name": "README.txt",
+                "path": "我的根目錄/README.txt",
+                "depth": 1,
+                "directory": false,
+                "kind": "TextFile",
+                "details": "0.5 KB, enc: ASCII",
+                "sizeBytes": 500,
+                "tags": []
+              }
+            ],
+            "selected": "f103284b-efa5-4611-afe0-594ff1189560",
+            "criterion": "Size",
+            "direction": "Asc",
+            "undoCount": 0,
+            "redoCount": 3,
+            "canPaste": true,
+            "canDelete": false,
+            "counts": {
+              "Urgent": 0,
+              "Work": 1,
+              "Personal": 2
+            },
+            "logs": [
+              {
+                "kind": "Visitor",
+                "text": "計算大小：我的根目錄/專案文件/API介面定義.docx = 122880 B (120 KB)"
+              },
+              {
+                "kind": "Command",
+                "text": "執行 新增標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx"
+              },
+              {
+                "kind": "Undo",
+                "text": "復原上一個變更"
+              },
+              {
+                "kind": "Redo",
+                "text": "重做上一個變更"
+              },
+              {
+                "kind": "Prototype",
+                "text": "複製快照：我的根目錄/專案文件/API介面定義.docx"
+              },
+              {
+                "kind": "Prototype",
+                "text": "建立獨立副本：我的根目錄/個人筆記/API介面定義.docx"
+              },
+              {
+                "kind": "Command",
+                "text": "執行 貼上項目至 我的根目錄/個人筆記"
+              },
+              {
+                "kind": "Command",
+                "text": "執行 刪除 我的根目錄/個人筆記"
+              },
+              {
+                "kind": "Undo",
+                "text": "復原上一個變更"
+              },
+              {
+                "kind": "Visitor",
+                "text": "搜尋：我的根目錄 / DOCX，4 筆"
+              },
+              {
+                "kind": "Visitor",
+                "text": "我的根目錄/個人筆記/2025備份/會議記錄.docx"
+              },
+              {
+                "kind": "Visitor",
+                "text": "我的根目錄/個人筆記/API介面定義.docx"
+              },
+              {
+                "kind": "Visitor",
+                "text": "我的根目錄/專案文件/API介面定義.docx"
+              },
+              {
+                "kind": "Visitor",
+                "text": "我的根目錄/專案文件/需求規格書.docx"
+              },
+              {
+                "kind": "Visitor",
+                "text": "XML 匯出完成：我的根目錄"
+              },
+              {
+                "kind": "Strategy",
+                "text": "執行 Tag Asc 排序策略"
+              },
+              {
+                "kind": "Strategy",
+                "text": "執行 Tag Desc 排序策略"
+              },
+              {
+                "kind": "Strategy",
+                "text": "執行 Size Asc 排序策略"
+              },
+              {
+                "kind": "Undo",
+                "text": "復原上一個變更"
+              },
+              {
+                "kind": "Undo",
+                "text": "復原上一個變更"
+              },
+              {
+                "kind": "Visitor",
+                "text": "計算大小：我的根目錄/專案文件/API介面定義.docx = 122880 B (120 KB)"
+              },
+              {
+                "kind": "Visitor",
+                "text": "計算大小：我的根目錄 = 2938356 B (2869.4883 KB)"
+              },
+              {
+                "kind": "Visitor",
+                "text": "XML 匯出完成：我的根目錄"
+              }
+            ],
+            "progress": {
+              "status": "completed",
+              "name": "README.txt",
+              "visited": 10,
+              "total": 10,
+              "path": "我的根目錄/README.txt"
+            }
+          },
+          "download": {
+            "filename": "export.xml",
+            "content": "<我的根目錄>\n  <個人筆記>\n    <_x0032_025備份>\n      <會議記錄_docx>頁數: 5, 大小: 200KB</會議記錄_docx>\n    </_x0032_025備份>\n    <待辦清單_txt>編碼: UTF-8, 大小: 1KB</待辦清單_txt>\n  </個人筆記>\n  <專案文件>\n    <API介面定義_docx>頁數: 12, 大小: 120KB</API介面定義_docx>\n    <需求規格書_docx>頁數: 35, 大小: 500KB</需求規格書_docx>\n    <系統架構圖_png>解析度: 1920x1080, 大小: 2MB</系統架構圖_png>\n  </專案文件>\n  <README_txt>編碼: ASCII, 大小: 500B</README_txt>\n</我的根目錄>"
+          }
+        }
+      ]
+    },
+    {
+      "request": {
+        "action": "select",
+        "id": "8059d147-6372-422e-afa7-bf5b48bd7c96"
+      },
+      "headers": {
+        "Connection": "close",
+        "Content-Type": "application/x-ndjson; charset=utf-8",
+        "Date": "Thu, 24 Sep 2026 17:08:21 GMT",
+        "Server": "Kestrel",
+        "Transfer-Encoding": "chunked"
+      },
+      "events": [
+        {
+          "type": "result",
+          "state": {
+            "rows": [
+              {
+                "id": "f103284b-efa5-4611-afe0-594ff1189560",
+                "name": "我的根目錄",
+                "path": "我的根目錄",
+                "depth": 0,
+                "directory": true,
+                "kind": "DirectoryNode",
+                "details": "0 KB",
+                "sizeBytes": null,
+                "tags": []
+              },
+              {
+                "id": "181b8240-a588-436e-a21b-6afe14de46d8",
+                "name": "個人筆記",
+                "path": "我的根目錄/個人筆記",
+                "depth": 1,
+                "directory": true,
+                "kind": "DirectoryNode",
+                "details": "0 KB",
+                "sizeBytes": null,
+                "tags": []
+              },
+              {
+                "id": "c96b51fd-82d8-4aba-bed5-db45fde8d0c6",
+                "name": "2025備份",
+                "path": "我的根目錄/個人筆記/2025備份",
+                "depth": 2,
+                "directory": true,
+                "kind": "DirectoryNode",
+                "details": "0 KB",
+                "sizeBytes": null,
+                "tags": [
+                  "Personal"
+                ]
+              },
+              {
+                "id": "7bfe4663-9919-442f-9835-2cb6ccd62ffe",
+                "name": "會議記錄.docx",
+                "path": "我的根目錄/個人筆記/2025備份/會議記錄.docx",
+                "depth": 3,
+                "directory": false,
+                "kind": "WordFile",
+                "details": "200 KB, pages: 5",
+                "sizeBytes": 204800,
+                "tags": [
+                  "Work"
+                ]
+              },
+              {
+                "id": "ccd30217-46e0-4577-b6de-0603684cfc12",
+                "name": "待辦清單.txt",
+                "path": "我的根目錄/個人筆記/待辦清單.txt",
+                "depth": 2,
+                "directory": false,
+                "kind": "TextFile",
+                "details": "1 KB, enc: UTF-8",
+                "sizeBytes": 1024,
+                "tags": []
+              },
+              {
+                "id": "d38b9df8-5aa9-4475-877c-820d54cf9fef",
+                "name": "專案文件",
+                "path": "我的根目錄/專案文件",
+                "depth": 1,
+                "directory": true,
+                "kind": "DirectoryNode",
+                "details": "0 KB",
+                "sizeBytes": null,
+                "tags": []
+              },
+              {
+                "id": "84162121-c187-40f1-8a9b-8cae272057cd",
+                "name": "API介面定義.docx",
+                "path": "我的根目錄/專案文件/API介面定義.docx",
+                "depth": 2,
+                "directory": false,
+                "kind": "WordFile",
+                "details": "120 KB, pages: 12",
+                "sizeBytes": 122880,
+                "tags": [
+                  "Personal"
+                ]
+              },
+              {
+                "id": "3284b66b-5462-4368-8369-102476124f8f",
+                "name": "需求規格書.docx",
+                "path": "我的根目錄/專案文件/需求規格書.docx",
+                "depth": 2,
+                "directory": false,
+                "kind": "WordFile",
+                "details": "500 KB, pages: 35",
+                "sizeBytes": 512000,
+                "tags": []
+              },
+              {
+                "id": "0088deca-4e26-4028-8601-1d7f512e4dfb",
+                "name": "系統架構圖.png",
+                "path": "我的根目錄/專案文件/系統架構圖.png",
+                "depth": 2,
+                "directory": false,
+                "kind": "ImageFile",
+                "details": "2048 KB, res: 1920x1080",
+                "sizeBytes": 2097152,
+                "tags": []
+              },
+              {
+                "id": "8059d147-6372-422e-afa7-bf5b48bd7c96",
+                "name": "README.txt",
+                "path": "我的根目錄/README.txt",
+                "depth": 1,
+                "directory": false,
+                "kind": "TextFile",
+                "details": "0.5 KB, enc: ASCII",
+                "sizeBytes": 500,
+                "tags": []
+              }
+            ],
+            "selected": "8059d147-6372-422e-afa7-bf5b48bd7c96",
+            "criterion": "Size",
+            "direction": "Asc",
+            "undoCount": 0,
+            "redoCount": 3,
+            "canPaste": false,
+            "canDelete": true,
+            "counts": {
+              "Urgent": 0,
+              "Work": 1,
+              "Personal": 2
+            },
+            "logs": [
+              {
+                "kind": "Visitor",
+                "text": "計算大小：我的根目錄/專案文件/API介面定義.docx = 122880 B (120 KB)"
+              },
+              {
+                "kind": "Command",
+                "text": "執行 新增標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx"
+              },
+              {
+                "kind": "Undo",
+                "text": "復原上一個變更"
+              },
+              {
+                "kind": "Redo",
+                "text": "重做上一個變更"
+              },
+              {
+                "kind": "Prototype",
+                "text": "複製快照：我的根目錄/專案文件/API介面定義.docx"
+              },
+              {
+                "kind": "Prototype",
+                "text": "建立獨立副本：我的根目錄/個人筆記/API介面定義.docx"
+              },
+              {
+                "kind": "Command",
+                "text": "執行 貼上項目至 我的根目錄/個人筆記"
+              },
+              {
+                "kind": "Command",
+                "text": "執行 刪除 我的根目錄/個人筆記"
+              },
+              {
+                "kind": "Undo",
+                "text": "復原上一個變更"
+              },
+              {
+                "kind": "Visitor",
+                "text": "搜尋：我的根目錄 / DOCX，4 筆"
+              },
+              {
+                "kind": "Visitor",
+                "text": "我的根目錄/個人筆記/2025備份/會議記錄.docx"
+              },
+              {
+                "kind": "Visitor",
+                "text": "我的根目錄/個人筆記/API介面定義.docx"
+              },
+              {
+                "kind": "Visitor",
+                "text": "我的根目錄/專案文件/API介面定義.docx"
+              },
+              {
+                "kind": "Visitor",
+                "text": "我的根目錄/專案文件/需求規格書.docx"
+              },
+              {
+                "kind": "Visitor",
+                "text": "XML 匯出完成：我的根目錄"
+              },
+              {
+                "kind": "Strategy",
+                "text": "執行 Tag Asc 排序策略"
+              },
+              {
+                "kind": "Strategy",
+                "text": "執行 Tag Desc 排序策略"
+              },
+              {
+                "kind": "Strategy",
+                "text": "執行 Size Asc 排序策略"
+              },
+              {
+                "kind": "Undo",
+                "text": "復原上一個變更"
+              },
+              {
+                "kind": "Undo",
+                "text": "復原上一個變更"
+              },
+              {
+                "kind": "Visitor",
+                "text": "計算大小：我的根目錄/專案文件/API介面定義.docx = 122880 B (120 KB)"
+              },
+              {
+                "kind": "Visitor",
+                "text": "計算大小：我的根目錄 = 2938356 B (2869.4883 KB)"
+              },
+              {
+                "kind": "Visitor",
+                "text": "XML 匯出完成：我的根目錄"
+              }
+            ],
+            "progress": {
+              "status": "completed",
+              "name": "README.txt",
+              "visited": 10,
+              "total": 10,
+              "path": "我的根目錄/README.txt"
+            }
+          },
+          "download": null
+        }
+      ]
+    },
+    {
+      "request": {
+        "action": "size"
+      },
+      "headers": {
+        "Connection": "close",
+        "Content-Type": "application/x-ndjson; charset=utf-8",
+        "Date": "Thu, 24 Sep 2026 17:08:21 GMT",
+        "Server": "Kestrel",
+        "Transfer-Encoding": "chunked"
+      },
+      "events": [
+        {
+          "type": "progress",
+          "progress": {
+            "status": "running",
+            "name": "README.txt",
+            "visited": 1,
+            "total": 1,
+            "path": "我的根目錄/README.txt"
+          }
+        },
+        {
+          "type": "progress",
+          "progress": {
+            "status": "completed",
+            "name": "README.txt",
+            "visited": 1,
+            "total": 1,
+            "path": "我的根目錄/README.txt"
+          }
+        },
+        {
+          "type": "result",
+          "state": {
+            "rows": [
+              {
+                "id": "f103284b-efa5-4611-afe0-594ff1189560",
+                "name": "我的根目錄",
+                "path": "我的根目錄",
+                "depth": 0,
+                "directory": true,
+                "kind": "DirectoryNode",
+                "details": "0 KB",
+                "sizeBytes": null,
+                "tags": []
+              },
+              {
+                "id": "181b8240-a588-436e-a21b-6afe14de46d8",
+                "name": "個人筆記",
+                "path": "我的根目錄/個人筆記",
+                "depth": 1,
+                "directory": true,
+                "kind": "DirectoryNode",
+                "details": "0 KB",
+                "sizeBytes": null,
+                "tags": []
+              },
+              {
+                "id": "c96b51fd-82d8-4aba-bed5-db45fde8d0c6",
+                "name": "2025備份",
+                "path": "我的根目錄/個人筆記/2025備份",
+                "depth": 2,
+                "directory": true,
+                "kind": "DirectoryNode",
+                "details": "0 KB",
+                "sizeBytes": null,
+                "tags": [
+                  "Personal"
+                ]
+              },
+              {
+                "id": "7bfe4663-9919-442f-9835-2cb6ccd62ffe",
+                "name": "會議記錄.docx",
+                "path": "我的根目錄/個人筆記/2025備份/會議記錄.docx",
+                "depth": 3,
+                "directory": false,
+                "kind": "WordFile",
+                "details": "200 KB, pages: 5",
+                "sizeBytes": 204800,
+                "tags": [
+                  "Work"
+                ]
+              },
+              {
+                "id": "ccd30217-46e0-4577-b6de-0603684cfc12",
+                "name": "待辦清單.txt",
+                "path": "我的根目錄/個人筆記/待辦清單.txt",
+                "depth": 2,
+                "directory": false,
+                "kind": "TextFile",
+                "details": "1 KB, enc: UTF-8",
+                "sizeBytes": 1024,
+                "tags": []
+              },
+              {
+                "id": "d38b9df8-5aa9-4475-877c-820d54cf9fef",
+                "name": "專案文件",
+                "path": "我的根目錄/專案文件",
+                "depth": 1,
+                "directory": true,
+                "kind": "DirectoryNode",
+                "details": "0 KB",
+                "sizeBytes": null,
+                "tags": []
+              },
+              {
+                "id": "84162121-c187-40f1-8a9b-8cae272057cd",
+                "name": "API介面定義.docx",
+                "path": "我的根目錄/專案文件/API介面定義.docx",
+                "depth": 2,
+                "directory": false,
+                "kind": "WordFile",
+                "details": "120 KB, pages: 12",
+                "sizeBytes": 122880,
+                "tags": [
+                  "Personal"
+                ]
+              },
+              {
+                "id": "3284b66b-5462-4368-8369-102476124f8f",
+                "name": "需求規格書.docx",
+                "path": "我的根目錄/專案文件/需求規格書.docx",
+                "depth": 2,
+                "directory": false,
+                "kind": "WordFile",
+                "details": "500 KB, pages: 35",
+                "sizeBytes": 512000,
+                "tags": []
+              },
+              {
+                "id": "0088deca-4e26-4028-8601-1d7f512e4dfb",
+                "name": "系統架構圖.png",
+                "path": "我的根目錄/專案文件/系統架構圖.png",
+                "depth": 2,
+                "directory": false,
+                "kind": "ImageFile",
+                "details": "2048 KB, res: 1920x1080",
+                "sizeBytes": 2097152,
+                "tags": []
+              },
+              {
+                "id": "8059d147-6372-422e-afa7-bf5b48bd7c96",
+                "name": "README.txt",
+                "path": "我的根目錄/README.txt",
+                "depth": 1,
+                "directory": false,
+                "kind": "TextFile",
+                "details": "0.5 KB, enc: ASCII",
+                "sizeBytes": 500,
+                "tags": []
+              }
+            ],
+            "selected": "8059d147-6372-422e-afa7-bf5b48bd7c96",
+            "criterion": "Size",
+            "direction": "Asc",
+            "undoCount": 0,
+            "redoCount": 3,
+            "canPaste": false,
+            "canDelete": true,
+            "counts": {
+              "Urgent": 0,
+              "Work": 1,
+              "Personal": 2
+            },
+            "logs": [
+              {
+                "kind": "Visitor",
+                "text": "計算大小：我的根目錄/專案文件/API介面定義.docx = 122880 B (120 KB)"
+              },
+              {
+                "kind": "Command",
+                "text": "執行 新增標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx"
+              },
+              {
+                "kind": "Undo",
+                "text": "復原上一個變更"
+              },
+              {
+                "kind": "Redo",
+                "text": "重做上一個變更"
+              },
+              {
+                "kind": "Prototype",
+                "text": "複製快照：我的根目錄/專案文件/API介面定義.docx"
+              },
+              {
+                "kind": "Prototype",
+                "text": "建立獨立副本：我的根目錄/個人筆記/API介面定義.docx"
+              },
+              {
+                "kind": "Command",
+                "text": "執行 貼上項目至 我的根目錄/個人筆記"
+              },
+              {
+                "kind": "Command",
+                "text": "執行 刪除 我的根目錄/個人筆記"
+              },
+              {
+                "kind": "Undo",
+                "text": "復原上一個變更"
+              },
+              {
+                "kind": "Visitor",
+                "text": "搜尋：我的根目錄 / DOCX，4 筆"
+              },
+              {
+                "kind": "Visitor",
+                "text": "我的根目錄/個人筆記/2025備份/會議記錄.docx"
+              },
+              {
+                "kind": "Visitor",
+                "text": "我的根目錄/個人筆記/API介面定義.docx"
+              },
+              {
+                "kind": "Visitor",
+                "text": "我的根目錄/專案文件/API介面定義.docx"
+              },
+              {
+                "kind": "Visitor",
+                "text": "我的根目錄/專案文件/需求規格書.docx"
+              },
+              {
+                "kind": "Visitor",
+                "text": "XML 匯出完成：我的根目錄"
+              },
+              {
+                "kind": "Strategy",
+                "text": "執行 Tag Asc 排序策略"
+              },
+              {
+                "kind": "Strategy",
+                "text": "執行 Tag Desc 排序策略"
+              },
+              {
+                "kind": "Strategy",
+                "text": "執行 Size Asc 排序策略"
+              },
+              {
+                "kind": "Undo",
+                "text": "復原上一個變更"
+              },
+              {
+                "kind": "Undo",
+                "text": "復原上一個變更"
+              },
+              {
+                "kind": "Visitor",
+                "text": "計算大小：我的根目錄/專案文件/API介面定義.docx = 122880 B (120 KB)"
+              },
+              {
+                "kind": "Visitor",
+                "text": "計算大小：我的根目錄 = 2938356 B (2869.4883 KB)"
+              },
+              {
+                "kind": "Visitor",
+                "text": "XML 匯出完成：我的根目錄"
+              },
+              {
+                "kind": "Visitor",
+                "text": "計算大小：我的根目錄/README.txt = 500 B (0.4883 KB)"
+              }
+            ],
+            "progress": {
+              "status": "completed",
+              "name": "README.txt",
+              "visited": 1,
+              "total": 1,
+              "path": "我的根目錄/README.txt"
+            }
+          },
+          "download": null
+        }
+      ]
+    },
+    {
+      "request": {
+        "action": "search",
+        "extension": "DOCX"
+      },
+      "headers": {
+        "Connection": "close",
+        "Content-Type": "application/x-ndjson; charset=utf-8",
+        "Date": "Thu, 24 Sep 2026 17:08:21 GMT",
+        "Server": "Kestrel",
+        "Transfer-Encoding": "chunked"
+      },
+      "events": [
+        {
+          "type": "progress",
+          "progress": {
+            "status": "running",
+            "name": "README.txt",
+            "visited": 1,
+            "total": 1,
+            "path": "我的根目錄/README.txt"
+          }
+        },
+        {
+          "type": "progress",
+          "progress": {
+            "status": "completed",
+            "name": "README.txt",
+            "visited": 1,
+            "total": 1,
+            "path": "我的根目錄/README.txt"
+          }
+        },
+        {
+          "type": "result",
+          "state": {
+            "rows": [
+              {
+                "id": "f103284b-efa5-4611-afe0-594ff1189560",
+                "name": "我的根目錄",
+                "path": "我的根目錄",
+                "depth": 0,
+                "directory": true,
+                "kind": "DirectoryNode",
+                "details": "0 KB",
+                "sizeBytes": null,
+                "tags": []
+              },
+              {
+                "id": "181b8240-a588-436e-a21b-6afe14de46d8",
+                "name": "個人筆記",
+                "path": "我的根目錄/個人筆記",
+                "depth": 1,
+                "directory": true,
+                "kind": "DirectoryNode",
+                "details": "0 KB",
+                "sizeBytes": null,
+                "tags": []
+              },
+              {
+                "id": "c96b51fd-82d8-4aba-bed5-db45fde8d0c6",
+                "name": "2025備份",
+                "path": "我的根目錄/個人筆記/2025備份",
+                "depth": 2,
+                "directory": true,
+                "kind": "DirectoryNode",
+                "details": "0 KB",
+                "sizeBytes": null,
+                "tags": [
+                  "Personal"
+                ]
+              },
+              {
+                "id": "7bfe4663-9919-442f-9835-2cb6ccd62ffe",
+                "name": "會議記錄.docx",
+                "path": "我的根目錄/個人筆記/2025備份/會議記錄.docx",
+                "depth": 3,
+                "directory": false,
+                "kind": "WordFile",
+                "details": "200 KB, pages: 5",
+                "sizeBytes": 204800,
+                "tags": [
+                  "Work"
+                ]
+              },
+              {
+                "id": "ccd30217-46e0-4577-b6de-0603684cfc12",
+                "name": "待辦清單.txt",
+                "path": "我的根目錄/個人筆記/待辦清單.txt",
+                "depth": 2,
+                "directory": false,
+                "kind": "TextFile",
+                "details": "1 KB, enc: UTF-8",
+                "sizeBytes": 1024,
+                "tags": []
+              },
+              {
+                "id": "d38b9df8-5aa9-4475-877c-820d54cf9fef",
+                "name": "專案文件",
+                "path": "我的根目錄/專案文件",
+                "depth": 1,
+                "directory": true,
+                "kind": "DirectoryNode",
+                "details": "0 KB",
+                "sizeBytes": null,
+                "tags": []
+              },
+              {
+                "id": "84162121-c187-40f1-8a9b-8cae272057cd",
+                "name": "API介面定義.docx",
+                "path": "我的根目錄/專案文件/API介面定義.docx",
+                "depth": 2,
+                "directory": false,
+                "kind": "WordFile",
+                "details": "120 KB, pages: 12",
+                "sizeBytes": 122880,
+                "tags": [
+                  "Personal"
+                ]
+              },
+              {
+                "id": "3284b66b-5462-4368-8369-102476124f8f",
+                "name": "需求規格書.docx",
+                "path": "我的根目錄/專案文件/需求規格書.docx",
+                "depth": 2,
+                "directory": false,
+                "kind": "WordFile",
+                "details": "500 KB, pages: 35",
+                "sizeBytes": 512000,
+                "tags": []
+              },
+              {
+                "id": "0088deca-4e26-4028-8601-1d7f512e4dfb",
+                "name": "系統架構圖.png",
+                "path": "我的根目錄/專案文件/系統架構圖.png",
+                "depth": 2,
+                "directory": false,
+                "kind": "ImageFile",
+                "details": "2048 KB, res: 1920x1080",
+                "sizeBytes": 2097152,
+                "tags": []
+              },
+              {
+                "id": "8059d147-6372-422e-afa7-bf5b48bd7c96",
+                "name": "README.txt",
+                "path": "我的根目錄/README.txt",
+                "depth": 1,
+                "directory": false,
+                "kind": "TextFile",
+                "details": "0.5 KB, enc: ASCII",
+                "sizeBytes": 500,
+                "tags": []
+              }
+            ],
+            "selected": "8059d147-6372-422e-afa7-bf5b48bd7c96",
+            "criterion": "Size",
+            "direction": "Asc",
+            "undoCount": 0,
+            "redoCount": 3,
+            "canPaste": false,
+            "canDelete": true,
+            "counts": {
+              "Urgent": 0,
+              "Work": 1,
+              "Personal": 2
+            },
+            "logs": [
+              {
+                "kind": "Visitor",
+                "text": "計算大小：我的根目錄/專案文件/API介面定義.docx = 122880 B (120 KB)"
+              },
+              {
+                "kind": "Command",
+                "text": "執行 新增標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx"
+              },
+              {
+                "kind": "Undo",
+                "text": "復原上一個變更"
+              },
+              {
+                "kind": "Redo",
+                "text": "重做上一個變更"
+              },
+              {
+                "kind": "Prototype",
+                "text": "複製快照：我的根目錄/專案文件/API介面定義.docx"
+              },
+              {
+                "kind": "Prototype",
+                "text": "建立獨立副本：我的根目錄/個人筆記/API介面定義.docx"
+              },
+              {
+                "kind": "Command",
+                "text": "執行 貼上項目至 我的根目錄/個人筆記"
+              },
+              {
+                "kind": "Command",
+                "text": "執行 刪除 我的根目錄/個人筆記"
+              },
+              {
+                "kind": "Undo",
+                "text": "復原上一個變更"
+              },
+              {
+                "kind": "Visitor",
+                "text": "搜尋：我的根目錄 / DOCX，4 筆"
+              },
+              {
+                "kind": "Visitor",
+                "text": "我的根目錄/個人筆記/2025備份/會議記錄.docx"
+              },
+              {
+                "kind": "Visitor",
+                "text": "我的根目錄/個人筆記/API介面定義.docx"
+              },
+              {
+                "kind": "Visitor",
+                "text": "我的根目錄/專案文件/API介面定義.docx"
+              },
+              {
+                "kind": "Visitor",
+                "text": "我的根目錄/專案文件/需求規格書.docx"
+              },
+              {
+                "kind": "Visitor",
+                "text": "XML 匯出完成：我的根目錄"
+              },
+              {
+                "kind": "Strategy",
+                "text": "執行 Tag Asc 排序策略"
+              },
+              {
+                "kind": "Strategy",
+                "text": "執行 Tag Desc 排序策略"
+              },
+              {
+                "kind": "Strategy",
+                "text": "執行 Size Asc 排序策略"
+              },
+              {
+                "kind": "Undo",
+                "text": "復原上一個變更"
+              },
+              {
+                "kind": "Undo",
+                "text": "復原上一個變更"
+              },
+              {
+                "kind": "Visitor",
+                "text": "計算大小：我的根目錄/專案文件/API介面定義.docx = 122880 B (120 KB)"
+              },
+              {
+                "kind": "Visitor",
+                "text": "計算大小：我的根目錄 = 2938356 B (2869.4883 KB)"
+              },
+              {
+                "kind": "Visitor",
+                "text": "XML 匯出完成：我的根目錄"
+              },
+              {
+                "kind": "Visitor",
+                "text": "計算大小：我的根目錄/README.txt = 500 B (0.4883 KB)"
+              },
+              {
+                "kind": "Visitor",
+                "text": "搜尋：我的根目錄/README.txt / DOCX，0 筆，無符合檔案"
+              }
+            ],
+            "progress": {
+              "status": "completed",
+              "name": "README.txt",
+              "visited": 1,
+              "total": 1,
+              "path": "我的根目錄/README.txt"
+            }
+          },
+          "download": null
+        }
+      ]
+    },
+    {
+      "request": {
+        "action": "select",
+        "id": "84162121-c187-40f1-8a9b-8cae272057cd"
+      },
+      "headers": {
+        "Connection": "close",
+        "Content-Type": "application/x-ndjson; charset=utf-8",
+        "Date": "Thu, 24 Sep 2026 17:08:21 GMT",
+        "Server": "Kestrel",
+        "Transfer-Encoding": "chunked"
+      },
+      "events": [
+        {
+          "type": "result",
+          "state": {
+            "rows": [
+              {
+                "id": "f103284b-efa5-4611-afe0-594ff1189560",
+                "name": "我的根目錄",
+                "path": "我的根目錄",
+                "depth": 0,
+                "directory": true,
+                "kind": "DirectoryNode",
+                "details": "0 KB",
+                "sizeBytes": null,
+                "tags": []
+              },
+              {
+                "id": "181b8240-a588-436e-a21b-6afe14de46d8",
+                "name": "個人筆記",
+                "path": "我的根目錄/個人筆記",
+                "depth": 1,
+                "directory": true,
+                "kind": "DirectoryNode",
+                "details": "0 KB",
+                "sizeBytes": null,
+                "tags": []
+              },
+              {
+                "id": "c96b51fd-82d8-4aba-bed5-db45fde8d0c6",
+                "name": "2025備份",
+                "path": "我的根目錄/個人筆記/2025備份",
+                "depth": 2,
+                "directory": true,
+                "kind": "DirectoryNode",
+                "details": "0 KB",
+                "sizeBytes": null,
+                "tags": [
+                  "Personal"
+                ]
+              },
+              {
+                "id": "7bfe4663-9919-442f-9835-2cb6ccd62ffe",
+                "name": "會議記錄.docx",
+                "path": "我的根目錄/個人筆記/2025備份/會議記錄.docx",
+                "depth": 3,
+                "directory": false,
+                "kind": "WordFile",
+                "details": "200 KB, pages: 5",
+                "sizeBytes": 204800,
+                "tags": [
+                  "Work"
+                ]
+              },
+              {
+                "id": "ccd30217-46e0-4577-b6de-0603684cfc12",
+                "name": "待辦清單.txt",
+                "path": "我的根目錄/個人筆記/待辦清單.txt",
+                "depth": 2,
+                "directory": false,
+                "kind": "TextFile",
+                "details": "1 KB, enc: UTF-8",
+                "sizeBytes": 1024,
+                "tags": []
+              },
+              {
+                "id": "d38b9df8-5aa9-4475-877c-820d54cf9fef",
+                "name": "專案文件",
+                "path": "我的根目錄/專案文件",
+                "depth": 1,
+                "directory": true,
+                "kind": "DirectoryNode",
+                "details": "0 KB",
+                "sizeBytes": null,
+                "tags": []
+              },
+              {
+                "id": "84162121-c187-40f1-8a9b-8cae272057cd",
+                "name": "API介面定義.docx",
+                "path": "我的根目錄/專案文件/API介面定義.docx",
+                "depth": 2,
+                "directory": false,
+                "kind": "WordFile",
+                "details": "120 KB, pages: 12",
+                "sizeBytes": 122880,
+                "tags": [
+                  "Personal"
+                ]
+              },
+              {
+                "id": "3284b66b-5462-4368-8369-102476124f8f",
+                "name": "需求規格書.docx",
+                "path": "我的根目錄/專案文件/需求規格書.docx",
+                "depth": 2,
+                "directory": false,
+                "kind": "WordFile",
+                "details": "500 KB, pages: 35",
+                "sizeBytes": 512000,
+                "tags": []
+              },
+              {
+                "id": "0088deca-4e26-4028-8601-1d7f512e4dfb",
+                "name": "系統架構圖.png",
+                "path": "我的根目錄/專案文件/系統架構圖.png",
+                "depth": 2,
+                "directory": false,
+                "kind": "ImageFile",
+                "details": "2048 KB, res: 1920x1080",
+                "sizeBytes": 2097152,
+                "tags": []
+              },
+              {
+                "id": "8059d147-6372-422e-afa7-bf5b48bd7c96",
+                "name": "README.txt",
+                "path": "我的根目錄/README.txt",
+                "depth": 1,
+                "directory": false,
+                "kind": "TextFile",
+                "details": "0.5 KB, enc: ASCII",
+                "sizeBytes": 500,
+                "tags": []
+              }
+            ],
+            "selected": "84162121-c187-40f1-8a9b-8cae272057cd",
+            "criterion": "Size",
+            "direction": "Asc",
+            "undoCount": 0,
+            "redoCount": 3,
+            "canPaste": false,
+            "canDelete": true,
+            "counts": {
+              "Urgent": 0,
+              "Work": 1,
+              "Personal": 2
+            },
+            "logs": [
+              {
+                "kind": "Visitor",
+                "text": "計算大小：我的根目錄/專案文件/API介面定義.docx = 122880 B (120 KB)"
+              },
+              {
+                "kind": "Command",
+                "text": "執行 新增標籤(Urgent)：我的根目錄/專案文件/API介面定義.docx"
+              },
+              {
+                "kind": "Undo",
+                "text": "復原上一個變更"
+              },
+              {
+                "kind": "Redo",
+                "text": "重做上一個變更"
+              },
+              {
+                "kind": "Prototype",
+                "text": "複製快照：我的根目錄/專案文件/API介面定義.docx"
+              },
+              {
+                "kind": "Prototype",
+                "text": "建立獨立副本：我的根目錄/個人筆記/API介面定義.docx"
+              },
+              {
+                "kind": "Command",
+                "text": "執行 貼上項目至 我的根目錄/個人筆記"
+              },
+              {
+                "kind": "Command",
+                "text": "執行 刪除 我的根目錄/個人筆記"
+              },
+              {
+                "kind": "Undo",
+                "text": "復原上一個變更"
+              },
+              {
+                "kind": "Visitor",
+                "text": "搜尋：我的根目錄 / DOCX，4 筆"
+              },
+              {
+                "kind": "Visitor",
+                "text": "我的根目錄/個人筆記/2025備份/會議記錄.docx"
+              },
+              {
+                "kind": "Visitor",
+                "text": "我的根目錄/個人筆記/API介面定義.docx"
+              },
+              {
+                "kind": "Visitor",
+                "text": "我的根目錄/專案文件/API介面定義.docx"
+              },
+              {
+                "kind": "Visitor",
+                "text": "我的根目錄/專案文件/需求規格書.docx"
+              },
+              {
+                "kind": "Visitor",
+                "text": "XML 匯出完成：我的根目錄"
+              },
+              {
+                "kind": "Strategy",
+                "text": "執行 Tag Asc 排序策略"
+              },
+              {
+                "kind": "Strategy",
+                "text": "執行 Tag Desc 排序策略"
+              },
+              {
+                "kind": "Strategy",
+                "text": "執行 Size Asc 排序策略"
+              },
+              {
+                "kind": "Undo",
+                "text": "復原上一個變更"
+              },
+              {
+                "kind": "Undo",
+                "text": "復原上一個變更"
+              },
+              {
+                "kind": "Visitor",
+                "text": "計算大小：我的根目錄/專案文件/API介面定義.docx = 122880 B (120 KB)"
+              },
+              {
+                "kind": "Visitor",
+                "text": "計算大小：我的根目錄 = 2938356 B (2869.4883 KB)"
+              },
+              {
+                "kind": "Visitor",
+                "text": "XML 匯出完成：我的根目錄"
+              },
+              {
+                "kind": "Visitor",
+                "text": "計算大小：我的根目錄/README.txt = 500 B (0.4883 KB)"
+              },
+              {
+                "kind": "Visitor",
+                "text": "搜尋：我的根目錄/README.txt / DOCX，0 筆，無符合檔案"
+              }
+            ],
+            "progress": {
+              "status": "completed",
+              "name": "README.txt",
+              "visited": 1,
+              "total": 1,
+              "path": "我的根目錄/README.txt"
+            }
+          },
+          "download": null
+        }
+      ]
+    }
+  ]
+}

@@ -28,9 +28,14 @@ public sealed class SizeSortStrategy : INodeSortStrategy
     public static long Size(FsNode root)
     {
         ArgumentNullException.ThrowIfNull(root);
-        var visitor = new SizeVisitor();
-        FileSystemTraversal.Visit(root, visitor);
-        return visitor.TotalBytes;
+        long total = 0;
+        var pending = new Stack<FsNode>(); pending.Push(root);
+        while (pending.TryPop(out var node))
+        {
+            if (node is FileNode file) total = checked(total + file.SizeBytes);
+            foreach (var child in node.Children) pending.Push(child);
+        }
+        return total;
     }
 }
 public static class SortedView
@@ -42,5 +47,15 @@ public static class SortedView
         var directories = directory.Children.Where(n => n is DirectoryNode).ToArray();
         var files = directory.Children.Where(n => n is FileNode).ToArray();
         return Array.AsReadOnly(strategy.Order(directories, direction).Concat(strategy.Order(files, direction)).ToArray());
+    }
+}
+
+public sealed class TagSortStrategy : INodeSortStrategy
+{
+    private static int Key(FsNode node) => node.Tags.Min(t => (int?)t) ?? int.MaxValue;
+    public IEnumerable<FsNode> Order(IReadOnlyList<FsNode> nodes, SortDirection direction)
+    {
+        var tagged = nodes.Where(n => n.Tags.Count != 0).ToArray();
+        return StableSort.By(tagged, Key, direction).Concat(nodes.Where(n => n.Tags.Count == 0));
     }
 }

@@ -1,0 +1,18 @@
+{
+  "root_search_3": true,
+  "sort_preserves_match_identity": true,
+  "noop_preserves_redo": true,
+  "file_paste_disabled": true,
+  "paste_added_one": true,
+  "paste_selection_kept": true,
+  "conflict_atomic": true,
+  "undo_paste": true,
+  "redo_paste": true,
+  "delete_fallback": true,
+  "undo_delete_selection_kept": true,
+  "file_exact_case_insensitive": true,
+  "zero_clears_matches": true,
+  "directory_size_exact": true,
+  "refresh_preserves_state": true,
+  "xml_real_summary": true
+}

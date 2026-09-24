@@ -1,0 +1,931 @@
+{
+  "angular": "22.2.0",
+  "items": [
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "16px",
+      "padding": "18px 13px 11px",
+      "rect": {
+        "bottom": 948,
+        "height": 948,
+        "left": 0,
+        "right": 2914,
+        "top": 0,
+        "width": 2914,
+        "x": 0,
+        "y": 0
+      },
+      "selector": "workspace",
+      "text": "複製貼上刪除名稱大小 ↑類型標籤+ Urgent0+ Work1+ Personal2檔案階層 (Composite)我的根目錄(0 KB)個人筆記(0 KB)2025備份(0 KB)PERSONAL×會議記錄.docx(200 KB, pages: 5)WORK×待辦清單.txt(1 KB, enc: UTF-8)專案文件(0 KB)API介面定義.docx(120 KB, pages: 12)PERSONAL×需求規格書.docx(500 KB, pages: 35)系統架構圖.png(2048 KB, res: 1920x1080)README.txt(0.5 KB, enc: ASCII)訪問者操作 (Visitor)計算大小XML 匯出搜尋監控 (Observer)LIVE目前節點尚未執行掃描進度idle尚未執行● CONSOLE"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "borderRadius": "11px",
+      "font": "16px",
+      "padding": "0px 9px",
+      "rect": {
+        "bottom": 130,
+        "height": 94,
+        "left": 26,
+        "right": 2165.734375,
+        "top": 36,
+        "width": 2139.734375,
+        "x": 26,
+        "y": 36
+      },
+      "selector": "toolbar",
+      "text": "複製貼上刪除名稱大小 ↑類型標籤+ Urgent0+ Work1+ Personal2"
+    },
+    {
+      "background": "rgb(239, 246, 255)",
+      "borderRadius": "6px",
+      "font": "10px",
+      "padding": "4px",
+      "rect": {
+        "bottom": 108,
+        "height": 50,
+        "left": 46,
+        "right": 96,
+        "top": 58,
+        "width": 50,
+        "x": 46,
+        "y": 58
+      },
+      "selector": "undo",
+      "text": ""
+    },
+    {
+      "background": "rgb(239, 246, 255)",
+      "borderRadius": "6px",
+      "font": "10px",
+      "padding": "4px",
+      "rect": {
+        "bottom": 108,
+        "height": 50,
+        "left": 108,
+        "right": 158,
+        "top": 58,
+        "width": 50,
+        "x": 108,
+        "y": 58
+      },
+      "selector": "redo",
+      "text": ""
+    },
+    {
+      "background": "rgb(247, 249, 251)",
+      "borderRadius": "6px",
+      "font": "10px",
+      "padding": "0px 7px",
+      "rect": {
+        "bottom": 106,
+        "height": 46,
+        "left": 200,
+        "right": 304,
+        "top": 60,
+        "width": 104,
+        "x": 200,
+        "y": 60
+      },
+      "selector": "copy",
+      "text": "複製"
+    },
+    {
+      "background": "rgb(247, 249, 251)",
+      "borderRadius": "6px",
+      "font": "10px",
+      "padding": "0px 7px",
+      "rect": {
+        "bottom": 106,
+        "height": 46,
+        "left": 316,
+        "right": 420,
+        "top": 60,
+        "width": 104,
+        "x": 316,
+        "y": 60
+      },
+      "selector": "paste",
+      "text": "貼上"
+    },
+    {
+      "background": "rgb(247, 249, 251)",
+      "borderRadius": "6px",
+      "font": "10px",
+      "padding": "0px 7px",
+      "rect": {
+        "bottom": 106,
+        "height": 46,
+        "left": 432,
+        "right": 536,
+        "top": 60,
+        "width": 104,
+        "x": 432,
+        "y": 60
+      },
+      "selector": "delete",
+      "text": "刪除"
+    },
+    {
+      "background": "rgb(247, 249, 251)",
+      "borderRadius": "6px",
+      "font": "10px",
+      "padding": "0px 7px",
+      "rect": {
+        "bottom": 106,
+        "height": 46,
+        "left": 630,
+        "right": 698,
+        "top": 60,
+        "width": 68,
+        "x": 630,
+        "y": 60
+      },
+      "selector": "",
+      "text": "名稱"
+    },
+    {
+      "background": "rgb(21, 87, 255)",
+      "borderRadius": "6px",
+      "font": "10px",
+      "padding": "0px 7px",
+      "rect": {
+        "bottom": 106,
+        "height": 46,
+        "left": 710,
+        "right": 793.5625,
+        "top": 60,
+        "width": 83.5625,
+        "x": 710,
+        "y": 60
+      },
+      "selector": "active",
+      "text": "大小 ↑"
+    },
+    {
+      "background": "rgb(247, 249, 251)",
+      "borderRadius": "6px",
+      "font": "10px",
+      "padding": "0px 7px",
+      "rect": {
+        "bottom": 106,
+        "height": 46,
+        "left": 805.5625,
+        "right": 873.5625,
+        "top": 60,
+        "width": 68,
+        "x": 805.5625,
+        "y": 60
+      },
+      "selector": "",
+      "text": "類型"
+    },
+    {
+      "background": "rgb(247, 249, 251)",
+      "borderRadius": "6px",
+      "font": "10px",
+      "padding": "0px 7px",
+      "rect": {
+        "bottom": 106,
+        "height": 46,
+        "left": 885.5625,
+        "right": 953.5625,
+        "top": 60,
+        "width": 68,
+        "x": 885.5625,
+        "y": 60
+      },
+      "selector": "",
+      "text": "標籤"
+    },
+    {
+      "background": "rgb(255, 243, 244)",
+      "borderRadius": "6px",
+      "font": "9px",
+      "padding": "0px 7px",
+      "rect": {
+        "bottom": 106,
+        "height": 46,
+        "left": 1057.5625,
+        "right": 1163.078125,
+        "top": 60,
+        "width": 105.515625,
+        "x": 1057.5625,
+        "y": 60
+      },
+      "selector": "tag-add urgent",
+      "text": "+ Urgent0"
+    },
+    {
+      "background": "rgb(239, 246, 255)",
+      "borderRadius": "6px",
+      "font": "9px",
+      "padding": "0px 7px",
+      "rect": {
+        "bottom": 106,
+        "height": 46,
+        "left": 1185.078125,
+        "right": 1277.265625,
+        "top": 60,
+        "width": 92.1875,
+        "x": 1185.078125,
+        "y": 60
+      },
+      "selector": "tag-add work",
+      "text": "+ Work1"
+    },
+    {
+      "background": "rgb(239, 253, 244)",
+      "borderRadius": "6px",
+      "font": "9px",
+      "padding": "0px 7px",
+      "rect": {
+        "bottom": 106,
+        "height": 46,
+        "left": 1299.265625,
+        "right": 1422.8125,
+        "top": 60,
+        "width": 123.546875,
+        "x": 1299.265625,
+        "y": 60
+      },
+      "selector": "personal tag-add",
+      "text": "+ Personal2"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "borderRadius": "14px",
+      "font": "16px",
+      "padding": "13px",
+      "rect": {
+        "bottom": 926,
+        "height": 772,
+        "left": 26,
+        "right": 1443.46875,
+        "top": 154,
+        "width": 1417.46875,
+        "x": 26,
+        "y": 154
+      },
+      "selector": "panel tree-panel",
+      "text": "檔案階層 (Composite)我的根目錄(0 KB)個人筆記(0 KB)2025備份(0 KB)PERSONAL×會議記錄.docx(200 KB, pages: 5)WORK×待辦清單.txt(1 KB, enc: UTF-8)專案文件(0 KB)API介面定義.docx(120 KB, pages: 12)PERSONAL×需求規格書.docx(500 KB, pages: 35)系統架構圖.png(2048 KB, res: 1920x1080)README.txt(0.5 KB, enc: ASCII)"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "15px",
+      "padding": "0px",
+      "rect": {
+        "bottom": 226,
+        "height": 44,
+        "left": 54,
+        "right": 1415.46875,
+        "top": 182,
+        "width": 1361.46875,
+        "x": 54,
+        "y": 182
+      },
+      "selector": "",
+      "text": "檔案階層 (Composite)"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "6px",
+      "font": "12px",
+      "padding": "0px 6px",
+      "rect": {
+        "bottom": 330,
+        "height": 56,
+        "left": 108,
+        "right": 1391.46875,
+        "top": 274,
+        "width": 1283.46875,
+        "x": 108,
+        "y": 274
+      },
+      "selector": "row directory",
+      "text": "我的根目錄(0 KB)"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "6px",
+      "font": "12px",
+      "padding": "0px 6px",
+      "rect": {
+        "bottom": 390,
+        "height": 56,
+        "left": 158,
+        "right": 1391.46875,
+        "top": 334,
+        "width": 1233.46875,
+        "x": 158,
+        "y": 334
+      },
+      "selector": "row directory",
+      "text": "個人筆記(0 KB)"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "12px",
+      "padding": "0px",
+      "rect": {
+        "bottom": 390,
+        "height": 56,
+        "left": 128,
+        "right": 130,
+        "top": 334,
+        "width": 2,
+        "x": 128,
+        "y": 334
+      },
+      "selector": "branch-line",
+      "text": ""
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "6px",
+      "font": "12px",
+      "padding": "0px 6px",
+      "rect": {
+        "bottom": 450,
+        "height": 56,
+        "left": 208,
+        "right": 1391.46875,
+        "top": 394,
+        "width": 1183.46875,
+        "x": 208,
+        "y": 394
+      },
+      "selector": "row directory",
+      "text": "2025備份(0 KB)PERSONAL×"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "12px",
+      "padding": "0px",
+      "rect": {
+        "bottom": 450,
+        "height": 56,
+        "left": 178,
+        "right": 180,
+        "top": 394,
+        "width": 2,
+        "x": 178,
+        "y": 394
+      },
+      "selector": "branch-line",
+      "text": ""
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "12px",
+      "padding": "0px",
+      "rect": {
+        "bottom": 450,
+        "height": 56,
+        "left": 128,
+        "right": 130,
+        "top": 394,
+        "width": 2,
+        "x": 128,
+        "y": 394
+      },
+      "selector": "branch-line",
+      "text": ""
+    },
+    {
+      "background": "rgb(0, 200, 79)",
+      "borderRadius": "3px",
+      "font": "7px",
+      "padding": "0px 4px",
+      "rect": {
+        "bottom": 434,
+        "height": 24,
+        "left": 1267.6796875,
+        "right": 1379.46875,
+        "top": 410,
+        "width": 111.7890625,
+        "x": 1267.6796875,
+        "y": 410
+      },
+      "selector": "Personal badge",
+      "text": "PERSONAL×"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "6px",
+      "font": "12px",
+      "padding": "0px 6px",
+      "rect": {
+        "bottom": 510,
+        "height": 56,
+        "left": 258,
+        "right": 1391.46875,
+        "top": 454,
+        "width": 1133.46875,
+        "x": 258,
+        "y": 454
+      },
+      "selector": "row",
+      "text": "會議記錄.docx(200 KB, pages: 5)WORK×"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "12px",
+      "padding": "0px",
+      "rect": {
+        "bottom": 510,
+        "height": 56,
+        "left": 228,
+        "right": 230,
+        "top": 454,
+        "width": 2,
+        "x": 228,
+        "y": 454
+      },
+      "selector": "branch-line",
+      "text": ""
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "12px",
+      "padding": "0px",
+      "rect": {
+        "bottom": 510,
+        "height": 56,
+        "left": 178,
+        "right": 180,
+        "top": 454,
+        "width": 2,
+        "x": 178,
+        "y": 454
+      },
+      "selector": "branch-line",
+      "text": ""
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "12px",
+      "padding": "0px",
+      "rect": {
+        "bottom": 510,
+        "height": 56,
+        "left": 128,
+        "right": 130,
+        "top": 454,
+        "width": 2,
+        "x": 128,
+        "y": 454
+      },
+      "selector": "branch-line",
+      "text": ""
+    },
+    {
+      "background": "rgb(48, 133, 255)",
+      "borderRadius": "3px",
+      "font": "7px",
+      "padding": "0px 4px",
+      "rect": {
+        "bottom": 494,
+        "height": 24,
+        "left": 1301.140625,
+        "right": 1379.46875,
+        "top": 470,
+        "width": 78.328125,
+        "x": 1301.140625,
+        "y": 470
+      },
+      "selector": "Work badge",
+      "text": "WORK×"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "6px",
+      "font": "12px",
+      "padding": "0px 6px",
+      "rect": {
+        "bottom": 570,
+        "height": 56,
+        "left": 208,
+        "right": 1391.46875,
+        "top": 514,
+        "width": 1183.46875,
+        "x": 208,
+        "y": 514
+      },
+      "selector": "row",
+      "text": "待辦清單.txt(1 KB, enc: UTF-8)"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "12px",
+      "padding": "0px",
+      "rect": {
+        "bottom": 570,
+        "height": 56,
+        "left": 178,
+        "right": 180,
+        "top": 514,
+        "width": 2,
+        "x": 178,
+        "y": 514
+      },
+      "selector": "branch-line",
+      "text": ""
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "12px",
+      "padding": "0px",
+      "rect": {
+        "bottom": 570,
+        "height": 56,
+        "left": 128,
+        "right": 130,
+        "top": 514,
+        "width": 2,
+        "x": 128,
+        "y": 514
+      },
+      "selector": "branch-line",
+      "text": ""
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "6px",
+      "font": "12px",
+      "padding": "0px 6px",
+      "rect": {
+        "bottom": 630,
+        "height": 56,
+        "left": 158,
+        "right": 1391.46875,
+        "top": 574,
+        "width": 1233.46875,
+        "x": 158,
+        "y": 574
+      },
+      "selector": "row directory",
+      "text": "專案文件(0 KB)"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "12px",
+      "padding": "0px",
+      "rect": {
+        "bottom": 630,
+        "height": 56,
+        "left": 128,
+        "right": 130,
+        "top": 574,
+        "width": 2,
+        "x": 128,
+        "y": 574
+      },
+      "selector": "branch-line",
+      "text": ""
+    },
+    {
+      "background": "rgb(21, 87, 255)",
+      "borderRadius": "6px",
+      "font": "12px",
+      "padding": "0px 6px",
+      "rect": {
+        "bottom": 690,
+        "height": 56,
+        "left": 208,
+        "right": 1391.46875,
+        "top": 634,
+        "width": 1183.46875,
+        "x": 208,
+        "y": 634
+      },
+      "selector": "row selected",
+      "text": "API介面定義.docx(120 KB, pages: 12)PERSONAL×"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "12px",
+      "padding": "0px",
+      "rect": {
+        "bottom": 690,
+        "height": 56,
+        "left": 178,
+        "right": 180,
+        "top": 634,
+        "width": 2,
+        "x": 178,
+        "y": 634
+      },
+      "selector": "branch-line",
+      "text": ""
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "12px",
+      "padding": "0px",
+      "rect": {
+        "bottom": 690,
+        "height": 56,
+        "left": 128,
+        "right": 130,
+        "top": 634,
+        "width": 2,
+        "x": 128,
+        "y": 634
+      },
+      "selector": "branch-line",
+      "text": ""
+    },
+    {
+      "background": "rgb(0, 200, 79)",
+      "borderRadius": "3px",
+      "font": "7px",
+      "padding": "0px 4px",
+      "rect": {
+        "bottom": 674,
+        "height": 24,
+        "left": 1267.6796875,
+        "right": 1379.46875,
+        "top": 650,
+        "width": 111.7890625,
+        "x": 1267.6796875,
+        "y": 650
+      },
+      "selector": "Personal badge",
+      "text": "PERSONAL×"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "6px",
+      "font": "12px",
+      "padding": "0px 6px",
+      "rect": {
+        "bottom": 750,
+        "height": 56,
+        "left": 208,
+        "right": 1391.46875,
+        "top": 694,
+        "width": 1183.46875,
+        "x": 208,
+        "y": 694
+      },
+      "selector": "row",
+      "text": "需求規格書.docx(500 KB, pages: 35)"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "12px",
+      "padding": "0px",
+      "rect": {
+        "bottom": 750,
+        "height": 56,
+        "left": 178,
+        "right": 180,
+        "top": 694,
+        "width": 2,
+        "x": 178,
+        "y": 694
+      },
+      "selector": "branch-line",
+      "text": ""
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "12px",
+      "padding": "0px",
+      "rect": {
+        "bottom": 750,
+        "height": 56,
+        "left": 128,
+        "right": 130,
+        "top": 694,
+        "width": 2,
+        "x": 128,
+        "y": 694
+      },
+      "selector": "branch-line",
+      "text": ""
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "6px",
+      "font": "12px",
+      "padding": "0px 6px",
+      "rect": {
+        "bottom": 810,
+        "height": 56,
+        "left": 208,
+        "right": 1391.46875,
+        "top": 754,
+        "width": 1183.46875,
+        "x": 208,
+        "y": 754
+      },
+      "selector": "row",
+      "text": "系統架構圖.png(2048 KB, res: 1920x1080)"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "12px",
+      "padding": "0px",
+      "rect": {
+        "bottom": 810,
+        "height": 56,
+        "left": 178,
+        "right": 180,
+        "top": 754,
+        "width": 2,
+        "x": 178,
+        "y": 754
+      },
+      "selector": "branch-line",
+      "text": ""
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "12px",
+      "padding": "0px",
+      "rect": {
+        "bottom": 810,
+        "height": 56,
+        "left": 128,
+        "right": 130,
+        "top": 754,
+        "width": 2,
+        "x": 128,
+        "y": 754
+      },
+      "selector": "branch-line",
+      "text": ""
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "6px",
+      "font": "12px",
+      "padding": "0px 6px",
+      "rect": {
+        "bottom": 870,
+        "height": 56,
+        "left": 158,
+        "right": 1391.46875,
+        "top": 814,
+        "width": 1233.46875,
+        "x": 158,
+        "y": 814
+      },
+      "selector": "row",
+      "text": "README.txt(0.5 KB, enc: ASCII)"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "12px",
+      "padding": "0px",
+      "rect": {
+        "bottom": 870,
+        "height": 56,
+        "left": 128,
+        "right": 130,
+        "top": 814,
+        "width": 2,
+        "x": 128,
+        "y": 814
+      },
+      "selector": "branch-line",
+      "text": ""
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "borderRadius": "14px",
+      "font": "16px",
+      "padding": "13px",
+      "rect": {
+        "bottom": 495.4765625,
+        "height": 341.4765625,
+        "left": 1467.46875,
+        "right": 2165.734375,
+        "top": 154,
+        "width": 698.265625,
+        "x": 1467.46875,
+        "y": 154
+      },
+      "selector": "panel visitor",
+      "text": "訪問者操作 (Visitor)計算大小XML 匯出搜尋"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "15px",
+      "padding": "0px",
+      "rect": {
+        "bottom": 226,
+        "height": 44,
+        "left": 1495.46875,
+        "right": 2137.734375,
+        "top": 182,
+        "width": 642.265625,
+        "x": 1495.46875,
+        "y": 182
+      },
+      "selector": "",
+      "text": "訪問者操作 (Visitor)"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "borderRadius": "14px",
+      "font": "16px",
+      "padding": "13px",
+      "rect": {
+        "bottom": 926,
+        "height": 406.5234375,
+        "left": 1467.46875,
+        "right": 2165.734375,
+        "top": 519.4765625,
+        "width": 698.265625,
+        "x": 1467.46875,
+        "y": 519.4765625
+      },
+      "selector": "panel observer",
+      "text": "監控 (Observer)LIVE目前節點尚未執行掃描進度idle尚未執行"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "15px",
+      "padding": "0px",
+      "rect": {
+        "bottom": 591.4765625,
+        "height": 44,
+        "left": 1495.46875,
+        "right": 2137.734375,
+        "top": 547.4765625,
+        "width": 642.265625,
+        "x": 1495.46875,
+        "y": 547.4765625
+      },
+      "selector": "",
+      "text": "監控 (Observer)LIVE"
+    },
+    {
+      "background": "rgb(15, 23, 41)",
+      "borderRadius": "14px",
+      "font": "16px",
+      "padding": "12px 13px",
+      "rect": {
+        "bottom": 926,
+        "height": 890,
+        "left": 2189.734375,
+        "right": 2888,
+        "top": 36,
+        "width": 698.265625,
+        "x": 2189.734375,
+        "y": 36
+      },
+      "selector": "console",
+      "text": "● CONSOLE"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "9px",
+      "padding": "0px 0px 7px",
+      "rect": {
+        "bottom": 116,
+        "height": 56,
+        "left": 2215.734375,
+        "right": 2862,
+        "top": 60,
+        "width": 646.265625,
+        "x": 2215.734375,
+        "y": 60
+      },
+      "selector": "",
+      "text": "● CONSOLE"
+    }
+  ],
+  "logs": "",
+  "matches": [],
+  "progress": "監控 (Observer)LIVE目前節點尚未執行掃描進度idle尚未執行",
+  "selected": "API介面定義.docx(120 KB, pages: 12)PERSONAL×",
+  "viewport": {
+    "height": 948,
+    "width": 2914
+  }
+}

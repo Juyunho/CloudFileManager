@@ -1,0 +1,151 @@
+{
+  "dpr": 1,
+  "innerHeight": 682,
+  "innerWidth": 2028,
+  "logClientHeight": 400,
+  "logScrollHeight": 477,
+  "panels": [
+    {
+      "background": "rgb(255, 255, 255)",
+      "className": "toolbar",
+      "rect": {
+        "bottom": 90.9921875,
+        "height": 65.796875,
+        "left": 18.1953125,
+        "right": 1507.140625,
+        "top": 25.1953125,
+        "width": 1488.9453125,
+        "x": 18.1953125,
+        "y": 25.1953125
+      }
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "className": "panel tree-panel",
+      "rect": {
+        "bottom": 666.6015625,
+        "height": 558.8125,
+        "left": 18.1953125,
+        "right": 1004.484375,
+        "top": 107.7890625,
+        "width": 986.2890625,
+        "x": 18.1953125,
+        "y": 107.7890625
+      }
+    },
+    {
+      "background": "rgb(247, 249, 251)",
+      "className": "tree",
+      "rect": {
+        "bottom": 647.40625,
+        "height": 467.2265625,
+        "left": 37.390625,
+        "right": 985.2890625,
+        "top": 180.1796875,
+        "width": 947.8984375,
+        "x": 37.390625,
+        "y": 180.1796875
+      }
+    },
+    {
+      "background": "rgb(21, 87, 255)",
+      "className": "row directory selected",
+      "rect": {
+        "bottom": 238.9765625,
+        "height": 42,
+        "left": 69.5859375,
+        "right": 968.4921875,
+        "top": 196.9765625,
+        "width": 898.90625,
+        "x": 69.5859375,
+        "y": 196.9765625
+      }
+    },
+    {
+      "background": "rgb(239, 246, 255)",
+      "className": "row search-match",
+      "rect": {
+        "bottom": 364.9765625,
+        "height": 42,
+        "left": 174.5859375,
+        "right": 968.4921875,
+        "top": 322.9765625,
+        "width": 793.90625,
+        "x": 174.5859375,
+        "y": 322.9765625
+      }
+    },
+    {
+      "background": "rgb(239, 246, 255)",
+      "className": "row search-match",
+      "rect": {
+        "bottom": 490.9765625,
+        "height": 42,
+        "left": 139.5859375,
+        "right": 968.4921875,
+        "top": 448.9765625,
+        "width": 828.90625,
+        "x": 139.5859375,
+        "y": 448.9765625
+      }
+    },
+    {
+      "background": "rgb(239, 246, 255)",
+      "className": "row search-match",
+      "rect": {
+        "bottom": 532.9765625,
+        "height": 42,
+        "left": 139.5859375,
+        "right": 968.4921875,
+        "top": 490.9765625,
+        "width": 828.90625,
+        "x": 139.5859375,
+        "y": 490.9765625
+      }
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "className": "panel visitor",
+      "rect": {
+        "bottom": 355.2265625,
+        "height": 247.4375,
+        "left": 1021.28125,
+        "right": 1507.140625,
+        "top": 107.7890625,
+        "width": 485.859375,
+        "x": 1021.28125,
+        "y": 107.7890625
+      }
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "className": "panel observer",
+      "rect": {
+        "bottom": 666.6015625,
+        "height": 294.578125,
+        "left": 1021.28125,
+        "right": 1507.140625,
+        "top": 372.0234375,
+        "width": 485.859375,
+        "x": 1021.28125,
+        "y": 372.0234375
+      }
+    },
+    {
+      "background": "rgb(15, 23, 41)",
+      "className": "console",
+      "rect": {
+        "bottom": 666.6015625,
+        "height": 641.40625,
+        "left": 1523.9375,
+        "right": 2009.8046875,
+        "top": 25.1953125,
+        "width": 485.8671875,
+        "x": 1523.9375,
+        "y": 25.1953125
+      }
+    }
+  ],
+  "scrollHeight": 682,
+  "scrollWidth": 2028
+}

@@ -1,0 +1,237 @@
+{
+  "rows": [
+    {
+      "id": "fb779b37-e4d9-47bc-8aff-4a09a4960c59",
+      "name": "我的根目錄",
+      "path": "我的根目錄",
+      "depth": 0,
+      "directory": true,
+      "kind": "DirectoryNode",
+      "details": "0 KB",
+      "sizeBytes": null,
+      "searchMatch": false,
+      "tags": []
+    },
+    {
+      "id": "495bccf6-d788-4daa-b2a4-c85c2fbf1fa1",
+      "name": "個人筆記",
+      "path": "我的根目錄/個人筆記",
+      "depth": 1,
+      "directory": true,
+      "kind": "DirectoryNode",
+      "details": "0 KB",
+      "sizeBytes": null,
+      "searchMatch": false,
+      "tags": []
+    },
+    {
+      "id": "cf5f271d-36a5-4660-8662-726a92eca714",
+      "name": "2025備份",
+      "path": "我的根目錄/個人筆記/2025備份",
+      "depth": 2,
+      "directory": true,
+      "kind": "DirectoryNode",
+      "details": "0 KB",
+      "sizeBytes": null,
+      "searchMatch": false,
+      "tags": [
+        "Personal"
+      ]
+    },
+    {
+      "id": "81611c75-a852-42b9-9e84-a1b24a0b7b6f",
+      "name": "會議記錄.docx",
+      "path": "我的根目錄/個人筆記/2025備份/會議記錄.docx",
+      "depth": 3,
+      "directory": false,
+      "kind": "WordFile",
+      "details": "200 KB, pages: 5",
+      "sizeBytes": 204800,
+      "searchMatch": true,
+      "tags": [
+        "Work"
+      ]
+    },
+    {
+      "id": "f972971a-4c70-4371-b953-03ed543e2926",
+      "name": "待辦清單.txt",
+      "path": "我的根目錄/個人筆記/待辦清單.txt",
+      "depth": 2,
+      "directory": false,
+      "kind": "TextFile",
+      "details": "1 KB, enc: UTF-8",
+      "sizeBytes": 1024,
+      "searchMatch": false,
+      "tags": []
+    },
+    {
+      "id": "f2c37f74-8c08-4a30-8fd5-3bde5900df03",
+      "name": "專案文件",
+      "path": "我的根目錄/專案文件",
+      "depth": 1,
+      "directory": true,
+      "kind": "DirectoryNode",
+      "details": "0 KB",
+      "sizeBytes": null,
+      "searchMatch": false,
+      "tags": []
+    },
+    {
+      "id": "bb31d8f0-0bf2-46ac-bf91-f8ffcf127121",
+      "name": "API介面定義.docx",
+      "path": "我的根目錄/專案文件/API介面定義.docx",
+      "depth": 2,
+      "directory": false,
+      "kind": "WordFile",
+      "details": "120 KB, pages: 12",
+      "sizeBytes": 122880,
+      "searchMatch": true,
+      "tags": [
+        "Personal"
+      ]
+    },
+    {
+      "id": "9f874f40-083c-4e8b-a303-79c772a938a8",
+      "name": "需求規格書.docx",
+      "path": "我的根目錄/專案文件/需求規格書.docx",
+      "depth": 2,
+      "directory": false,
+      "kind": "WordFile",
+      "details": "500 KB, pages: 35",
+      "sizeBytes": 512000,
+      "searchMatch": true,
+      "tags": []
+    },
+    {
+      "id": "f4e1dc00-b7c2-4d66-bd70-35a537045093",
+      "name": "系統架構圖.png",
+      "path": "我的根目錄/專案文件/系統架構圖.png",
+      "depth": 2,
+      "directory": false,
+      "kind": "ImageFile",
+      "details": "2048 KB, res: 1920x1080",
+      "sizeBytes": 2097152,
+      "searchMatch": false,
+      "tags": []
+    },
+    {
+      "id": "c6e0e3e8-b170-484d-b1eb-7bcf46c1bc9c",
+      "name": "README.txt",
+      "path": "我的根目錄/README.txt",
+      "depth": 1,
+      "directory": false,
+      "kind": "TextFile",
+      "details": "0.5 KB, enc: ASCII",
+      "sizeBytes": 500,
+      "searchMatch": false,
+      "tags": []
+    }
+  ],
+  "selected": "495bccf6-d788-4daa-b2a4-c85c2fbf1fa1",
+  "criterion": "Size",
+  "direction": "Asc",
+  "undoCount": 0,
+  "redoCount": 1,
+  "canPaste": false,
+  "canDelete": true,
+  "counts": {
+    "Urgent": 0,
+    "Work": 1,
+    "Personal": 2
+  },
+  "logs": [
+    {
+      "kind": "Trace",
+      "text": "搜尋目錄: 我的根目錄",
+      "path": "我的根目錄"
+    },
+    {
+      "kind": "Trace",
+      "text": "搜尋目錄: 個人筆記",
+      "path": "我的根目錄/個人筆記"
+    },
+    {
+      "kind": "Trace",
+      "text": "搜尋目錄: 2025備份",
+      "path": "我的根目錄/個人筆記/2025備份"
+    },
+    {
+      "kind": "Trace",
+      "text": "掃描檔案: 會議記錄.docx",
+      "path": "我的根目錄/個人筆記/2025備份/會議記錄.docx"
+    },
+    {
+      "kind": "Match",
+      "text": "[符合] 會議記錄.docx",
+      "path": "我的根目錄/個人筆記/2025備份/會議記錄.docx"
+    },
+    {
+      "kind": "Trace",
+      "text": "掃描檔案: 待辦清單.txt",
+      "path": "我的根目錄/個人筆記/待辦清單.txt"
+    },
+    {
+      "kind": "Trace",
+      "text": "搜尋目錄: 專案文件",
+      "path": "我的根目錄/專案文件"
+    },
+    {
+      "kind": "Trace",
+      "text": "掃描檔案: API介面定義.docx",
+      "path": "我的根目錄/專案文件/API介面定義.docx"
+    },
+    {
+      "kind": "Match",
+      "text": "[符合] API介面定義.docx",
+      "path": "我的根目錄/專案文件/API介面定義.docx"
+    },
+    {
+      "kind": "Trace",
+      "text": "掃描檔案: 需求規格書.docx",
+      "path": "我的根目錄/專案文件/需求規格書.docx"
+    },
+    {
+      "kind": "Match",
+      "text": "[符合] 需求規格書.docx",
+      "path": "我的根目錄/專案文件/需求規格書.docx"
+    },
+    {
+      "kind": "Trace",
+      "text": "掃描檔案: 系統架構圖.png",
+      "path": "我的根目錄/專案文件/系統架構圖.png"
+    },
+    {
+      "kind": "Trace",
+      "text": "掃描檔案: README.txt",
+      "path": "我的根目錄/README.txt"
+    },
+    {
+      "kind": "SearchSummary",
+      "text": "找到 3 項",
+      "path": "我的根目錄"
+    },
+    {
+      "kind": "Command",
+      "text": "執行 新增標籤(Urgent)：我的根目錄/個人筆記",
+      "path": null
+    },
+    {
+      "kind": "Undo",
+      "text": "復原上一個變更",
+      "path": null
+    },
+    {
+      "kind": "Visitor",
+      "text": "XML 匯出完成：我的根目錄/個人筆記",
+      "path": null
+    }
+  ],
+  "progress": {
+    "status": "completed",
+    "name": "待辦清單.txt",
+    "visited": 4,
+    "total": 4,
+    "path": "我的根目錄/個人筆記/待辦清單.txt"
+  },
+  "searchSummary": "找到 3 項"
+}

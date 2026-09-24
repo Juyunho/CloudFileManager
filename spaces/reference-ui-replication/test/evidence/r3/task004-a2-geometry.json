@@ -1,0 +1,100 @@
+{
+  "dpr": 1,
+  "innerHeight": 474,
+  "innerWidth": 1457,
+  "panels": [
+    {
+      "className": "toolbar",
+      "rect": {
+        "bottom": 65,
+        "height": 47,
+        "left": 13,
+        "right": 1082.8671875,
+        "top": 18,
+        "width": 1069.8671875,
+        "x": 13,
+        "y": 18
+      }
+    },
+    {
+      "className": "panel tree-panel",
+      "rect": {
+        "bottom": 463,
+        "height": 386,
+        "left": 13,
+        "right": 721.734375,
+        "top": 77,
+        "width": 708.734375,
+        "x": 13,
+        "y": 77
+      }
+    },
+    {
+      "className": "tree",
+      "rect": {
+        "bottom": 449,
+        "height": 320,
+        "left": 27,
+        "right": 707.734375,
+        "top": 129,
+        "width": 680.734375,
+        "x": 27,
+        "y": 129
+      }
+    },
+    {
+      "className": "row selected",
+      "rect": {
+        "bottom": 351,
+        "height": 30,
+        "left": 100,
+        "right": 695.734375,
+        "top": 321,
+        "width": 595.734375,
+        "x": 100,
+        "y": 321
+      }
+    },
+    {
+      "className": "panel visitor",
+      "rect": {
+        "bottom": 247.734375,
+        "height": 170.734375,
+        "left": 733.734375,
+        "right": 1082.8671875,
+        "top": 77,
+        "width": 349.1328125,
+        "x": 733.734375,
+        "y": 77
+      }
+    },
+    {
+      "className": "panel observer",
+      "rect": {
+        "bottom": 463,
+        "height": 203.265625,
+        "left": 733.734375,
+        "right": 1082.8671875,
+        "top": 259.734375,
+        "width": 349.1328125,
+        "x": 733.734375,
+        "y": 259.734375
+      }
+    },
+    {
+      "className": "console",
+      "rect": {
+        "bottom": 463,
+        "height": 445,
+        "left": 1094.8671875,
+        "right": 1444,
+        "top": 18,
+        "width": 349.1328125,
+        "x": 1094.8671875,
+        "y": 18
+      }
+    }
+  ],
+  "scrollHeight": 474,
+  "scrollWidth": 1457
+}

@@ -1,0 +1,216 @@
+{
+  "time": "2026-09-25T02:06:34+08:00",
+  "rows": [
+    {
+      "item": "toolbar",
+      "reference_estimate": {
+        "x": 28,
+        "y": 38,
+        "width": 2139,
+        "height": 94
+      },
+      "before": {
+        "bottom": 90.9921875,
+        "height": 65.796875,
+        "left": 18.1953125,
+        "right": 2173.2890625,
+        "top": 25.1953125,
+        "width": 2155.09375,
+        "x": 18.1953125,
+        "y": 25.1953125
+      },
+      "after": {
+        "bottom": 130,
+        "height": 94,
+        "left": 26,
+        "right": 2165.734375,
+        "top": 36,
+        "width": 2139.734375,
+        "x": 26,
+        "y": 36
+      },
+      "delta_after_reference": {
+        "x": -2,
+        "y": -2,
+        "width": 0.734,
+        "height": 0
+      }
+    },
+    {
+      "item": "panel tree-panel",
+      "reference_estimate": {
+        "x": 28,
+        "y": 154,
+        "width": 1418,
+        "height": 772
+      },
+      "before": {
+        "bottom": 932.6015625,
+        "height": 824.8125,
+        "left": 18.1953125,
+        "right": 1450.78125,
+        "top": 107.7890625,
+        "width": 1432.5859375,
+        "x": 18.1953125,
+        "y": 107.7890625
+      },
+      "after": {
+        "bottom": 926,
+        "height": 772,
+        "left": 26,
+        "right": 1443.46875,
+        "top": 154,
+        "width": 1417.46875,
+        "x": 26,
+        "y": 154
+      },
+      "delta_after_reference": {
+        "x": -2,
+        "y": 0,
+        "width": -0.531,
+        "height": 0
+      }
+    },
+    {
+      "item": "panel visitor",
+      "reference_estimate": {
+        "x": 1471,
+        "y": 154,
+        "width": 697,
+        "height": 340
+      },
+      "before": {
+        "bottom": 476.6640625,
+        "height": 368.875,
+        "left": 1467.578125,
+        "right": 2173.2890625,
+        "top": 107.7890625,
+        "width": 705.7109375,
+        "x": 1467.578125,
+        "y": 107.7890625
+      },
+      "after": {
+        "bottom": 495.4765625,
+        "height": 341.4765625,
+        "left": 1467.46875,
+        "right": 2165.734375,
+        "top": 154,
+        "width": 698.265625,
+        "x": 1467.46875,
+        "y": 154
+      },
+      "delta_after_reference": {
+        "x": -3.531,
+        "y": 0,
+        "width": 1.266,
+        "height": 1.477
+      }
+    },
+    {
+      "item": "panel observer",
+      "reference_estimate": {
+        "x": 1471,
+        "y": 519,
+        "width": 697,
+        "height": 407
+      },
+      "before": {
+        "bottom": 932.6015625,
+        "height": 439.140625,
+        "left": 1467.578125,
+        "right": 2173.2890625,
+        "top": 493.4609375,
+        "width": 705.7109375,
+        "x": 1467.578125,
+        "y": 493.4609375
+      },
+      "after": {
+        "bottom": 926,
+        "height": 406.5234375,
+        "left": 1467.46875,
+        "right": 2165.734375,
+        "top": 519.4765625,
+        "width": 698.265625,
+        "x": 1467.46875,
+        "y": 519.4765625
+      },
+      "delta_after_reference": {
+        "x": -3.531,
+        "y": 0.477,
+        "width": 1.266,
+        "height": -0.477
+      }
+    },
+    {
+      "item": "console",
+      "reference_estimate": {
+        "x": 2194,
+        "y": 38,
+        "width": 697,
+        "height": 886
+      },
+      "before": {
+        "bottom": 932.6015625,
+        "height": 907.40625,
+        "left": 2190.0859375,
+        "right": 2895.8046875,
+        "top": 25.1953125,
+        "width": 705.71875,
+        "x": 2190.0859375,
+        "y": 25.1953125
+      },
+      "after": {
+        "bottom": 926,
+        "height": 890,
+        "left": 2189.734375,
+        "right": 2888,
+        "top": 36,
+        "width": 698.265625,
+        "x": 2189.734375,
+        "y": 36
+      },
+      "delta_after_reference": {
+        "x": -4.266,
+        "y": -2,
+        "width": 1.266,
+        "height": 4
+      }
+    },
+    {
+      "item": "row selected",
+      "reference_estimate": {
+        "x": 208,
+        "y": 634,
+        "width": 1184,
+        "height": 56
+      },
+      "before": {
+        "bottom": 490.9765625,
+        "height": 42,
+        "left": 139.5859375,
+        "right": 1414.7890625,
+        "top": 448.9765625,
+        "width": 1275.203125,
+        "x": 139.5859375,
+        "y": 448.9765625
+      },
+      "after": {
+        "bottom": 690,
+        "height": 56,
+        "left": 208,
+        "right": 1391.46875,
+        "top": 634,
+        "width": 1183.46875,
+        "x": 208,
+        "y": 634
+      },
+      "delta_after_reference": {
+        "x": 0,
+        "y": 0,
+        "width": -0.531,
+        "height": 0
+      }
+    }
+  ],
+  "B_all_recorded_geometry_styles_identical": true
+}

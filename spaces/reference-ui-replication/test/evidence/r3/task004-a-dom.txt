@@ -1,0 +1,74 @@
+- main:
+  - navigation "檔案操作":
+    - button "Undo" [disabled]:
+    - button "Redo" [disabled]:
+    - button "複製":
+      - text: 複製
+    - button "貼上" [disabled]:
+      - text: 貼上
+    - button "刪除":
+      - text: 刪除
+    - button "名稱"
+    - button "大小 ↑" [pressed]
+    - button "類型"
+    - button "標籤"
+    - button "+ Urgent"
+    - button "+ Work 1":
+      - text: + Work
+      - generic: "1"
+    - button "+ Personal 2":
+      - text: + Personal
+      - generic: "2"
+  - heading "檔案階層 (Composite)" [level=1]:
+    - text: 檔案階層 (Composite)
+  - tree "檔案階層":
+    - treeitem "我的根目錄(0 KB)" [level=1]:
+      - generic: 我的根目錄(0 KB)
+    - treeitem "個人筆記(0 KB)" [level=2]:
+      - generic: 個人筆記(0 KB)
+    - treeitem "2025備份(0 KB) PERSONAL 移除 2025備份 的 Personal" [level=3]:
+      - generic: 2025備份(0 KB)
+      - text: PERSONAL
+      - button "移除 2025備份 的 Personal": ×
+    - 'treeitem "會議記錄.docx(200 KB, pages: 5) WORK 移除 會議記錄.docx 的 Work" [level=4]':
+      - generic: "會議記錄.docx(200 KB, pages: 5)"
+      - text: WORK
+      - button "移除 會議記錄.docx 的 Work": ×
+    - 'treeitem "待辦清單.txt(1 KB, enc: UTF-8)" [level=3]':
+      - generic: "待辦清單.txt(1 KB, enc: UTF-8)"
+    - treeitem "專案文件(0 KB)" [level=2]:
+      - generic: 專案文件(0 KB)
+    - 'treeitem "API介面定義.docx(120 KB, pages: 12) PERSONAL 移除 API介面定義.docx 的 Personal" [level=3] [selected]':
+      - generic: "API介面定義.docx(120 KB, pages: 12)"
+      - text: PERSONAL
+      - button "移除 API介面定義.docx 的 Personal": ×
+    - 'treeitem "需求規格書.docx(500 KB, pages: 35)" [level=3]':
+      - generic: "需求規格書.docx(500 KB, pages: 35)"
+    - 'treeitem "系統架構圖.png(2048 KB, res: 1920x1080)" [level=3]':
+      - generic: "系統架構圖.png(2048 KB, res: 1920x1080)"
+    - 'treeitem "README.txt(0.5 KB, enc: ASCII)" [level=2]':
+      - generic: "README.txt(0.5 KB, enc: ASCII)"
+  - heading "訪問者操作 (Visitor)" [level=2]:
+    - text: 訪問者操作 (Visitor)
+  - button "計算大小":
+    - text: 計算大小
+  - button "XML 匯出":
+    - text: XML 匯出
+  - textbox "搜尋副檔名":
+    - /placeholder: 輸入關鍵字...
+  - button "搜尋":
+    - text: 搜尋
+  - heading "監控 (Observer) LIVE" [level=2]:
+    - text: 監控 (Observer)
+    - generic: LIVE
+  - text: 目前節點
+  - strong: 尚未執行
+  - generic: 掃描進度
+  - strong: idle
+  - progressbar
+  - generic: 尚未執行
+  - complementary:
+    - heading "● CONSOLE" [level=2]:
+      - generic: ●
+      - text: CONSOLE
+    - log "操作日誌"

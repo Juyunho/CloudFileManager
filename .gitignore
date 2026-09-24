@@ -9,3 +9,10 @@
 .env
 .env.*
 .idea/
+
+# Angular dependencies, caches and generated ASP.NET static assets
+node_modules/
+.angular/
+out-tsc/
+/src/CloudFileManager.Angular/dist/
+/src/CloudFileManager.Web/wwwroot/

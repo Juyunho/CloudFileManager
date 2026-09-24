@@ -1,0 +1,76 @@
+{
+  "time": "2026-09-25T01:58:17+08:00",
+  "references": {
+    "docs/reference-ui.png": {
+      "sha256": "17ae6d73bbc29b661c7e13106cc6cc4e7c8a3e0f7bea2c578da1fffc2e6efa05",
+      "size": [
+        2914,
+        948
+      ]
+    },
+    "docs/reference-ui-search-progress.png": {
+      "sha256": "a73fae86c62507606adfbe14c25880f7554c069cbbfda3bd39472fa789fbafa4",
+      "size": [
+        2028,
+        682
+      ]
+    }
+  },
+  "selected_blue_vertical_scan": {
+    "x": 900,
+    "y_min": 634,
+    "y_max": 687,
+    "solid_fill_height": 54
+  },
+  "manual_estimates_original_pixels": {
+    "toolbar": {
+      "x": 28,
+      "y": 38,
+      "width": 2139,
+      "height": 94
+    },
+    "tree_panel": {
+      "x": 28,
+      "y": 154,
+      "width": 1418,
+      "height": 772
+    },
+    "visitor": {
+      "x": 1471,
+      "y": 154,
+      "width": 697,
+      "height": 340
+    },
+    "observer": {
+      "x": 1471,
+      "y": 519,
+      "width": 697,
+      "height": 407
+    },
+    "console": {
+      "x": 2194,
+      "y": 38,
+      "width": 697,
+      "height": 886
+    },
+    "selected_row": {
+      "x": 208,
+      "y": 634,
+      "width": 1184,
+      "height": 56
+    },
+    "tree_indent": 51,
+    "major_gap": 24,
+    "size_button": {
+      "width": 102,
+      "height": 44
+    },
+    "font_visual_estimates": {
+      "heading": 28,
+      "row": 23,
+      "toolbar": 20,
+      "meta": 14
+    }
+  },
+  "method": "Actual image viewed; panel boundaries rounded estimates (about +/-4px); font estimates not asserted original CSS. Selected solid blue scan is measured from pixels."
+}

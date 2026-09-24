@@ -6,7 +6,7 @@ public sealed class EditingSession
     private readonly DirectoryNode root;
     private readonly Stack<IEditCommand> undo = new();
     private readonly Stack<IEditCommand> redo = new();
-    private NodeSnapshot? clipboard;
+    private INodePrototype? clipboard;
     private long revision;
     public EditingSession(DirectoryNode root)
     {
@@ -46,7 +46,7 @@ public sealed class EditingSession
         var snapshot = clipboard ?? throw new InvalidOperationException("Clipboard is empty.");
         if (destination.Children.Any(n => string.Equals(n.Name, snapshot.Name, StringComparison.Ordinal)))
             throw new ArgumentException("A sibling already has this name.");
-        var copy = snapshot.Create(destination);
+        var copy = snapshot.CloneInto(destination);
         Execute(new PasteCommand(destination, copy, destination.Children.Count));
         return copy;
     }

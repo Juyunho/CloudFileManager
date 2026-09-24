@@ -1,0 +1,23 @@
+{
+  "time": "2026-09-25T01:48:36.849317+08:00",
+  "downloaded_file": "/Users/juyunho/Downloads/export (1).xml",
+  "filename": "export (1).xml",
+  "application_suggested_filename": "export.xml",
+  "collision_suffix": "Chrome existing export.xml preserved; new export (1).xml",
+  "size": 207,
+  "sha256": "7131aa1d1c6a782e43487c37ce2901d96c7cd4f856430eab56b3477b0d83affb",
+  "utf8_strict_decode": true,
+  "xml_parse": true,
+  "root": "個人筆記",
+  "node_tags": [
+    "個人筆記",
+    "_x0032_025備份",
+    "會議記錄_docx",
+    "待辦清單_txt"
+  ],
+  "selected_subtree_only": true,
+  "download_mime_contract": "application/xml;charset=utf-8",
+  "mime_evidence": "production app.js new Blob type; no HTTP Content-Disposition because browser-generated Blob download",
+  "file_heuristic": "/Users/juyunho/Downloads/export (1).xml: text/plain; charset=utf-8",
+  "note": "file heuristic text/plain is not the Blob declared MIME. Download event timeout is not product failure."
+}

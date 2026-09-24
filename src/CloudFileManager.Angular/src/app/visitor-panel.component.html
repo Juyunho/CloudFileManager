@@ -1,0 +1,4 @@
+<h2><span id="visitor-heading"><svg appIcon name="person"></svg></span>訪問者操作 (Visitor)</h2>
+<button class="operation size" [disabled]="busy()" (click)="request.emit({action:'size'})">計算大小<span id="calculator"><svg appIcon name="calculator"></svg></span></button>
+<button class="operation xml" [disabled]="busy()" (click)="request.emit({action:'xml'})">XML 匯出<span id="xml-icon"><svg appIcon name="file"></svg></span></button>
+<form id="search-form" (submit)="search($event)"><input #query id="extension" aria-label="搜尋副檔名" placeholder="輸入關鍵字..." autocomplete="off" [disabled]="busy()" [value]="extension()" (input)="extension.set(query.value)"><button type="submit" class="search" [disabled]="busy()">搜尋<span id="search-icon"><svg appIcon name="search"></svg></span></button></form>

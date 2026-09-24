@@ -1,0 +1,17 @@
+{
+  "recorded_at": "2026-09-24T23:36:29+08:00",
+  "authority": "USER_CONFIRMED",
+  "absolute_path": "/Users/juyunho/Documents/Code/winbond/CloudFileManager/docs/reference-ui.png",
+  "repository_path": "docs/reference-ui.png",
+  "sha256": "17ae6d73bbc29b661c7e13106cc6cc4e7c8a3e0f7bea2c578da1fffc2e6efa05",
+  "width_pixels": 2914,
+  "height_pixels": 948,
+  "inspection": "Actually opened using tools.view_image; display resized to 2048x666.",
+  "shared_reference_for": [
+    "PM",
+    "SA",
+    "DEV",
+    "TEST"
+  ],
+  "viewport_note": "Native image pixels do not establish CSS viewport or DPR."
+}

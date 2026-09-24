@@ -1,0 +1,21 @@
+PASS B01 Name stable Asc/Desc directories first
+PASS B02 Size subtree keys and stable ties
+PASS B03 Extension empty directories and case-insensitive stability
+PASS B04 sorting and Tags leave baseline XML traversal intact
+PASS B05 sorting overflow invalid direction and readonly result
+PASS B06 Delete full subtree and exact original position/identity Undo Redo
+PASS B07 root foreign detached invalid operations preserve state/history
+PASS B08 Copy full metadata Tags snapshot after source modifications/deletion
+PASS B09 each Paste independent and snapshot immutable
+PASS B10 conflicting Paste atomic and preserves pending Redo
+PASS B11 Paste Undo Redo retains copy ID index metadata
+PASS B12 Tag catalog multi-tag directory/file readonly and exact Undo
+PASS B13 no-op failed Copy and sorting preserve Redo and entry counts
+PASS B14 each successful new edit clears Redo
+PASS B15 mixed operations Undo all Redo all exact states
+PASS B16 sessions isolate clipboard/history and reject stale tree
+PASS B17 deep subtree snapshot Paste Delete Undo iterative
+PASS B18 empty operations and empty directory copy
+PASS B19 Copy into descendant finite snapshot without cycles
+PASS B20 baseline Ordinal uniqueness not changed by sorting policy
+RESULT 20 passed; 0 failed

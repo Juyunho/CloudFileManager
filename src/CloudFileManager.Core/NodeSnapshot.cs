@@ -1,13 +1,19 @@
 namespace CloudFileManager.Core;
 
 // Value-only preorder rows: no source node or mutable source collection survives Copy.
-internal sealed class NodeSnapshot
+internal interface INodePrototype
+{
+    string Name { get; }
+    FsNode CloneInto(DirectoryNode destination);
+}
+
+internal sealed class NodeSnapshot : INodePrototype
 {
     private sealed record Row(int Parent, string Kind, string Name, DateTimeOffset Created,
         string? Alias, long Bytes, int Pages, int Width, int Height, string? Encoding, TagKind[] Tags);
     private readonly List<Row> rows;
     private NodeSnapshot(List<Row> rows) => this.rows = rows;
-    internal string Name => rows[0].Name;
+    public string Name => rows[0].Name;
     internal static NodeSnapshot Capture(FsNode source)
     {
         var rows = new List<Row>(); var pending = new Stack<(FsNode Node, int Parent)>(); pending.Push((source, -1));
@@ -22,7 +28,7 @@ internal sealed class NodeSnapshot
         }
         return new NodeSnapshot(rows);
     }
-    internal FsNode Create(DirectoryNode destination)
+    public FsNode CloneInto(DirectoryNode destination)
     {
         var copies = new List<FsNode>(rows.Count);
         foreach (var row in rows)

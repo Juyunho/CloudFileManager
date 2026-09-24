@@ -1,0 +1,14 @@
+--- before/style.css
++++ after/style.css
+@@ -3,3 +3,11 @@
+ .visitor h2{margin-bottom:12px}.visitor form{margin-top:7px}.visitor .operation{margin-bottom:5px}
+ 
+ .row.search-match:not(.selected){background:#eff6ff;box-shadow:inset 0 0 0 1px #bfdbfe;color:#1557ff}.row.search-match:not(.selected) .meta{color:#668aff}.entry.Match{color:#00d85a;font-weight:600}.entry.SearchSummary{background:#162e58;border:1px solid #224b87;border-radius:3px;margin-top:12px;padding:10px;color:#b8d7ff;font-weight:600}
++
++/* TASK-005: preserve the 2028px presentation; match the large reference at 2914px. */
++@media (min-width: 2400px) {
++  .workspace { zoom: 2; height: 50vh; }
++  .tree-panel h1 { margin-bottom: 12px; }
++  .tree { padding-left: 27px; }
++  .row { height: 28px; margin-bottom: 2px; }
++}

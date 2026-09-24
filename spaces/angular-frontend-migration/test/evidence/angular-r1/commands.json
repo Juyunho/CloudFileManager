@@ -1,0 +1,35 @@
+[
+  {
+    "command": [
+      "npm",
+      "ci",
+      "--no-audit",
+      "--no-fund"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager/src/CloudFileManager.Angular",
+    "exit_code": 0,
+    "time": "2026-09-25T02:37:38.029196+08:00",
+    "log": "clean-install.log"
+  },
+  {
+    "command": [
+      "npm",
+      "test"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager/src/CloudFileManager.Angular",
+    "exit_code": 0,
+    "time": "2026-09-25T02:37:38.433354+08:00",
+    "log": "tests.log"
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager/src/CloudFileManager.Angular",
+    "exit_code": 0,
+    "time": "2026-09-25T02:37:40.274954+08:00",
+    "log": "production-build.log"
+  }
+]

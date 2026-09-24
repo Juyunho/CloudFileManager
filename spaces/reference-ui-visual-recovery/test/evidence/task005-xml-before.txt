@@ -1,0 +1,94 @@
+- main:
+  - navigation "檔案操作":
+    - button "Undo" [disabled]:
+    - button "Redo" [disabled]:
+    - button "複製" [disabled]:
+      - text: 複製
+    - button "貼上" [disabled]:
+      - text: 貼上
+    - button "刪除" [disabled]:
+      - text: 刪除
+    - button "名稱" [disabled]
+    - button "大小 ↑" [disabled] [pressed]
+    - button "類型" [disabled]
+    - button "標籤" [disabled]
+    - button "+ Urgent 1" [disabled]:
+      - text: + Urgent
+      - generic: "1"
+    - button "+ Work 1" [disabled]:
+      - text: + Work
+      - generic: "1"
+    - button "+ Personal 2" [disabled]:
+      - text: + Personal
+      - generic: "2"
+  - heading "檔案階層 (Composite)" [level=1]:
+    - text: 檔案階層 (Composite)
+  - tree "檔案階層":
+    - treeitem "我的根目錄(0 KB)" [level=1]:
+      - generic: 我的根目錄(0 KB)
+    - treeitem "個人筆記(0 KB) URGENT 移除 個人筆記 的 Urgent" [level=2] [selected]:
+      - generic: 個人筆記(0 KB)
+      - text: URGENT
+      - button "移除 個人筆記 的 Urgent" [disabled]: ×
+    - treeitem "2025備份(0 KB) PERSONAL 移除 2025備份 的 Personal" [level=3]:
+      - generic: 2025備份(0 KB)
+      - text: PERSONAL
+      - button "移除 2025備份 的 Personal" [disabled]: ×
+    - 'treeitem "會議記錄.docx(200 KB, pages: 5) WORK 移除 會議記錄.docx 的 Work" [level=4]':
+      - generic: "會議記錄.docx(200 KB, pages: 5)"
+      - text: WORK
+      - button "移除 會議記錄.docx 的 Work" [disabled]: ×
+    - 'treeitem "待辦清單.txt(1 KB, enc: UTF-8)" [level=3]':
+      - generic: "待辦清單.txt(1 KB, enc: UTF-8)"
+    - treeitem "專案文件(0 KB)" [level=2]:
+      - generic: 專案文件(0 KB)
+    - 'treeitem "API介面定義.docx(120 KB, pages: 12) PERSONAL 移除 API介面定義.docx 的 Personal" [level=3]':
+      - generic: "API介面定義.docx(120 KB, pages: 12)"
+      - text: PERSONAL
+      - button "移除 API介面定義.docx 的 Personal" [disabled]: ×
+    - 'treeitem "需求規格書.docx(500 KB, pages: 35)" [level=3]':
+      - generic: "需求規格書.docx(500 KB, pages: 35)"
+    - 'treeitem "系統架構圖.png(2048 KB, res: 1920x1080)" [level=3]':
+      - generic: "系統架構圖.png(2048 KB, res: 1920x1080)"
+    - 'treeitem "README.txt(0.5 KB, enc: ASCII)" [level=2]':
+      - generic: "README.txt(0.5 KB, enc: ASCII)"
+  - heading "訪問者操作 (Visitor)" [level=2]:
+    - text: 訪問者操作 (Visitor)
+  - button "計算大小" [disabled]:
+    - text: 計算大小
+  - button "XML 匯出" [disabled]:
+    - text: XML 匯出
+  - textbox "搜尋副檔名" [disabled]:
+    - /placeholder: 輸入關鍵字...
+    - text: .docx
+  - button "搜尋" [disabled]:
+    - text: 搜尋
+  - heading "監控 (Observer) LIVE" [level=2]:
+    - text: 監控 (Observer)
+    - generic: LIVE
+  - text: 目前節點
+  - strong: README.txt
+  - generic: 掃描進度
+  - strong: 100%
+  - progressbar
+  - generic: 10 / 10 Nodes
+  - complementary:
+    - heading "● CONSOLE" [level=2]:
+      - generic: ●
+      - text: CONSOLE
+    - log "操作日誌":
+      - generic: "[Command] 執行 新增標籤(Urgent)：我的根目錄/個人筆記"
+      - generic "我的根目錄/README.txt": "掃描檔案: README.txt"
+      - generic "我的根目錄/專案文件/系統架構圖.png": "掃描檔案: 系統架構圖.png"
+      - generic "我的根目錄/專案文件/需求規格書.docx": "[符合] 需求規格書.docx"
+      - generic "我的根目錄/專案文件/需求規格書.docx": "掃描檔案: 需求規格書.docx"
+      - generic "我的根目錄/專案文件/API介面定義.docx": "[符合] API介面定義.docx"
+      - generic "我的根目錄/專案文件/API介面定義.docx": "掃描檔案: API介面定義.docx"
+      - generic "我的根目錄/專案文件": "搜尋目錄: 專案文件"
+      - generic "我的根目錄/個人筆記/待辦清單.txt": "掃描檔案: 待辦清單.txt"
+      - generic "我的根目錄/個人筆記/2025備份/會議記錄.docx": "[符合] 會議記錄.docx"
+      - generic "我的根目錄/個人筆記/2025備份/會議記錄.docx": "掃描檔案: 會議記錄.docx"
+      - generic "我的根目錄/個人筆記/2025備份": "搜尋目錄: 2025備份"
+      - generic "我的根目錄/個人筆記": "搜尋目錄: 個人筆記"
+      - generic "我的根目錄": "搜尋目錄: 我的根目錄"
+      - generic: 找到 3 項

@@ -1,0 +1,20 @@
+{
+  "file": "/Users/juyunho/Downloads/export (3).xml",
+  "filename": "export (3).xml",
+  "bytes": 207,
+  "sha256": "7131aa1d1c6a782e43487c37ce2901d96c7cd4f856430eab56b3477b0d83affb",
+  "encoding": "UTF-8 strict decode PASS",
+  "xml_parse": "PASS",
+  "root": "個人筆記",
+  "xml": "<個人筆記>\n  <_x0032_025備份>\n    <會議記錄_docx>頁數: 5, 大小: 200KB</會議記錄_docx>\n  </_x0032_025備份>\n  <待辦清單_txt>編碼: UTF-8, 大小: 1KB</待辦清單_txt>\n</個人筆記>",
+  "history_before": [
+    2,
+    1
+  ],
+  "history_after": [
+    2,
+    1
+  ],
+  "mime": "application/xml;charset=utf-8 (production Blob constructor; NDJSON transport, not XML HTTP response)",
+  "gate": "PASS"
+}

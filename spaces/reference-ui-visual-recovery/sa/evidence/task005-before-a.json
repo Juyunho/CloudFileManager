@@ -1,0 +1,1271 @@
+{
+  "items": [
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "16px",
+      "fontWeight": "400",
+      "padding": "18px 13px 11px",
+      "rect": {
+        "bottom": 948,
+        "height": 948,
+        "left": 0,
+        "right": 2914,
+        "top": 0,
+        "width": 2914,
+        "x": 0,
+        "y": 0
+      },
+      "selector": "workspace",
+      "text": "\n\n\n複製貼上刪除\n名稱大小 ↑類型標籤\n+ Urgent0+ Work1+ Personal2\n\n檔案階層 (Composite)我的根目錄(0 KB)個人筆記(0 KB)202",
+      "zoom": "1.4"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "borderRadius": "11px",
+      "font": "16px",
+      "fontWeight": "400",
+      "padding": "0px 9px",
+      "rect": {
+        "bottom": 90.9921875,
+        "height": 65.796875,
+        "left": 18.1953125,
+        "right": 2173.2890625,
+        "top": 25.1953125,
+        "width": 2155.09375,
+        "x": 18.1953125,
+        "y": 25.1953125
+      },
+      "selector": "toolbar",
+      "text": "\n\n複製貼上刪除\n名稱大小 ↑類型標籤\n+ Urgent0+ Work1+ Personal2\n",
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(239, 246, 255)",
+      "borderRadius": "6px",
+      "font": "10px",
+      "fontWeight": "400",
+      "padding": "4px",
+      "rect": {
+        "bottom": 75.59375,
+        "height": 35,
+        "left": 31.7890625,
+        "right": 66.7890625,
+        "top": 40.59375,
+        "width": 35,
+        "x": 31.7890625,
+        "y": 40.59375
+      },
+      "selector": "undo",
+      "text": "",
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(239, 246, 255)",
+      "borderRadius": "6px",
+      "font": "10px",
+      "fontWeight": "400",
+      "padding": "4px",
+      "rect": {
+        "bottom": 75.59375,
+        "height": 35,
+        "left": 75.1875,
+        "right": 110.1875,
+        "top": 40.59375,
+        "width": 35,
+        "x": 75.1875,
+        "y": 40.59375
+      },
+      "selector": "redo",
+      "text": "",
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(71, 85, 105)",
+      "borderRadius": "0px",
+      "font": "16px",
+      "fontWeight": "400",
+      "padding": "0px",
+      "rect": {
+        "bottom": 75.59375,
+        "height": 35,
+        "left": 124.1796875,
+        "right": 125.578125,
+        "top": 40.59375,
+        "width": 1.3984375,
+        "x": 124.1796875,
+        "y": 40.59375
+      },
+      "selector": "divider",
+      "text": "",
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(247, 249, 251)",
+      "borderRadius": "6px",
+      "font": "10px",
+      "fontWeight": "400",
+      "padding": "0px 7px",
+      "rect": {
+        "bottom": 74.1875,
+        "height": 32.1953125,
+        "left": 139.5703125,
+        "right": 212.3515625,
+        "top": 41.9921875,
+        "width": 72.78125,
+        "x": 139.5703125,
+        "y": 41.9921875
+      },
+      "selector": "copy",
+      "text": "複製",
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(247, 249, 251)",
+      "borderRadius": "6px",
+      "font": "10px",
+      "fontWeight": "400",
+      "padding": "0px 7px",
+      "rect": {
+        "bottom": 74.1875,
+        "height": 32.1953125,
+        "left": 220.75,
+        "right": 293.53125,
+        "top": 41.9921875,
+        "width": 72.78125,
+        "x": 220.75,
+        "y": 41.9921875
+      },
+      "selector": "paste",
+      "text": "貼上",
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(247, 249, 251)",
+      "borderRadius": "6px",
+      "font": "10px",
+      "fontWeight": "400",
+      "padding": "0px 7px",
+      "rect": {
+        "bottom": 74.1875,
+        "height": 32.1953125,
+        "left": 301.9296875,
+        "right": 374.7109375,
+        "top": 41.9921875,
+        "width": 72.78125,
+        "x": 301.9296875,
+        "y": 41.9921875
+      },
+      "selector": "delete",
+      "text": "刪除",
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(71, 85, 105)",
+      "borderRadius": "0px",
+      "font": "16px",
+      "fontWeight": "400",
+      "padding": "0px",
+      "rect": {
+        "bottom": 75.59375,
+        "height": 35,
+        "left": 388.703125,
+        "right": 390.1015625,
+        "top": 40.59375,
+        "width": 1.3984375,
+        "x": 388.703125,
+        "y": 40.59375
+      },
+      "selector": "divider",
+      "text": "",
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(247, 249, 251)",
+      "borderRadius": "6px",
+      "font": "10px",
+      "fontWeight": "400",
+      "padding": "0px 7px",
+      "rect": {
+        "bottom": 74.1875,
+        "height": 32.1953125,
+        "left": 440.4765625,
+        "right": 488.0703125,
+        "top": 41.9921875,
+        "width": 47.59375,
+        "x": 440.4765625,
+        "y": 41.9921875
+      },
+      "selector": "BUTTON",
+      "text": "名稱",
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(21, 87, 255)",
+      "borderRadius": "6px",
+      "font": "10px",
+      "fontWeight": "400",
+      "padding": "0px 7px",
+      "rect": {
+        "bottom": 74.1875,
+        "height": 32.1953125,
+        "left": 496.46875,
+        "right": 554.953125,
+        "top": 41.9921875,
+        "width": 58.484375,
+        "x": 496.46875,
+        "y": 41.9921875
+      },
+      "selector": "active",
+      "text": "大小 ↑",
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(247, 249, 251)",
+      "borderRadius": "6px",
+      "font": "10px",
+      "fontWeight": "400",
+      "padding": "0px 7px",
+      "rect": {
+        "bottom": 74.1875,
+        "height": 32.1953125,
+        "left": 563.3515625,
+        "right": 610.9453125,
+        "top": 41.9921875,
+        "width": 47.59375,
+        "x": 563.3515625,
+        "y": 41.9921875
+      },
+      "selector": "BUTTON",
+      "text": "類型",
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(247, 249, 251)",
+      "borderRadius": "6px",
+      "font": "10px",
+      "fontWeight": "400",
+      "padding": "0px 7px",
+      "rect": {
+        "bottom": 74.1875,
+        "height": 32.1953125,
+        "left": 619.34375,
+        "right": 666.9375,
+        "top": 41.9921875,
+        "width": 47.59375,
+        "x": 619.34375,
+        "y": 41.9921875
+      },
+      "selector": "BUTTON",
+      "text": "標籤",
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(71, 85, 105)",
+      "borderRadius": "0px",
+      "font": "16px",
+      "fontWeight": "400",
+      "padding": "0px",
+      "rect": {
+        "bottom": 75.59375,
+        "height": 35,
+        "left": 680.9296875,
+        "right": 682.328125,
+        "top": 40.59375,
+        "width": 1.3984375,
+        "x": 680.9296875,
+        "y": 40.59375
+      },
+      "selector": "divider",
+      "text": "",
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(255, 243, 244)",
+      "borderRadius": "6px",
+      "font": "9px",
+      "fontWeight": "700",
+      "padding": "0px 7px",
+      "rect": {
+        "bottom": 74.1875,
+        "height": 32.1953125,
+        "left": 739.703125,
+        "right": 812.7578125,
+        "top": 41.9921875,
+        "width": 73.0546875,
+        "x": 739.703125,
+        "y": 41.9921875
+      },
+      "selector": "tag-add urgent",
+      "text": "+ Urgent0",
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(239, 246, 255)",
+      "borderRadius": "6px",
+      "font": "9px",
+      "fontWeight": "700",
+      "padding": "0px 7px",
+      "rect": {
+        "bottom": 74.1875,
+        "height": 32.1953125,
+        "left": 828.15625,
+        "right": 891.8828125,
+        "top": 41.9921875,
+        "width": 63.7265625,
+        "x": 828.15625,
+        "y": 41.9921875
+      },
+      "selector": "tag-add work",
+      "text": "+ Work1",
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(239, 253, 244)",
+      "borderRadius": "6px",
+      "font": "9px",
+      "fontWeight": "700",
+      "padding": "0px 7px",
+      "rect": {
+        "bottom": 74.1875,
+        "height": 32.1953125,
+        "left": 907.28125,
+        "right": 992.9609375,
+        "top": 41.9921875,
+        "width": 85.6796875,
+        "x": 907.28125,
+        "y": 41.9921875
+      },
+      "selector": "tag-add personal",
+      "text": "+ Personal2",
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "borderRadius": "14px",
+      "font": "16px",
+      "fontWeight": "400",
+      "padding": "13px",
+      "rect": {
+        "bottom": 932.6015625,
+        "height": 824.8125,
+        "left": 18.1953125,
+        "right": 1450.78125,
+        "top": 107.7890625,
+        "width": 1432.5859375,
+        "x": 18.1953125,
+        "y": 107.7890625
+      },
+      "selector": "panel tree-panel",
+      "text": "檔案階層 (Composite)我的根目錄(0 KB)個人筆記(0 KB)2025備份(0 KB)PERSONAL×會議記錄.docx(200 KB, pages: 5)WORK×",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "15px",
+      "fontWeight": "600",
+      "padding": "0px",
+      "rect": {
+        "bottom": 157.78125,
+        "height": 30.796875,
+        "left": 37.390625,
+        "right": 1431.5859375,
+        "top": 126.984375,
+        "width": 1394.1953125,
+        "x": 37.390625,
+        "y": 126.984375
+      },
+      "selector": "H1",
+      "text": "檔案階層 (Composite)",
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(247, 249, 251)",
+      "borderRadius": "10px",
+      "font": "16px",
+      "fontWeight": "400",
+      "padding": "12px 12px 12px 23px",
+      "rect": {
+        "bottom": 913.40625,
+        "height": 733.2265625,
+        "left": 37.390625,
+        "right": 1431.5859375,
+        "top": 180.1796875,
+        "width": 1394.1953125,
+        "x": 37.390625,
+        "y": 180.1796875
+      },
+      "selector": "tree",
+      "text": "我的根目錄(0 KB)個人筆記(0 KB)2025備份(0 KB)PERSONAL×會議記錄.docx(200 KB, pages: 5)WORK×待辦清單.txt(1 KB, e",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "6px",
+      "font": "12px",
+      "fontWeight": "400",
+      "padding": "0px 6px",
+      "rect": {
+        "bottom": 238.9765625,
+        "height": 42,
+        "left": 69.5859375,
+        "right": 1414.7890625,
+        "top": 196.9765625,
+        "width": 1345.203125,
+        "x": 69.5859375,
+        "y": 196.9765625
+      },
+      "selector": "row directory",
+      "text": "我的根目錄(0 KB)",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "12px",
+      "fontWeight": "400",
+      "padding": "0px",
+      "rect": {
+        "bottom": 228.1953125,
+        "height": 20.4453125,
+        "left": 77.984375,
+        "right": 97.578125,
+        "top": 207.75,
+        "width": 19.59375,
+        "x": 77.984375,
+        "y": 207.75
+      },
+      "selector": "node-icon",
+      "text": "",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "8px",
+      "fontWeight": "400",
+      "padding": "0px",
+      "rect": {
+        "bottom": 226.7265625,
+        "height": 12.5,
+        "left": 194.1484375,
+        "right": 225.890625,
+        "top": 214.2265625,
+        "width": 31.7421875,
+        "x": 194.1484375,
+        "y": 214.2265625
+      },
+      "selector": "meta",
+      "text": "(0 KB)",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "6px",
+      "font": "12px",
+      "fontWeight": "400",
+      "padding": "0px 6px",
+      "rect": {
+        "bottom": 280.9765625,
+        "height": 42,
+        "left": 104.5859375,
+        "right": 1414.7890625,
+        "top": 238.9765625,
+        "width": 1310.203125,
+        "x": 104.5859375,
+        "y": 238.9765625
+      },
+      "selector": "row directory",
+      "text": "個人筆記(0 KB)",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "12px",
+      "fontWeight": "400",
+      "padding": "0px",
+      "rect": {
+        "bottom": 270.1953125,
+        "height": 20.4453125,
+        "left": 112.984375,
+        "right": 132.578125,
+        "top": 249.75,
+        "width": 19.59375,
+        "x": 112.984375,
+        "y": 249.75
+      },
+      "selector": "node-icon",
+      "text": "",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "8px",
+      "fontWeight": "400",
+      "padding": "0px",
+      "rect": {
+        "bottom": 268.7265625,
+        "height": 12.5,
+        "left": 212.359375,
+        "right": 244.1015625,
+        "top": 256.2265625,
+        "width": 31.7421875,
+        "x": 212.359375,
+        "y": 256.2265625
+      },
+      "selector": "meta",
+      "text": "(0 KB)",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "6px",
+      "font": "12px",
+      "fontWeight": "400",
+      "padding": "0px 6px",
+      "rect": {
+        "bottom": 322.9765625,
+        "height": 42,
+        "left": 139.5859375,
+        "right": 1414.7890625,
+        "top": 280.9765625,
+        "width": 1275.203125,
+        "x": 139.5859375,
+        "y": 280.9765625
+      },
+      "selector": "row directory",
+      "text": "2025備份(0 KB)PERSONAL×",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "12px",
+      "fontWeight": "400",
+      "padding": "0px",
+      "rect": {
+        "bottom": 312.1953125,
+        "height": 20.4453125,
+        "left": 147.984375,
+        "right": 167.578125,
+        "top": 291.75,
+        "width": 19.59375,
+        "x": 147.984375,
+        "y": 291.75
+      },
+      "selector": "node-icon",
+      "text": "",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "8px",
+      "fontWeight": "400",
+      "padding": "0px",
+      "rect": {
+        "bottom": 310.7265625,
+        "height": 12.5,
+        "left": 251.125,
+        "right": 282.8671875,
+        "top": 298.2265625,
+        "width": 31.7421875,
+        "x": 251.125,
+        "y": 298.2265625
+      },
+      "selector": "meta",
+      "text": "(0 KB)",
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(0, 200, 79)",
+      "borderRadius": "3px",
+      "font": "7px",
+      "fontWeight": "700",
+      "padding": "0px 4px",
+      "rect": {
+        "bottom": 310.375,
+        "height": 16.796875,
+        "left": 1328.15625,
+        "right": 1406.390625,
+        "top": 293.578125,
+        "width": 78.234375,
+        "x": 1328.15625,
+        "y": 293.578125
+      },
+      "selector": "badge Personal",
+      "text": "PERSONAL×",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "6px",
+      "font": "12px",
+      "fontWeight": "400",
+      "padding": "0px 6px",
+      "rect": {
+        "bottom": 364.9765625,
+        "height": 42,
+        "left": 174.5859375,
+        "right": 1414.7890625,
+        "top": 322.9765625,
+        "width": 1240.203125,
+        "x": 174.5859375,
+        "y": 322.9765625
+      },
+      "selector": "row",
+      "text": "會議記錄.docx(200 KB, pages: 5)WORK×",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "12px",
+      "fontWeight": "400",
+      "padding": "0px",
+      "rect": {
+        "bottom": 354.1953125,
+        "height": 20.4453125,
+        "left": 182.984375,
+        "right": 202.578125,
+        "top": 333.75,
+        "width": 19.59375,
+        "x": 182.984375,
+        "y": 333.75
+      },
+      "selector": "node-icon",
+      "text": "",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "8px",
+      "fontWeight": "400",
+      "padding": "0px",
+      "rect": {
+        "bottom": 352.7265625,
+        "height": 12.5,
+        "left": 322.5,
+        "right": 415.890625,
+        "top": 340.2265625,
+        "width": 93.390625,
+        "x": 322.5,
+        "y": 340.2265625
+      },
+      "selector": "meta",
+      "text": "(200 KB, pages: 5)",
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(48, 133, 255)",
+      "borderRadius": "3px",
+      "font": "7px",
+      "fontWeight": "700",
+      "padding": "0px 4px",
+      "rect": {
+        "bottom": 352.375,
+        "height": 16.796875,
+        "left": 1351.578125,
+        "right": 1406.390625,
+        "top": 335.578125,
+        "width": 54.8125,
+        "x": 1351.578125,
+        "y": 335.578125
+      },
+      "selector": "badge Work",
+      "text": "WORK×",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "6px",
+      "font": "12px",
+      "fontWeight": "400",
+      "padding": "0px 6px",
+      "rect": {
+        "bottom": 406.9765625,
+        "height": 42,
+        "left": 139.5859375,
+        "right": 1414.7890625,
+        "top": 364.9765625,
+        "width": 1275.203125,
+        "x": 139.5859375,
+        "y": 364.9765625
+      },
+      "selector": "row",
+      "text": "待辦清單.txt(1 KB, enc: UTF-8)",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "12px",
+      "fontWeight": "400",
+      "padding": "0px",
+      "rect": {
+        "bottom": 396.1953125,
+        "height": 20.4453125,
+        "left": 147.984375,
+        "right": 167.578125,
+        "top": 375.75,
+        "width": 19.59375,
+        "x": 147.984375,
+        "y": 375.75
+      },
+      "selector": "node-icon",
+      "text": "",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "8px",
+      "fontWeight": "400",
+      "padding": "0px",
+      "rect": {
+        "bottom": 394.7265625,
+        "height": 12.5,
+        "left": 269.75,
+        "right": 363.7265625,
+        "top": 382.2265625,
+        "width": 93.9765625,
+        "x": 269.75,
+        "y": 382.2265625
+      },
+      "selector": "meta",
+      "text": "(1 KB, enc: UTF-8)",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "6px",
+      "font": "12px",
+      "fontWeight": "400",
+      "padding": "0px 6px",
+      "rect": {
+        "bottom": 448.9765625,
+        "height": 42,
+        "left": 104.5859375,
+        "right": 1414.7890625,
+        "top": 406.9765625,
+        "width": 1310.203125,
+        "x": 104.5859375,
+        "y": 406.9765625
+      },
+      "selector": "row directory",
+      "text": "專案文件(0 KB)",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "12px",
+      "fontWeight": "400",
+      "padding": "0px",
+      "rect": {
+        "bottom": 438.1953125,
+        "height": 20.4453125,
+        "left": 112.984375,
+        "right": 132.578125,
+        "top": 417.75,
+        "width": 19.59375,
+        "x": 112.984375,
+        "y": 417.75
+      },
+      "selector": "node-icon",
+      "text": "",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "8px",
+      "fontWeight": "400",
+      "padding": "0px",
+      "rect": {
+        "bottom": 436.7265625,
+        "height": 12.5,
+        "left": 212.359375,
+        "right": 244.1015625,
+        "top": 424.2265625,
+        "width": 31.7421875,
+        "x": 212.359375,
+        "y": 424.2265625
+      },
+      "selector": "meta",
+      "text": "(0 KB)",
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(21, 87, 255)",
+      "borderRadius": "6px",
+      "font": "12px",
+      "fontWeight": "600",
+      "padding": "0px 6px",
+      "rect": {
+        "bottom": 490.9765625,
+        "height": 42,
+        "left": 139.5859375,
+        "right": 1414.7890625,
+        "top": 448.9765625,
+        "width": 1275.203125,
+        "x": 139.5859375,
+        "y": 448.9765625
+      },
+      "selector": "row selected",
+      "text": "API介面定義.docx(120 KB, pages: 12)PERSONAL×",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "12px",
+      "fontWeight": "600",
+      "padding": "0px",
+      "rect": {
+        "bottom": 480.1953125,
+        "height": 20.4453125,
+        "left": 147.984375,
+        "right": 167.578125,
+        "top": 459.75,
+        "width": 19.59375,
+        "x": 147.984375,
+        "y": 459.75
+      },
+      "selector": "node-icon",
+      "text": "",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "8px",
+      "fontWeight": "600",
+      "padding": "0px",
+      "rect": {
+        "bottom": 478.7265625,
+        "height": 12.5,
+        "left": 319.21875,
+        "right": 422.546875,
+        "top": 466.2265625,
+        "width": 103.328125,
+        "x": 319.21875,
+        "y": 466.2265625
+      },
+      "selector": "meta",
+      "text": "(120 KB, pages: 12)",
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(0, 200, 79)",
+      "borderRadius": "3px",
+      "font": "7px",
+      "fontWeight": "700",
+      "padding": "0px 4px",
+      "rect": {
+        "bottom": 478.375,
+        "height": 16.796875,
+        "left": 1328.15625,
+        "right": 1406.390625,
+        "top": 461.578125,
+        "width": 78.234375,
+        "x": 1328.15625,
+        "y": 461.578125
+      },
+      "selector": "badge Personal",
+      "text": "PERSONAL×",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "6px",
+      "font": "12px",
+      "fontWeight": "400",
+      "padding": "0px 6px",
+      "rect": {
+        "bottom": 532.9765625,
+        "height": 42,
+        "left": 139.5859375,
+        "right": 1414.7890625,
+        "top": 490.9765625,
+        "width": 1275.203125,
+        "x": 139.5859375,
+        "y": 490.9765625
+      },
+      "selector": "row",
+      "text": "需求規格書.docx(500 KB, pages: 35)",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "12px",
+      "fontWeight": "400",
+      "padding": "0px",
+      "rect": {
+        "bottom": 522.1953125,
+        "height": 20.4453125,
+        "left": 147.984375,
+        "right": 167.578125,
+        "top": 501.75,
+        "width": 19.59375,
+        "x": 147.984375,
+        "y": 501.75
+      },
+      "selector": "node-icon",
+      "text": "",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "8px",
+      "fontWeight": "400",
+      "padding": "0px",
+      "rect": {
+        "bottom": 520.7265625,
+        "height": 12.5,
+        "left": 304.296875,
+        "right": 403.921875,
+        "top": 508.2265625,
+        "width": 99.625,
+        "x": 304.296875,
+        "y": 508.2265625
+      },
+      "selector": "meta",
+      "text": "(500 KB, pages: 35)",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "6px",
+      "font": "12px",
+      "fontWeight": "400",
+      "padding": "0px 6px",
+      "rect": {
+        "bottom": 574.9765625,
+        "height": 42,
+        "left": 139.5859375,
+        "right": 1414.7890625,
+        "top": 532.9765625,
+        "width": 1275.203125,
+        "x": 139.5859375,
+        "y": 532.9765625
+      },
+      "selector": "row",
+      "text": "系統架構圖.png(2048 KB, res: 1920x1080)",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "12px",
+      "fontWeight": "400",
+      "padding": "0px",
+      "rect": {
+        "bottom": 564.1953125,
+        "height": 20.4453125,
+        "left": 147.984375,
+        "right": 167.578125,
+        "top": 543.75,
+        "width": 19.59375,
+        "x": 147.984375,
+        "y": 543.75
+      },
+      "selector": "node-icon",
+      "text": "",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "8px",
+      "fontWeight": "400",
+      "padding": "0px",
+      "rect": {
+        "bottom": 562.7265625,
+        "height": 12.5,
+        "left": 296.8359375,
+        "right": 430.703125,
+        "top": 550.2265625,
+        "width": 133.8671875,
+        "x": 296.8359375,
+        "y": 550.2265625
+      },
+      "selector": "meta",
+      "text": "(2048 KB, res: 1920x1080)",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "6px",
+      "font": "12px",
+      "fontWeight": "400",
+      "padding": "0px 6px",
+      "rect": {
+        "bottom": 616.9765625,
+        "height": 42,
+        "left": 104.5859375,
+        "right": 1414.7890625,
+        "top": 574.9765625,
+        "width": 1310.203125,
+        "x": 104.5859375,
+        "y": 574.9765625
+      },
+      "selector": "row",
+      "text": "README.txt(0.5 KB, enc: ASCII)",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "12px",
+      "fontWeight": "400",
+      "padding": "0px",
+      "rect": {
+        "bottom": 606.1953125,
+        "height": 20.4453125,
+        "left": 112.984375,
+        "right": 132.578125,
+        "top": 585.75,
+        "width": 19.59375,
+        "x": 112.984375,
+        "y": 585.75
+      },
+      "selector": "node-icon",
+      "text": "",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "8px",
+      "fontWeight": "400",
+      "padding": "0px",
+      "rect": {
+        "bottom": 603.9765625,
+        "height": 12.5,
+        "left": 239.4296875,
+        "right": 339.65625,
+        "top": 591.4765625,
+        "width": 100.2265625,
+        "x": 239.4296875,
+        "y": 591.4765625
+      },
+      "selector": "meta",
+      "text": "(0.5 KB, enc: ASCII)",
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "borderRadius": "14px",
+      "font": "16px",
+      "fontWeight": "400",
+      "padding": "13px",
+      "rect": {
+        "bottom": 476.6640625,
+        "height": 368.875,
+        "left": 1467.578125,
+        "right": 2173.2890625,
+        "top": 107.7890625,
+        "width": 705.7109375,
+        "x": 1467.578125,
+        "y": 107.7890625
+      },
+      "selector": "panel visitor",
+      "text": "訪問者操作 (Visitor)計算大小XML 匯出搜尋",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "15px",
+      "fontWeight": "600",
+      "padding": "0px",
+      "rect": {
+        "bottom": 157.78125,
+        "height": 30.796875,
+        "left": 1486.7734375,
+        "right": 2154.09375,
+        "top": 126.984375,
+        "width": 667.3203125,
+        "x": 1486.7734375,
+        "y": 126.984375
+      },
+      "selector": "H2",
+      "text": "訪問者操作 (Visitor)",
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(238, 241, 255)",
+      "borderRadius": "10px",
+      "font": "12px",
+      "fontWeight": "400",
+      "padding": "0px 12px",
+      "rect": {
+        "bottom": 219.375,
+        "height": 44.796875,
+        "left": 1486.7734375,
+        "right": 2154.09375,
+        "top": 174.578125,
+        "width": 667.3203125,
+        "x": 1486.7734375,
+        "y": 174.578125
+      },
+      "selector": "operation size",
+      "text": "計算大小",
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(255, 251, 235)",
+      "borderRadius": "10px",
+      "font": "12px",
+      "fontWeight": "400",
+      "padding": "0px 12px",
+      "rect": {
+        "bottom": 271.171875,
+        "height": 44.796875,
+        "left": 1486.7734375,
+        "right": 2154.09375,
+        "top": 226.375,
+        "width": 667.3203125,
+        "x": 1486.7734375,
+        "y": 226.375
+      },
+      "selector": "operation xml",
+      "text": "XML 匯出",
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "borderRadius": "14px",
+      "font": "16px",
+      "fontWeight": "400",
+      "padding": "13px",
+      "rect": {
+        "bottom": 932.6015625,
+        "height": 439.140625,
+        "left": 1467.578125,
+        "right": 2173.2890625,
+        "top": 493.4609375,
+        "width": 705.7109375,
+        "x": 1467.578125,
+        "y": 493.4609375
+      },
+      "selector": "panel observer",
+      "text": "監控 (Observer)LIVE目前節點尚未執行掃描進度idle尚未執行",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "15px",
+      "fontWeight": "600",
+      "padding": "0px",
+      "rect": {
+        "bottom": 543.453125,
+        "height": 30.796875,
+        "left": 1486.7734375,
+        "right": 2154.09375,
+        "top": 512.65625,
+        "width": 667.3203125,
+        "x": 1486.7734375,
+        "y": 512.65625
+      },
+      "selector": "H2",
+      "text": "監控 (Observer)LIVE",
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(247, 249, 251)",
+      "borderRadius": "9px",
+      "font": "16px",
+      "fontWeight": "400",
+      "padding": "10px 11px",
+      "rect": {
+        "bottom": 653.25,
+        "height": 86,
+        "left": 1486.7734375,
+        "right": 2154.09375,
+        "top": 567.25,
+        "width": 667.3203125,
+        "x": 1486.7734375,
+        "y": 567.25
+      },
+      "selector": "monitor",
+      "text": "目前節點尚未執行",
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(247, 249, 251)",
+      "borderRadius": "9px",
+      "font": "16px",
+      "fontWeight": "400",
+      "padding": "10px 11px",
+      "rect": {
+        "bottom": 769.640625,
+        "height": 99.59375,
+        "left": 1486.7734375,
+        "right": 2154.09375,
+        "top": 670.046875,
+        "width": 667.3203125,
+        "x": 1486.7734375,
+        "y": 670.046875
+      },
+      "selector": "monitor scan",
+      "text": "掃描進度idle尚未執行",
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(15, 23, 41)",
+      "borderRadius": "14px",
+      "font": "16px",
+      "fontWeight": "400",
+      "padding": "12px 13px",
+      "rect": {
+        "bottom": 932.6015625,
+        "height": 907.40625,
+        "left": 2190.0859375,
+        "right": 2895.8046875,
+        "top": 25.1953125,
+        "width": 705.71875,
+        "x": 2190.0859375,
+        "y": 25.1953125
+      },
+      "selector": "console",
+      "text": "● CONSOLE",
+      "zoom": "1"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "font": "9px",
+      "fontWeight": "600",
+      "padding": "0px 0px 7px",
+      "rect": {
+        "bottom": 80.7890625,
+        "height": 38.796875,
+        "left": 2208.28125,
+        "right": 2877.609375,
+        "top": 41.9921875,
+        "width": 669.328125,
+        "x": 2208.28125,
+        "y": 41.9921875
+      },
+      "selector": "H2",
+      "text": "● CONSOLE",
+      "zoom": "1"
+    }
+  ],
+  "viewport": {
+    "dpr": 1,
+    "height": 948,
+    "scrollHeight": 948,
+    "scrollWidth": 2914,
+    "width": 2914
+  }
+}

@@ -1,0 +1,436 @@
+[
+  {
+    "view": "a",
+    "selector": "toolbar",
+    "baseline": {
+      "bottom": 130,
+      "height": 94,
+      "left": 26,
+      "right": 2165.734375,
+      "top": 36,
+      "width": 2139.734375,
+      "x": 26,
+      "y": 36
+    },
+    "current": {
+      "bottom": 130,
+      "height": 94,
+      "left": 26,
+      "right": 2165.734375,
+      "top": 36,
+      "width": 2139.734375,
+      "x": 26,
+      "y": 36
+    },
+    "delta": {
+      "x": 0,
+      "y": 0,
+      "width": 0.0,
+      "height": 0
+    },
+    "font_equal": true
+  },
+  {
+    "view": "a",
+    "selector": "panel tree-panel",
+    "baseline": {
+      "bottom": 926,
+      "height": 772,
+      "left": 26,
+      "right": 1443.46875,
+      "top": 154,
+      "width": 1417.46875,
+      "x": 26,
+      "y": 154
+    },
+    "current": {
+      "bottom": 926,
+      "height": 772,
+      "left": 26,
+      "right": 1443.46875,
+      "top": 154,
+      "width": 1417.46875,
+      "x": 26,
+      "y": 154
+    },
+    "delta": {
+      "x": 0,
+      "y": 0,
+      "width": 0.0,
+      "height": 0
+    },
+    "font_equal": true
+  },
+  {
+    "view": "a",
+    "selector": "panel visitor",
+    "baseline": {
+      "bottom": 495.4765625,
+      "height": 341.4765625,
+      "left": 1467.46875,
+      "right": 2165.734375,
+      "top": 154,
+      "width": 698.265625,
+      "x": 1467.46875,
+      "y": 154
+    },
+    "current": {
+      "bottom": 495.4765625,
+      "height": 341.4765625,
+      "left": 1467.46875,
+      "right": 2165.734375,
+      "top": 154,
+      "width": 698.265625,
+      "x": 1467.46875,
+      "y": 154
+    },
+    "delta": {
+      "x": 0.0,
+      "y": 0,
+      "width": 0.0,
+      "height": 0.0
+    },
+    "font_equal": true
+  },
+  {
+    "view": "a",
+    "selector": "panel observer",
+    "baseline": {
+      "bottom": 926,
+      "height": 406.5234375,
+      "left": 1467.46875,
+      "right": 2165.734375,
+      "top": 519.4765625,
+      "width": 698.265625,
+      "x": 1467.46875,
+      "y": 519.4765625
+    },
+    "current": {
+      "bottom": 926,
+      "height": 406.5234375,
+      "left": 1467.46875,
+      "right": 2165.734375,
+      "top": 519.4765625,
+      "width": 698.265625,
+      "x": 1467.46875,
+      "y": 519.4765625
+    },
+    "delta": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 0.0,
+      "height": 0.0
+    },
+    "font_equal": true
+  },
+  {
+    "view": "a",
+    "selector": "console",
+    "baseline": {
+      "bottom": 926,
+      "height": 890,
+      "left": 2189.734375,
+      "right": 2888,
+      "top": 36,
+      "width": 698.265625,
+      "x": 2189.734375,
+      "y": 36
+    },
+    "current": {
+      "bottom": 926,
+      "height": 890,
+      "left": 2189.734375,
+      "right": 2888,
+      "top": 36,
+      "width": 698.265625,
+      "x": 2189.734375,
+      "y": 36
+    },
+    "delta": {
+      "x": 0.0,
+      "y": 0,
+      "width": 0.0,
+      "height": 0
+    },
+    "font_equal": true
+  },
+  {
+    "view": "a",
+    "selector": "undo",
+    "baseline": {
+      "bottom": 108,
+      "height": 50,
+      "left": 46,
+      "right": 96,
+      "top": 58,
+      "width": 50,
+      "x": 46,
+      "y": 58
+    },
+    "current": {
+      "bottom": 108,
+      "height": 50,
+      "left": 46,
+      "right": 96,
+      "top": 58,
+      "width": 50,
+      "x": 46,
+      "y": 58
+    },
+    "delta": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "font_equal": true
+  },
+  {
+    "view": "a",
+    "selector": "copy",
+    "baseline": {
+      "bottom": 106,
+      "height": 46,
+      "left": 200,
+      "right": 304,
+      "top": 60,
+      "width": 104,
+      "x": 200,
+      "y": 60
+    },
+    "current": {
+      "bottom": 106,
+      "height": 46,
+      "left": 200,
+      "right": 304,
+      "top": 60,
+      "width": 104,
+      "x": 200,
+      "y": 60
+    },
+    "delta": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "font_equal": true
+  },
+  {
+    "view": "b",
+    "selector": "toolbar",
+    "baseline": {
+      "bottom": 90.9921875,
+      "height": 65.796875,
+      "left": 18.1953125,
+      "right": 1507.140625,
+      "top": 25.1953125,
+      "width": 1488.9453125,
+      "x": 18.1953125,
+      "y": 25.1953125
+    },
+    "current": {
+      "bottom": 90.9921875,
+      "height": 65.796875,
+      "left": 18.1953125,
+      "right": 1507.140625,
+      "top": 25.1953125,
+      "width": 1488.9453125,
+      "x": 18.1953125,
+      "y": 25.1953125
+    },
+    "delta": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 0.0,
+      "height": 0.0
+    },
+    "font_equal": true
+  },
+  {
+    "view": "b",
+    "selector": "panel tree-panel",
+    "baseline": {
+      "bottom": 666.6015625,
+      "height": 558.8125,
+      "left": 18.1953125,
+      "right": 1004.484375,
+      "top": 107.7890625,
+      "width": 986.2890625,
+      "x": 18.1953125,
+      "y": 107.7890625
+    },
+    "current": {
+      "bottom": 666.6015625,
+      "height": 558.8125,
+      "left": 18.1953125,
+      "right": 1004.484375,
+      "top": 107.7890625,
+      "width": 986.2890625,
+      "x": 18.1953125,
+      "y": 107.7890625
+    },
+    "delta": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 0.0,
+      "height": 0.0
+    },
+    "font_equal": true
+  },
+  {
+    "view": "b",
+    "selector": "panel visitor",
+    "baseline": {
+      "bottom": 355.2265625,
+      "height": 247.4375,
+      "left": 1021.28125,
+      "right": 1507.140625,
+      "top": 107.7890625,
+      "width": 485.859375,
+      "x": 1021.28125,
+      "y": 107.7890625
+    },
+    "current": {
+      "bottom": 355.2265625,
+      "height": 247.4375,
+      "left": 1021.28125,
+      "right": 1507.140625,
+      "top": 107.7890625,
+      "width": 485.859375,
+      "x": 1021.28125,
+      "y": 107.7890625
+    },
+    "delta": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 0.0,
+      "height": 0.0
+    },
+    "font_equal": true
+  },
+  {
+    "view": "b",
+    "selector": "panel observer",
+    "baseline": {
+      "bottom": 666.6015625,
+      "height": 294.578125,
+      "left": 1021.28125,
+      "right": 1507.140625,
+      "top": 372.0234375,
+      "width": 485.859375,
+      "x": 1021.28125,
+      "y": 372.0234375
+    },
+    "current": {
+      "bottom": 666.6015625,
+      "height": 294.578125,
+      "left": 1021.28125,
+      "right": 1507.140625,
+      "top": 372.0234375,
+      "width": 485.859375,
+      "x": 1021.28125,
+      "y": 372.0234375
+    },
+    "delta": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 0.0,
+      "height": 0.0
+    },
+    "font_equal": true
+  },
+  {
+    "view": "b",
+    "selector": "console",
+    "baseline": {
+      "bottom": 666.6015625,
+      "height": 641.40625,
+      "left": 1523.9375,
+      "right": 2009.8046875,
+      "top": 25.1953125,
+      "width": 485.8671875,
+      "x": 1523.9375,
+      "y": 25.1953125
+    },
+    "current": {
+      "bottom": 666.6015625,
+      "height": 641.40625,
+      "left": 1523.9375,
+      "right": 2009.8046875,
+      "top": 25.1953125,
+      "width": 485.8671875,
+      "x": 1523.9375,
+      "y": 25.1953125
+    },
+    "delta": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 0.0,
+      "height": 0.0
+    },
+    "font_equal": true
+  },
+  {
+    "view": "b",
+    "selector": "undo",
+    "baseline": {
+      "bottom": 75.59375,
+      "height": 35,
+      "left": 31.7890625,
+      "right": 66.7890625,
+      "top": 40.59375,
+      "width": 35,
+      "x": 31.7890625,
+      "y": 40.59375
+    },
+    "current": {
+      "bottom": 75.59375,
+      "height": 35,
+      "left": 31.7890625,
+      "right": 66.7890625,
+      "top": 40.59375,
+      "width": 35,
+      "x": 31.7890625,
+      "y": 40.59375
+    },
+    "delta": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 0,
+      "height": 0
+    },
+    "font_equal": true
+  },
+  {
+    "view": "b",
+    "selector": "copy",
+    "baseline": {
+      "bottom": 74.1875,
+      "height": 32.1953125,
+      "left": 139.5703125,
+      "right": 212.3515625,
+      "top": 41.9921875,
+      "width": 72.78125,
+      "x": 139.5703125,
+      "y": 41.9921875
+    },
+    "current": {
+      "bottom": 74.1875,
+      "height": 32.1953125,
+      "left": 139.5703125,
+      "right": 212.3515625,
+      "top": 41.9921875,
+      "width": 72.78125,
+      "x": 139.5703125,
+      "y": 41.9921875
+    },
+    "delta": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 0.0,
+      "height": 0.0
+    },
+    "font_equal": true
+  }
+]

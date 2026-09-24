@@ -1,0 +1,11 @@
+<h1><span id="folder-heading"><svg appIcon name="folder"></svg></span>檔案階層 (Composite)</h1>
+<div class="tree" id="tree" role="tree" aria-label="檔案階層">
+@for (row of model().rows; track row.id) {
+  <div class="row" [class.directory]="row.directory" [class.search-match]="row.searchMatch" [class.selected]="row.id === model().selected" role="treeitem" [attr.aria-level]="row.depth + 1" [attr.aria-selected]="row.id === model().selected" tabindex="0" [attr.data-id]="row.id" [style.margin-left.px]="row.depth * 25" (click)="select(row)" (keydown)="key($event,row)">
+    @for (index of branches(row.depth); track index) { <span class="branch-line" [style.left.px]="-15 - index * 25"></span> }
+    <span class="node-icon"><svg appIcon [name]="row.directory ? 'folder' : row.kind"></svg></span>
+    <span class="label">{{ row.name }}<span class="meta">({{ row.details }})</span></span>
+    <span class="tags">@for (tag of row.tags; track tag) { <span [class]="'badge ' + tag">{{ tag.toUpperCase() }}<button [disabled]="busy()" [attr.aria-label]="'移除 ' + row.name + ' 的 ' + tag" (click)="remove($event,row,tag)">×</button></span> }</span>
+  </div>
+}
+</div>

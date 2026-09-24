@@ -1,0 +1,23 @@
+[
+  {
+    "command": [
+      "npm",
+      "test"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager/src/CloudFileManager.Angular",
+    "exit_code": 0,
+    "time": "2026-09-25T02:31:15.768036+08:00",
+    "log": "frontend-tests.log"
+  },
+  {
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager/src/CloudFileManager.Angular",
+    "exit_code": 0,
+    "time": "2026-09-25T02:31:17.946902+08:00",
+    "log": "angular-build.log"
+  }
+]

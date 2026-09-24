@@ -1,0 +1,145 @@
+{
+  "dpr": 1,
+  "innerHeight": 948,
+  "innerWidth": 2914,
+  "panels": [
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "className": "workspace",
+      "font": "16px",
+      "radius": "0px",
+      "rect": {
+        "bottom": 948,
+        "height": 948,
+        "left": 0,
+        "right": 2914,
+        "top": 0,
+        "width": 2914,
+        "x": 0,
+        "y": 0
+      },
+      "zoom": "1.4"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "className": "toolbar",
+      "font": "16px",
+      "radius": "11px",
+      "rect": {
+        "bottom": 90.9921875,
+        "height": 65.796875,
+        "left": 18.1953125,
+        "right": 2173.2890625,
+        "top": 25.1953125,
+        "width": 2155.09375,
+        "x": 18.1953125,
+        "y": 25.1953125
+      },
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "className": "panel tree-panel",
+      "font": "16px",
+      "radius": "14px",
+      "rect": {
+        "bottom": 932.6015625,
+        "height": 824.8125,
+        "left": 18.1953125,
+        "right": 1450.78125,
+        "top": 107.7890625,
+        "width": 1432.5859375,
+        "x": 18.1953125,
+        "y": 107.7890625
+      },
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(247, 249, 251)",
+      "className": "tree",
+      "font": "16px",
+      "radius": "10px",
+      "rect": {
+        "bottom": 913.40625,
+        "height": 733.2265625,
+        "left": 37.390625,
+        "right": 1431.5859375,
+        "top": 180.1796875,
+        "width": 1394.1953125,
+        "x": 37.390625,
+        "y": 180.1796875
+      },
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(21, 87, 255)",
+      "className": "row selected",
+      "font": "12px",
+      "radius": "6px",
+      "rect": {
+        "bottom": 490.9765625,
+        "height": 42,
+        "left": 139.5859375,
+        "right": 1414.7890625,
+        "top": 448.9765625,
+        "width": 1275.203125,
+        "x": 139.5859375,
+        "y": 448.9765625
+      },
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "className": "panel visitor",
+      "font": "16px",
+      "radius": "14px",
+      "rect": {
+        "bottom": 476.6640625,
+        "height": 368.875,
+        "left": 1467.578125,
+        "right": 2173.2890625,
+        "top": 107.7890625,
+        "width": 705.7109375,
+        "x": 1467.578125,
+        "y": 107.7890625
+      },
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "className": "panel observer",
+      "font": "16px",
+      "radius": "14px",
+      "rect": {
+        "bottom": 932.6015625,
+        "height": 439.140625,
+        "left": 1467.578125,
+        "right": 2173.2890625,
+        "top": 493.4609375,
+        "width": 705.7109375,
+        "x": 1467.578125,
+        "y": 493.4609375
+      },
+      "zoom": "1"
+    },
+    {
+      "background": "rgb(15, 23, 41)",
+      "className": "console",
+      "font": "16px",
+      "radius": "14px",
+      "rect": {
+        "bottom": 932.6015625,
+        "height": 907.40625,
+        "left": 2190.0859375,
+        "right": 2895.8046875,
+        "top": 25.1953125,
+        "width": 705.71875,
+        "x": 2190.0859375,
+        "y": 25.1953125
+      },
+      "zoom": "1"
+    }
+  ],
+  "scrollHeight": 948,
+  "scrollWidth": 2914
+}

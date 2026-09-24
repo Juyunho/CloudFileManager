@@ -1,0 +1,171 @@
+{
+  "dpr": 1,
+  "innerHeight": 948,
+  "innerWidth": 2914,
+  "logBox": {
+    "bottom": 915.8046875,
+    "height": 826.6171875,
+    "left": 2208.28125,
+    "right": 2877.609375,
+    "top": 89.1875,
+    "width": 669.328125,
+    "x": 2208.28125,
+    "y": 89.1875
+  },
+  "logClientHeight": 590,
+  "logScrollHeight": 590,
+  "panels": [
+    {
+      "background": "rgb(255, 255, 255)",
+      "className": "toolbar",
+      "color": "rgb(51, 71, 93)",
+      "rect": {
+        "bottom": 90.9921875,
+        "height": 65.796875,
+        "left": 18.1953125,
+        "right": 2173.2890625,
+        "top": 25.1953125,
+        "width": 2155.09375,
+        "x": 18.1953125,
+        "y": 25.1953125
+      }
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "className": "panel tree-panel",
+      "color": "rgb(51, 71, 93)",
+      "rect": {
+        "bottom": 932.6015625,
+        "height": 824.8125,
+        "left": 18.1953125,
+        "right": 1450.78125,
+        "top": 107.7890625,
+        "width": 1432.5859375,
+        "x": 18.1953125,
+        "y": 107.7890625
+      }
+    },
+    {
+      "background": "rgb(247, 249, 251)",
+      "className": "tree",
+      "color": "rgb(51, 71, 93)",
+      "rect": {
+        "bottom": 913.40625,
+        "height": 733.2265625,
+        "left": 37.390625,
+        "right": 1431.5859375,
+        "top": 180.1796875,
+        "width": 1394.1953125,
+        "x": 37.390625,
+        "y": 180.1796875
+      }
+    },
+    {
+      "background": "rgb(21, 87, 255)",
+      "className": "row directory selected",
+      "color": "rgb(255, 255, 255)",
+      "rect": {
+        "bottom": 238.9765625,
+        "height": 42,
+        "left": 69.5859375,
+        "right": 1414.7890625,
+        "top": 196.9765625,
+        "width": 1345.203125,
+        "x": 69.5859375,
+        "y": 196.9765625
+      }
+    },
+    {
+      "background": "rgb(239, 246, 255)",
+      "className": "row search-match",
+      "color": "rgb(21, 87, 255)",
+      "rect": {
+        "bottom": 364.9765625,
+        "height": 42,
+        "left": 174.5859375,
+        "right": 1414.7890625,
+        "top": 322.9765625,
+        "width": 1240.203125,
+        "x": 174.5859375,
+        "y": 322.9765625
+      }
+    },
+    {
+      "background": "rgb(239, 246, 255)",
+      "className": "row search-match",
+      "color": "rgb(21, 87, 255)",
+      "rect": {
+        "bottom": 490.9765625,
+        "height": 42,
+        "left": 139.5859375,
+        "right": 1414.7890625,
+        "top": 448.9765625,
+        "width": 1275.203125,
+        "x": 139.5859375,
+        "y": 448.9765625
+      }
+    },
+    {
+      "background": "rgb(239, 246, 255)",
+      "className": "row search-match",
+      "color": "rgb(21, 87, 255)",
+      "rect": {
+        "bottom": 532.9765625,
+        "height": 42,
+        "left": 139.5859375,
+        "right": 1414.7890625,
+        "top": 490.9765625,
+        "width": 1275.203125,
+        "x": 139.5859375,
+        "y": 490.9765625
+      }
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "className": "panel visitor",
+      "color": "rgb(51, 71, 93)",
+      "rect": {
+        "bottom": 476.6640625,
+        "height": 368.875,
+        "left": 1467.578125,
+        "right": 2173.2890625,
+        "top": 107.7890625,
+        "width": 705.7109375,
+        "x": 1467.578125,
+        "y": 107.7890625
+      }
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "className": "panel observer",
+      "color": "rgb(51, 71, 93)",
+      "rect": {
+        "bottom": 932.6015625,
+        "height": 439.140625,
+        "left": 1467.578125,
+        "right": 2173.2890625,
+        "top": 493.4609375,
+        "width": 705.7109375,
+        "x": 1467.578125,
+        "y": 493.4609375
+      }
+    },
+    {
+      "background": "rgb(15, 23, 41)",
+      "className": "console",
+      "color": "rgb(168, 201, 255)",
+      "rect": {
+        "bottom": 932.6015625,
+        "height": 907.40625,
+        "left": 2190.0859375,
+        "right": 2895.8046875,
+        "top": 25.1953125,
+        "width": 705.71875,
+        "x": 2190.0859375,
+        "y": 25.1953125
+      }
+    }
+  ],
+  "scrollHeight": 948,
+  "scrollWidth": 2914
+}

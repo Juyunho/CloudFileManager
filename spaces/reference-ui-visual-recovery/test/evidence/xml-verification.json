@@ -1,0 +1,29 @@
+{
+  "time": "2026-09-25T02:03:10.305361+08:00",
+  "downloaded_file": "/Users/juyunho/Downloads/export (2).xml",
+  "suggested_filename": "export.xml",
+  "collision_suffix_preserves_existing_downloads": true,
+  "bytes": 207,
+  "sha256": "7131aa1d1c6a782e43487c37ce2901d96c7cd4f856430eab56b3477b0d83affb",
+  "utf8_strict_decode": true,
+  "xml_parse": true,
+  "only_selected_subtree": true,
+  "node_tags": [
+    "個人筆記",
+    "_x0032_025備份",
+    "會議記錄_docx",
+    "待辦清單_txt"
+  ],
+  "mime_contract": "application/xml;charset=utf-8",
+  "mime_evidence": "Unchanged production app.js Blob declaration and actual downloaded bytes; NDJSON API not a direct attachment",
+  "undo_after": 0,
+  "redo_after": 1,
+  "progress": {
+    "status": "completed",
+    "name": "待辦清單.txt",
+    "visited": 4,
+    "total": 4,
+    "path": "我的根目錄/個人筆記/待辦清單.txt"
+  },
+  "exit_code": 0
+}

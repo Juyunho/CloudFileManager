@@ -1,0 +1,10 @@
+{
+  "count": 599,
+  "changed": [
+    "src/CloudFileManager.Web/wwwroot/app.js",
+    "src/CloudFileManager.Web/wwwroot/index.html",
+    "src/CloudFileManager.Web/wwwroot/style.css",
+    ".gitignore",
+    "README.md"
+  ]
+}

@@ -1,0 +1,13 @@
+ M CloudFileManager.slnx
+ M src/CloudFileManager.Core/EditingSession.cs
+ M src/CloudFileManager.Core/NodeSnapshot.cs
+ M src/CloudFileManager.Core/Sorting.cs
+ M src/CloudFileManager.Core/TreeOperations.cs
+ M src/CloudFileManager.Core/Visitors.cs
+?? docs/reference-ui.png
+?? spaces/reference-ui-replication/
+?? src/CloudFileManager.Core/ReferenceTree.cs
+?? src/CloudFileManager.Core/XmlExportVisitor.cs
+?? src/CloudFileManager.Web/
+?? tests/CloudFileManager.WebTests/
+?? tests/run_task004_verification.py

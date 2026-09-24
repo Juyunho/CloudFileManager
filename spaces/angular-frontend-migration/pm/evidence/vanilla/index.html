@@ -1,0 +1,13 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Cloud File Manager</title><link rel="stylesheet" href="style.css"></head><body>
+<main class="workspace">
+<nav class="toolbar" aria-label="檔案操作">
+<button class="icon-button" id="undo" data-action="undo" title="Undo" aria-label="Undo"></button><button class="icon-button" id="redo" data-action="redo" title="Redo" aria-label="Redo"></button><i class="divider"></i>
+<button data-action="copy" id="copy">複製</button><button data-action="paste" id="paste">貼上</button><button class="danger" data-action="delete" id="delete">刪除</button><i class="divider"></i><span id="list-icon" class="group-icon" aria-hidden="true"></span>
+<button data-sort="Name">名稱</button><button data-sort="Size">大小</button><button data-sort="Extension">類型</button><button data-sort="Tag">標籤</button><i class="divider"></i><span id="tag-icon" class="group-icon" aria-hidden="true"></span>
+<button class="tag-add urgent" data-tag="Urgent">+ Urgent<span class="count" hidden></span></button><button class="tag-add work" data-tag="Work">+ Work<span class="count" hidden></span></button><button class="tag-add personal" data-tag="Personal">+ Personal<span class="count" hidden></span></button>
+</nav>
+<section class="panel tree-panel"><h1><span id="folder-heading"></span>檔案階層 (Composite)</h1><div class="tree" id="tree" role="tree" aria-label="檔案階層"></div></section>
+<section class="panel visitor"><h2><span id="visitor-heading"></span>訪問者操作 (Visitor)</h2><button class="operation size" data-action="size">計算大小<span id="calculator"></span></button><button class="operation xml" data-action="xml">XML 匯出<span id="xml-icon"></span></button><form id="search-form"><input id="extension" aria-label="搜尋副檔名" placeholder="輸入關鍵字..." autocomplete="off"><button type="submit" class="search">搜尋<span id="search-icon"></span></button></form></section>
+<section class="panel observer"><h2><span id="pulse"></span>監控 (Observer)<span class="live">LIVE</span></h2><div class="monitor"><label>目前節點</label><strong id="current">尚未執行</strong></div><div class="monitor scan"><div><label>掃描進度</label><strong id="percent">idle</strong></div><progress id="progress" value="0" max="100"></progress><small id="node-count">尚未執行</small></div></section>
+<aside class="console"><h2><span>●</span> CONSOLE</h2><div id="logs" role="log" aria-label="操作日誌"></div></aside>
+</main><script src="app.js"></script></body></html>

@@ -1,0 +1,55 @@
+{
+  "time": "2026-09-25T02:06:34+08:00",
+  "baseline_changed": [
+    "src/CloudFileManager.Web/wwwroot/style.css"
+  ],
+  "historical_files_unchanged": 442,
+  "protected_files_unchanged": 502,
+  "git": {
+    "status": {
+      "command": [
+        "git",
+        "status",
+        "--short"
+      ],
+      "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+      "exit_code": 0,
+      "stdout": " M CloudFileManager.slnx\n M src/CloudFileManager.Core/EditingSession.cs\n M src/CloudFileManager.Core/NodeSnapshot.cs\n M src/CloudFileManager.Core/Sorting.cs\n M src/CloudFileManager.Core/TreeOperations.cs\n M src/CloudFileManager.Core/Visitors.cs\n?? docs/reference-ui-search-progress.png\n?? docs/reference-ui.png\n?? docs/task004-web.md\n?? spaces/reference-ui-replication/\n?? spaces/reference-ui-visual-recovery/\n?? src/CloudFileManager.Core/ReferenceTree.cs\n?? src/CloudFileManager.Core/XmlExportVisitor.cs\n?? src/CloudFileManager.Web/\n?? tests/CloudFileManager.WebTests/\n?? tests/run_task004_verification.py\n",
+      "stderr": ""
+    },
+    "head": {
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+      "exit_code": 0,
+      "stdout": "bc8a48b0fc5b136535eed35a8b9c032ee89f5f88\n",
+      "stderr": ""
+    },
+    "index": {
+      "command": [
+        "git",
+        "diff",
+        "--cached",
+        "--quiet"
+      ],
+      "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "diffcheck": {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  }
+}
