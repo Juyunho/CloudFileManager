@@ -1,4 +1,9 @@
-using CloudFileManager.Core;
+using CloudFileManager.Core.Application.Formatting;
+using CloudFileManager.Core.Application.Samples;
+using CloudFileManager.Core.Application.Sessions;
+using CloudFileManager.Core.Application.Sorting;
+using CloudFileManager.Core.Domain.Nodes;
+using CloudFileManager.Core.Domain.Values;
 
 internal static class BonusDemo
 {
@@ -42,7 +47,7 @@ internal static class BonusDemo
         var pending = new Stack<FsNode>(); pending.Push(root);
         while (pending.TryPop(out var node))
         {
-            Console.WriteLine($"{node.FullPath} | {node.Details} | Tags: " +
+            Console.WriteLine($"{node.FullPath} | {NodeDetailsFormatter.Format(node)} | Tags: " +
                 string.Join(", ", node.Tags.Select(t => $"{t} {TagCatalog.Color(t)}")));
             for (var i = node.Children.Count - 1; i >= 0; i--) pending.Push(node.Children[i]);
         }

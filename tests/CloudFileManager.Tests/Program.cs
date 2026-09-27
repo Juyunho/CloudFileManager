@@ -2,7 +2,11 @@ using System.Numerics;
 using System.Text.Json;
 using System.Xml.Linq;
 using System.Reflection;
-using CloudFileManager.Core;
+using CloudFileManager.Core.Application;
+using CloudFileManager.Core.Application.Formatting;
+using CloudFileManager.Core.Application.Samples;
+using CloudFileManager.Core.Domain.Nodes;
+using CloudFileManager.Core.Domain.Values;
 
 var failed = 0; var passed = 0;
 var now = new DateTimeOffset(2025, 1, 1, 0, 0, 0, TimeSpan.Zero);
@@ -56,8 +60,8 @@ Test("T02 each subtree independently grouped from source paths", () =>
 Test("T03 binary units and byte precision", () =>
 {
     Equal(1L << 10, BinarySize.From(1,"KB")); Equal(1L << 20, BinarySize.From(1,"MB"));
-    Equal(500L, BinarySize.From(500,"B")); Equal("500B", BinarySize.Format(500)); Equal("0B",BinarySize.Format(0));
-    Equal("1025B",BinarySize.Format(1025)); Equal("1KB",BinarySize.Format(1024)); Equal("1MB",BinarySize.Format(1L<<20));
+    Equal(500L, BinarySize.From(500,"B")); Equal("500B", BinarySizeFormatter.Format(500)); Equal("0B",BinarySizeFormatter.Format(0));
+    Equal("1025B",BinarySizeFormatter.Format(1025)); Equal("1KB",BinarySizeFormatter.Format(1024)); Equal("1MB",BinarySizeFormatter.Format(1L<<20));
     Throws<ArgumentException>(() => BinarySize.From(1,"GB")); Throws<ArgumentOutOfRangeException>(() => BinarySize.From(-1,"B"));
 });
 Test("T04 search normalization scope and no result", () =>

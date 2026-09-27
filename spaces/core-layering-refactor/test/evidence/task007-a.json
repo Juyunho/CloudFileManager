@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "font": "16px",
+      "rect": {
+        "bottom": 130,
+        "height": 94,
+        "left": 26,
+        "right": 2165.734375,
+        "top": 36,
+        "width": 2139.734375,
+        "x": 26,
+        "y": 36
+      },
+      "selector": "toolbar"
+    },
+    {
+      "font": "10px",
+      "rect": {
+        "bottom": 108,
+        "height": 50,
+        "left": 46,
+        "right": 96,
+        "top": 58,
+        "width": 50,
+        "x": 46,
+        "y": 58
+      },
+      "selector": "undo"
+    },
+    {
+      "font": "10px",
+      "rect": {
+        "bottom": 106,
+        "height": 46,
+        "left": 200,
+        "right": 304,
+        "top": 60,
+        "width": 104,
+        "x": 200,
+        "y": 60
+      },
+      "selector": "copy"
+    },
+    {
+      "font": "16px",
+      "rect": {
+        "bottom": 926,
+        "height": 772,
+        "left": 26,
+        "right": 1443.46875,
+        "top": 154,
+        "width": 1417.46875,
+        "x": 26,
+        "y": 154
+      },
+      "selector": "panel tree-panel"
+    },
+    {
+      "font": "12px",
+      "rect": {
+        "bottom": 690,
+        "height": 56,
+        "left": 208,
+        "right": 1391.46875,
+        "top": 634,
+        "width": 1183.46875,
+        "x": 208,
+        "y": 634
+      },
+      "selector": "row selected"
+    },
+    {
+      "font": "16px",
+      "rect": {
+        "bottom": 495.4765625,
+        "height": 341.4765625,
+        "left": 1467.46875,
+        "right": 2165.734375,
+        "top": 154,
+        "width": 698.265625,
+        "x": 1467.46875,
+        "y": 154
+      },
+      "selector": "panel visitor"
+    },
+    {
+      "font": "16px",
+      "rect": {
+        "bottom": 926,
+        "height": 406.5234375,
+        "left": 1467.46875,
+        "right": 2165.734375,
+        "top": 519.4765625,
+        "width": 698.265625,
+        "x": 1467.46875,
+        "y": 519.4765625
+      },
+      "selector": "panel observer"
+    },
+    {
+      "font": "16px",
+      "rect": {
+        "bottom": 926,
+        "height": 890,
+        "left": 2189.734375,
+        "right": 2888,
+        "top": 36,
+        "width": 698.265625,
+        "x": 2189.734375,
+        "y": 36
+      },
+      "selector": "console"
+    }
+  ],
+  "logs": "",
+  "matches": [],
+  "observer": "監控 (Observer)LIVE目前節點尚未執行掃描進度idle尚未執行",
+  "selected": "API介面定義.docx(120 KB, pages: 12)PERSONAL×",
+  "viewport": {
+    "height": 948,
+    "width": 2914
+  }
+}

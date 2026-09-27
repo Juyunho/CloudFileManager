@@ -1,4 +1,10 @@
-using CloudFileManager.Core;
+using CloudFileManager.Core.Application;
+using CloudFileManager.Core.Application.Formatting;
+using CloudFileManager.Core.Application.Samples;
+using CloudFileManager.Core.Application.Sessions;
+using CloudFileManager.Core.Application.Sorting;
+using CloudFileManager.Core.Domain.Nodes;
+using CloudFileManager.Core.Domain.Values;
 using System.Text.Json;
 
 var now = DateTimeOffset.Parse("2025-01-01T12:30:00+08:00");
@@ -15,7 +21,7 @@ FsNode[] Walk(FsNode root)
     return list.ToArray();
 }
 string State(FsNode root, bool ids = true) => JsonSerializer.Serialize(Walk(root).Select(n => new
-{ Id = ids ? n.Id : Guid.Empty, Kind = n.GetType().Name, n.Name, n.CreatedAt, n.Details,
+{ Id = ids ? n.Id : Guid.Empty, Kind = n.GetType().Name, n.Name, n.CreatedAt, Details = NodeDetailsFormatter.Format(n),
   Alias = (n as DirectoryNode)?.XmlAlias, n.Tags, Children = n.Children.Select(c => c.Name).ToArray() }));
 void Order(IReadOnlyList<FsNode> actual, params string[] names) => Check(actual.Select(n => n.Name).SequenceEqual(names), "order: " + string.Join(",",actual.Select(n=>n.Name)));
 

@@ -1,0 +1,230 @@
+[
+  {
+    "file": "src/CloudFileManager.Core/EditingSession.cs",
+    "line": 4,
+    "type": "EditingSession",
+    "declaration": "public sealed class EditingSession"
+  },
+  {
+    "file": "src/CloudFileManager.Core/EditingSession.cs",
+    "line": 80,
+    "type": "IEditCommand",
+    "declaration": "internal interface IEditCommand { void Execute(); void Undo(); }"
+  },
+  {
+    "file": "src/CloudFileManager.Core/EditingSession.cs",
+    "line": 81,
+    "type": "DeleteCommand",
+    "declaration": "internal sealed class DeleteCommand(DirectoryNode parent, FsNode node, int index) : IEditCommand"
+  },
+  {
+    "file": "src/CloudFileManager.Core/EditingSession.cs",
+    "line": 86,
+    "type": "PasteCommand",
+    "declaration": "internal sealed class PasteCommand(DirectoryNode parent, FsNode node, int index) : IEditCommand"
+  },
+  {
+    "file": "src/CloudFileManager.Core/EditingSession.cs",
+    "line": 91,
+    "type": "TagCommand",
+    "declaration": "internal sealed class TagCommand(FsNode node, TagKind tag, bool present) : IEditCommand"
+  },
+  {
+    "file": "src/CloudFileManager.Core/FileSystemSession.cs",
+    "line": 8,
+    "type": "FileSystemSession",
+    "declaration": "public sealed class FileSystemSession"
+  },
+  {
+    "file": "src/CloudFileManager.Core/FileSystemSession.cs",
+    "line": 12,
+    "type": "CurrentState",
+    "declaration": "private sealed record CurrentState(DirectoryNode Root, EditingSession Editing);"
+  },
+  {
+    "file": "src/CloudFileManager.Core/NodeSnapshot.cs",
+    "line": 4,
+    "type": "INodePrototype",
+    "declaration": "internal interface INodePrototype"
+  },
+  {
+    "file": "src/CloudFileManager.Core/NodeSnapshot.cs",
+    "line": 10,
+    "type": "NodeSnapshot",
+    "declaration": "internal sealed class NodeSnapshot : INodePrototype"
+  },
+  {
+    "file": "src/CloudFileManager.Core/NodeSnapshot.cs",
+    "line": 12,
+    "type": "Row",
+    "declaration": "private sealed record Row(int Parent, string Kind, string Name, DateTimeOffset Created,"
+  },
+  {
+    "file": "src/CloudFileManager.Core/Nodes.cs",
+    "line": 6,
+    "type": "FsNode",
+    "declaration": "public abstract class FsNode"
+  },
+  {
+    "file": "src/CloudFileManager.Core/Nodes.cs",
+    "line": 44,
+    "type": "DirectoryNode",
+    "declaration": "public sealed class DirectoryNode : FsNode"
+  },
+  {
+    "file": "src/CloudFileManager.Core/Nodes.cs",
+    "line": 92,
+    "type": "FileNode",
+    "declaration": "public abstract class FileNode : FsNode"
+  },
+  {
+    "file": "src/CloudFileManager.Core/Nodes.cs",
+    "line": 105,
+    "type": "WordFile",
+    "declaration": "public sealed class WordFile : FileNode"
+  },
+  {
+    "file": "src/CloudFileManager.Core/Nodes.cs",
+    "line": 116,
+    "type": "ImageFile",
+    "declaration": "public sealed class ImageFile : FileNode"
+  },
+  {
+    "file": "src/CloudFileManager.Core/Nodes.cs",
+    "line": 132,
+    "type": "TextFile",
+    "declaration": "public sealed class TextFile : FileNode"
+  },
+  {
+    "file": "src/CloudFileManager.Core/Nodes.cs",
+    "line": 147,
+    "type": "BinarySize",
+    "declaration": "public static class BinarySize"
+  },
+  {
+    "file": "src/CloudFileManager.Core/Nodes.cs",
+    "line": 166,
+    "type": "TreeState",
+    "declaration": "internal sealed class TreeState { internal long Revision; }"
+  },
+  {
+    "file": "src/CloudFileManager.Core/ReferenceTree.cs",
+    "line": 3,
+    "type": "ReferenceTree",
+    "declaration": "public static class ReferenceTree"
+  },
+  {
+    "file": "src/CloudFileManager.Core/SampleTree.cs",
+    "line": 3,
+    "type": "SampleTree",
+    "declaration": "public static class SampleTree"
+  },
+  {
+    "file": "src/CloudFileManager.Core/Sorting.cs",
+    "line": 3,
+    "type": "SortDirection",
+    "declaration": "public enum SortDirection { Asc, Desc }"
+  },
+  {
+    "file": "src/CloudFileManager.Core/Sorting.cs",
+    "line": 4,
+    "type": "INodeSortStrategy",
+    "declaration": "public interface INodeSortStrategy"
+  },
+  {
+    "file": "src/CloudFileManager.Core/Sorting.cs",
+    "line": 8,
+    "type": "StableSort",
+    "declaration": "internal static class StableSort"
+  },
+  {
+    "file": "src/CloudFileManager.Core/Sorting.cs",
+    "line": 14,
+    "type": "NameSortStrategy",
+    "declaration": "public sealed class NameSortStrategy : INodeSortStrategy"
+  },
+  {
+    "file": "src/CloudFileManager.Core/Sorting.cs",
+    "line": 19,
+    "type": "ExtensionSortStrategy",
+    "declaration": "public sealed class ExtensionSortStrategy : INodeSortStrategy"
+  },
+  {
+    "file": "src/CloudFileManager.Core/Sorting.cs",
+    "line": 24,
+    "type": "SizeSortStrategy",
+    "declaration": "public sealed class SizeSortStrategy : INodeSortStrategy"
+  },
+  {
+    "file": "src/CloudFileManager.Core/Sorting.cs",
+    "line": 41,
+    "type": "SortedView",
+    "declaration": "public static class SortedView"
+  },
+  {
+    "file": "src/CloudFileManager.Core/Sorting.cs",
+    "line": 53,
+    "type": "TagSortStrategy",
+    "declaration": "public sealed class TagSortStrategy : INodeSortStrategy"
+  },
+  {
+    "file": "src/CloudFileManager.Core/Tags.cs",
+    "line": 3,
+    "type": "TagKind",
+    "declaration": "public enum TagKind { Urgent, Work, Personal }"
+  },
+  {
+    "file": "src/CloudFileManager.Core/Tags.cs",
+    "line": 4,
+    "type": "TagCatalog",
+    "declaration": "public static class TagCatalog"
+  },
+  {
+    "file": "src/CloudFileManager.Core/TreeOperations.cs",
+    "line": 6,
+    "type": "TreeOperations",
+    "declaration": "public static class TreeOperations"
+  },
+  {
+    "file": "src/CloudFileManager.Core/Visitors.cs",
+    "line": 4,
+    "type": "IFileSystemVisitor",
+    "declaration": "public interface IFileSystemVisitor"
+  },
+  {
+    "file": "src/CloudFileManager.Core/Visitors.cs",
+    "line": 12,
+    "type": "FileSystemTraversal",
+    "declaration": "public static class FileSystemTraversal"
+  },
+  {
+    "file": "src/CloudFileManager.Core/Visitors.cs",
+    "line": 36,
+    "type": "SizeVisitor",
+    "declaration": "public sealed class SizeVisitor : IFileSystemVisitor"
+  },
+  {
+    "file": "src/CloudFileManager.Core/Visitors.cs",
+    "line": 46,
+    "type": "ExtensionSearchVisitor",
+    "declaration": "public sealed class ExtensionSearchVisitor : IFileSystemVisitor"
+  },
+  {
+    "file": "src/CloudFileManager.Core/Visitors.cs",
+    "line": 73,
+    "type": "TraversalProgress",
+    "declaration": "public sealed record TraversalProgress(Guid NodeId, string Name, string Path, int Visited, int Total);"
+  },
+  {
+    "file": "src/CloudFileManager.Core/Visitors.cs",
+    "line": 74,
+    "type": "TraversalProgressSource",
+    "declaration": "public sealed class TraversalProgressSource"
+  },
+  {
+    "file": "src/CloudFileManager.Core/XmlExportVisitor.cs",
+    "line": 6,
+    "type": "XmlExportVisitor",
+    "declaration": "public sealed class XmlExportVisitor : IFileSystemVisitor, IDisposable"
+  }
+]

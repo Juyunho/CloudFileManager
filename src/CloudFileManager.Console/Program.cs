@@ -1,4 +1,6 @@
-using CloudFileManager.Core;
+using CloudFileManager.Core.Application;
+using CloudFileManager.Core.Application.Samples;
+using CloudFileManager.Core.Application.Sessions;
 using System.Text;
 
 Console.OutputEncoding = Encoding.UTF8;

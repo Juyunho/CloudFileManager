@@ -1,4 +1,10 @@
-using CloudFileManager.Core;
+using CloudFileManager.Core.Application;
+using CloudFileManager.Core.Application.Sessions;
+using CloudFileManager.Core.Application.Sorting;
+using CloudFileManager.Core.Application.Traversal;
+using CloudFileManager.Core.Domain.Nodes;
+using CloudFileManager.Core.Domain.Values;
+using CloudFileManager.Core.Domain.Visiting;
 
 int passed=0,failed=0;
 var now=DateTimeOffset.Parse("2025-01-01T00:00:00Z");
@@ -87,7 +93,9 @@ Test("A12 serial Reset cycles prevent previous case state leaks",()=>{
         s.AddTag(f,TagKind.Urgent);s.Copy(f);s.Delete(f);s.Undo();Check(s.UndoCount==1&&s.RedoCount==1);
     }
 });
-Console.WriteLine($"RESULT {passed} passed; {failed} failed");return failed==0?0:1;
+Console.WriteLine($"RESULT {passed} passed; {failed} failed");
+var layerFailures = LayerVerification.Run();
+return failed==0 && layerFailures==0 ? 0 : 1;
 sealed class RecordingVisitor:IFileSystemVisitor
 {
     public List<string> Items {get;}=[];

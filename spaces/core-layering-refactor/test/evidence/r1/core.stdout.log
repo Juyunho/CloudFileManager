@@ -1,0 +1,25 @@
+SOURCE 需求規格書.docx: 500 KB => 512000 B
+SOURCE 系統架構圖.png: 2 MB => 2097152 B
+SOURCE 待辦清單.txt: 1 KB => 1024 B
+SOURCE 舊會議記錄.docx: 200 KB => 204800 B
+SOURCE README.txt: 500 B => 500 B
+INDEPENDENT SUM = 2815476 B; PRODUCT = 2815476 B
+PASS T01 independent source oracle and exact file set
+SUBTREE 根目錄 (Root) => 2815476 B
+SUBTREE 專案文件 (Project_Docs) => 2609152 B
+SUBTREE 個人筆記 (Personal_Notes) => 205824 B
+SUBTREE 2025備份 (Archive_2025) => 204800 B
+PASS T02 each subtree independently grouped from source paths
+PASS T03 binary units and byte precision
+PASS T04 search normalization scope and no result
+PASS T05 exact traversal sequence for both operations
+PASS T06 XML matches original assignment fixture
+PASS T07 XML invalid names collisions and escaped text
+PASS T08 empty directory and zero byte file
+PASS T09 invalid creation is rejected without mutation
+PASS T10 topology and public ownership contract
+PASS T11 deep hierarchy without recursive call stack
+PASS T12 checked arithmetic prevents silent overflow
+PASS T13 metadata and rendered details
+PASS T14 invalid search input
+RESULT 14 passed; 0 failed

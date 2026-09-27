@@ -1,0 +1,156 @@
+[
+  {
+    "view": "a",
+    "selector": "toolbar",
+    "delta": {
+      "x": 0,
+      "y": 0,
+      "width": 0.0,
+      "height": 0
+    },
+    "font_equal": true
+  },
+  {
+    "view": "a",
+    "selector": "panel tree-panel",
+    "delta": {
+      "x": 0,
+      "y": 0,
+      "width": 0.0,
+      "height": 0
+    },
+    "font_equal": true
+  },
+  {
+    "view": "a",
+    "selector": "panel visitor",
+    "delta": {
+      "x": 0.0,
+      "y": 0,
+      "width": 0.0,
+      "height": 0.0
+    },
+    "font_equal": true
+  },
+  {
+    "view": "a",
+    "selector": "panel observer",
+    "delta": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 0.0,
+      "height": 0.0
+    },
+    "font_equal": true
+  },
+  {
+    "view": "a",
+    "selector": "console",
+    "delta": {
+      "x": 0.0,
+      "y": 0,
+      "width": 0.0,
+      "height": 0
+    },
+    "font_equal": true
+  },
+  {
+    "view": "a",
+    "selector": "copy",
+    "delta": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "font_equal": true
+  },
+  {
+    "view": "a",
+    "selector": "undo",
+    "delta": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0
+    },
+    "font_equal": true
+  },
+  {
+    "view": "b",
+    "selector": "toolbar",
+    "delta": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 0.0,
+      "height": 0.0
+    },
+    "font_equal": true
+  },
+  {
+    "view": "b",
+    "selector": "panel tree-panel",
+    "delta": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 0.0,
+      "height": 0.0
+    },
+    "font_equal": true
+  },
+  {
+    "view": "b",
+    "selector": "panel visitor",
+    "delta": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 0.0,
+      "height": 0.0
+    },
+    "font_equal": true
+  },
+  {
+    "view": "b",
+    "selector": "panel observer",
+    "delta": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 0.0,
+      "height": 0.0
+    },
+    "font_equal": true
+  },
+  {
+    "view": "b",
+    "selector": "console",
+    "delta": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 0.0,
+      "height": 0.0
+    },
+    "font_equal": true
+  },
+  {
+    "view": "b",
+    "selector": "copy",
+    "delta": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 0.0,
+      "height": 0.0
+    },
+    "font_equal": true
+  },
+  {
+    "view": "b",
+    "selector": "undo",
+    "delta": {
+      "x": 0.0,
+      "y": 0.0,
+      "width": 0,
+      "height": 0
+    },
+    "font_equal": true
+  }
+]

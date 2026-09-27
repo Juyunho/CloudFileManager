@@ -13,8 +13,8 @@
 | 作業要求 | 實作與驗證入口 |
 |---|---|
 | Domain Model / UML、ER Model | 下方目前模型、[詳細 Domain Model](spaces/visitor-singleton-enhancement/sa/domain-model.md)、[ER](spaces/visitor-singleton-enhancement/sa/er-model.md) |
-| 檔案與目錄、型別 metadata | [Nodes](src/CloudFileManager.Core/Nodes.cs)：名稱、建立時間、大小；Word 頁數、Image 寬高、Text 編碼；檔案必須屬於目錄 |
-| 指定範例樹與詳細資訊 | [SampleTree](src/CloudFileManager.Core/SampleTree.cs)、Console 預設輸出：4 個目錄、5 個檔案 |
+| 檔案與目錄、型別 metadata | [Nodes](src/CloudFileManager.Core/Domain/Nodes/Nodes.cs)：名稱、建立時間、大小；Word 頁數、Image 寬高、Text 編碼；檔案必須屬於目錄 |
+| 指定範例樹與詳細資訊 | [SampleTree](src/CloudFileManager.Core/Application/Samples/SampleTree.cs)、Console 預設輸出：4 個目錄、5 個檔案 |
 | 任意目錄的完整子樹容量 | `TreeOperations.CalculateTotalSize`；空目錄為零，checked long 防止溢位 |
 | 副檔名搜尋 | `TreeOperations.SearchByExtension`；包含子目錄與完整路徑，接受有／無點號與大小寫變化 |
 | XML 結構與內容 | `TreeOperations.ToXml`；名稱合法化、碰撞處理與 escaping；[原題 XML fixture](tests/CloudFileManager.Tests/Fixtures/expected.xml) |
@@ -46,6 +46,10 @@ flowchart LR
 - **Lifecycle**：`FileSystemSession` 持有 Root 與私有 `EditingSession`。`Reset(newRoot)` 替換 Root、清空 Clipboard／Undo／Redo，不屬於 Command、不可 Undo；非法 Root 保留原狀態。
 
 **Single-threaded application session**：Root、Clipboard、Command History、Reset 不承諾 thread-safe，Core 本身不加入 locking；WebWorkspace 在 API boundary 序列化 session 存取。Singleton 唯一性不等於 thread safety。首次使用須 Reset 初始化；外部 Add* 應在建立 session 前完成，之後直接改樹會觸發既有 revision 過期檢查。
+
+Core 保留單一 `.csproj`，以 `CloudFileManager.Core.Domain.*` 與 `CloudFileManager.Core.Application.*` 建立責任邊界：Application → Domain，Domain 不依賴 Application。Domain 保存 Nodes、值、Prototype 與純查詢 Visitors；Application 負責 sessions/history/commands、排序、traversal/progress、XML、formatting/rendering 與 bootstrap samples。這是 namespace 分層，不是 assembly 隔離；現有 ArchitectureTests 另以 compiled metadata／IL 檢查依賴方向與 mutation caller 白名單，包含負向案例。
+
+`FsNode.Details` 與 `BinarySize.Format` 已搬至 Application 的 `NodeDetailsFormatter.Format(node)`／`BinarySizeFormatter.Format(bytes)`；既有輸出格式保持不變。`TreeOperations` 是薄入口，委派 Queries／Rendering／Export；原 Console 預設 logging 保留。詳見 [TASK-007 設計](spaces/core-layering-refactor/sa/design.md)。
 
 ## 4. Domain Model / UML
 
@@ -107,15 +111,15 @@ SQLite schema 用於驗證 ER，應用仍是記憶體模型。Clipboard、Histor
 
 | Pattern | Concrete problem / 為何適合 | Implementation / 使用位置 | Trade-off |
 |---|---|---|---|
-| **Composite** | 目錄與三種檔案需要同一套樹狀訪問及子樹操作；共同節點型別避免呼叫端重建拓撲 | [FsNode / DirectoryNode / FileNode](src/CloudFileManager.Core/Nodes.cs)；範例樹、遍歷、編輯皆使用 | 必須維護父子 ownership；不開放任意 reparent |
-| **Strategy** | 執行時切換名稱、大小、副檔名、標籤排序；分開鍵計算與顯示順序 | [INodeSortStrategy、Name/Size/Extension/TagSortStrategy、SortedView](src/CloudFileManager.Core/Sorting.cs)；Bonus 排序 | 比單一 switch 多介面與類別，但可獨立測試／替換策略 |
-| **Command** | Delete、Paste、Tag 加減須各自保留復原資訊，並共用線性歷史 | [IEditCommand、DeleteCommand、PasteCommand、TagCommand、EditingSession](src/CloudFileManager.Core/EditingSession.cs)；Bonus 編輯與 Undo/Redo | 保存節點、快照及歷史占用記憶體；操作須維持成功／失敗一致性 |
-| **Visitor** | 在穩定 Node types 上分離容量、搜尋與 XML operations；新增 operation 不需把演算法塞入 Node | [IFileSystemVisitor、SizeVisitor、ExtensionSearchVisitor、FileSystemTraversal](src/CloudFileManager.Core/Visitors.cs)；TreeOperations、XML 匯出與大小排序；XmlExportVisitor | 新增 Node type 須更新 visitor 介面及實作；每次操作建立新 accumulator |
-| **Singleton** | 明確需要 application-wide Root、Clipboard 與 History context；集中初始化／Reset | [FileSystemSession.Instance](src/CloudFileManager.Core/FileSystemSession.cs)；Program 與 BonusDemo 實際使用，委派 EditingSession | 全域 mutable state 需測試隔離且不 thread-safe；DI singleton 可由容器管理生命週期，Web 使用 DI 管理 WebWorkspace，但保留既有 GoF FileSystemSession；其 API 存取序列化 |
+| **Composite** | 目錄與三種檔案需要同一套樹狀訪問及子樹操作；共同節點型別避免呼叫端重建拓撲 | [FsNode / DirectoryNode / FileNode](src/CloudFileManager.Core/Domain/Nodes/Nodes.cs)；範例樹、遍歷、編輯皆使用 | 必須維護父子 ownership；不開放任意 reparent |
+| **Strategy** | 執行時切換名稱、大小、副檔名、標籤排序；分開鍵計算與顯示順序 | [INodeSortStrategy、Name/Size/Extension/TagSortStrategy、SortedView](src/CloudFileManager.Core/Application/Sorting/Sorting.cs)；Bonus 排序 | 比單一 switch 多介面與類別，但可獨立測試／替換策略 |
+| **Command** | Delete、Paste、Tag 加減須各自保留復原資訊，並共用線性歷史 | [IEditCommand、DeleteCommand、PasteCommand、TagCommand、EditingSession](src/CloudFileManager.Core/Application/Sessions/EditingSession.cs)；Bonus 編輯與 Undo/Redo | 保存節點、快照及歷史占用記憶體；操作須維持成功／失敗一致性 |
+| **Visitor** | 在穩定 Node types 上分離容量、搜尋與 XML operations；新增 operation 不需把演算法塞入 Node | [IFileSystemVisitor、SizeVisitor、ExtensionSearchVisitor、FileSystemTraversal](src/CloudFileManager.Core/Domain/Visiting/QueryVisitors.cs)；TreeOperations、XML 匯出與大小排序；XmlExportVisitor | 新增 Node type 須更新 visitor 介面及實作；每次操作建立新 accumulator |
+| **Singleton** | 明確需要 application-wide Root、Clipboard 與 History context；集中初始化／Reset | [FileSystemSession.Instance](src/CloudFileManager.Core/Application/Sessions/FileSystemSession.cs)；Program 與 BonusDemo 實際使用，委派 EditingSession | 全域 mutable state 需測試隔離且不 thread-safe；DI singleton 可由容器管理生命週期，Web 使用 DI 管理 WebWorkspace，但保留既有 GoF FileSystemSession；其 API 存取序列化 |
 | **Observer** | UI 需要接收真實 traversal 進度，而不讓 Visitor 依賴畫面 | TraversalProgressSource.Progressed → WebWorkspace → NDJSON → Angular ObserverPanel | 每次 operation 訂閱並釋放；進度不是 timer 模擬 |
 | **Prototype** | Copy 當下保存完整獨立快照，來源後續修改不得影響 Paste | INodePrototype / NodeSnapshot → EditingSession Copy／Paste | 完整子樹快照占記憶體；貼上仍由 Command 維護原子性與 history |
 
-**Production paths**：容量／搜尋由 [Program](src/CloudFileManager.Console/Program.cs) → [TreeOperations](src/CloudFileManager.Core/TreeOperations.cs) → Traversal → `Accept` → typed Visitor；[BonusDemo](src/CloudFileManager.Console/BonusDemo.cs) 編輯透過 `FileSystemSession.Instance` 共用 Clipboard 與 History。兩者都不是只有 class 或 test。
+**Production paths**：容量／搜尋由 [Program](src/CloudFileManager.Console/Program.cs) → [TreeOperations](src/CloudFileManager.Core/Application/TreeOperations.cs) → Traversal → `Accept` → typed Visitor；[BonusDemo](src/CloudFileManager.Console/BonusDemo.cs) 編輯透過 `FileSystemSession.Instance` 共用 Clipboard 與 History。兩者都不是只有 class 或 test。
 
 Visitor 不接管所有操作：Render 保持原責任；TASK-004 加入 XmlExportVisitor，集中 XML traversal／serialization state 並保持原 contract。替代方案與取捨見 [TASK-002 設計](spaces/design-pattern-enhancement/sa/design.md)／[TASK-003 ADR](spaces/visitor-singleton-enhancement/sa/design.md)。
 
@@ -156,6 +160,7 @@ Visitor 不接管所有操作：Render 保持原責任；TASK-004 加入 XmlExpo
 | TASK-004 | Web UI + Observer + Prototype；功能、XML、Reference B 通過，但 Reference A D005 尺寸不符，retry 3/3 exhausted → **FAILED** | [Status](spaces/reference-ui-replication/status.md) |
 | TASK-005 | D005 corrective task，只修 style.css；Reference A/B 通過 → **DONE / PASS**，不回寫 TASK-004 | [Summary](spaces/reference-ui-visual-recovery/summary.md) |
 | TASK-006 | 將已驗收 presentation layer 遷移為 Angular + TypeScript，保留 C# API/Core 與七種 Patterns | [Status](spaces/angular-frontend-migration/status.md)／[SA](spaces/angular-frontend-migration/sa/design.md) |
+| TASK-007 | Human 核准單一 Core project 的 Domain／Application 分層，保留七 Patterns 及產品行為 | [Status](spaces/core-layering-refactor/status.md)／[設計](spaces/core-layering-refactor/sa/design.md) |
 
 舊決策與當時的「未 commit」等狀態是歷史快照，不回寫成現在的結果。`spaces/` 保留各次任務原貌；[根目錄 VALIDATION](VALIDATION.md)／[初始套件驗證](docs/VALIDATION.md) 屬早期記錄，**各任務結果以自己的 status／test report 為準；目前 migration 以 TASK-006 報告為準**。
 
@@ -189,7 +194,7 @@ UI 有排序、選取、Tags、Copy/Paste、Delete、Undo/Redo、selected subtre
 
 ## 11. Testing & Verification
 
-Baseline suites 為 Core 14、Bonus 20、Architecture 12、Web 20、Schema 12、Tag schema 6，共 **84**；Angular 額外提供 **8** 項 NDJSON framing／UTF-8／取消與錯誤處理測試。最新實際結果、命令與 exit codes 見 [TASK-006 test report](spaces/angular-frontend-migration/test/test-report.md)，不把歷史 PASS 當作新一輪證據。
+Baseline suites 為 Core 14、Bonus 20、Architecture 12、Web 20、Schema 12、Tag schema 6，共 **84**；Angular 額外提供 **8** 項 NDJSON framing／UTF-8／取消與錯誤處理測試。TASK-006 的既有結果見 [報告](spaces/angular-frontend-migration/test/test-report.md)；TASK-007 另有 6 項 layer checks，最新實際結果、命令與 exit codes 見 [TASK-007 test report](spaces/core-layering-refactor/test/test-report.md)，不把歷史 PASS 當作新一輪證據。
 
 ```sh
 cd src/CloudFileManager.Angular
@@ -216,7 +221,9 @@ C# 測試是 Console runner，以 exit code 表示結果，不能用 `dotnet tes
 ```text
 CloudFileManager.slnx
 src/
-  CloudFileManager.Core/              # Domain、七種 Patterns、runtime session
+  CloudFileManager.Core/              # 單一 project
+    Domain/                          # Nodes / Values / Visiting / Prototypes
+    Application/                     # Sessions / Commands / Sorting / Traversal / Export / Formatting
   CloudFileManager.Angular/           # Typed components / presentation store / stream parser
   CloudFileManager.Web/               # API / server session projection / generated wwwroot
   CloudFileManager.Console/           # Mandatory / XML / Bonus 入口
@@ -238,6 +245,7 @@ spaces/
   reference-ui-replication/           # TASK-004 FAILED（保留）
   reference-ui-visual-recovery/        # TASK-005 corrective PASS
   angular-frontend-migration/          # TASK-006
+  core-layering-refactor/              # TASK-007
 ```
 
 程式／solution 使用 **CloudFileManager**；GitHub repository 名稱為 **CloudFileManager**。Build outputs、local IDE files 與 `.env` 設定由 `.gitignore` 排除，skills 與 workflow artifacts 保留在版本控制中。

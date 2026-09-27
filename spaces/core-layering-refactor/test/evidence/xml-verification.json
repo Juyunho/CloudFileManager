@@ -1,0 +1,24 @@
+{
+  "file": "/Users/juyunho/Downloads/export (4).xml",
+  "bytes": 207,
+  "sha256": "7131aa1d1c6a782e43487c37ce2901d96c7cd4f856430eab56b3477b0d83affb",
+  "utf8": "PASS",
+  "parse": "PASS",
+  "scope": "個人筆記",
+  "history_before": [
+    1,
+    1
+  ],
+  "history_after": [
+    1,
+    1
+  ],
+  "progress": {
+    "status": "completed",
+    "name": "待辦清單.txt",
+    "visited": 4,
+    "total": 4,
+    "path": "我的根目錄/個人筆記/待辦清單.txt"
+  },
+  "gate": "PASS"
+}

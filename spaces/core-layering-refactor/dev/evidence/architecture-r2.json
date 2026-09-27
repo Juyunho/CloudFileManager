@@ -1,0 +1,1 @@
+{"command": ["dotnet", "run", "--project", "tests/CloudFileManager.ArchitectureTests", "-c", "Release"], "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager", "exit_code": 0}

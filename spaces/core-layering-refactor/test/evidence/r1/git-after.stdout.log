@@ -1,0 +1,24 @@
+ M README.md
+ M src/CloudFileManager.Console/BonusDemo.cs
+ M src/CloudFileManager.Console/Program.cs
+ D src/CloudFileManager.Core/EditingSession.cs
+ D src/CloudFileManager.Core/FileSystemSession.cs
+ D src/CloudFileManager.Core/NodeSnapshot.cs
+ D src/CloudFileManager.Core/Nodes.cs
+ D src/CloudFileManager.Core/ReferenceTree.cs
+ D src/CloudFileManager.Core/SampleTree.cs
+ D src/CloudFileManager.Core/Sorting.cs
+ D src/CloudFileManager.Core/Tags.cs
+ D src/CloudFileManager.Core/TreeOperations.cs
+ D src/CloudFileManager.Core/Visitors.cs
+ D src/CloudFileManager.Core/XmlExportVisitor.cs
+ M src/CloudFileManager.Web/WebWorkspace.cs
+ M tests/CloudFileManager.ArchitectureTests/Program.cs
+ M tests/CloudFileManager.BonusTests/Program.cs
+ M tests/CloudFileManager.Tests/Program.cs
+ M tests/CloudFileManager.WebTests/Program.cs
+?? spaces/core-layering-refactor/
+?? src/CloudFileManager.Core/Application/
+?? src/CloudFileManager.Core/Domain/
+?? tests/CloudFileManager.ArchitectureTests/LayerDependencies.cs
+?? tests/CloudFileManager.ArchitectureTests/LayerVerification.cs

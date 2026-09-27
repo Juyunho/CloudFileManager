@@ -1,0 +1,20 @@
+PASS A01 singleton identity private construction explicit initialization
+PASS A02 typed Accept dispatch is one node, traversal owns DFS
+PASS A03 production size visitor all types and repeated call isolation
+PASS A04 production search visitor type filtering normalization readonly
+PASS A05 visitor deep traversal and checked overflow
+PASS A06 invalid visitor/search arguments do not visit
+PASS A07 reset replaces Root clears populated clipboard undo redo
+PASS A08 invalid Reset preserves root clipboard and both histories
+PASS A09 same Root Reset cleans session without clearing domain
+PASS A10 shared references use one Command history and preserve failure/noop
+PASS A11 Reset does not alter independent EditingSession
+PASS A12 serial Reset cycles prevent previous case state leaks
+RESULT 12 passed; 0 failed
+PASS L01 Domain compiled metadata and IL depend only on Domain or BCL
+PASS L02 Domain has no Console TextWriter or XML presentation dependencies
+PASS L03 all production types classified; Application stays inward
+PASS L04 negative control detects fully qualified Application reference in method body
+PASS L05 negative control detects Application nested generic and signature dependency
+PASS L06 Application mutation access limited to approved commands bootstrap and revision reader
+LAYER RESULT 6 passed; 0 failed

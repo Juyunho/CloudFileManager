@@ -1,0 +1,128 @@
+{
+  "items": [
+    {
+      "font": "16px",
+      "rect": {
+        "bottom": 90.9921875,
+        "height": 65.796875,
+        "left": 18.1953125,
+        "right": 1507.140625,
+        "top": 25.1953125,
+        "width": 1488.9453125,
+        "x": 18.1953125,
+        "y": 25.1953125
+      },
+      "selector": "toolbar"
+    },
+    {
+      "font": "10px",
+      "rect": {
+        "bottom": 75.59375,
+        "height": 35,
+        "left": 31.7890625,
+        "right": 66.7890625,
+        "top": 40.59375,
+        "width": 35,
+        "x": 31.7890625,
+        "y": 40.59375
+      },
+      "selector": "undo"
+    },
+    {
+      "font": "10px",
+      "rect": {
+        "bottom": 74.1875,
+        "height": 32.1953125,
+        "left": 139.5703125,
+        "right": 212.3515625,
+        "top": 41.9921875,
+        "width": 72.78125,
+        "x": 139.5703125,
+        "y": 41.9921875
+      },
+      "selector": "copy"
+    },
+    {
+      "font": "16px",
+      "rect": {
+        "bottom": 666.6015625,
+        "height": 558.8125,
+        "left": 18.1953125,
+        "right": 1004.484375,
+        "top": 107.7890625,
+        "width": 986.2890625,
+        "x": 18.1953125,
+        "y": 107.7890625
+      },
+      "selector": "panel tree-panel"
+    },
+    {
+      "font": "12px",
+      "rect": {
+        "bottom": 238.9765625,
+        "height": 42,
+        "left": 69.5859375,
+        "right": 968.4921875,
+        "top": 196.9765625,
+        "width": 898.90625,
+        "x": 69.5859375,
+        "y": 196.9765625
+      },
+      "selector": "row directory selected"
+    },
+    {
+      "font": "16px",
+      "rect": {
+        "bottom": 355.2265625,
+        "height": 247.4375,
+        "left": 1021.28125,
+        "right": 1507.140625,
+        "top": 107.7890625,
+        "width": 485.859375,
+        "x": 1021.28125,
+        "y": 107.7890625
+      },
+      "selector": "panel visitor"
+    },
+    {
+      "font": "16px",
+      "rect": {
+        "bottom": 666.6015625,
+        "height": 294.578125,
+        "left": 1021.28125,
+        "right": 1507.140625,
+        "top": 372.0234375,
+        "width": 485.859375,
+        "x": 1021.28125,
+        "y": 372.0234375
+      },
+      "selector": "panel observer"
+    },
+    {
+      "font": "16px",
+      "rect": {
+        "bottom": 666.6015625,
+        "height": 641.40625,
+        "left": 1523.9375,
+        "right": 2009.8046875,
+        "top": 25.1953125,
+        "width": 485.8671875,
+        "x": 1523.9375,
+        "y": 25.1953125
+      },
+      "selector": "console"
+    }
+  ],
+  "logs": "掃描檔案: README.txt掃描檔案: 系統架構圖.png[符合] 需求規格書.docx掃描檔案: 需求規格書.docx[符合] API介面定義.docx掃描檔案: API介面定義.docx搜尋目錄: 專案文件掃描檔案: 待辦清單.txt[符合] 會議記錄.docx掃描檔案: 會議記錄.docx搜尋目錄: 2025備份搜尋目錄: 個人筆記搜尋目錄: 我的根目錄找到 3 項",
+  "matches": [
+    "會議記錄.docx(200 KB, pages: 5)WORK×",
+    "API介面定義.docx(120 KB, pages: 12)PERSONAL×",
+    "需求規格書.docx(500 KB, pages: 35)"
+  ],
+  "observer": "監控 (Observer)LIVE目前節點README.txt掃描進度100%10 / 10 Nodes",
+  "selected": "我的根目錄(0 KB)",
+  "viewport": {
+    "height": 682,
+    "width": 2028
+  }
+}
