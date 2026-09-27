@@ -1,0 +1,130 @@
+  Determining projects to restore...
+  Restored /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/ColdStartProbe/ColdStartProbe.csproj (in 42 ms).
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/xunit.v3/index.json'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/list_xunit.v3.dat-new' is denied.
+    Operation not permitted
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/xunit.runner.visualstudio/index.json'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/list_xunit.runner.visualstudio.dat-new' is denied.
+    Operation not permitted
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/microsoft.net.test.sdk/index.json'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/list_microsoft.net.test.sdk.dat-new' is denied.
+    Operation not permitted
+  Failed to download package 'xunit.v3.3.2.2' from 'https://api.nuget.org/v3-flatcontainer/xunit.v3/3.2.2/xunit.v3.3.2.2.nupkg'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/nupkg_xunit.v3.3.2.2.dat-new' is denied.
+    Operation not permitted
+  Failed to download package 'xunit.runner.visualstudio.3.1.5' from 'https://api.nuget.org/v3-flatcontainer/xunit.runner.visualstudio/3.1.5/xunit.runner.visualstudio.3.1.5.nupkg'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/nupkg_xunit.runner.visualstudio.3.1.5.dat-new' is denied.
+    Operation not permitted
+  Failed to download package 'Microsoft.NET.Test.Sdk.18.10.1' from 'https://api.nuget.org/v3-flatcontainer/microsoft.net.test.sdk/18.10.1/microsoft.net.test.sdk.18.10.1.nupkg'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/nupkg_microsoft.net.test.sdk.18.10.1.dat-new' is denied.
+    Operation not permitted
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/xunit.v3.mtp-v1/index.json'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/list_xunit.v3.mtp-v1.dat-new' is denied.
+    Operation not permitted
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/microsoft.testplatform.testhost/index.json'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/list_microsoft.testplatform.testhost.dat-new' is denied.
+    Operation not permitted
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/microsoft.codecoverage/index.json'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/list_microsoft.codecoverage.dat-new' is denied.
+    Operation not permitted
+  Failed to download package 'xunit.v3.mtp-v1.3.2.2' from 'https://api.nuget.org/v3-flatcontainer/xunit.v3.mtp-v1/3.2.2/xunit.v3.mtp-v1.3.2.2.nupkg'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/nupkg_xunit.v3.mtp-v1.3.2.2.dat-new' is denied.
+    Operation not permitted
+  Failed to download package 'Microsoft.TestPlatform.TestHost.18.10.1' from 'https://api.nuget.org/v3-flatcontainer/microsoft.testplatform.testhost/18.10.1/microsoft.testplatform.testhost.18.10.1.nupkg'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/nupkg_microsoft.testplatform.testhost.18.10.1.dat-new' is denied.
+    Operation not permitted
+  Failed to download package 'Microsoft.CodeCoverage.18.10.1' from 'https://api.nuget.org/v3-flatcontainer/microsoft.codecoverage/18.10.1/microsoft.codecoverage.18.10.1.nupkg'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/nupkg_microsoft.codecoverage.18.10.1.dat-new' is denied.
+    Operation not permitted
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/xunit.analyzers/index.json'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/list_xunit.analyzers.dat-new' is denied.
+    Operation not permitted
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/xunit.v3.assert/index.json'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/list_xunit.v3.assert.dat-new' is denied.
+    Operation not permitted
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/xunit.v3.core.mtp-v1/index.json'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/list_xunit.v3.core.mtp-v1.dat-new' is denied.
+    Operation not permitted
+  Failed to download package 'xunit.v3.assert.3.2.2' from 'https://api.nuget.org/v3-flatcontainer/xunit.v3.assert/3.2.2/xunit.v3.assert.3.2.2.nupkg'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/nupkg_xunit.v3.assert.3.2.2.dat-new' is denied.
+    Operation not permitted
+  Failed to download package 'xunit.analyzers.1.27.0' from 'https://api.nuget.org/v3-flatcontainer/xunit.analyzers/1.27.0/xunit.analyzers.1.27.0.nupkg'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/nupkg_xunit.analyzers.1.27.0.dat-new' is denied.
+    Operation not permitted
+  Failed to download package 'xunit.v3.core.mtp-v1.3.2.2' from 'https://api.nuget.org/v3-flatcontainer/xunit.v3.core.mtp-v1/3.2.2/xunit.v3.core.mtp-v1.3.2.2.nupkg'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/nupkg_xunit.v3.core.mtp-v1.3.2.2.dat-new' is denied.
+    Operation not permitted
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/microsoft.testplatform.objectmodel/index.json'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/list_microsoft.testplatform.objectmodel.dat-new' is denied.
+    Operation not permitted
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/microsoft.testing.extensions.telemetry/index.json'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/list_microsoft.testing.extensions.telemetry.dat-new' is denied.
+    Operation not permitted
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/microsoft.testing.platform/index.json'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/list_microsoft.testing.platform.dat-new' is denied.
+    Operation not permitted
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/xunit.v3.extensibility.core/index.json'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/list_xunit.v3.extensibility.core.dat-new' is denied.
+    Operation not permitted
+  Failed to download package 'Microsoft.TestPlatform.ObjectModel.18.10.1' from 'https://api.nuget.org/v3-flatcontainer/microsoft.testplatform.objectmodel/18.10.1/microsoft.testplatform.objectmodel.18.10.1.nupkg'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/nupkg_microsoft.testplatform.objectmodel.18.10.1.dat-new' is denied.
+    Operation not permitted
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/xunit.v3.runner.inproc.console/index.json'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/list_xunit.v3.runner.inproc.console.dat-new' is denied.
+    Operation not permitted
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/microsoft.testing.extensions.trxreport.abstractions/index.json'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/list_microsoft.testing.extensions.trxreport.abstractions.dat-new' is denied.
+    Operation not permitted
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/microsoft.testing.platform.msbuild/index.json'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/list_microsoft.testing.platform.msbuild.dat-new' is denied.
+    Operation not permitted
+  Failed to download package 'Microsoft.Testing.Platform.1.9.1' from 'https://api.nuget.org/v3-flatcontainer/microsoft.testing.platform/1.9.1/microsoft.testing.platform.1.9.1.nupkg'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/nupkg_microsoft.testing.platform.1.9.1.dat-new' is denied.
+    Operation not permitted
+  Failed to download package 'Microsoft.Testing.Extensions.Telemetry.1.9.1' from 'https://api.nuget.org/v3-flatcontainer/microsoft.testing.extensions.telemetry/1.9.1/microsoft.testing.extensions.telemetry.1.9.1.nupkg'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/nupkg_microsoft.testing.extensions.telemetry.1.9.1.dat-new' is denied.
+    Operation not permitted
+  Failed to download package 'Microsoft.Testing.Extensions.TrxReport.Abstractions.1.9.1' from 'https://api.nuget.org/v3-flatcontainer/microsoft.testing.extensions.trxreport.abstractions/1.9.1/microsoft.testing.extensions.trxreport.abstractions.1.9.1.nupkg'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/nupkg_microsoft.testing.extensions.trxreport.abstractions.1.9.1.dat-new' is denied.
+    Operation not permitted
+  Failed to download package 'xunit.v3.runner.inproc.console.3.2.2' from 'https://api.nuget.org/v3-flatcontainer/xunit.v3.runner.inproc.console/3.2.2/xunit.v3.runner.inproc.console.3.2.2.nupkg'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/nupkg_xunit.v3.runner.inproc.console.3.2.2.dat-new' is denied.
+    Operation not permitted
+  Failed to download package 'xunit.v3.extensibility.core.3.2.2' from 'https://api.nuget.org/v3-flatcontainer/xunit.v3.extensibility.core/3.2.2/xunit.v3.extensibility.core.3.2.2.nupkg'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/nupkg_xunit.v3.extensibility.core.3.2.2.dat-new' is denied.
+    Operation not permitted
+  Failed to download package 'Microsoft.Testing.Platform.MSBuild.1.9.1' from 'https://api.nuget.org/v3-flatcontainer/microsoft.testing.platform.msbuild/1.9.1/microsoft.testing.platform.msbuild.1.9.1.nupkg'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/nupkg_microsoft.testing.platform.msbuild.1.9.1.dat-new' is denied.
+    Operation not permitted
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/microsoft.applicationinsights/index.json'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/list_microsoft.applicationinsights.dat-new' is denied.
+    Operation not permitted
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/xunit.v3.runner.common/index.json'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/list_xunit.v3.runner.common.dat-new' is denied.
+    Operation not permitted
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/xunit.v3.common/index.json'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/list_xunit.v3.common.dat-new' is denied.
+    Operation not permitted
+  Failed to download package 'Microsoft.ApplicationInsights.2.23.0' from 'https://api.nuget.org/v3-flatcontainer/microsoft.applicationinsights/2.23.0/microsoft.applicationinsights.2.23.0.nupkg'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/nupkg_microsoft.applicationinsights.2.23.0.dat-new' is denied.
+    Operation not permitted
+  Failed to download package 'xunit.v3.runner.common.3.2.2' from 'https://api.nuget.org/v3-flatcontainer/xunit.v3.runner.common/3.2.2/xunit.v3.runner.common.3.2.2.nupkg'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/nupkg_xunit.v3.runner.common.3.2.2.dat-new' is denied.
+    Operation not permitted
+  Failed to download package 'xunit.v3.common.3.2.2' from 'https://api.nuget.org/v3-flatcontainer/xunit.v3.common/3.2.2/xunit.v3.common.3.2.2.nupkg'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/nupkg_xunit.v3.common.3.2.2.dat-new' is denied.
+    Operation not permitted
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/microsoft.win32.registry/index.json'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/list_microsoft.win32.registry.dat-new' is denied.
+    Operation not permitted
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/microsoft.bcl.asyncinterfaces/index.json'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/list_microsoft.bcl.asyncinterfaces.dat-new' is denied.
+    Operation not permitted
+  Failed to download package 'Microsoft.Win32.Registry.5.0.0' from 'https://api.nuget.org/v3-flatcontainer/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/nupkg_microsoft.win32.registry.5.0.0.dat-new' is denied.
+    Operation not permitted
+  Failed to download package 'Microsoft.Bcl.AsyncInterfaces.6.0.0' from 'https://api.nuget.org/v3-flatcontainer/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/nupkg_microsoft.bcl.asyncinterfaces.6.0.0.dat-new' is denied.
+    Operation not permitted
+/usr/local/share/dotnet/sdk/10.0.401/NuGet.targets(198,5): error : Access to the path '/Users/juyunho/.nuget/packages/microsoft.testing.extensions.trxreport.abstractions' is denied. [/Users/juyunho/Documents/Code/winbond/CloudFileManager/CloudFileManager.slnx]
+/usr/local/share/dotnet/sdk/10.0.401/NuGet.targets(198,5): error :   Operation not permitted [/Users/juyunho/Documents/Code/winbond/CloudFileManager/CloudFileManager.slnx]

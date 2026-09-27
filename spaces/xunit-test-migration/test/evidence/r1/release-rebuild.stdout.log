@@ -1,0 +1,16 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CloudFileManager.Core -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/src/CloudFileManager.Core/bin/Release/net10.0/CloudFileManager.Core.dll
+  CloudFileManager.Console -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/src/CloudFileManager.Console/bin/Release/net10.0/CloudFileManager.Console.dll
+  ColdStartProbe -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/ColdStartProbe/bin/Release/net10.0/ColdStartProbe.dll
+  CloudFileManager.Tests -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.dll
+  CloudFileManager.BonusTests -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.BonusTests/bin/Release/net10.0/CloudFileManager.BonusTests.dll
+  CloudFileManager.ArchitectureTests -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/bin/Release/net10.0/CloudFileManager.ArchitectureTests.dll
+  CloudFileManager.Web -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/src/CloudFileManager.Web/bin/Release/net10.0/CloudFileManager.Web.dll
+  CloudFileManager.WebTests -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.WebTests/bin/Release/net10.0/CloudFileManager.WebTests.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.51

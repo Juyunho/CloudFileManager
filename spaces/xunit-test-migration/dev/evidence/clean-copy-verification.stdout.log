@@ -1,0 +1,36 @@
+  Determining projects to restore...
+  Restored /private/var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-clean-1nyajyxq/src/CloudFileManager.Console/CloudFileManager.Console.csproj (in 37 ms).
+  Restored /private/var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-clean-1nyajyxq/tests/CloudFileManager.ArchitectureTests/ColdStartProbe/ColdStartProbe.csproj (in 37 ms).
+  Restored /private/var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-clean-1nyajyxq/src/CloudFileManager.Web/CloudFileManager.Web.csproj (in 37 ms).
+  Restored /private/var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-clean-1nyajyxq/src/CloudFileManager.Core/CloudFileManager.Core.csproj (in 33 ms).
+  Restored /private/var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-clean-1nyajyxq/tests/CloudFileManager.BonusTests/CloudFileManager.BonusTests.csproj (in 129 ms).
+  Restored /private/var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-clean-1nyajyxq/tests/CloudFileManager.Tests/CloudFileManager.Tests.csproj (in 129 ms).
+  Restored /private/var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-clean-1nyajyxq/tests/CloudFileManager.ArchitectureTests/CloudFileManager.ArchitectureTests.csproj (in 129 ms).
+  Restored /private/var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-clean-1nyajyxq/tests/CloudFileManager.WebTests/CloudFileManager.WebTests.csproj (in 146 ms).
+  CloudFileManager.Core -> /private/var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-clean-1nyajyxq/src/CloudFileManager.Core/bin/Release/net10.0/CloudFileManager.Core.dll
+  ColdStartProbe -> /private/var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-clean-1nyajyxq/tests/CloudFileManager.ArchitectureTests/ColdStartProbe/bin/Release/net10.0/ColdStartProbe.dll
+  CloudFileManager.BonusTests -> /private/var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-clean-1nyajyxq/tests/CloudFileManager.BonusTests/bin/Release/net10.0/CloudFileManager.BonusTests.dll
+  CloudFileManager.Tests -> /private/var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-clean-1nyajyxq/tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.dll
+Test run for /private/var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-clean-1nyajyxq/tests/CloudFileManager.BonusTests/bin/Release/net10.0/CloudFileManager.BonusTests.dll (.NETCoreApp,Version=v10.0)
+Test run for /private/var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-clean-1nyajyxq/tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+A total of 1 test files matched the specified pattern.
+  CloudFileManager.ArchitectureTests -> /private/var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-clean-1nyajyxq/tests/CloudFileManager.ArchitectureTests/bin/Release/net10.0/CloudFileManager.ArchitectureTests.dll
+Test run for /private/var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-clean-1nyajyxq/tests/CloudFileManager.ArchitectureTests/bin/Release/net10.0/CloudFileManager.ArchitectureTests.dll (.NETCoreApp,Version=v10.0)
+  CloudFileManager.Web -> /private/var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-clean-1nyajyxq/src/CloudFileManager.Web/bin/Release/net10.0/CloudFileManager.Web.dll
+A total of 1 test files matched the specified pattern.
+  CloudFileManager.WebTests -> /private/var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-clean-1nyajyxq/tests/CloudFileManager.WebTests/bin/Release/net10.0/CloudFileManager.WebTests.dll
+Test run for /private/var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-clean-1nyajyxq/tests/CloudFileManager.WebTests/bin/Release/net10.0/CloudFileManager.WebTests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+Results File: /Users/juyunho/Documents/Code/winbond/CloudFileManager/spaces/xunit-test-migration/dev/evidence/clean-copy-trx/_yunMacBook-Pro_2026-09-27_22_06_05_net10.0.trx
+
+Passed!  - Failed:     0, Passed:    14, Skipped:     0, Total:    14, Duration: 244 ms - CloudFileManager.Tests.dll (net10.0)
+Results File: /Users/juyunho/Documents/Code/winbond/CloudFileManager/spaces/xunit-test-migration/dev/evidence/clean-copy-trx/_yunMacBook-Pro_2026-09-27_22_06_05_net10.0[1].trx
+
+Passed!  - Failed:     0, Passed:    20, Skipped:     0, Total:    20, Duration: 114 ms - CloudFileManager.BonusTests.dll (net10.0)
+Results File: /Users/juyunho/Documents/Code/winbond/CloudFileManager/spaces/xunit-test-migration/dev/evidence/clean-copy-trx/_yunMacBook-Pro_2026-09-27_22_06_05_net10.0[2].trx
+
+Passed!  - Failed:     0, Passed:    18, Skipped:     0, Total:    18, Duration: 201 ms - CloudFileManager.ArchitectureTests.dll (net10.0)
+Results File: /Users/juyunho/Documents/Code/winbond/CloudFileManager/spaces/xunit-test-migration/dev/evidence/clean-copy-trx/_yunMacBook-Pro_2026-09-27_22_06_06_net10.0.trx
+
+Passed!  - Failed:     0, Passed:    20, Skipped:     0, Total:    20, Duration: 75 ms - CloudFileManager.WebTests.dll (net10.0)

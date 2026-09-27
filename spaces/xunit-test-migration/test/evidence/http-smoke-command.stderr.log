@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/Users/juyunho/Documents/Code/winbond/CloudFileManager/spaces/xunit-test-migration/test/http_smoke.py", line 19, in <module>
+    assert [p['visited'] for p in progress]==[1,2,3,4] and all(p['total']==4 for p in progress)
+AssertionError

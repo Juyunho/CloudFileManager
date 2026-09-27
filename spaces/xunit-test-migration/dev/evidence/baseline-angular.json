@@ -1,0 +1,12 @@
+{
+  "command": [
+    "npm",
+    "--prefix",
+    "src/CloudFileManager.Angular",
+    "test"
+  ],
+  "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+  "started": "2026-09-27T21:47:46.925009+08:00",
+  "ended": "2026-09-27T21:47:47.448279+08:00",
+  "exit_code": 0
+}

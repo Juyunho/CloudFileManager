@@ -1,0 +1,11 @@
+--- original/T03
++++ disposable-copy/T03
+@@ -54,7 +54,7 @@
+     [Trait("Category", "Integration")]
+     public void T03()
+     {
+-        Equal(1L << 10, BinarySize.From(1,"KB")); Equal(1L << 20, BinarySize.From(1,"MB"));
++        Equal(2L << 10, BinarySize.From(1,"KB")); Equal(1L << 20, BinarySize.From(1,"MB"));
+         Equal(500L, BinarySize.From(500,"B")); Equal("500B", BinarySizeFormatter.Format(500)); Equal("0B",BinarySizeFormatter.Format(0));
+         Equal("1025B",BinarySizeFormatter.Format(1025)); Equal("1KB",BinarySizeFormatter.Format(1024)); Equal("1MB",BinarySizeFormatter.Format(1L<<20));
+         Throws<ArgumentException>(() => BinarySize.From(1,"GB")); Throws<ArgumentOutOfRangeException>(() => BinarySize.From(-1,"B"));

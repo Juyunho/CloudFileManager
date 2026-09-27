@@ -1,0 +1,11 @@
+{
+  "command": [
+    "dotnet",
+    "restore",
+    "CloudFileManager.slnx"
+  ],
+  "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+  "started": "2026-09-27T21:50:05.109628+08:00",
+  "ended": "2026-09-27T21:50:30.502657+08:00",
+  "exit_code": 1
+}

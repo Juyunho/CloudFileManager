@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="2624aa30-650e-4c77-bc95-9767504166b8" name="@yunMacBook-Pro 2026-09-27 21:53:10" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-09-27T21:53:10.3465210+08:00" queuing="2026-09-27T21:53:10.3465210+08:00" start="2026-09-27T21:53:09.3898770+08:00" finish="2026-09-27T21:53:10.3562180+08:00" />
+  <TestSettings name="default" id="f430133b-8211-4f42-ad51-2b8fa9659e73">
+    <Deployment runDeploymentRoot="_yunMacBook-Pro_2026-09-27_21_53_10" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="eaeab214-d600-492e-a3c8-1b66ad031e02" testId="cce580c0-a740-3c86-2d34-39c861ea9d80" testName="T13 metadata and rendered details" computerName="yunMacBook-Pro" duration="00:00:00.0024521" startTime="2026-09-27T21:53:10.1821400+08:00" endTime="2026-09-27T21:53:10.1846290+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eaeab214-d600-492e-a3c8-1b66ad031e02" />
+    <UnitTestResult executionId="566bf8dd-83a9-4b6a-b0d1-0ebc1280d76e" testId="fddf9031-eaab-cd22-7702-6ab520f2d306" testName="T14 invalid search input" computerName="yunMacBook-Pro" duration="00:00:00.0013272" startTime="2026-09-27T21:53:10.3174330+08:00" endTime="2026-09-27T21:53:10.3187750+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="566bf8dd-83a9-4b6a-b0d1-0ebc1280d76e" />
+    <UnitTestResult executionId="e94889bc-59f3-4b9b-a24f-067a7e2d2f4c" testId="f00ab60f-edad-ddc3-12fb-3e45a0807e0e" testName="T12 checked arithmetic prevents silent overflow" computerName="yunMacBook-Pro" duration="00:00:00.0010452" startTime="2026-09-27T21:53:10.1773620+08:00" endTime="2026-09-27T21:53:10.1784220+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e94889bc-59f3-4b9b-a24f-067a7e2d2f4c" />
+    <UnitTestResult executionId="bd7f96f2-de13-4d98-b857-811c63b763ce" testId="ebf1dbdd-560c-9e0a-9f65-6d6888fd73d5" testName="T07 XML invalid names collisions and escaped text" computerName="yunMacBook-Pro" duration="00:00:00.0016507" startTime="2026-09-27T21:53:10.3156380+08:00" endTime="2026-09-27T21:53:10.3173150+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd7f96f2-de13-4d98-b857-811c63b763ce" />
+    <UnitTestResult executionId="24bfe2fa-75ce-4b99-a3b0-2937158af309" testId="c0ab26e5-c324-960f-30fd-a9ae4a7ab3b1" testName="T05 exact traversal sequence for both operations" computerName="yunMacBook-Pro" duration="00:00:00.0008990" startTime="2026-09-27T21:53:10.1762720+08:00" endTime="2026-09-27T21:53:10.1772240+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="24bfe2fa-75ce-4b99-a3b0-2937158af309" />
+    <UnitTestResult executionId="86b289bf-438f-4c0e-ab67-1d6c92200d55" testId="f11830f2-5985-03d9-8b76-0210a7e4f825" testName="T09 invalid creation is rejected without mutation" computerName="yunMacBook-Pro" duration="00:00:00.0008693" startTime="2026-09-27T21:53:10.3221660+08:00" endTime="2026-09-27T21:53:10.3230730+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="86b289bf-438f-4c0e-ab67-1d6c92200d55" />
+    <UnitTestResult executionId="aebd0751-7f7d-4bc5-a5e8-7eed1d235160" testId="4dc5bdd9-5143-39b5-2cb2-db396eef8b04" testName="T11 deep hierarchy without recursive call stack" computerName="yunMacBook-Pro" duration="00:00:00.1270509" startTime="2026-09-27T21:53:10.1849650+08:00" endTime="2026-09-27T21:53:10.3120640+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aebd0751-7f7d-4bc5-a5e8-7eed1d235160" />
+    <UnitTestResult executionId="bd3176bb-4151-41a7-ad30-e526c0556db9" testId="d215686e-87de-428b-f0b6-e61b868cd876" testName="T03 binary units and byte precision" computerName="yunMacBook-Pro" duration="00:00:00.0005547" startTime="2026-09-27T21:53:10.3126870+08:00" endTime="2026-09-27T21:53:10.3132620+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd3176bb-4151-41a7-ad30-e526c0556db9" />
+    <UnitTestResult executionId="44ec117d-bbf4-4762-be87-c0c58786a453" testId="505359e0-e777-018d-97b4-adfab7b542db" testName="T10 topology and public ownership contract" computerName="yunMacBook-Pro" duration="00:00:00.0016657" startTime="2026-09-27T21:53:10.3232600+08:00" endTime="2026-09-27T21:53:10.3249500+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="44ec117d-bbf4-4762-be87-c0c58786a453" />
+    <UnitTestResult executionId="b8ce17b4-7e9c-4584-90ff-7aff2f80aef7" testId="bc3f79ab-8c81-a07b-e77b-adeefb6efc0c" testName="T02 each subtree independently grouped from source paths" computerName="yunMacBook-Pro" duration="00:00:00.0006834" startTime="2026-09-27T21:53:10.3133890+08:00" endTime="2026-09-27T21:53:10.3140860+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b8ce17b4-7e9c-4584-90ff-7aff2f80aef7">
+      <Output>
+        <StdOut>SUBTREE 根目錄 (Root) =&gt; 2815476 B
+SUBTREE 專案文件 (Project_Docs) =&gt; 2609152 B
+SUBTREE 個人筆記 (Personal_Notes) =&gt; 205824 B
+SUBTREE 2025備份 (Archive_2025) =&gt; 204800 B</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1f3a5d8e-33b7-45f4-b8d3-0719de19fad6" testId="554917a3-a978-a021-0a0a-2275ead1b760" testName="T06 XML matches original assignment fixture" computerName="yunMacBook-Pro" duration="00:00:00.0008458" startTime="2026-09-27T21:53:10.3190260+08:00" endTime="2026-09-27T21:53:10.3198860+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f3a5d8e-33b7-45f4-b8d3-0719de19fad6" />
+    <UnitTestResult executionId="7f191360-7455-445e-8f5c-bc3b166f4884" testId="1bf7bc24-c671-bf6e-6d8a-8a616e25acfb" testName="T01 independent source oracle and exact file set" computerName="yunMacBook-Pro" duration="00:00:00.0206834" startTime="2026-09-27T21:53:10.1462950+08:00" endTime="2026-09-27T21:53:10.1726630+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f191360-7455-445e-8f5c-bc3b166f4884">
+      <Output>
+        <StdOut>SOURCE 需求規格書.docx: 500 KB =&gt; 512000 B
+SOURCE 系統架構圖.png: 2 MB =&gt; 2097152 B
+SOURCE 待辦清單.txt: 1 KB =&gt; 1024 B
+SOURCE 舊會議記錄.docx: 200 KB =&gt; 204800 B
+SOURCE README.txt: 500 B =&gt; 500 B
+INDEPENDENT SUM = 2815476 B; PRODUCT = 2815476 B</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="349bec42-aebe-496d-a7e1-569c1c1a25f8" testId="ef8f27d7-a89a-71ea-c0d5-6980268050f5" testName="T08 empty directory and zero byte file" computerName="yunMacBook-Pro" duration="00:00:00.0031747" startTime="2026-09-27T21:53:10.1785680+08:00" endTime="2026-09-27T21:53:10.1817720+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="349bec42-aebe-496d-a7e1-569c1c1a25f8" />
+    <UnitTestResult executionId="f0f3d246-2544-4279-81bc-742ebdbc1e17" testId="6f48fa15-18a1-c56a-3ce5-9c22ec89aacc" testName="T04 search normalization scope and no result" computerName="yunMacBook-Pro" duration="00:00:00.0013058" startTime="2026-09-27T21:53:10.3142060+08:00" endTime="2026-09-27T21:53:10.3155220+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f0f3d246-2544-4279-81bc-742ebdbc1e17" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="T11 deep hierarchy without recursive call stack" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.tests/bin/release/net10.0/cloudfilemanager.tests.dll" id="4dc5bdd9-5143-39b5-2cb2-db396eef8b04">
+      <Execution id="aebd0751-7f7d-4bc5-a5e8-7eed1d235160" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.Tests.AssignmentRegressionTests" name="T11" />
+    </UnitTest>
+    <UnitTest name="T02 each subtree independently grouped from source paths" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.tests/bin/release/net10.0/cloudfilemanager.tests.dll" id="bc3f79ab-8c81-a07b-e77b-adeefb6efc0c">
+      <Execution id="b8ce17b4-7e9c-4584-90ff-7aff2f80aef7" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.Tests.AssignmentRegressionTests" name="T02" />
+    </UnitTest>
+    <UnitTest name="T05 exact traversal sequence for both operations" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.tests/bin/release/net10.0/cloudfilemanager.tests.dll" id="c0ab26e5-c324-960f-30fd-a9ae4a7ab3b1">
+      <Execution id="24bfe2fa-75ce-4b99-a3b0-2937158af309" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.Tests.AssignmentRegressionTests" name="T05" />
+    </UnitTest>
+    <UnitTest name="T09 invalid creation is rejected without mutation" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.tests/bin/release/net10.0/cloudfilemanager.tests.dll" id="f11830f2-5985-03d9-8b76-0210a7e4f825">
+      <Execution id="86b289bf-438f-4c0e-ab67-1d6c92200d55" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.Tests.DomainContractTests" name="T09" />
+    </UnitTest>
+    <UnitTest name="T01 independent source oracle and exact file set" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.tests/bin/release/net10.0/cloudfilemanager.tests.dll" id="1bf7bc24-c671-bf6e-6d8a-8a616e25acfb">
+      <Execution id="7f191360-7455-445e-8f5c-bc3b166f4884" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.Tests.AssignmentRegressionTests" name="T01" />
+    </UnitTest>
+    <UnitTest name="T14 invalid search input" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.tests/bin/release/net10.0/cloudfilemanager.tests.dll" id="fddf9031-eaab-cd22-7702-6ab520f2d306">
+      <Execution id="566bf8dd-83a9-4b6a-b0d1-0ebc1280d76e" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.Tests.AssignmentRegressionTests" name="T14" />
+    </UnitTest>
+    <UnitTest name="T03 binary units and byte precision" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.tests/bin/release/net10.0/cloudfilemanager.tests.dll" id="d215686e-87de-428b-f0b6-e61b868cd876">
+      <Execution id="bd3176bb-4151-41a7-ad30-e526c0556db9" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.Tests.AssignmentRegressionTests" name="T03" />
+    </UnitTest>
+    <UnitTest name="T07 XML invalid names collisions and escaped text" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.tests/bin/release/net10.0/cloudfilemanager.tests.dll" id="ebf1dbdd-560c-9e0a-9f65-6d6888fd73d5">
+      <Execution id="bd7f96f2-de13-4d98-b857-811c63b763ce" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.Tests.AssignmentRegressionTests" name="T07" />
+    </UnitTest>
+    <UnitTest name="T04 search normalization scope and no result" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.tests/bin/release/net10.0/cloudfilemanager.tests.dll" id="6f48fa15-18a1-c56a-3ce5-9c22ec89aacc">
+      <Execution id="f0f3d246-2544-4279-81bc-742ebdbc1e17" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.Tests.AssignmentRegressionTests" name="T04" />
+    </UnitTest>
+    <UnitTest name="T13 metadata and rendered details" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.tests/bin/release/net10.0/cloudfilemanager.tests.dll" id="cce580c0-a740-3c86-2d34-39c861ea9d80">
+      <Execution id="eaeab214-d600-492e-a3c8-1b66ad031e02" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.Tests.AssignmentRegressionTests" name="T13" />
+    </UnitTest>
+    <UnitTest name="T06 XML matches original assignment fixture" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.tests/bin/release/net10.0/cloudfilemanager.tests.dll" id="554917a3-a978-a021-0a0a-2275ead1b760">
+      <Execution id="1f3a5d8e-33b7-45f4-b8d3-0719de19fad6" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.Tests.AssignmentRegressionTests" name="T06" />
+    </UnitTest>
+    <UnitTest name="T10 topology and public ownership contract" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.tests/bin/release/net10.0/cloudfilemanager.tests.dll" id="505359e0-e777-018d-97b4-adfab7b542db">
+      <Execution id="44ec117d-bbf4-4762-be87-c0c58786a453" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.Tests.DomainContractTests" name="T10" />
+    </UnitTest>
+    <UnitTest name="T12 checked arithmetic prevents silent overflow" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.tests/bin/release/net10.0/cloudfilemanager.tests.dll" id="f00ab60f-edad-ddc3-12fb-3e45a0807e0e">
+      <Execution id="e94889bc-59f3-4b9b-a24f-067a7e2d2f4c" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.Tests.AssignmentRegressionTests" name="T12" />
+    </UnitTest>
+    <UnitTest name="T08 empty directory and zero byte file" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.tests/bin/release/net10.0/cloudfilemanager.tests.dll" id="ef8f27d7-a89a-71ea-c0d5-6980268050f5">
+      <Execution id="349bec42-aebe-496d-a7e1-569c1c1a25f8" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.Tests.AssignmentRegressionTests" name="T08" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="cce580c0-a740-3c86-2d34-39c861ea9d80" executionId="eaeab214-d600-492e-a3c8-1b66ad031e02" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fddf9031-eaab-cd22-7702-6ab520f2d306" executionId="566bf8dd-83a9-4b6a-b0d1-0ebc1280d76e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f00ab60f-edad-ddc3-12fb-3e45a0807e0e" executionId="e94889bc-59f3-4b9b-a24f-067a7e2d2f4c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ebf1dbdd-560c-9e0a-9f65-6d6888fd73d5" executionId="bd7f96f2-de13-4d98-b857-811c63b763ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c0ab26e5-c324-960f-30fd-a9ae4a7ab3b1" executionId="24bfe2fa-75ce-4b99-a3b0-2937158af309" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f11830f2-5985-03d9-8b76-0210a7e4f825" executionId="86b289bf-438f-4c0e-ab67-1d6c92200d55" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4dc5bdd9-5143-39b5-2cb2-db396eef8b04" executionId="aebd0751-7f7d-4bc5-a5e8-7eed1d235160" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d215686e-87de-428b-f0b6-e61b868cd876" executionId="bd3176bb-4151-41a7-ad30-e526c0556db9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="505359e0-e777-018d-97b4-adfab7b542db" executionId="44ec117d-bbf4-4762-be87-c0c58786a453" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bc3f79ab-8c81-a07b-e77b-adeefb6efc0c" executionId="b8ce17b4-7e9c-4584-90ff-7aff2f80aef7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="554917a3-a978-a021-0a0a-2275ead1b760" executionId="1f3a5d8e-33b7-45f4-b8d3-0719de19fad6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1bf7bc24-c671-bf6e-6d8a-8a616e25acfb" executionId="7f191360-7455-445e-8f5c-bc3b166f4884" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ef8f27d7-a89a-71ea-c0d5-6980268050f5" executionId="349bec42-aebe-496d-a7e1-569c1c1a25f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f48fa15-18a1-c56a-3ce5-9c22ec89aacc" executionId="f0f3d246-2544-4279-81bc-742ebdbc1e17" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="14" executed="14" passed="14" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.5+1b188a7b0a (64-bit .NET 10.0.12)
+[xUnit.net 00:00:00.15]   Discovering: CloudFileManager.Tests
+[xUnit.net 00:00:00.30]   Discovered:  CloudFileManager.Tests
+[xUnit.net 00:00:00.44]   Starting:    CloudFileManager.Tests
+[xUnit.net 00:00:00.65]   Finished:    CloudFileManager.Tests (ID = '007aebd6148879379e462ca3e825ff3def5b48a2db8f47ecee6acd25eb819c40')
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

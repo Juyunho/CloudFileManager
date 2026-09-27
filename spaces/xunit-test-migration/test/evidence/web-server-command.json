@@ -1,0 +1,12 @@
+{
+  "command": [
+    "dotnet",
+    "bin/Release/net10.0/CloudFileManager.Web.dll",
+    "--urls",
+    "http://localhost:5098"
+  ],
+  "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager/src/CloudFileManager.Web",
+  "log": "web-server-r2.log",
+  "shutdown": "stopped by agent after verification, SIGINT exit130 expected",
+  "initial_sandbox_attempt": "web-server.log empty; connection refused; stopped before retry"
+}

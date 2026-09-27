@@ -1,0 +1,20 @@
+{
+  "time": "2026-09-27T22:10:31.648654+08:00",
+  "download_path": "/Users/juyunho/Downloads/export (5).xml",
+  "suggested_filename": "export.xml",
+  "actual_filename": "export (5).xml",
+  "size": 207,
+  "sha256": "7131aa1d1c6a782e43487c37ce2901d96c7cd4f856430eab56b3477b0d83affb",
+  "utf8": "PASS",
+  "parse": "PASS",
+  "scope": "個人筆記 subtree,4nodes,excludes專案文件",
+  "history_unchanged": true,
+  "progress": {
+    "status": "completed",
+    "name": "待辦清單.txt",
+    "visited": 4,
+    "total": 4,
+    "path": "我的根目錄/個人筆記/待辦清單.txt"
+  },
+  "transport_note": "Angular Blob application/xml;charset=utf-8, filename supplied by server; actual browser click created new file. API itself streams NDJSON, not HTTP attachment."
+}

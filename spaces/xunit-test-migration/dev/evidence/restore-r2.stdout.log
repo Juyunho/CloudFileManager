@@ -1,0 +1,6 @@
+  Determining projects to restore...
+  Restored /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.BonusTests/CloudFileManager.BonusTests.csproj (in 12.18 sec).
+  Restored /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.Tests/CloudFileManager.Tests.csproj (in 12.18 sec).
+  Restored /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/CloudFileManager.ArchitectureTests.csproj (in 12.18 sec).
+  Restored /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.WebTests/CloudFileManager.WebTests.csproj (in 12.18 sec).
+  4 of 8 projects are up-to-date for restore.

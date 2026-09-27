@@ -1,0 +1,17 @@
+{
+  "command": [
+    "dotnet",
+    "test",
+    "/private/var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-clean-1nyajyxq/CloudFileManager.slnx",
+    "-c",
+    "Release",
+    "--logger",
+    "trx",
+    "--results-directory",
+    "/Users/juyunho/Documents/Code/winbond/CloudFileManager/spaces/xunit-test-migration/dev/evidence/clean-copy-trx"
+  ],
+  "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+  "started": "2026-09-27T22:06:00.660964+08:00",
+  "ended": "2026-09-27T22:06:06.521174+08:00",
+  "exit_code": 0
+}

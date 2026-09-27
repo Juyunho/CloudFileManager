@@ -1,0 +1,4 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><IsTestProject>false</IsTestProject><IsPackable>false</IsPackable></PropertyGroup>
+  <ItemGroup><ProjectReference Include="../../../src/CloudFileManager.Core/CloudFileManager.Core.csproj" /></ItemGroup>
+</Project>

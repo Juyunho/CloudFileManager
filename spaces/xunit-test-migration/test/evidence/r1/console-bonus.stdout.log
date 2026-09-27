@@ -1,0 +1,150 @@
+=== TASK-002 Bonus: in-memory session ===
+=== Tags | Undo=3 Redo=0 ===
+根目錄 (Root) | 目錄 | Tags: 
+根目錄 (Root)/專案文件 (Project_Docs) | 目錄 | Tags: Work 藍
+根目錄 (Root)/專案文件 (Project_Docs)/需求規格書.docx | 頁數: 15, 大小: 500KB | Tags: Urgent 紅, Personal 綠
+根目錄 (Root)/專案文件 (Project_Docs)/系統架構圖.png | 解析度: 1920x1080, 大小: 2MB | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes) | 目錄 | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes)/待辦清單.txt | 編碼: UTF-8, 大小: 1KB | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes)/2025備份 (Archive_2025) | 目錄 | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes)/2025備份 (Archive_2025)/舊會議記錄.docx | 頁數: 5, 大小: 200KB | Tags: 
+根目錄 (Root)/README.txt | 編碼: ASCII, 大小: 500B | Tags: 
+根目錄 (Root)/Bonus_Copies | 目錄 | Tags: 
+=== Copy-time snapshot / Paste (copy retains Work 藍) | Undo=5 Redo=0 ===
+根目錄 (Root) | 目錄 | Tags: 
+根目錄 (Root)/專案文件 (Project_Docs) | 目錄 | Tags: 
+根目錄 (Root)/專案文件 (Project_Docs)/需求規格書.docx | 頁數: 15, 大小: 500KB | Tags: Urgent 紅, Personal 綠
+根目錄 (Root)/專案文件 (Project_Docs)/系統架構圖.png | 解析度: 1920x1080, 大小: 2MB | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes) | 目錄 | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes)/待辦清單.txt | 編碼: UTF-8, 大小: 1KB | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes)/2025備份 (Archive_2025) | 目錄 | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes)/2025備份 (Archive_2025)/舊會議記錄.docx | 頁數: 5, 大小: 200KB | Tags: 
+根目錄 (Root)/README.txt | 編碼: ASCII, 大小: 500B | Tags: 
+根目錄 (Root)/Bonus_Copies | 目錄 | Tags: 
+根目錄 (Root)/Bonus_Copies/專案文件 (Project_Docs) | 目錄 | Tags: Work 藍
+根目錄 (Root)/Bonus_Copies/專案文件 (Project_Docs)/需求規格書.docx | 頁數: 15, 大小: 500KB | Tags: Urgent 紅, Personal 綠
+根目錄 (Root)/Bonus_Copies/專案文件 (Project_Docs)/系統架構圖.png | 解析度: 1920x1080, 大小: 2MB | Tags: 
+Expected conflict: A sibling already has this name.
+=== Conflict leaves history unchanged | Undo=5 Redo=0 ===
+根目錄 (Root) | 目錄 | Tags: 
+根目錄 (Root)/專案文件 (Project_Docs) | 目錄 | Tags: 
+根目錄 (Root)/專案文件 (Project_Docs)/需求規格書.docx | 頁數: 15, 大小: 500KB | Tags: Urgent 紅, Personal 綠
+根目錄 (Root)/專案文件 (Project_Docs)/系統架構圖.png | 解析度: 1920x1080, 大小: 2MB | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes) | 目錄 | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes)/待辦清單.txt | 編碼: UTF-8, 大小: 1KB | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes)/2025備份 (Archive_2025) | 目錄 | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes)/2025備份 (Archive_2025)/舊會議記錄.docx | 頁數: 5, 大小: 200KB | Tags: 
+根目錄 (Root)/README.txt | 編碼: ASCII, 大小: 500B | Tags: 
+根目錄 (Root)/Bonus_Copies | 目錄 | Tags: 
+根目錄 (Root)/Bonus_Copies/專案文件 (Project_Docs) | 目錄 | Tags: Work 藍
+根目錄 (Root)/Bonus_Copies/專案文件 (Project_Docs)/需求規格書.docx | 頁數: 15, 大小: 500KB | Tags: Urgent 紅, Personal 綠
+根目錄 (Root)/Bonus_Copies/專案文件 (Project_Docs)/系統架構圖.png | 解析度: 1920x1080, 大小: 2MB | Tags: 
+=== Delete subtree | Undo=6 Redo=0 ===
+根目錄 (Root) | 目錄 | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes) | 目錄 | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes)/待辦清單.txt | 編碼: UTF-8, 大小: 1KB | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes)/2025備份 (Archive_2025) | 目錄 | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes)/2025備份 (Archive_2025)/舊會議記錄.docx | 頁數: 5, 大小: 200KB | Tags: 
+根目錄 (Root)/README.txt | 編碼: ASCII, 大小: 500B | Tags: 
+根目錄 (Root)/Bonus_Copies | 目錄 | Tags: 
+根目錄 (Root)/Bonus_Copies/專案文件 (Project_Docs) | 目錄 | Tags: Work 藍
+根目錄 (Root)/Bonus_Copies/專案文件 (Project_Docs)/需求規格書.docx | 頁數: 15, 大小: 500KB | Tags: Urgent 紅, Personal 綠
+根目錄 (Root)/Bonus_Copies/專案文件 (Project_Docs)/系統架構圖.png | 解析度: 1920x1080, 大小: 2MB | Tags: 
+=== Undo Delete restores position and metadata | Undo=5 Redo=1 ===
+根目錄 (Root) | 目錄 | Tags: 
+根目錄 (Root)/專案文件 (Project_Docs) | 目錄 | Tags: 
+根目錄 (Root)/專案文件 (Project_Docs)/需求規格書.docx | 頁數: 15, 大小: 500KB | Tags: Urgent 紅, Personal 綠
+根目錄 (Root)/專案文件 (Project_Docs)/系統架構圖.png | 解析度: 1920x1080, 大小: 2MB | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes) | 目錄 | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes)/待辦清單.txt | 編碼: UTF-8, 大小: 1KB | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes)/2025備份 (Archive_2025) | 目錄 | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes)/2025備份 (Archive_2025)/舊會議記錄.docx | 頁數: 5, 大小: 200KB | Tags: 
+根目錄 (Root)/README.txt | 編碼: ASCII, 大小: 500B | Tags: 
+根目錄 (Root)/Bonus_Copies | 目錄 | Tags: 
+根目錄 (Root)/Bonus_Copies/專案文件 (Project_Docs) | 目錄 | Tags: Work 藍
+根目錄 (Root)/Bonus_Copies/專案文件 (Project_Docs)/需求規格書.docx | 頁數: 15, 大小: 500KB | Tags: Urgent 紅, Personal 綠
+根目錄 (Root)/Bonus_Copies/專案文件 (Project_Docs)/系統架構圖.png | 解析度: 1920x1080, 大小: 2MB | Tags: 
+=== Redo Delete | Undo=6 Redo=0 ===
+根目錄 (Root) | 目錄 | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes) | 目錄 | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes)/待辦清單.txt | 編碼: UTF-8, 大小: 1KB | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes)/2025備份 (Archive_2025) | 目錄 | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes)/2025備份 (Archive_2025)/舊會議記錄.docx | 頁數: 5, 大小: 200KB | Tags: 
+根目錄 (Root)/README.txt | 編碼: ASCII, 大小: 500B | Tags: 
+根目錄 (Root)/Bonus_Copies | 目錄 | Tags: 
+根目錄 (Root)/Bonus_Copies/專案文件 (Project_Docs) | 目錄 | Tags: Work 藍
+根目錄 (Root)/Bonus_Copies/專案文件 (Project_Docs)/需求規格書.docx | 頁數: 15, 大小: 500KB | Tags: Urgent 紅, Personal 綠
+根目錄 (Root)/Bonus_Copies/專案文件 (Project_Docs)/系統架構圖.png | 解析度: 1920x1080, 大小: 2MB | Tags: 
+=== New edit clears Redo | Undo=6 Redo=0 ===
+根目錄 (Root) | 目錄 | Tags: 
+根目錄 (Root)/專案文件 (Project_Docs) | 目錄 | Tags: 
+根目錄 (Root)/專案文件 (Project_Docs)/需求規格書.docx | 頁數: 15, 大小: 500KB | Tags: Urgent 紅, Personal 綠
+根目錄 (Root)/專案文件 (Project_Docs)/系統架構圖.png | 解析度: 1920x1080, 大小: 2MB | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes) | 目錄 | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes)/待辦清單.txt | 編碼: UTF-8, 大小: 1KB | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes)/2025備份 (Archive_2025) | 目錄 | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes)/2025備份 (Archive_2025)/舊會議記錄.docx | 頁數: 5, 大小: 200KB | Tags: 
+根目錄 (Root)/README.txt | 編碼: ASCII, 大小: 500B | Tags: 
+根目錄 (Root)/Bonus_Copies | 目錄 | Tags: 
+根目錄 (Root)/Bonus_Copies/專案文件 (Project_Docs) | 目錄 | Tags: Work 藍, Personal 綠
+根目錄 (Root)/Bonus_Copies/專案文件 (Project_Docs)/需求規格書.docx | 頁數: 15, 大小: 500KB | Tags: Urgent 紅, Personal 綠
+根目錄 (Root)/Bonus_Copies/專案文件 (Project_Docs)/系統架構圖.png | 解析度: 1920x1080, 大小: 2MB | Tags: 
+=== Undo Tag | Undo=5 Redo=1 ===
+根目錄 (Root) | 目錄 | Tags: 
+根目錄 (Root)/專案文件 (Project_Docs) | 目錄 | Tags: 
+根目錄 (Root)/專案文件 (Project_Docs)/需求規格書.docx | 頁數: 15, 大小: 500KB | Tags: Urgent 紅, Personal 綠
+根目錄 (Root)/專案文件 (Project_Docs)/系統架構圖.png | 解析度: 1920x1080, 大小: 2MB | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes) | 目錄 | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes)/待辦清單.txt | 編碼: UTF-8, 大小: 1KB | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes)/2025備份 (Archive_2025) | 目錄 | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes)/2025備份 (Archive_2025)/舊會議記錄.docx | 頁數: 5, 大小: 200KB | Tags: 
+根目錄 (Root)/README.txt | 編碼: ASCII, 大小: 500B | Tags: 
+根目錄 (Root)/Bonus_Copies | 目錄 | Tags: 
+根目錄 (Root)/Bonus_Copies/專案文件 (Project_Docs) | 目錄 | Tags: Work 藍
+根目錄 (Root)/Bonus_Copies/專案文件 (Project_Docs)/需求規格書.docx | 頁數: 15, 大小: 500KB | Tags: Urgent 紅, Personal 綠
+根目錄 (Root)/Bonus_Copies/專案文件 (Project_Docs)/系統架構圖.png | 解析度: 1920x1080, 大小: 2MB | Tags: 
+=== Redo Tag | Undo=6 Redo=0 ===
+根目錄 (Root) | 目錄 | Tags: 
+根目錄 (Root)/專案文件 (Project_Docs) | 目錄 | Tags: 
+根目錄 (Root)/專案文件 (Project_Docs)/需求規格書.docx | 頁數: 15, 大小: 500KB | Tags: Urgent 紅, Personal 綠
+根目錄 (Root)/專案文件 (Project_Docs)/系統架構圖.png | 解析度: 1920x1080, 大小: 2MB | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes) | 目錄 | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes)/待辦清單.txt | 編碼: UTF-8, 大小: 1KB | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes)/2025備份 (Archive_2025) | 目錄 | Tags: 
+根目錄 (Root)/個人筆記 (Personal_Notes)/2025備份 (Archive_2025)/舊會議記錄.docx | 頁數: 5, 大小: 200KB | Tags: 
+根目錄 (Root)/README.txt | 編碼: ASCII, 大小: 500B | Tags: 
+根目錄 (Root)/Bonus_Copies | 目錄 | Tags: 
+根目錄 (Root)/Bonus_Copies/專案文件 (Project_Docs) | 目錄 | Tags: Work 藍, Personal 綠
+根目錄 (Root)/Bonus_Copies/專案文件 (Project_Docs)/需求規格書.docx | 頁數: 15, 大小: 500KB | Tags: Urgent 紅, Personal 綠
+根目錄 (Root)/Bonus_Copies/專案文件 (Project_Docs)/系統架構圖.png | 解析度: 1920x1080, 大小: 2MB | Tags: 
+=== Sort Name Asc (directories first) ===
+DirectoryNode Bonus_Copies | 2609152 B
+DirectoryNode 個人筆記 (Personal_Notes) | 205824 B
+DirectoryNode 專案文件 (Project_Docs) | 2609152 B
+TextFile README.txt | 500 B
+=== Sort Name Desc (directories first) ===
+DirectoryNode 專案文件 (Project_Docs) | 2609152 B
+DirectoryNode 個人筆記 (Personal_Notes) | 205824 B
+DirectoryNode Bonus_Copies | 2609152 B
+TextFile README.txt | 500 B
+=== Sort Size Asc (directories first) ===
+DirectoryNode 個人筆記 (Personal_Notes) | 205824 B
+DirectoryNode 專案文件 (Project_Docs) | 2609152 B
+DirectoryNode Bonus_Copies | 2609152 B
+TextFile README.txt | 500 B
+=== Sort Size Desc (directories first) ===
+DirectoryNode 專案文件 (Project_Docs) | 2609152 B
+DirectoryNode Bonus_Copies | 2609152 B
+DirectoryNode 個人筆記 (Personal_Notes) | 205824 B
+TextFile README.txt | 500 B
+=== Sort Extension Asc (directories first) ===
+DirectoryNode 專案文件 (Project_Docs) | 2609152 B
+DirectoryNode 個人筆記 (Personal_Notes) | 205824 B
+DirectoryNode Bonus_Copies | 2609152 B
+TextFile README.txt | 500 B
+=== Sort Extension Desc (directories first) ===
+DirectoryNode 專案文件 (Project_Docs) | 2609152 B
+DirectoryNode 個人筆記 (Personal_Notes) | 205824 B
+DirectoryNode Bonus_Copies | 2609152 B
+TextFile README.txt | 500 B
+BONUS COMPLETE

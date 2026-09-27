@@ -1,0 +1,24 @@
+  Determining projects to restore...
+  Restored /private/var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-negative-u27oien8/src/CloudFileManager.Core/CloudFileManager.Core.csproj (in 29 ms).
+  Restored /var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-negative-u27oien8/tests/CloudFileManager.Tests/CloudFileManager.Tests.csproj (in 134 ms).
+  CloudFileManager.Core -> /var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-negative-u27oien8/src/CloudFileManager.Core/bin/Release/net10.0/CloudFileManager.Core.dll
+  CloudFileManager.Tests -> /var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-negative-u27oien8/tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.dll
+Test run for /var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-negative-u27oien8/tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+  Failed T03 binary units and byte precision [6 ms]
+  Error Message:
+   System.IO.DirectoryNotFoundException : Could not find a part of the path '/private/var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-negative-u27oien8/tests/CloudFileManager.Tests/bin/Release/net10.0/Fixtures/source-files.json'.
+  Stack Trace:
+     at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at CloudFileManager.Tests.AssignmentFixture..ctor() in /private/var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-negative-u27oien8/tests/CloudFileManager.Tests/AssignmentFixture.cs:line 20
+   at CloudFileManager.Tests.AssignmentRegressionTests..ctor(ITestOutputHelper output) in /private/var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-negative-u27oien8/tests/CloudFileManager.Tests/Application/AssignmentRegressionTests.cs:line 16
+   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Constructor(Object obj, IntPtr* args)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+Results File: /Users/juyunho/Documents/Code/winbond/CloudFileManager/spaces/xunit-test-migration/test/evidence/negative-trx/_yunMacBook-Pro_2026-09-27_22_02_12_net10.0.trx
+
+Failed!  - Failed:     1, Passed:     0, Skipped:     0, Total:     1, Duration: 15 ms - CloudFileManager.Tests.dll (net10.0)

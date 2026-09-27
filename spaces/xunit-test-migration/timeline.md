@@ -1,0 +1,14 @@
+# TASK-008 timeline
+- 2026-09-27T21:39:44+08:00 PM STARTED：讀取專案skills、Human request、clean baseline，建立tracked-file hashes。
+- 2026-09-27T21:39:44+08:00 PM Grill Me R1：72 C# scope、Python/Angular分工、coverage與階段限制已解。
+- 2026-09-27T21:39:44+08:00 PM PASS → SA STARTED：requirements與handoff完成；inventory實際檔案，未改測試。
+- 2026-09-27T21:44:38+08:00 SA inventory/design/mapping完成：72 C# obligations；4現有project提案；cold Singleton與cwd/Console隔離風險記錄。
+- 2026-09-27T21:44:38+08:00 SA Grill Me交付查核PASS；沒有產品需求OPEN；Human architecture approval仍OPEN。
+- 2026-09-27T21:44:38+08:00 TASK BLOCKED等待Human核准，DEV/TEST NOT_STARTED，rework0/3；沒有進入實作或執行測試。
+- 2026-09-27T21:47:33.787325+08:00 Human APPROVED → DEV STARTED. Prior SA proposal preserved; approval in human-approval.md.
+- 2026-09-27T21:51:44.283535+08:00 DEV REWORK D008-01, count1/3; cache environment failures retained separately. Test-only corrections; no production changes.
+- DEV REWORK D008-02 count2/3: cold probe packaging collision; failed build/TRX preserved. Asset destination corrected; solution helper configuration registered.
+- 2026-09-27T22:00:55.932327+08:00 DEV PASS after build-r5/xunit-r2; TEST STARTED. Preliminary coverage payload audit available; fullacceptance pending.
+- 2026-09-27T22:05:37.880279+08:00 TEST R1 REWORK→DEV D008-03, count3/3: whitespace and clean-copy fixture target path; ENV Angular build separately recovered unchanged. Original logs retained.
+- 2026-09-27T22:06:34.421509+08:00 DEV R3 PASS: clean-copy72/72; TEST resumed R2. Negative-control intended assertion fails exit1 as required.
+- 2026-09-27T22:16:23.728115+08:00 Final TEST PASS: r2allautomatedchecks,clean-copy,realbrowser/downloads,coverage/protectionaudit. SupplementaryHTTPinvalid-oracle preserved and reviewed againstactualNDJSON; notcountedPASS. TASK DONE,rework3/3retained,stopHumanreview;nostage/commit/push.

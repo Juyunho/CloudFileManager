@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="34412649-ad99-4164-bf4c-296015751154" name="@yunMacBook-Pro 2026-09-27 22:01:53" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-09-27T22:01:53.6000350+08:00" queuing="2026-09-27T22:01:53.6000350+08:00" start="2026-09-27T22:01:52.6595640+08:00" finish="2026-09-27T22:01:53.6148790+08:00" />
+  <TestSettings name="default" id="17388216-63e9-4d8d-b7b0-be97d8696ef2">
+    <Deployment runDeploymentRoot="_yunMacBook-Pro_2026-09-27_22_01_53" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="bf9f68fd-05a3-434f-98fc-e4223a3c0b57" testId="1e3451a0-3aad-ad00-fccf-9f6286f321bb" testName="W20 directory extension never matches" computerName="yunMacBook-Pro" duration="00:00:00.0008909" startTime="2026-09-27T22:01:53.5430770+08:00" endTime="2026-09-27T22:01:53.5439970+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf9f68fd-05a3-434f-98fc-e4223a3c0b57" />
+    <UnitTestResult executionId="262c184a-71c0-4cb3-a2cf-ba69a2d1a830" testId="621c7d98-f4df-d87a-a5c3-c9d18f06d64c" testName="W02 exact capacities and display" computerName="yunMacBook-Pro" duration="00:00:00.0011828" startTime="2026-09-27T22:01:53.5613860+08:00" endTime="2026-09-27T22:01:53.5626150+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="262c184a-71c0-4cb3-a2cf-ba69a2d1a830" />
+    <UnitTestResult executionId="1a82f482-555a-431a-bbb1-39b785aa2539" testId="55aef78b-5b83-ace4-7580-c555d0aa2485" testName="W09 delete undo selection and global count" computerName="yunMacBook-Pro" duration="00:00:00.0005477" startTime="2026-09-27T22:01:53.5661160+08:00" endTime="2026-09-27T22:01:53.5666710+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a82f482-555a-431a-bbb1-39b785aa2539" />
+    <UnitTestResult executionId="e1f9edaf-881c-46f8-9b9f-8fcbd55c8df9" testId="2170af4f-d52c-cca1-082c-67afd3f0e30d" testName="W16 search trace exact production visit order" computerName="yunMacBook-Pro" duration="00:00:00.0116613" startTime="2026-09-27T22:01:53.5201130+08:00" endTime="2026-09-27T22:01:53.5318290+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e1f9edaf-881c-46f8-9b9f-8fcbd55c8df9" />
+    <UnitTestResult executionId="215970f2-507c-4553-893c-8b39c45e0d45" testId="6b920fa4-0e99-dfd6-e0a5-7b8ce8ecdcf4" testName="W06 badge remove does not change selection or descendants" computerName="yunMacBook-Pro" duration="00:00:00.0457235" startTime="2026-09-27T22:01:53.4681410+08:00" endTime="2026-09-27T22:01:53.5174690+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="215970f2-507c-4553-893c-8b39c45e0d45" />
+    <UnitTestResult executionId="5d78afea-f833-4ba6-b4a0-a8d3909279e7" testId="9129393e-d37f-7c13-8221-34e9ab6fd1aa" testName="W12 XML regression contract and file scope" computerName="yunMacBook-Pro" duration="00:00:00.0027223" startTime="2026-09-27T22:01:53.5628720+08:00" endTime="2026-09-27T22:01:53.5656140+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d78afea-f833-4ba6-b4a0-a8d3909279e7" />
+    <UnitTestResult executionId="542d1563-9f18-4996-adcf-901ae6842ff7" testId="623cd205-1831-4767-d294-0dda4602af41" testName="W05 tag noop retains redo/log" computerName="yunMacBook-Pro" duration="00:00:00.0008873" startTime="2026-09-27T22:01:53.5599780+08:00" endTime="2026-09-27T22:01:53.5609110+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="542d1563-9f18-4996-adcf-901ae6842ff7" />
+    <UnitTestResult executionId="1c3f39d1-deaa-4e21-a43d-f481ed2a9c13" testId="58737c80-0c48-5b83-62e8-939c8fb4fe90" testName="W19 search preserves domain history redo and last progress" computerName="yunMacBook-Pro" duration="00:00:00.0068185" startTime="2026-09-27T22:01:53.5323240+08:00" endTime="2026-09-27T22:01:53.5391730+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c3f39d1-deaa-4e21-a43d-f481ed2a9c13" />
+    <UnitTestResult executionId="92ee6b27-512d-495a-b4f5-2ff1b27b83de" testId="718c43ae-c3bf-8edb-8409-cec54d7a7bb8" testName="W14 invalid search never fake scan" computerName="yunMacBook-Pro" duration="00:00:00.0008374" startTime="2026-09-27T22:01:53.5554130+08:00" endTime="2026-09-27T22:01:53.5562640+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92ee6b27-512d-495a-b4f5-2ff1b27b83de" />
+    <UnitTestResult executionId="35a7dbdc-28b7-482e-966c-8e63b8a1af36" testId="f9aef425-6044-1e15-5f3c-8dfd95e7c2ce" testName="W15 Size distinguishes formatted equality" computerName="yunMacBook-Pro" duration="00:00:00.0001406" startTime="2026-09-27T22:01:53.5320470+08:00" endTime="2026-09-27T22:01:53.5322010+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="35a7dbdc-28b7-482e-966c-8e63b8a1af36" />
+    <UnitTestResult executionId="a1801ae0-e196-4959-a2d4-baa153e67d1c" testId="9d9c2320-d097-b7a9-3eda-4bab4cc2d239" testName="W01 clean seed" computerName="yunMacBook-Pro" duration="00:00:00.0003152" startTime="2026-09-27T22:01:53.5676290+08:00" endTime="2026-09-27T22:01:53.5679510+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1801ae0-e196-4959-a2d4-baa153e67d1c" />
+    <UnitTestResult executionId="541b9dd3-729b-4bd5-a670-777bd5f11448" testId="f328be3c-6ad5-1c81-baa3-8f8a8c29b7a0" testName="W08 Prototype snapshot independent and paste selection" computerName="yunMacBook-Pro" duration="00:00:00.0032532" startTime="2026-09-27T22:01:53.5444150+08:00" endTime="2026-09-27T22:01:53.5477150+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="541b9dd3-729b-4bd5-a670-777bd5f11448" />
+    <UnitTestResult executionId="0198dc6b-0498-44fb-9835-c4808b122541" testId="a568c352-986a-c35c-ef8e-6be6e194eb5b" testName="W18 highlight mutation removal never resurrects stale ids" computerName="yunMacBook-Pro" duration="00:00:00.0021445" startTime="2026-09-27T22:01:53.5530390+08:00" endTime="2026-09-27T22:01:53.5552180+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0198dc6b-0498-44fb-9835-c4808b122541" />
+    <UnitTestResult executionId="3ae98381-3da5-4342-ab42-44adf005a30a" testId="815002aa-9270-ec83-4c9d-8ff011625c41" testName="W10 ancestor fallback on Undo Paste" computerName="yunMacBook-Pro" duration="00:00:00.0007490" startTime="2026-09-27T22:01:53.5667730+08:00" endTime="2026-09-27T22:01:53.5675300+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3ae98381-3da5-4342-ab42-44adf005a30a" />
+    <UnitTestResult executionId="30a3b58c-b377-4b85-9a1e-229801d94837" testId="3445bfdd-81b8-cbd6-7a7a-8cd597d119e6" testName="W13 exact extension within scope, no filter" computerName="yunMacBook-Pro" duration="00:00:00.0003629" startTime="2026-09-27T22:01:53.5522880+08:00" endTime="2026-09-27T22:01:53.5526600+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="30a3b58c-b377-4b85-9a1e-229801d94837" />
+    <UnitTestResult executionId="25a34191-84df-41f0-9848-a8d15511de75" testId="c65c0526-8f24-73cc-8f5a-23a6ff4318c3" testName="W04 tag key stable directions" computerName="yunMacBook-Pro" duration="00:00:00.0002361" startTime="2026-09-27T22:01:53.5657660+08:00" endTime="2026-09-27T22:01:53.5660120+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25a34191-84df-41f0-9848-a8d15511de75" />
+    <UnitTestResult executionId="0673da09-1ab6-4653-801d-3c8370a651a3" testId="9befb843-ef03-1776-96be-ba7fd129369d" testName="W11 visitor observed actual sequence and scope" computerName="yunMacBook-Pro" duration="00:00:00.0029006" startTime="2026-09-27T22:01:53.5563970+08:00" endTime="2026-09-27T22:01:53.5593270+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0673da09-1ab6-4653-801d-3c8370a651a3" />
+    <UnitTestResult executionId="13bcc4cc-2079-4ecf-a6d0-a232c9d8ceba" testId="8e12339d-d810-23f3-3bc0-ef13e402dcc7" testName="W17 case insensitive replacement zero and identity sort" computerName="yunMacBook-Pro" duration="00:00:00.0033509" startTime="2026-09-27T22:01:53.5394840+08:00" endTime="2026-09-27T22:01:53.5428700+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13bcc4cc-2079-4ecf-a6d0-a232c9d8ceba" />
+    <UnitTestResult executionId="3320d69c-07e4-4e86-97c9-733e8123705f" testId="5933a598-b8af-5331-c047-ec11108c0d5b" testName="W07 Paste file disabled/conflict atomic/redo" computerName="yunMacBook-Pro" duration="00:00:00.0026361" startTime="2026-09-27T22:01:53.5482150+08:00" endTime="2026-09-27T22:01:53.5509020+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3320d69c-07e4-4e86-97c9-733e8123705f" />
+    <UnitTestResult executionId="8253e9a8-b22f-4eb7-a3c4-db3b0e5bf591" testId="ac117a30-9ecf-3ffa-b36d-f9ce830aff10" testName="W03 sort controls do not alter tree/history" computerName="yunMacBook-Pro" duration="00:00:00.0009694" startTime="2026-09-27T22:01:53.5511510+08:00" endTime="2026-09-27T22:01:53.5521390+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8253e9a8-b22f-4eb7-a3c4-db3b0e5bf591" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="W10 ancestor fallback on Undo Paste" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.webtests/bin/release/net10.0/cloudfilemanager.webtests.dll" id="815002aa-9270-ec83-4c9d-8ff011625c41">
+      <Execution id="3ae98381-3da5-4342-ab42-44adf005a30a" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.WebTests/bin/Release/net10.0/CloudFileManager.WebTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.WebTests.WebWorkspaceTests" name="W10" />
+    </UnitTest>
+    <UnitTest name="W18 highlight mutation removal never resurrects stale ids" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.webtests/bin/release/net10.0/cloudfilemanager.webtests.dll" id="a568c352-986a-c35c-ef8e-6be6e194eb5b">
+      <Execution id="0198dc6b-0498-44fb-9835-c4808b122541" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.WebTests/bin/Release/net10.0/CloudFileManager.WebTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.WebTests.WebWorkspaceTests" name="W18" />
+    </UnitTest>
+    <UnitTest name="W13 exact extension within scope, no filter" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.webtests/bin/release/net10.0/cloudfilemanager.webtests.dll" id="3445bfdd-81b8-cbd6-7a7a-8cd597d119e6">
+      <Execution id="30a3b58c-b377-4b85-9a1e-229801d94837" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.WebTests/bin/Release/net10.0/CloudFileManager.WebTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.WebTests.WebWorkspaceTests" name="W13" />
+    </UnitTest>
+    <UnitTest name="W14 invalid search never fake scan" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.webtests/bin/release/net10.0/cloudfilemanager.webtests.dll" id="718c43ae-c3bf-8edb-8409-cec54d7a7bb8">
+      <Execution id="92ee6b27-512d-495a-b4f5-2ff1b27b83de" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.WebTests/bin/Release/net10.0/CloudFileManager.WebTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.WebTests.WebWorkspaceTests" name="W14" />
+    </UnitTest>
+    <UnitTest name="W20 directory extension never matches" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.webtests/bin/release/net10.0/cloudfilemanager.webtests.dll" id="1e3451a0-3aad-ad00-fccf-9f6286f321bb">
+      <Execution id="bf9f68fd-05a3-434f-98fc-e4223a3c0b57" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.WebTests/bin/Release/net10.0/CloudFileManager.WebTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.WebTests.WebWorkspaceTests" name="W20" />
+    </UnitTest>
+    <UnitTest name="W07 Paste file disabled/conflict atomic/redo" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.webtests/bin/release/net10.0/cloudfilemanager.webtests.dll" id="5933a598-b8af-5331-c047-ec11108c0d5b">
+      <Execution id="3320d69c-07e4-4e86-97c9-733e8123705f" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.WebTests/bin/Release/net10.0/CloudFileManager.WebTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.WebTests.WebWorkspaceTests" name="W07" />
+    </UnitTest>
+    <UnitTest name="W03 sort controls do not alter tree/history" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.webtests/bin/release/net10.0/cloudfilemanager.webtests.dll" id="ac117a30-9ecf-3ffa-b36d-f9ce830aff10">
+      <Execution id="8253e9a8-b22f-4eb7-a3c4-db3b0e5bf591" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.WebTests/bin/Release/net10.0/CloudFileManager.WebTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.WebTests.WebWorkspaceTests" name="W03" />
+    </UnitTest>
+    <UnitTest name="W11 visitor observed actual sequence and scope" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.webtests/bin/release/net10.0/cloudfilemanager.webtests.dll" id="9befb843-ef03-1776-96be-ba7fd129369d">
+      <Execution id="0673da09-1ab6-4653-801d-3c8370a651a3" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.WebTests/bin/Release/net10.0/CloudFileManager.WebTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.WebTests.WebWorkspaceTests" name="W11" />
+    </UnitTest>
+    <UnitTest name="W09 delete undo selection and global count" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.webtests/bin/release/net10.0/cloudfilemanager.webtests.dll" id="55aef78b-5b83-ace4-7580-c555d0aa2485">
+      <Execution id="1a82f482-555a-431a-bbb1-39b785aa2539" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.WebTests/bin/Release/net10.0/CloudFileManager.WebTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.WebTests.WebWorkspaceTests" name="W09" />
+    </UnitTest>
+    <UnitTest name="W16 search trace exact production visit order" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.webtests/bin/release/net10.0/cloudfilemanager.webtests.dll" id="2170af4f-d52c-cca1-082c-67afd3f0e30d">
+      <Execution id="e1f9edaf-881c-46f8-9b9f-8fcbd55c8df9" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.WebTests/bin/Release/net10.0/CloudFileManager.WebTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.WebTests.WebWorkspaceTests" name="W16" />
+    </UnitTest>
+    <UnitTest name="W17 case insensitive replacement zero and identity sort" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.webtests/bin/release/net10.0/cloudfilemanager.webtests.dll" id="8e12339d-d810-23f3-3bc0-ef13e402dcc7">
+      <Execution id="13bcc4cc-2079-4ecf-a6d0-a232c9d8ceba" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.WebTests/bin/Release/net10.0/CloudFileManager.WebTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.WebTests.WebWorkspaceTests" name="W17" />
+    </UnitTest>
+    <UnitTest name="W19 search preserves domain history redo and last progress" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.webtests/bin/release/net10.0/cloudfilemanager.webtests.dll" id="58737c80-0c48-5b83-62e8-939c8fb4fe90">
+      <Execution id="1c3f39d1-deaa-4e21-a43d-f481ed2a9c13" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.WebTests/bin/Release/net10.0/CloudFileManager.WebTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.WebTests.WebWorkspaceTests" name="W19" />
+    </UnitTest>
+    <UnitTest name="W02 exact capacities and display" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.webtests/bin/release/net10.0/cloudfilemanager.webtests.dll" id="621c7d98-f4df-d87a-a5c3-c9d18f06d64c">
+      <Execution id="262c184a-71c0-4cb3-a2cf-ba69a2d1a830" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.WebTests/bin/Release/net10.0/CloudFileManager.WebTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.WebTests.WebWorkspaceTests" name="W02" />
+    </UnitTest>
+    <UnitTest name="W12 XML regression contract and file scope" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.webtests/bin/release/net10.0/cloudfilemanager.webtests.dll" id="9129393e-d37f-7c13-8221-34e9ab6fd1aa">
+      <Execution id="5d78afea-f833-4ba6-b4a0-a8d3909279e7" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.WebTests/bin/Release/net10.0/CloudFileManager.WebTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.WebTests.WebWorkspaceTests" name="W12" />
+    </UnitTest>
+    <UnitTest name="W05 tag noop retains redo/log" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.webtests/bin/release/net10.0/cloudfilemanager.webtests.dll" id="623cd205-1831-4767-d294-0dda4602af41">
+      <Execution id="542d1563-9f18-4996-adcf-901ae6842ff7" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.WebTests/bin/Release/net10.0/CloudFileManager.WebTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.WebTests.WebWorkspaceTests" name="W05" />
+    </UnitTest>
+    <UnitTest name="W01 clean seed" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.webtests/bin/release/net10.0/cloudfilemanager.webtests.dll" id="9d9c2320-d097-b7a9-3eda-4bab4cc2d239">
+      <Execution id="a1801ae0-e196-4959-a2d4-baa153e67d1c" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.WebTests/bin/Release/net10.0/CloudFileManager.WebTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.WebTests.WebWorkspaceTests" name="W01" />
+    </UnitTest>
+    <UnitTest name="W15 Size distinguishes formatted equality" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.webtests/bin/release/net10.0/cloudfilemanager.webtests.dll" id="f9aef425-6044-1e15-5f3c-8dfd95e7c2ce">
+      <Execution id="35a7dbdc-28b7-482e-966c-8e63b8a1af36" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.WebTests/bin/Release/net10.0/CloudFileManager.WebTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.WebTests.WebWorkspaceTests" name="W15" />
+    </UnitTest>
+    <UnitTest name="W08 Prototype snapshot independent and paste selection" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.webtests/bin/release/net10.0/cloudfilemanager.webtests.dll" id="f328be3c-6ad5-1c81-baa3-8f8a8c29b7a0">
+      <Execution id="541b9dd3-729b-4bd5-a670-777bd5f11448" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.WebTests/bin/Release/net10.0/CloudFileManager.WebTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.WebTests.WebWorkspaceTests" name="W08" />
+    </UnitTest>
+    <UnitTest name="W06 badge remove does not change selection or descendants" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.webtests/bin/release/net10.0/cloudfilemanager.webtests.dll" id="6b920fa4-0e99-dfd6-e0a5-7b8ce8ecdcf4">
+      <Execution id="215970f2-507c-4553-893c-8b39c45e0d45" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.WebTests/bin/Release/net10.0/CloudFileManager.WebTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.WebTests.WebWorkspaceTests" name="W06" />
+    </UnitTest>
+    <UnitTest name="W04 tag key stable directions" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.webtests/bin/release/net10.0/cloudfilemanager.webtests.dll" id="c65c0526-8f24-73cc-8f5a-23a6ff4318c3">
+      <Execution id="25a34191-84df-41f0-9848-a8d15511de75" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.WebTests/bin/Release/net10.0/CloudFileManager.WebTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.WebTests.WebWorkspaceTests" name="W04" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="1e3451a0-3aad-ad00-fccf-9f6286f321bb" executionId="bf9f68fd-05a3-434f-98fc-e4223a3c0b57" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="621c7d98-f4df-d87a-a5c3-c9d18f06d64c" executionId="262c184a-71c0-4cb3-a2cf-ba69a2d1a830" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="55aef78b-5b83-ace4-7580-c555d0aa2485" executionId="1a82f482-555a-431a-bbb1-39b785aa2539" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2170af4f-d52c-cca1-082c-67afd3f0e30d" executionId="e1f9edaf-881c-46f8-9b9f-8fcbd55c8df9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6b920fa4-0e99-dfd6-e0a5-7b8ce8ecdcf4" executionId="215970f2-507c-4553-893c-8b39c45e0d45" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9129393e-d37f-7c13-8221-34e9ab6fd1aa" executionId="5d78afea-f833-4ba6-b4a0-a8d3909279e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="623cd205-1831-4767-d294-0dda4602af41" executionId="542d1563-9f18-4996-adcf-901ae6842ff7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="58737c80-0c48-5b83-62e8-939c8fb4fe90" executionId="1c3f39d1-deaa-4e21-a43d-f481ed2a9c13" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="718c43ae-c3bf-8edb-8409-cec54d7a7bb8" executionId="92ee6b27-512d-495a-b4f5-2ff1b27b83de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f9aef425-6044-1e15-5f3c-8dfd95e7c2ce" executionId="35a7dbdc-28b7-482e-966c-8e63b8a1af36" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9d9c2320-d097-b7a9-3eda-4bab4cc2d239" executionId="a1801ae0-e196-4959-a2d4-baa153e67d1c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f328be3c-6ad5-1c81-baa3-8f8a8c29b7a0" executionId="541b9dd3-729b-4bd5-a670-777bd5f11448" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a568c352-986a-c35c-ef8e-6be6e194eb5b" executionId="0198dc6b-0498-44fb-9835-c4808b122541" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="815002aa-9270-ec83-4c9d-8ff011625c41" executionId="3ae98381-3da5-4342-ab42-44adf005a30a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3445bfdd-81b8-cbd6-7a7a-8cd597d119e6" executionId="30a3b58c-b377-4b85-9a1e-229801d94837" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c65c0526-8f24-73cc-8f5a-23a6ff4318c3" executionId="25a34191-84df-41f0-9848-a8d15511de75" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9befb843-ef03-1776-96be-ba7fd129369d" executionId="0673da09-1ab6-4653-801d-3c8370a651a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e12339d-d810-23f3-3bc0-ef13e402dcc7" executionId="13bcc4cc-2079-4ecf-a6d0-a232c9d8ceba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5933a598-b8af-5331-c047-ec11108c0d5b" executionId="3320d69c-07e4-4e86-97c9-733e8123705f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ac117a30-9ecf-3ffa-b36d-f9ce830aff10" executionId="8253e9a8-b22f-4eb7-a3c4-db3b0e5bf591" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="20" executed="20" passed="20" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.5+1b188a7b0a (64-bit .NET 10.0.12)
+[xUnit.net 00:00:00.18]   Discovering: CloudFileManager.WebTests
+[xUnit.net 00:00:00.36]   Discovered:  CloudFileManager.WebTests
+[xUnit.net 00:00:00.53]   Starting:    CloudFileManager.WebTests
+[xUnit.net 00:00:00.67]   Finished:    CloudFileManager.WebTests (ID = '4dc09429035d9b6122f49421e84ed7de213167d1c661958d94f7731c12cc1f6c')
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

@@ -1,0 +1,610 @@
+[
+  {
+    "id": "T01",
+    "target": "tests/CloudFileManager.Tests/Application/AssignmentRegressionTests.cs#AssignmentRegressionTests.T01",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 5,
+    "branches_loops": 1,
+    "adaptations": [
+      "diagnostics → ITestOutputHelper; assertions unchanged"
+    ]
+  },
+  {
+    "id": "T02",
+    "target": "tests/CloudFileManager.Tests/Application/AssignmentRegressionTests.cs#AssignmentRegressionTests.T02",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 1,
+    "branches_loops": 1,
+    "adaptations": [
+      "diagnostics → ITestOutputHelper; assertions unchanged"
+    ]
+  },
+  {
+    "id": "T03",
+    "target": "tests/CloudFileManager.Tests/Application/AssignmentRegressionTests.cs#AssignmentRegressionTests.T03",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 10,
+    "branches_loops": 0,
+    "adaptations": [
+      "diagnostics → ITestOutputHelper; assertions unchanged"
+    ]
+  },
+  {
+    "id": "T04",
+    "target": "tests/CloudFileManager.Tests/Application/AssignmentRegressionTests.cs#AssignmentRegressionTests.T04",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 4,
+    "branches_loops": 1,
+    "adaptations": [
+      "diagnostics → ITestOutputHelper; assertions unchanged"
+    ]
+  },
+  {
+    "id": "T05",
+    "target": "tests/CloudFileManager.Tests/Application/AssignmentRegressionTests.cs#AssignmentRegressionTests.T05",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 2,
+    "branches_loops": 0,
+    "adaptations": [
+      "diagnostics → ITestOutputHelper; assertions unchanged"
+    ]
+  },
+  {
+    "id": "T06",
+    "target": "tests/CloudFileManager.Tests/Application/AssignmentRegressionTests.cs#AssignmentRegressionTests.T06",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 1,
+    "branches_loops": 0,
+    "adaptations": [
+      "diagnostics → ITestOutputHelper; assertions unchanged"
+    ]
+  },
+  {
+    "id": "T07",
+    "target": "tests/CloudFileManager.Tests/Application/AssignmentRegressionTests.cs#AssignmentRegressionTests.T07",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 5,
+    "branches_loops": 0,
+    "adaptations": [
+      "diagnostics → ITestOutputHelper; assertions unchanged"
+    ]
+  },
+  {
+    "id": "T08",
+    "target": "tests/CloudFileManager.Tests/Application/AssignmentRegressionTests.cs#AssignmentRegressionTests.T08",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 5,
+    "branches_loops": 0,
+    "adaptations": [
+      "diagnostics → ITestOutputHelper; assertions unchanged"
+    ]
+  },
+  {
+    "id": "T11",
+    "target": "tests/CloudFileManager.Tests/Application/AssignmentRegressionTests.cs#AssignmentRegressionTests.T11",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 3,
+    "branches_loops": 1,
+    "adaptations": [
+      "diagnostics → ITestOutputHelper; assertions unchanged"
+    ]
+  },
+  {
+    "id": "T12",
+    "target": "tests/CloudFileManager.Tests/Application/AssignmentRegressionTests.cs#AssignmentRegressionTests.T12",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 2,
+    "branches_loops": 0,
+    "adaptations": [
+      "diagnostics → ITestOutputHelper; assertions unchanged"
+    ]
+  },
+  {
+    "id": "T13",
+    "target": "tests/CloudFileManager.Tests/Application/AssignmentRegressionTests.cs#AssignmentRegressionTests.T13",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 9,
+    "branches_loops": 2,
+    "adaptations": [
+      "diagnostics → ITestOutputHelper; assertions unchanged"
+    ]
+  },
+  {
+    "id": "T14",
+    "target": "tests/CloudFileManager.Tests/Application/AssignmentRegressionTests.cs#AssignmentRegressionTests.T14",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 1,
+    "branches_loops": 1,
+    "adaptations": [
+      "diagnostics → ITestOutputHelper; assertions unchanged"
+    ]
+  },
+  {
+    "id": "T09",
+    "target": "tests/CloudFileManager.Tests/Domain/DomainContractTests.cs#DomainContractTests.T09",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 10,
+    "branches_loops": 1,
+    "adaptations": [
+      "diagnostics → ITestOutputHelper; assertions unchanged"
+    ]
+  },
+  {
+    "id": "T10",
+    "target": "tests/CloudFileManager.Tests/Domain/DomainContractTests.cs#DomainContractTests.T10",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 8,
+    "branches_loops": 3,
+    "adaptations": [
+      "diagnostics → ITestOutputHelper; assertions unchanged"
+    ]
+  },
+  {
+    "id": "B01",
+    "target": "tests/CloudFileManager.BonusTests/Application/SortingTests.cs#SortingTests.B01",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 2,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "B02",
+    "target": "tests/CloudFileManager.BonusTests/Application/SortingTests.cs#SortingTests.B02",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 2,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "B03",
+    "target": "tests/CloudFileManager.BonusTests/Application/SortingTests.cs#SortingTests.B03",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 2,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "B04",
+    "target": "tests/CloudFileManager.BonusTests/Application/SortingTests.cs#SortingTests.B04",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 5,
+    "branches_loops": 4,
+    "adaptations": []
+  },
+  {
+    "id": "B05",
+    "target": "tests/CloudFileManager.BonusTests/Application/SortingTests.cs#SortingTests.B05",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 4,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "B20",
+    "target": "tests/CloudFileManager.BonusTests/Application/SortingTests.cs#SortingTests.B20",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 2,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "B06",
+    "target": "tests/CloudFileManager.BonusTests/Application/EditingTests.cs#EditingTests.B06",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 8,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "B07",
+    "target": "tests/CloudFileManager.BonusTests/Application/EditingTests.cs#EditingTests.B07",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 6,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "B08",
+    "target": "tests/CloudFileManager.BonusTests/Application/EditingTests.cs#EditingTests.B08",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 5,
+    "branches_loops": 2,
+    "adaptations": []
+  },
+  {
+    "id": "B09",
+    "target": "tests/CloudFileManager.BonusTests/Application/EditingTests.cs#EditingTests.B09",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 3,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "B10",
+    "target": "tests/CloudFileManager.BonusTests/Application/EditingTests.cs#EditingTests.B10",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 5,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "B11",
+    "target": "tests/CloudFileManager.BonusTests/Application/EditingTests.cs#EditingTests.B11",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 3,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "B12",
+    "target": "tests/CloudFileManager.BonusTests/Application/EditingTests.cs#EditingTests.B12",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 8,
+    "branches_loops": 2,
+    "adaptations": []
+  },
+  {
+    "id": "B13",
+    "target": "tests/CloudFileManager.BonusTests/Application/EditingTests.cs#EditingTests.B13",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 7,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "B14",
+    "target": "tests/CloudFileManager.BonusTests/Application/EditingTests.cs#EditingTests.B14",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 2,
+    "branches_loops": 2,
+    "adaptations": []
+  },
+  {
+    "id": "B15",
+    "target": "tests/CloudFileManager.BonusTests/Application/EditingTests.cs#EditingTests.B15",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 6,
+    "branches_loops": 2,
+    "adaptations": []
+  },
+  {
+    "id": "B16",
+    "target": "tests/CloudFileManager.BonusTests/Application/EditingTests.cs#EditingTests.B16",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 5,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "B17",
+    "target": "tests/CloudFileManager.BonusTests/Application/EditingTests.cs#EditingTests.B17",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 3,
+    "branches_loops": 1,
+    "adaptations": []
+  },
+  {
+    "id": "B18",
+    "target": "tests/CloudFileManager.BonusTests/Application/EditingTests.cs#EditingTests.B18",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 3,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "B19",
+    "target": "tests/CloudFileManager.BonusTests/Application/EditingTests.cs#EditingTests.B19",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 3,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "A01",
+    "target": "tests/CloudFileManager.ArchitectureTests/Behavior/SessionLifecycleTests.cs#SessionLifecycleTests.A01",
+    "equivalence": "MANUAL_SIX_OBLIGATIONS",
+    "assertion_calls": 6,
+    "branches_loops": 0,
+    "adaptations": [
+      "manual semantic audit: six original obligations observed in fresh child; checked individually by xUnit, plus exit/JSON/timeout"
+    ]
+  },
+  {
+    "id": "A07",
+    "target": "tests/CloudFileManager.ArchitectureTests/Behavior/SessionLifecycleTests.cs#SessionLifecycleTests.A07",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 9,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "A08",
+    "target": "tests/CloudFileManager.ArchitectureTests/Behavior/SessionLifecycleTests.cs#SessionLifecycleTests.A08",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 6,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "A09",
+    "target": "tests/CloudFileManager.ArchitectureTests/Behavior/SessionLifecycleTests.cs#SessionLifecycleTests.A09",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 2,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "A10",
+    "target": "tests/CloudFileManager.ArchitectureTests/Behavior/SessionLifecycleTests.cs#SessionLifecycleTests.A10",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 8,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "A11",
+    "target": "tests/CloudFileManager.ArchitectureTests/Behavior/SessionLifecycleTests.cs#SessionLifecycleTests.A11",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 3,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "A12",
+    "target": "tests/CloudFileManager.ArchitectureTests/Behavior/SessionLifecycleTests.cs#SessionLifecycleTests.A12",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 2,
+    "branches_loops": 1,
+    "adaptations": []
+  },
+  {
+    "id": "A02",
+    "target": "tests/CloudFileManager.ArchitectureTests/Behavior/VisitorBehaviorTests.cs#VisitorBehaviorTests.A02",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 3,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "A03",
+    "target": "tests/CloudFileManager.ArchitectureTests/Behavior/VisitorBehaviorTests.cs#VisitorBehaviorTests.A03",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 4,
+    "branches_loops": 1,
+    "adaptations": []
+  },
+  {
+    "id": "A04",
+    "target": "tests/CloudFileManager.ArchitectureTests/Behavior/VisitorBehaviorTests.cs#VisitorBehaviorTests.A04",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 4,
+    "branches_loops": 1,
+    "adaptations": []
+  },
+  {
+    "id": "A05",
+    "target": "tests/CloudFileManager.ArchitectureTests/Behavior/VisitorBehaviorTests.cs#VisitorBehaviorTests.A05",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 4,
+    "branches_loops": 1,
+    "adaptations": []
+  },
+  {
+    "id": "A06",
+    "target": "tests/CloudFileManager.ArchitectureTests/Behavior/VisitorBehaviorTests.cs#VisitorBehaviorTests.A06",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 6,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "L01",
+    "target": "tests/CloudFileManager.ArchitectureTests/Architecture/LayerDependencyTests.cs#LayerDependencyTests.L01",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 2,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "L02",
+    "target": "tests/CloudFileManager.ArchitectureTests/Architecture/LayerDependencyTests.cs#LayerDependencyTests.L02",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 1,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "L03",
+    "target": "tests/CloudFileManager.ArchitectureTests/Architecture/LayerDependencyTests.cs#LayerDependencyTests.L03",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 2,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "L04",
+    "target": "tests/CloudFileManager.ArchitectureTests/Architecture/LayerDependencyTests.cs#LayerDependencyTests.L04",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 1,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "L05",
+    "target": "tests/CloudFileManager.ArchitectureTests/Architecture/LayerDependencyTests.cs#LayerDependencyTests.L05",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 1,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "L06",
+    "target": "tests/CloudFileManager.ArchitectureTests/Architecture/LayerDependencyTests.cs#LayerDependencyTests.L06",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 1,
+    "branches_loops": 3,
+    "adaptations": []
+  },
+  {
+    "id": "W01",
+    "target": "tests/CloudFileManager.WebTests/WebWorkspaceTests.cs#WebWorkspaceTests.W01",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 7,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "W02",
+    "target": "tests/CloudFileManager.WebTests/WebWorkspaceTests.cs#WebWorkspaceTests.W02",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 3,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "W03",
+    "target": "tests/CloudFileManager.WebTests/WebWorkspaceTests.cs#WebWorkspaceTests.W03",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 4,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "W04",
+    "target": "tests/CloudFileManager.WebTests/WebWorkspaceTests.cs#WebWorkspaceTests.W04",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 4,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "W05",
+    "target": "tests/CloudFileManager.WebTests/WebWorkspaceTests.cs#WebWorkspaceTests.W05",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 2,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "W06",
+    "target": "tests/CloudFileManager.WebTests/WebWorkspaceTests.cs#WebWorkspaceTests.W06",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 3,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "W07",
+    "target": "tests/CloudFileManager.WebTests/WebWorkspaceTests.cs#WebWorkspaceTests.W07",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 6,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "W08",
+    "target": "tests/CloudFileManager.WebTests/WebWorkspaceTests.cs#WebWorkspaceTests.W08",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 3,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "W09",
+    "target": "tests/CloudFileManager.WebTests/WebWorkspaceTests.cs#WebWorkspaceTests.W09",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 4,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "W10",
+    "target": "tests/CloudFileManager.WebTests/WebWorkspaceTests.cs#WebWorkspaceTests.W10",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 1,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "W11",
+    "target": "tests/CloudFileManager.WebTests/WebWorkspaceTests.cs#WebWorkspaceTests.W11",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 5,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "W12",
+    "target": "tests/CloudFileManager.WebTests/WebWorkspaceTests.cs#WebWorkspaceTests.W12",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 4,
+    "branches_loops": 0,
+    "adaptations": [
+      "same fixture bytes; output-relative location"
+    ]
+  },
+  {
+    "id": "W13",
+    "target": "tests/CloudFileManager.WebTests/WebWorkspaceTests.cs#WebWorkspaceTests.W13",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 3,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "W14",
+    "target": "tests/CloudFileManager.WebTests/WebWorkspaceTests.cs#WebWorkspaceTests.W14",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 3,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "W15",
+    "target": "tests/CloudFileManager.WebTests/WebWorkspaceTests.cs#WebWorkspaceTests.W15",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 1,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "W16",
+    "target": "tests/CloudFileManager.WebTests/WebWorkspaceTests.cs#WebWorkspaceTests.W16",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 7,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "W17",
+    "target": "tests/CloudFileManager.WebTests/WebWorkspaceTests.cs#WebWorkspaceTests.W17",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 6,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "W18",
+    "target": "tests/CloudFileManager.WebTests/WebWorkspaceTests.cs#WebWorkspaceTests.W18",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 3,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "W19",
+    "target": "tests/CloudFileManager.WebTests/WebWorkspaceTests.cs#WebWorkspaceTests.W19",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 4,
+    "branches_loops": 0,
+    "adaptations": []
+  },
+  {
+    "id": "W20",
+    "target": "tests/CloudFileManager.WebTests/WebWorkspaceTests.cs#WebWorkspaceTests.W20",
+    "equivalence": "IDENTICAL_PAYLOAD_TOKENS_AFTER_EXPLICIT_ADAPTERS",
+    "assertion_calls": 2,
+    "branches_loops": 0,
+    "adaptations": []
+  }
+]

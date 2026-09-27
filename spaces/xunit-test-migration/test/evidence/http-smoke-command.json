@@ -1,0 +1,10 @@
+{
+  "command": [
+    "python3",
+    "spaces/xunit-test-migration/test/http_smoke.py"
+  ],
+  "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+  "started": "2026-09-27T22:12:24.169048+08:00",
+  "ended": "2026-09-27T22:12:24.238380+08:00",
+  "exit_code": 1
+}

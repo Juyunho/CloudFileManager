@@ -1,0 +1,18 @@
+{
+  "command": [
+    "dotnet",
+    "test",
+    "CloudFileManager.slnx",
+    "-c",
+    "Release",
+    "--no-build",
+    "--logger",
+    "trx",
+    "--results-directory",
+    "spaces/xunit-test-migration/dev/evidence/trx-r2"
+  ],
+  "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+  "started": "2026-09-27T21:53:08.277550+08:00",
+  "ended": "2026-09-27T21:53:10.716452+08:00",
+  "exit_code": 0
+}

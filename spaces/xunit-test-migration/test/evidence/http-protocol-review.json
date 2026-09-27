@@ -1,0 +1,26 @@
+{
+  "result": "PASS",
+  "evidence": [
+    "http-diagnostic.ndjson",
+    "http-diagnostic-headers.json",
+    "editing-final-dom.txt"
+  ],
+  "visited_sequence": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "completed_event": {
+    "status": "completed",
+    "name": "系統架構圖.png",
+    "visited": 4,
+    "total": 4,
+    "path": "我的根目錄/專案文件/系統架構圖.png"
+  },
+  "result_history": [
+    0,
+    1
+  ],
+  "review": "4 visitor callbacks followed by separate lifecycle completed event is existing baseline behavior. Supplementary http_smoke.py asserted only4 total progress messages and is INVALID_ORACLE, not valid product failure evidence. Original failed command retained; script not rerun or used as current test entry. Real browser and actual NDJSON reviewed against existing WebWorkspace behavior; no product/migrated-test correction or further REWORK."
+}

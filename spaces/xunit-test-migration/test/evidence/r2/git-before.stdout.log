@@ -1,0 +1,27 @@
+ M CloudFileManager.slnx
+ M README.md
+ M tests/CloudFileManager.ArchitectureTests/CloudFileManager.ArchitectureTests.csproj
+ D tests/CloudFileManager.ArchitectureTests/LayerVerification.cs
+ D tests/CloudFileManager.ArchitectureTests/Program.cs
+ M tests/CloudFileManager.BonusTests/CloudFileManager.BonusTests.csproj
+ D tests/CloudFileManager.BonusTests/Program.cs
+ M tests/CloudFileManager.Tests/CloudFileManager.Tests.csproj
+ D tests/CloudFileManager.Tests/Program.cs
+ M tests/CloudFileManager.WebTests/CloudFileManager.WebTests.csproj
+ D tests/CloudFileManager.WebTests/Program.cs
+?? spaces/xunit-test-migration/
+?? tests/CloudFileManager.ArchitectureTests/Architecture/
+?? tests/CloudFileManager.ArchitectureTests/Behavior/
+?? tests/CloudFileManager.ArchitectureTests/ColdStartProbe/
+?? tests/CloudFileManager.ArchitectureTests/LayerFixtures.cs
+?? tests/CloudFileManager.ArchitectureTests/SessionFixture.cs
+?? tests/CloudFileManager.ArchitectureTests/TestAssembly.cs
+?? tests/CloudFileManager.BonusTests/Application/
+?? tests/CloudFileManager.BonusTests/BonusFixture.cs
+?? tests/CloudFileManager.BonusTests/TestAssembly.cs
+?? tests/CloudFileManager.Tests/Application/
+?? tests/CloudFileManager.Tests/AssignmentFixture.cs
+?? tests/CloudFileManager.Tests/Domain/
+?? tests/CloudFileManager.Tests/TestAssembly.cs
+?? tests/CloudFileManager.WebTests/TestAssembly.cs
+?? tests/CloudFileManager.WebTests/WebWorkspaceTests.cs

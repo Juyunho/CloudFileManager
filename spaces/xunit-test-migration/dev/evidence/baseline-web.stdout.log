@@ -1,0 +1,21 @@
+PASS W01 clean seed
+PASS W02 exact capacities and display
+PASS W03 sort controls do not alter tree/history
+PASS W04 tag key stable directions
+PASS W05 tag noop retains redo/log
+PASS W06 badge remove does not change selection or descendants
+PASS W07 Paste file disabled/conflict atomic/redo
+PASS W08 Prototype snapshot independent and paste selection
+PASS W09 delete undo selection and global count
+PASS W10 ancestor fallback on Undo Paste
+PASS W11 visitor observed actual sequence and scope
+PASS W12 XML regression contract and file scope
+PASS W13 exact extension within scope, no filter
+PASS W14 invalid search never fake scan
+PASS W15 Size distinguishes formatted equality
+PASS W16 search trace exact production visit order
+PASS W17 case insensitive replacement zero and identity sort
+PASS W18 highlight mutation removal never resurrects stale ids
+PASS W19 search preserves domain history redo and last progress
+PASS W20 directory extension never matches
+RESULT 20 passed; 0 failed

@@ -1,0 +1,7 @@
+{
+  "Connection": "close",
+  "Content-Type": "application/x-ndjson; charset=utf-8",
+  "Date": "Sun, 27 Sep 2026 14:12:55 GMT",
+  "Server": "Kestrel",
+  "Transfer-Encoding": "chunked"
+}

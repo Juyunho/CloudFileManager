@@ -161,6 +161,7 @@ Visitor 不接管所有操作：Render 保持原責任；TASK-004 加入 XmlExpo
 | TASK-005 | D005 corrective task，只修 style.css；Reference A/B 通過 → **DONE / PASS**，不回寫 TASK-004 | [Summary](spaces/reference-ui-visual-recovery/summary.md) |
 | TASK-006 | 將已驗收 presentation layer 遷移為 Angular + TypeScript，保留 C# API/Core 與七種 Patterns | [Status](spaces/angular-frontend-migration/status.md)／[SA](spaces/angular-frontend-migration/sa/design.md) |
 | TASK-007 | Human 核准單一 Core project 的 Domain／Application 分層，保留七 Patterns 及產品行為 | [Status](spaces/core-layering-refactor/status.md)／[設計](spaces/core-layering-refactor/sa/design.md) |
+| TASK-008 | 四個 custom C# runners 遷移至 xUnit；保留72案例與非C#驗證責任，不改production | [Status](spaces/xunit-test-migration/status.md)／[coverage mapping](spaces/xunit-test-migration/sa/migration-map.md) |
 
 舊決策與當時的「未 commit」等狀態是歷史快照，不回寫成現在的結果。`spaces/` 保留各次任務原貌；[根目錄 VALIDATION](VALIDATION.md)／[初始套件驗證](docs/VALIDATION.md) 屬早期記錄，**各任務結果以自己的 status／test report 為準；目前 migration 以 TASK-006 報告為準**。
 
@@ -194,7 +195,9 @@ UI 有排序、選取、Tags、Copy/Paste、Delete、Undo/Redo、selected subtre
 
 ## 11. Testing & Verification
 
-Baseline suites 為 Core 14、Bonus 20、Architecture 12、Web 20、Schema 12、Tag schema 6，共 **84**；Angular 額外提供 **8** 項 NDJSON framing／UTF-8／取消與錯誤處理測試。TASK-006 的既有結果見 [報告](spaces/angular-frontend-migration/test/test-report.md)；TASK-007 另有 6 項 layer checks，最新實際結果、命令與 exit codes 見 [TASK-007 test report](spaces/core-layering-refactor/test/test-report.md)，不把歷史 PASS 當作新一輪證據。
+C# 測試使用 **xUnit v3**，標準入口為 repository root 的 `dotnet test`。四個 projects 共 **72 cases**：Core 14、Bonus 20、Architecture 18（既有 12＋TASK-007 layer checks 6）、Web 20。Python schema 12＋Tag schema 6 與 Angular NDJSON 8 項保留原工具，合計 98 項 regression obligations；C# 結果不代表 browser／visual 驗證。
+
+[TASK-008 coverage mapping](spaces/xunit-test-migration/sa/migration-map.md) 保留 legacy ID、原 assertions／負例／邊界；[最新報告](spaces/xunit-test-migration/test/test-report.md) 提供本輪命令、exit codes 與 evidence。歷史 TASK-006／007 PASS 不代替本輪驗證。
 
 ```sh
 cd src/CloudFileManager.Angular
@@ -202,19 +205,16 @@ npm test
 npm run build
 cd ../..
 dotnet build CloudFileManager.slnx -c Release -t:Rebuild
-dotnet run --project tests/CloudFileManager.Tests -c Release --no-build
-dotnet run --project tests/CloudFileManager.BonusTests -c Release --no-build
-dotnet run --project tests/CloudFileManager.ArchitectureTests -c Release --no-build
-dotnet run --project tests/CloudFileManager.WebTests -c Release --no-build
+dotnet test CloudFileManager.slnx -c Release --no-build
 python3 tests/verify_schema.py
 python3 tests/verify_tag_schema.py
 ```
 
 Visual acceptance 使用 [Reference A](docs/reference-ui.png) 2914×948 與 [Reference B](docs/reference-ui-search-progress.png) 2028×682；Search match highlight 與 selection 分離，進度／日誌不得預填。XML 必須實際由瀏覽器下載。自動 suites 不能取代 visual／download review。
 
-C# 測試是 Console runner，以 exit code 表示結果，不能用 `dotnet test` 取代。Singleton tests 依序執行，每個 case 前後 Reset；獨立 domain tests 仍可自行建立 EditingSession。
+每個 C# case 可由 xUnit 個別 discovery／執行，failure 由 `dotnet test` 非零 exit code 回報。四個 test assemblies 內採序列執行；Singleton cases 每案 Reset，A01 冷啟動以 test-only child process 觀察，沒有 production test hook。可用 `dotnet test tests/CloudFileManager.ArchitectureTests --filter LegacyId=A01` 單獨驗證，或加入 `--logger trx --results-directory /tmp/cloud-file-manager-test-results` 保存標準報告。Web tests 直接驗證 WebWorkspace；真正 HTTP、XML download 與 Reference A/B 另行驗證。
 
-舊 TASK runner 是歷史工具，不用來寫回已完成任務。TASK-006 evidence runner 位於 `spaces/angular-frontend-migration/test/run_verification.py`，只接受尚未存在的 rN。
+舊 TASK runner 保留作為 baseline-bound 歷史工具，不應對目前版本執行或寫回已完成任務。本輪驗證入口與 evidence 位於 `spaces/xunit-test-migration/`；Python schema scripts 仍是現行獨立檢查。
 
 ## 12. Repository Structure
 
@@ -246,6 +246,7 @@ spaces/
   reference-ui-visual-recovery/        # TASK-005 corrective PASS
   angular-frontend-migration/          # TASK-006
   core-layering-refactor/              # TASK-007
+  xunit-test-migration/                # TASK-008
 ```
 
 程式／solution 使用 **CloudFileManager**；GitHub repository 名稱為 **CloudFileManager**。Build outputs、local IDE files 與 `.env` 設定由 `.gitignore` 排除，skills 與 workflow artifacts 保留在版本控制中。

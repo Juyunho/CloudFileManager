@@ -1,0 +1,19 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CloudFileManager.Core -> /var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-negative-u27oien8/src/CloudFileManager.Core/bin/Release/net10.0/CloudFileManager.Core.dll
+  CloudFileManager.Tests -> /var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-negative-u27oien8/tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.dll
+Test run for /var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-negative-u27oien8/tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+  Failed T03 binary units and byte precision [13 ms]
+  Error Message:
+   Assert.Equal() Failure: Values differ
+Expected: 2048
+Actual:   1024
+  Stack Trace:
+     at CloudFileManager.Tests.AssignmentFixture.Equal[T](T expected, T actual) in /private/var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-negative-u27oien8/tests/CloudFileManager.Tests/AssignmentFixture.cs:line 31
+   at CloudFileManager.Tests.AssignmentRegressionTests.T03() in /private/var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-negative-u27oien8/tests/CloudFileManager.Tests/Application/AssignmentRegressionTests.cs:line 57
+   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Method(Object obj, IntPtr* args)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+Results File: /Users/juyunho/Documents/Code/winbond/CloudFileManager/spaces/xunit-test-migration/test/evidence/negative-trx-r2/_yunMacBook-Pro_2026-09-27_22_05_40_net10.0.trx
+
+Failed!  - Failed:     1, Passed:     0, Skipped:     0, Total:     1, Duration: 22 ms - CloudFileManager.Tests.dll (net10.0)

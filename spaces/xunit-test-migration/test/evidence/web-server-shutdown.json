@@ -1,0 +1,5 @@
+{
+  "actual_exit_code": 0,
+  "action": "SIGINT after verification",
+  "corrects": "web-server-command.json shutdown description anticipated exit130; actual tool result was exit0. Server stopped normally."
+}

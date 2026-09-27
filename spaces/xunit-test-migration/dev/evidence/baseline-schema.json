@@ -1,0 +1,10 @@
+{
+  "command": [
+    "python3",
+    "tests/verify_schema.py"
+  ],
+  "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+  "started": "2026-09-27T21:47:46.663355+08:00",
+  "ended": "2026-09-27T21:47:46.744128+08:00",
+  "exit_code": 0
+}

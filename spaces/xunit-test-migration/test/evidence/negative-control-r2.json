@@ -1,0 +1,19 @@
+{
+  "command": [
+    "dotnet",
+    "test",
+    "/var/folders/0c/csk7cr8j1x5625xt7dzkjjh40000gn/T/task008-negative-u27oien8/tests/CloudFileManager.Tests/CloudFileManager.Tests.csproj",
+    "-c",
+    "Release",
+    "--filter",
+    "LegacyId=T03",
+    "--logger",
+    "trx",
+    "--results-directory",
+    "/Users/juyunho/Documents/Code/winbond/CloudFileManager/spaces/xunit-test-migration/test/evidence/negative-trx-r2"
+  ],
+  "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+  "started": "2026-09-27T22:05:37.958359+08:00",
+  "ended": "2026-09-27T22:05:40.597046+08:00",
+  "exit_code": 1
+}

@@ -1,0 +1,15 @@
+{
+  "command": [
+    "dotnet",
+    "run",
+    "--project",
+    "tests/CloudFileManager.BonusTests",
+    "-c",
+    "Release",
+    "--no-build"
+  ],
+  "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+  "started": "2026-09-27T21:47:43.324532+08:00",
+  "ended": "2026-09-27T21:47:44.489852+08:00",
+  "exit_code": 0
+}

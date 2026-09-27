@@ -1,0 +1,28 @@
+Test run for /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.WebTests/bin/Release/net10.0/CloudFileManager.WebTests.dll (.NETCoreApp,Version=v10.0)
+Test run for /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.dll (.NETCoreApp,Version=v10.0)
+Test run for /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/bin/Release/net10.0/CloudFileManager.ArchitectureTests.dll (.NETCoreApp,Version=v10.0)
+Test run for /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.BonusTests/bin/Release/net10.0/CloudFileManager.BonusTests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.A total of 1 test files matched the specified pattern.
+
+A total of 1 test files matched the specified pattern.
+A total of 1 test files matched the specified pattern.
+Results File: /Users/juyunho/Documents/Code/winbond/CloudFileManager/spaces/xunit-test-migration/dev/evidence/trx-r1/_yunMacBook-Pro_2026-09-27_21_52_29_net10.0.trx
+
+Passed!  - Failed:     0, Passed:    20, Skipped:     0, Total:    20, Duration: 59 ms - CloudFileManager.BonusTests.dll (net10.0)
+  Failed A01 singleton identity private construction explicit initialization [142 ms]
+  Error Message:
+   Cold-start probe exit 1: realpath(/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/bin/Release/net10.0/ColdStartProbe/ColdStartProbe.dll) failed: Not a directory
+Could not execute because the specified command or file was not found.
+
+  Stack Trace:
+     at CloudFileManager.ArchitectureTests.SessionLifecycleTests.A01() in /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/Behavior/SessionLifecycleTests.cs:line 31
+--- End of stack trace from previous location ---
+Results File: /Users/juyunho/Documents/Code/winbond/CloudFileManager/spaces/xunit-test-migration/dev/evidence/trx-r1/_yunMacBook-Pro_2026-09-27_21_52_30_net10.0.trx
+
+Failed!  - Failed:     1, Passed:    17, Skipped:     0, Total:    18, Duration: 233 ms - CloudFileManager.ArchitectureTests.dll (net10.0)
+Results File: /Users/juyunho/Documents/Code/winbond/CloudFileManager/spaces/xunit-test-migration/dev/evidence/trx-r1/_yunMacBook-Pro_2026-09-27_21_52_30_net10.0[1].trx
+
+Passed!  - Failed:     0, Passed:    20, Skipped:     0, Total:    20, Duration: 73 ms - CloudFileManager.WebTests.dll (net10.0)
+Results File: /Users/juyunho/Documents/Code/winbond/CloudFileManager/spaces/xunit-test-migration/dev/evidence/trx-r1/_yunMacBook-Pro_2026-09-27_21_52_31_net10.0.trx
+
+Passed!  - Failed:     0, Passed:    14, Skipped:     0, Total:    14, Duration: 146 ms - CloudFileManager.Tests.dll (net10.0)
