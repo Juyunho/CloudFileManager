@@ -1,0 +1,25 @@
+{
+  "time": "2026-09-27T23:42:33.799609+08:00",
+  "sha256": {
+    "status.md": "14a1452e8c9e1f13261bac28f81b21ab2820a03d785e3cb9fea0e80ec69c1c5b",
+    "timeline.md": "1942ed1a05df86af252028f34e57154f033ea1e6602c534f3a64420e2e661a20",
+    "request.md": "bba362461113bd5e2f7a1baf57c151294da03fdf34393adad1cccd9379b434d0",
+    "pm/requirements.md": "4762f26cf39a96ceb8edd549253a800895e57482267d8d92de7ea91d027a9293",
+    "pm/grill-me.md": "100743778623adf2ebbc603bc99db99e2e7b90f206780d95ea8bafdb5b0da465",
+    "pm/handoff.md": "3c7de119cebc4d5b02e3829709e5e4db77befb08b354daf7c9132663c1d897b7",
+    "pm/evidence/baseline.json": "df585ee32e35e8f9e3574d3bed949e271e9cb641687e34a5b113e8dd6bacd389",
+    "sa/human-decisions.md": "e86677a4f0b070769b2f76b31d371a5570aa3befcd4c630a37da8f9f273f0989",
+    "sa/grill-me.md": "654decd14993ff2afed8d36dabd70b9e9cf1aa689180177ca7a3481abba51c02",
+    "sa/er-model.md": "0b1487203e4466dfc93344a1d4abcfc47ad1f580e2ce1fa388d2d974cbe87147",
+    "sa/inventory.md": "3e2ac223dec5b78882c37dc2b50a5f26d03ccf70b1f60b62b7a89ddca53b910d",
+    "sa/domain-model.md": "8874baeefe1dc853915ce74375e81ecac534951ef9b573ca64d7bcee95fb1273",
+    "sa/testability-map.md": "d5922b98a146863e87803412dc30417750a32c1ae53d6d469f1fec4d29a0b178",
+    "sa/options.md": "3843ab7f8acacd098bdef48362923c18a80405d7b19d504e06cc611b5c838f27",
+    "sa/adr-001-session-lifetime.md": "517f94c3ec49793cb933dd13fe4437822f8141a3914a0d111675153ec047089f",
+    "sa/design.md": "92238e00bc4eba566ff23599a6d6cd9f50b2fdc3d52069e99572d7dc0cd92802",
+    "sa/handoff.md": "c9693bb6c6fd554f164605340bb9ec25f347ad3e535ad5763db87bb39831f678",
+    "sa/evidence/consumer-search.txt": "8827e3d630de3115fffa61eb7cc0b57ada8155238a1f3a9e1d21e2780ca9939d",
+    "sa/evidence/protection-review.json": "af8924d044eef2efdb8bc68e0dc5c989675f0e5ece36f596c55cc52f0bea0589",
+    "sa/evidence/inspection.json": "31d4710ed8a4f40db32a5962e3ed7b3a755830dd3201fd5f400baef52a8e14b9"
+  }
+}

@@ -1,0 +1,12 @@
+src/CloudFileManager.Console/Program.cs:14:var session = FileSystemSession.Instance;
+src/CloudFileManager.Web/Program.cs:5:builder.Services.AddSingleton<WebWorkspace>();
+src/CloudFileManager.Web/Program.cs:11:    await workspace.Gate.WaitAsync();
+src/CloudFileManager.Web/Program.cs:12:    try { return Results.Json(workspace.State()); } finally { workspace.Gate.Release(); }
+src/CloudFileManager.Web/Program.cs:20:        await workspace.Gate.WaitAsync();
+src/CloudFileManager.Web/Program.cs:22:        finally { workspace.Gate.Release(); channel.Writer.TryComplete(); }
+src/CloudFileManager.Console/BonusDemo.cs:15:        var session = FileSystemSession.Instance;
+src/CloudFileManager.Console/BonusDemo.cs:44:    private static void Show(DirectoryNode root, FileSystemSession session, string title)
+src/CloudFileManager.Web/WebWorkspace.cs:18:    private readonly FileSystemSession session = FileSystemSession.Instance;
+src/CloudFileManager.Core/Application/Sessions/FileSystemSession.cs:11:public sealed class FileSystemSession
+src/CloudFileManager.Core/Application/Sessions/FileSystemSession.cs:13:    public static FileSystemSession Instance { get; } = new();
+src/CloudFileManager.Core/Application/Sessions/FileSystemSession.cs:14:    private FileSystemSession() { }

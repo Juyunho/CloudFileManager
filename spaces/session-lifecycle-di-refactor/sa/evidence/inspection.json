@@ -1,0 +1,28 @@
+{
+  "time": "2026-09-27T23:18:32.578789+08:00",
+  "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+  "command": [
+    "rg",
+    "-n",
+    "FileSystemSession|AddSingleton<WebWorkspace>|Gate.WaitAsync|Gate.Release",
+    "src",
+    "--glob",
+    "*.cs",
+    "--glob",
+    "!**/obj/**",
+    "--glob",
+    "!**/bin/**"
+  ],
+  "exit_code": 0,
+  "method": "Static source inspection; no application or tests run",
+  "sources": [
+    "src/CloudFileManager.Core/Application/Sessions/FileSystemSession.cs",
+    "src/CloudFileManager.Core/Application/Sessions/EditingSession.cs",
+    "src/CloudFileManager.Web/WebWorkspace.cs",
+    "src/CloudFileManager.Web/Program.cs",
+    "src/CloudFileManager.Console/Program.cs",
+    "src/CloudFileManager.Console/BonusDemo.cs",
+    "tests/CloudFileManager.ArchitectureTests/Behavior/SessionLifecycleTests.cs",
+    "spaces/xunit-test-migration/sa/testability.md"
+  ]
+}
