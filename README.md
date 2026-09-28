@@ -18,7 +18,7 @@
 | 任意目錄的完整子樹容量 | `TreeOperations.CalculateTotalSize`；空目錄為零，checked long 防止溢位 |
 | 副檔名搜尋 | `TreeOperations.SearchByExtension`；包含子目錄與完整路徑，接受有／無點號與大小寫變化 |
 | XML 結構與內容 | `TreeOperations.ToXml`；名稱合法化、碰撞處理與 escaping；[原題 XML fixture](tests/CloudFileManager.Tests/Fixtures/expected.xml) |
-| 演算法訪問紀錄 | 容量與搜尋依 DFS 印出 `Visiting:`，每節點一次；[Core tests](tests/CloudFileManager.Tests/Program.cs) 核對順序與結果 |
+| 演算法訪問紀錄 | 容量與搜尋依 DFS 印出 `Visiting:`，每節點一次；[Core xUnit tests](tests/CloudFileManager.Tests/Application/AssignmentRegressionTests.cs) 核對順序與結果 |
 
 容量採二進位：**1 KB = 1024 B、1 MB = 1024 KB**，內部保存整數 bytes。測試從原始五筆資料獨立換算，產品不硬編碼總容量。遍歷以明確 stack 處理深層樹，避免遞迴呼叫堆疊限制。建立時間為固定示範值；XML 是題目展示格式，不是可逆保存協定。
 
@@ -167,7 +167,7 @@ Visitor 不接管所有操作：Render 保持原責任；TASK-004 加入 XmlExpo
 
 ## 10. Build / Run
 
-需要 **.NET 10 SDK**（已驗證 10.0.401）；Python **3.9+** 含標準庫 SQLite，用於 schema／完整驗證。C# 沒有外部 NuGet 套件。Web frontend 使用 Node 24.21.0（或 Angular 22 支援的 Node 版本）、Angular 22.2.0、TypeScript 6.0.3；npm lockfile 固定依賴。在 repository 根目錄執行：
+需要 **.NET 10 SDK**（已驗證 10.0.401）；Python **3.9+** 含標準庫 SQLite，用於 schema／完整驗證。Production C# 專案沒有外部 NuGet 套件；xUnit 測試專案使用 xunit.v3、xunit.runner.visualstudio 與 Microsoft.NET.Test.Sdk，首次 build/test 需要還原 NuGet dependencies。Web frontend 使用 Node 24.21.0（或 Angular 22 支援的 Node 版本）、Angular 22.2.0、TypeScript 6.0.3；npm lockfile 固定依賴。在 repository 根目錄執行：
 
 ```sh
 dotnet build CloudFileManager.slnx -c Release
@@ -230,7 +230,7 @@ src/
 tests/
   CloudFileManager.Tests/             # Core 14；原題資料與 XML fixtures
   CloudFileManager.BonusTests/        # Bonus 20
-  CloudFileManager.ArchitectureTests/ # Visitor / Singleton 12
+  CloudFileManager.ArchitectureTests/ # Visitor / Singleton 12 + Core layering checks 6
   verify_schema.py                   # Schema 12
   verify_tag_schema.py                # Tag schema 6
   CloudFileManager.WebTests/          # Web semantics 20
