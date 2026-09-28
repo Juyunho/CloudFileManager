@@ -2,13 +2,27 @@
 
 ## 1. Project Overview
 
-以 **Angular + TypeScript / ASP.NET Core / .NET 10** 實作的雲端檔案管理領域模型作業，展示樹狀模型、可復原的編輯操作、七種 Design Patterns，以及可追溯的 AI Agent 開發過程。
+以 **Angular + TypeScript / ASP.NET Core / .NET 10** 實作的雲端檔案管理系統，提供樹狀檔案瀏覽、搜尋與排序、可復原的編輯操作及 XML Export，並結合七種 Design Patterns 與可追溯的 AI Agent 開發流程。
 
-目前提供互動式 Web UI 與 Console，完成 mandatory requirements 與 Bonus。Angular 僅管理畫面；ASP.NET Core API 與 C# Core 是唯一 domain authority。這是記憶體中的檔案模型，沒有真實雲端上傳、檔案內容讀寫或資料庫存取。最新 migration 驗證狀態見 [TASK-006](spaces/angular-frontend-migration/status.md)。
+目前提供互動式 Web UI 與 Console，完成 mandatory requirements 與 Bonus。Angular 僅管理畫面；ASP.NET Core API 與 C# Core 是唯一 domain authority。這是記憶體中的檔案模型，沒有真實雲端上傳、檔案內容讀寫或資料庫存取。目前已完成 Core 分層（[TASK-007](spaces/core-layering-refactor/status.md)）與 xUnit migration（[TASK-008](spaces/xunit-test-migration/status.md)）；Angular migration 紀錄見 [TASK-006](spaces/angular-frontend-migration/status.md)。TASK-009 僅保留 DI/session lifecycle 架構探索，本版未實作，詳見[演進](#11-architecture-evolution)。
 
-快速閱讀：[架構](#3-architecture-overview) → [七種 Patterns](#6-design-patterns) → [演進](#9-architecture-evolution) → [執行](#10-build--run)／[驗證](#11-testing--verification)。
+快速閱讀：[Demo](#2-demo) → [架構](#4-architecture-overview) → [七種 Patterns](#7-design-patterns) → [開發學習](#10-development-insights--learning) → [演進](#11-architecture-evolution) → [執行](#12-build--run)／[驗證](#13-testing--verification)。
 
-## 2. Assignment Requirements & Implemented Features
+## 2. Demo
+
+### File Manager
+
+![File Manager：檔案樹與節點選取狀態](docs/demo-file-manager.png)
+
+支援檔案與目錄瀏覽、排序、Tags、Copy / Paste、Delete 與 Undo / Redo。
+
+### Search & Traversal Progress
+
+![Search & Traversal Progress：搜尋結果、Observer 100% 與 Console 訪問紀錄](docs/demo-search-progress.png)
+
+針對選取目錄進行副檔名搜尋與子樹容量計算，透過 Observer 顯示真實 traversal 進度與訪問紀錄；亦支援選取子樹（selected subtree）的 XML 匯出與下載。
+
+## 3. Assignment Requirements & Implemented Features
 
 | 作業要求 | 實作與驗證入口 |
 |---|---|
@@ -22,7 +36,7 @@
 
 容量採二進位：**1 KB = 1024 B、1 MB = 1024 KB**，內部保存整數 bytes。測試從原始五筆資料獨立換算，產品不硬編碼總容量。遍歷以明確 stack 處理深層樹，避免遞迴呼叫堆疊限制。建立時間為固定示範值；XML 是題目展示格式，不是可逆保存協定。
 
-## 3. Architecture Overview
+## 4. Architecture Overview
 
 ```mermaid
 flowchart LR
@@ -51,7 +65,7 @@ Core 保留單一 `.csproj`，以 `CloudFileManager.Core.Domain.*` 與 `CloudFil
 
 `FsNode.Details` 與 `BinarySize.Format` 已搬至 Application 的 `NodeDetailsFormatter.Format(node)`／`BinarySizeFormatter.Format(bytes)`；既有輸出格式保持不變。`TreeOperations` 是薄入口，委派 Queries／Rendering／Export；原 Console 預設 logging 保留。詳見 [TASK-007 設計](spaces/core-layering-refactor/sa/design.md)。
 
-## 4. Domain Model / UML
+## 5. Domain Model / UML
 
 ```mermaid
 classDiagram
@@ -78,7 +92,7 @@ classDiagram
 
 完整 runtime composition 與生命週期限制見 [TASK-003 Domain Model](spaces/visitor-singleton-enhancement/sa/domain-model.md)／[架構決策](spaces/visitor-singleton-enhancement/sa/design.md)。
 
-## 5. ER Model
+## 6. ER Model
 
 ```mermaid
 erDiagram
@@ -107,7 +121,7 @@ erDiagram
 
 SQLite schema 用於驗證 ER，應用仍是記憶體模型。Clipboard、History 與 Singleton context 不持久化，也不新增 session 資料表。
 
-## 6. Design Patterns
+## 7. Design Patterns
 
 | Pattern | Concrete problem / 為何適合 | Implementation / 使用位置 | Trade-off |
 |---|---|---|---|
@@ -123,7 +137,7 @@ SQLite schema 用於驗證 ER，應用仍是記憶體模型。Clipboard、Histor
 
 Visitor 不接管所有操作：Render 保持原責任；TASK-004 加入 XmlExportVisitor，集中 XML traversal／serialization state 並保持原 contract。替代方案與取捨見 [TASK-002 設計](spaces/design-pattern-enhancement/sa/design.md)／[TASK-003 ADR](spaces/visitor-singleton-enhancement/sa/design.md)。
 
-## 7. Bonus Features
+## 8. Bonus Features
 
 | 功能 | 已實作行為 |
 |---|---|
@@ -135,7 +149,7 @@ Visitor 不接管所有操作：Render 保持原責任；TASK-004 加入 XmlExpo
 
 `--bonus` 是可重現的 Console 示範，非互動式檔案瀏覽器；底層 API 可由呼叫端選取節點並操作。
 
-## 8. AI Agent Development Workflow
+## 9. AI Agent Development Workflow
 
 `Human Request → PM → Grill Me → SA → Grill Me → DEV → Grill Me → TEST → Grill Me`
 
@@ -146,26 +160,45 @@ Visitor 不接管所有操作：Render 保持原責任；TASK-004 加入 XmlExpo
 - **Persistent Markdown artifacts**：每個 `spaces/<task>/` 保留 request、requirements、design、grill-me、handoff、status、timeline、test report、summary。
 - **失敗不覆寫**：保存失敗 evidence、REWORK 原因、責任角色、修正及重驗輪次；目前狀態以各 task 的 status 為準。
 
-先讀下節各任務 summary，再看 [workflow 說明](docs/workflow.md)、[sdlc-workflow Skill](.agents/skills/sdlc-workflow/SKILL.md)、[grill-me Skill](.agents/skills/grill-me/SKILL.md)；完整 evidence 在 [spaces](spaces/)。Grill Me 為本專案自訂版本，不宣稱第三方同名原版。
+先讀[架構演進](#11-architecture-evolution)中的各任務 summary，再看 [workflow 說明](docs/workflow.md)、[sdlc-workflow Skill](.agents/skills/sdlc-workflow/SKILL.md)、[grill-me Skill](.agents/skills/grill-me/SKILL.md)；完整 evidence 在 [spaces](spaces/)。Grill Me 為本專案自訂版本，不宣稱第三方同名原版。
 
 真實回退案例：[TASK-001 SQLite 相容性修正](spaces/cloud-file-manager/test/defects.md)、[TASK-002 驗證脚本格式誤判及重驗](spaces/design-pattern-enhancement/test/defects.md)。
 
-## 9. Architecture Evolution
+## 10. Development Insights & Learning
+
+### Core Layering
+
+Core 同時承擔模型規則與應用流程，責任邊界不易辨識，因此在單一 project 內整理 Domain／Application namespaces，並加入 Architecture Tests 檢查依賴方向。這次調整讓我理解，分層的重點是責任與依賴約束，而不只是資料夾或 assembly 數量。
+
+### Design Patterns
+
+樹狀結構、可切換排序與可復原編輯各有不同需求，因此分別以 Composite、Strategy、Command 處理；application-wide session 與 traversal 需求明確後，再導入 Visitor 與 classic GoF Singleton，後續以 Observer、Prototype 支援進度通知與複製快照。這讓我理解 Pattern 應對應具體問題，也必須說明取捨，而不是只累積數量。
+
+### Testing & Refactoring
+
+自製 C# runners 不易整合標準測試流程，因此將四個測試專案遷移至 xUnit，保留既有 assertions、負例與邊界案例，透過 `dotnet test` 執行。Core 分層與測試遷移的 regression 驗證讓我理解，重構不只要調整結構，也要有證據確認既有行為未變。
+
+### AI-assisted Development
+
+AI 產出的方案仍需要釐清需求與驗證，因此採用 PM → SA → DEV → TEST 流程，搭配 Grill Me 與 Human Gate，保留提案、修正及驗證紀錄。TASK-009 的 DI/session lifecycle 探索最後由 Human Gate 決定本版不實作，讓我理解 AI 能協助分析，但實作範圍與架構選擇仍須由開發者理解並決定。
+
+## 11. Architecture Evolution
 
 | Checkpoint | 當時需求與決策 | 建議閱讀 |
 |---|---|---|
 | [TASK-001 · 37ee4a9](https://github.com/Juyunho/CloudFileManager/commit/37ee4a9) | Mandatory assignment + Composite；建立樹、容量／搜尋／XML／logging | [Summary](spaces/cloud-file-manager/summary.md)／[需求](spaces/cloud-file-manager/pm/requirements.md) |
 | [TASK-002 · df080d6](https://github.com/Juyunho/CloudFileManager/commit/df080d6) | Bonus + Strategy + Command；SA 當時評估後**拒絕 Visitor／Singleton**，避免無需求的架構成本 | [Summary](spaces/design-pattern-enhancement/summary.md)／[設計](spaces/design-pattern-enhancement/sa/design.md) |
-| [TASK-003 · 6171a04](https://github.com/Juyunho/CloudFileManager/commit/6171a04) | 收到 Senior/Human architecture requirement 後，重新走完整 workflow，實際導入 Visitor + Singleton | [Summary](spaces/visitor-singleton-enhancement/summary.md)／[ADR](spaces/visitor-singleton-enhancement/sa/design.md)／[Final Gate](spaces/visitor-singleton-enhancement/test/grill-me.md) |
+| [TASK-003 · 6171a04](https://github.com/Juyunho/CloudFileManager/commit/6171a04) | application-wide session 與 traversal operations 需求明確後，重新評估先前決策，透過完整 workflow 導入 Visitor + Singleton | [Summary](spaces/visitor-singleton-enhancement/summary.md)／[ADR](spaces/visitor-singleton-enhancement/sa/design.md)／[Final Gate](spaces/visitor-singleton-enhancement/test/grill-me.md) |
 | TASK-004 | Web UI + Observer + Prototype；功能、XML、Reference B 通過，但 Reference A D005 尺寸不符，retry 3/3 exhausted → **FAILED** | [Status](spaces/reference-ui-replication/status.md) |
 | TASK-005 | D005 corrective task，只修 style.css；Reference A/B 通過 → **DONE / PASS**，不回寫 TASK-004 | [Summary](spaces/reference-ui-visual-recovery/summary.md) |
 | TASK-006 | 將已驗收 presentation layer 遷移為 Angular + TypeScript，保留 C# API/Core 與七種 Patterns | [Status](spaces/angular-frontend-migration/status.md)／[SA](spaces/angular-frontend-migration/sa/design.md) |
-| TASK-007 | Human 核准單一 Core project 的 Domain／Application 分層，保留七 Patterns 及產品行為 | [Status](spaces/core-layering-refactor/status.md)／[設計](spaces/core-layering-refactor/sa/design.md) |
-| TASK-008 | 四個 custom C# runners 遷移至 xUnit；保留72案例與非C#驗證責任，不改production | [Status](spaces/xunit-test-migration/status.md)／[coverage mapping](spaces/xunit-test-migration/sa/migration-map.md) |
+| TASK-007 | 為釐清 Core responsibilities，在單一 project 整理 Domain／Application 邊界，加入 Architecture Tests 約束依賴方向；保留七 Patterns 及產品行為 | [Status](spaces/core-layering-refactor/status.md)／[設計](spaces/core-layering-refactor/sa/design.md) |
+| TASK-008 | 為整合標準 `dotnet test` 流程，將四個 custom C# runners 遷移至 xUnit；保留 72 cases 的 assertions、負例與邊界覆蓋，以及非 C# 驗證責任，不改 production | [Status](spaces/xunit-test-migration/status.md)／[coverage mapping](spaces/xunit-test-migration/sa/migration-map.md) |
+| TASK-009 | **CANCELLED / NOT IMPLEMENTED — Human scope decision, not technical failure**。完成 DI/session lifecycle architecture exploration 後，Human Gate 決定本版不實作；未進 DEV，未執行實作驗證，既有 classic GoF Singleton 保持不變 | [Status](spaces/session-lifecycle-di-refactor/status.md)／[SA handoff 與結案](spaces/session-lifecycle-di-refactor/sa/handoff.md) |
 
-舊決策與當時的「未 commit」等狀態是歷史快照，不回寫成現在的結果。`spaces/` 保留各次任務原貌；[根目錄 VALIDATION](VALIDATION.md)／[初始套件驗證](docs/VALIDATION.md) 屬早期記錄，**各任務結果以自己的 status／test report 為準；目前 migration 以 TASK-006 報告為準**。
+舊決策與當時的「未 commit」等狀態是歷史快照，不回寫成現在的結果。`spaces/` 保留各次任務原貌；[根目錄 VALIDATION](VALIDATION.md)／[初始套件驗證](docs/VALIDATION.md) 屬早期記錄，**各任務結果以自己的 status／test report 為準；Angular migration 見 TASK-006，Core 分層見 TASK-007，xUnit migration 與 regression 驗證見 TASK-008；TASK-009 為取消實作的架構探索**。
 
-## 10. Build / Run
+## 12. Build / Run
 
 需要 **.NET 10 SDK**（已驗證 10.0.401）；Python **3.9+** 含標準庫 SQLite，用於 schema／完整驗證。Production C# 專案沒有外部 NuGet 套件；xUnit 測試專案使用 xunit.v3、xunit.runner.visualstudio 與 Microsoft.NET.Test.Sdk，首次 build/test 需要還原 NuGet dependencies。Web frontend 使用 Node 24.21.0（或 Angular 22 支援的 Node 版本）、Angular 22.2.0、TypeScript 6.0.3；npm lockfile 固定依賴。在 repository 根目錄執行：
 
@@ -193,7 +226,7 @@ dotnet run --project src/CloudFileManager.Web -c Release --no-build -- --urls ht
 
 UI 有排序、選取、Tags、Copy/Paste、Delete、Undo/Redo、selected subtree 容量／extension search／XML download；Observer 由真實 traversal events 更新。Refresh 重新取得 server session，不重置樹或歷史；重新啟動 server 才建立乾淨 sample。多個瀏覽器共用同一 application session，不提供使用者隔離。
 
-## 11. Testing & Verification
+## 13. Testing & Verification
 
 C# 測試使用 **xUnit v3**，標準入口為 repository root 的 `dotnet test`。四個 projects 共 **72 cases**：Core 14、Bonus 20、Architecture 18（既有 12＋TASK-007 layer checks 6）、Web 20。Python schema 12＋Tag schema 6 與 Angular NDJSON 8 項保留原工具，合計 98 項 regression obligations；C# 結果不代表 browser／visual 驗證。
 
@@ -216,7 +249,7 @@ Visual acceptance 使用 [Reference A](docs/reference-ui.png) 2914×948 與 [Ref
 
 舊 TASK runner 保留作為 baseline-bound 歷史工具，不應對目前版本執行或寫回已完成任務。本輪驗證入口與 evidence 位於 `spaces/xunit-test-migration/`；Python schema scripts 仍是現行獨立檢查。
 
-## 12. Repository Structure
+## 14. Repository Structure
 
 ```text
 CloudFileManager.slnx
@@ -247,6 +280,7 @@ spaces/
   angular-frontend-migration/          # TASK-006
   core-layering-refactor/              # TASK-007
   xunit-test-migration/                # TASK-008
+  session-lifecycle-di-refactor/       # TASK-009 CANCELLED / NOT IMPLEMENTED
 ```
 
 程式／solution 使用 **CloudFileManager**；GitHub repository 名稱為 **CloudFileManager**。Build outputs、local IDE files 與 `.env` 設定由 `.gitignore` 排除，skills 與 workflow artifacts 保留在版本控制中。
