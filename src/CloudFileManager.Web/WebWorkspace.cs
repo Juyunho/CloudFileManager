@@ -1,3 +1,4 @@
+using CloudFileManager.Core.Application.Persistence;
 using CloudFileManager.Core.Application.Export;
 using CloudFileManager.Core.Application.Sessions;
 using CloudFileManager.Core.Application.Sorting;
@@ -152,7 +153,7 @@ public sealed class WebWorkspace
             if (!live.Any(n => n.Id == selected)) selected = ancestors.FirstOrDefault(id => live.Any(n => n.Id == id && n is DirectoryNode), session.Root.Id);
             return new { type = "result", state = State(), download };
         }
-        catch (Exception ex) when (ex is ArgumentException or InvalidOperationException or OverflowException)
+        catch (Exception ex) when (ex is ArgumentException or InvalidOperationException or OverflowException or PersistenceException)
         {
             Log("Error", ex.Message);
             return new { type = "result", error = ex.Message, state = State() };

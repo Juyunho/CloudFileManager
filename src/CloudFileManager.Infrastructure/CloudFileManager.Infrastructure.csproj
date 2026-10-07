@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="../CloudFileManager.Core/CloudFileManager.Core.csproj" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.12" />
+    <EmbeddedResource Include="Schema/v1.sql" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,19 @@
+{
+  "gate": "PASS",
+  "exitCode": 0,
+  "durableRows": 14,
+  "revision": 5,
+  "durableRowFieldsIdentical": true,
+  "databaseTablesIdentical": true,
+  "historyClipboardLogsSearchClean": true,
+  "beforeSelected": "564a37b0-4dbc-4667-805e-b4f5eed951bc",
+  "afterSelected": "3c7e6186-c2d3-448c-b609-e35800d44380",
+  "afterProgress": {
+    "status": "idle",
+    "name": "尚未執行",
+    "visited": 0,
+    "total": 0,
+    "path": null
+  },
+  "checkerCorrection": "restart-check-r1.txt"
+}

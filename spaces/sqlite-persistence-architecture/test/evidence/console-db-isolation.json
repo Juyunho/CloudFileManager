@@ -1,0 +1,12 @@
+{
+  "command": [
+    "dotnet",
+    "src/CloudFileManager.Console/bin/Release/net10.0/CloudFileManager.Console.dll",
+    "--bonus"
+  ],
+  "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+  "exitCode": 0,
+  "sha256Before": "757b91cf640575f46ebcfc592340704341c6b045c11bb9d12b56fbdf84fa3e8b",
+  "sha256After": "757b91cf640575f46ebcfc592340704341c6b045c11bb9d12b56fbdf84fa3e8b",
+  "same": true
+}

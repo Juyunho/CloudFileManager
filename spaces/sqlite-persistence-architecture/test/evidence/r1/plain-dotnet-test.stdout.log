@@ -1,0 +1,31 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CloudFileManager.Core -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/src/CloudFileManager.Core/bin/Debug/net10.0/CloudFileManager.Core.dll
+  CloudFileManager.Infrastructure -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/src/CloudFileManager.Infrastructure/bin/Debug/net10.0/CloudFileManager.Infrastructure.dll
+  ColdStartProbe -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/ColdStartProbe/bin/Debug/net10.0/ColdStartProbe.dll
+  CloudFileManager.Tests -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.Tests/bin/Debug/net10.0/CloudFileManager.Tests.dll
+  CloudFileManager.BonusTests -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.BonusTests/bin/Debug/net10.0/CloudFileManager.BonusTests.dll
+Test run for /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.Tests/bin/Debug/net10.0/CloudFileManager.Tests.dll (.NETCoreApp,Version=v10.0)
+Test run for /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.BonusTests/bin/Debug/net10.0/CloudFileManager.BonusTests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+A total of 1 test files matched the specified pattern.
+  CloudFileManager.ArchitectureTests -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/bin/Debug/net10.0/CloudFileManager.ArchitectureTests.dll
+Test run for /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/bin/Debug/net10.0/CloudFileManager.ArchitectureTests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+  CloudFileManager.Web -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/src/CloudFileManager.Web/bin/Debug/net10.0/CloudFileManager.Web.dll
+
+Passed!  - Failed:     0, Passed:    20, Skipped:     0, Total:    20, Duration: 109 ms - CloudFileManager.BonusTests.dll (net10.0)
+
+Passed!  - Failed:     0, Passed:    14, Skipped:     0, Total:    14, Duration: 239 ms - CloudFileManager.Tests.dll (net10.0)
+  CloudFileManager.PersistenceTests -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.PersistenceTests/bin/Debug/net10.0/CloudFileManager.PersistenceTests.dll
+Test run for /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.PersistenceTests/bin/Debug/net10.0/CloudFileManager.PersistenceTests.dll (.NETCoreApp,Version=v10.0)
+  CloudFileManager.WebTests -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.WebTests/bin/Debug/net10.0/CloudFileManager.WebTests.dll
+
+Passed!  - Failed:     0, Passed:    18, Skipped:     0, Total:    18, Duration: 268 ms - CloudFileManager.ArchitectureTests.dll (net10.0)
+Test run for /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.WebTests/bin/Debug/net10.0/CloudFileManager.WebTests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+A total of 1 test files matched the specified pattern.
+
+Passed!  - Failed:     0, Passed:    46, Skipped:     0, Total:    46, Duration: 401 ms - CloudFileManager.WebTests.dll (net10.0)
+
+Passed!  - Failed:     0, Passed:    29, Skipped:     0, Total:    29, Duration: 1 s - CloudFileManager.PersistenceTests.dll (net10.0)

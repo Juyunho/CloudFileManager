@@ -1,0 +1,416 @@
+{
+  "checked": 82,
+  "errors": [],
+  "links": [
+    {
+      "target": "spaces/core-layering-refactor/status.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/xunit-test-migration/status.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/angular-frontend-migration/status.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "#11-architecture-evolution",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "#2-demo",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "#4-architecture-overview",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "#7-design-patterns",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "#10-development-insights--learning",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "#11-architecture-evolution",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "#12-build--run",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "#13-testing--verification",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "docs/demo-file-manager.png",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "docs/demo-search-progress.png",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/visitor-singleton-enhancement/sa/domain-model.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/visitor-singleton-enhancement/sa/er-model.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "src/CloudFileManager.Core/Domain/Nodes/Nodes.cs",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "src/CloudFileManager.Core/Application/Samples/SampleTree.cs",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "tests/CloudFileManager.Tests/Fixtures/expected.xml",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "tests/CloudFileManager.Tests/Application/AssignmentRegressionTests.cs",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/core-layering-refactor/sa/design.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/session-lifecycle-di-implementation/sa/design.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/sqlite-persistence-architecture/sa/design.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/visitor-singleton-enhancement/sa/domain-model.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "schema.sql",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "schema-tags.sql",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/visitor-singleton-enhancement/sa/er-model.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "src/CloudFileManager.Infrastructure/Schema/v1.sql",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "src/CloudFileManager.Core/Domain/Nodes/Nodes.cs",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "src/CloudFileManager.Core/Application/Sorting/Sorting.cs",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "src/CloudFileManager.Core/Application/Sessions/EditingSession.cs",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "src/CloudFileManager.Core/Domain/Visiting/QueryVisitors.cs",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "src/CloudFileManager.Core/Application/Sessions/FileSystemSession.cs",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "src/CloudFileManager.Console/Program.cs",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "src/CloudFileManager.Core/Application/TreeOperations.cs",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "src/CloudFileManager.Console/BonusDemo.cs",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/design-pattern-enhancement/sa/design.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/visitor-singleton-enhancement/sa/design.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "#11-architecture-evolution",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "docs/workflow.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": ".agents/skills/sdlc-workflow/SKILL.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": ".agents/skills/grill-me/SKILL.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/cloud-file-manager/test/defects.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/design-pattern-enhancement/test/defects.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/cloud-file-manager/",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/cloud-file-manager/summary.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/cloud-file-manager/pm/requirements.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/design-pattern-enhancement/",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/design-pattern-enhancement/summary.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/design-pattern-enhancement/sa/design.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/visitor-singleton-enhancement/",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/visitor-singleton-enhancement/summary.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/visitor-singleton-enhancement/sa/design.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/visitor-singleton-enhancement/test/grill-me.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/reference-ui-replication/",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/reference-ui-replication/status.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/reference-ui-visual-recovery/",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/reference-ui-visual-recovery/summary.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/angular-frontend-migration/",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/angular-frontend-migration/status.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/angular-frontend-migration/sa/design.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/core-layering-refactor/",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/core-layering-refactor/status.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/core-layering-refactor/sa/design.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/xunit-test-migration/",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/xunit-test-migration/status.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/xunit-test-migration/sa/migration-map.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/session-lifecycle-di-refactor/",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/session-lifecycle-di-refactor/status.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/session-lifecycle-di-refactor/sa/handoff.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/session-lifecycle-di-implementation/",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/session-lifecycle-di-implementation/status.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/session-lifecycle-di-implementation/sa/design.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/sqlite-persistence-architecture/",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/sqlite-persistence-architecture/status.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/sqlite-persistence-architecture/sa/design.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "VALIDATION.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "docs/VALIDATION.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/xunit-test-migration/sa/migration-map.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "spaces/sqlite-persistence-architecture/test/test-report.md",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "docs/reference-ui.png",
+      "exists": true,
+      "anchorValid": true
+    },
+    {
+      "target": "docs/reference-ui-search-progress.png",
+      "exists": true,
+      "anchorValid": true
+    }
+  ]
+}

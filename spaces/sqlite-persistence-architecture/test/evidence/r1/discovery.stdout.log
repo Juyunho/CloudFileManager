@@ -1,0 +1,137 @@
+Test run for /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/bin/Release/net10.0/CloudFileManager.ArchitectureTests.dll (.NETCoreApp,Version=v10.0)
+Test run for /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.BonusTests/bin/Release/net10.0/CloudFileManager.BonusTests.dll (.NETCoreApp,Version=v10.0)
+Test run for /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.dll (.NETCoreApp,Version=v10.0)
+Test run for /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.WebTests/bin/Release/net10.0/CloudFileManager.WebTests.dll (.NETCoreApp,Version=v10.0)
+Test run for /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.PersistenceTests/bin/Release/net10.0/CloudFileManager.PersistenceTests.dll (.NETCoreApp,Version=v10.0)
+The following Tests are available:
+The following Tests are available:
+The following Tests are available:
+The following Tests are available:
+The following Tests are available:
+    L01 Domain compiled metadata and IL depend only on Domain or BCL
+    L02 Domain has no Console TextWriter or XML presentation dependencies
+    L03 all production types classified; Application stays inward
+    L04 negative control detects fully qualified Application reference in method body
+    L05 negative control detects Application nested generic and signature dependency
+    L06 Application mutation access limited to approved commands bootstrap and revision reader
+    A01 singleton identity private construction explicit initialization
+    A07 reset replaces Root clears populated clipboard undo redo
+    A08 invalid Reset preserves root clipboard and both histories
+    A09 same Root Reset cleans session without clearing domain
+    A10 shared references use one Command history and preserve failure/noop
+    A11 Reset does not alter independent EditingSession
+    A12 serial Reset cycles prevent previous case state leaks
+    A02 typed Accept dispatch is one node, traversal owns DFS
+    A03 production size visitor all types and repeated call isolation
+    A04 production search visitor type filtering normalization readonly
+    A05 visitor deep traversal and checked overflow
+    A06 invalid visitor/search arguments do not visit
+    B06 Delete full subtree and exact original position/identity Undo Redo
+    B07 root foreign detached invalid operations preserve state/history
+    B08 Copy full metadata Tags snapshot after source modifications/deletion
+    B09 each Paste independent and snapshot immutable
+    B10 conflicting Paste atomic and preserves pending Redo
+    B11 Paste Undo Redo retains copy ID index metadata
+    B12 Tag catalog multi-tag directory/file readonly and exact Undo
+    B13 no-op failed Copy and sorting preserve Redo and entry counts
+    B14 each successful new edit clears Redo
+    B15 mixed operations Undo all Redo all exact states
+    B16 sessions isolate clipboard/history and reject stale tree
+    B17 deep subtree snapshot Paste Delete Undo iterative
+    B18 empty operations and empty directory copy
+    B19 Copy into descendant finite snapshot without cycles
+    B01 Name stable Asc/Desc directories first
+    B02 Size subtree keys and stable ties
+    B03 Extension empty directories and case-insensitive stability
+    B04 sorting and Tags leave baseline XML traversal intact
+    B05 sorting overflow invalid direction and readonly result
+    B20 baseline Ordinal uniqueness not changed by sorting policy
+    CloudFileManager.WebTests.DependencyInjectionTests.ConstructionPreservesPopulatedDependencyAndRejectsInvalidSelection
+    CloudFileManager.WebTests.DependencyInjectionTests.IndependentWorkspacesCanExecuteConcurrentlyWithoutGlobalSession
+    CloudFileManager.WebTests.DependencyInjectionTests.CompiledWorkspaceHasNoConcreteSingletonOrServiceLocatorDependency
+    CloudFileManager.WebTests.DependencyInjectionTests.ConsumerContractDoesNotExposeResetOrOptionalFallback
+    CloudFileManager.WebTests.ProductionCompositionTests.ActualRegistrationUsesGoFInstanceAndPreservesStateAcrossScopes
+    CloudFileManager.WebTests.ProductionCompositionTests.OverrideBeforeResolutionDoesNotInitializeOrResetGlobalState
+    W01 clean seed
+    W02 exact capacities and display
+    W03 sort controls do not alter tree/history
+    W04 tag key stable directions
+    W05 tag noop retains redo/log
+    W06 badge remove does not change selection or descendants
+    W07 Paste file disabled/conflict atomic/redo
+    W08 Prototype snapshot independent and paste selection
+    W09 delete undo selection and global count
+    W10 ancestor fallback on Undo Paste
+    W11 visitor observed actual sequence and scope
+    W12 XML regression contract and file scope
+    W13 exact extension within scope, no filter
+    W14 invalid search never fake scan
+    W15 Size distinguishes formatted equality
+    W16 search trace exact production visit order
+    W17 case insensitive replacement zero and identity sort
+    W18 highlight mutation removal never resurrects stale ids
+    W19 search preserves domain history redo and last progress
+    W20 directory extension never matches
+    W01 clean seed
+    W02 exact capacities and display
+    W03 sort controls do not alter tree/history
+    W04 tag key stable directions
+    W05 tag noop retains redo/log
+    W06 badge remove does not change selection or descendants
+    W07 Paste file disabled/conflict atomic/redo
+    W08 Prototype snapshot independent and paste selection
+    W09 delete undo selection and global count
+    W10 ancestor fallback on Undo Paste
+    W11 visitor observed actual sequence and scope
+    W12 XML regression contract and file scope
+    W13 exact extension within scope, no filter
+    W14 invalid search never fake scan
+    W15 Size distinguishes formatted equality
+    W16 search trace exact production visit order
+    W17 case insensitive replacement zero and identity sort
+    W18 highlight mutation removal never resurrects stale ids
+    W19 search preserves domain history redo and last progress
+    W20 directory extension never matches
+    T01 independent source oracle and exact file set
+    T02 each subtree independently grouped from source paths
+    T03 binary units and byte precision
+    T04 search normalization scope and no result
+    T05 exact traversal sequence for both operations
+    T06 XML matches original assignment fixture
+    T07 XML invalid names collisions and escaped text
+    T08 empty directory and zero byte file
+    T11 deep hierarchy without recursive call stack
+    T12 checked arithmetic prevents silent overflow
+    T13 metadata and rendered details
+    T14 invalid search input
+    T09 invalid creation is rejected without mutation
+    T10 topology and public ownership contract
+    CloudFileManager.PersistenceTests.PersistenceTests.P01_SeedOnceAndRoundtripAllMetadataTagsIdsAndOrder
+    CloudFileManager.PersistenceTests.PersistenceTests.P02_DeletedAllChildrenStayEmptyAfterRestart
+    CloudFileManager.PersistenceTests.PersistenceTests.P03_CopySnapshotPasteDeleteUndoRedoAreDurable
+    CloudFileManager.PersistenceTests.PersistenceTests.P04_ConfirmedRollbackPreservesEverythingAndRetry(operation: "delete")
+    CloudFileManager.PersistenceTests.PersistenceTests.P04_ConfirmedRollbackPreservesEverythingAndRetry(operation: "paste")
+    CloudFileManager.PersistenceTests.PersistenceTests.P04_ConfirmedRollbackPreservesEverythingAndRetry(operation: "tag")
+    CloudFileManager.PersistenceTests.PersistenceTests.P05_FailedUndoRedoPreservesStacksRevisionAndCanRetry(redo: False)
+    CloudFileManager.PersistenceTests.PersistenceTests.P05_FailedUndoRedoPreservesStacksRevisionAndCanRetry(redo: True)
+    CloudFileManager.PersistenceTests.PersistenceTests.P06_NoopConflictAndCopyNeverSaveOrClearRedo
+    CloudFileManager.PersistenceTests.PersistenceTests.P07_RealWriterLockFailureRestoresAndRetryWorks
+    CloudFileManager.PersistenceTests.PersistenceTests.P08_DeferredForeignKeyCommitFailureRollsBackMemoryAndDatabase
+    CloudFileManager.PersistenceTests.PersistenceTests.P09_UnknownOutcomeFailsClosedWhetherDatabaseCommittedOrNot(actuallyCommit: False)
+    CloudFileManager.PersistenceTests.PersistenceTests.P09_UnknownOutcomeFailsClosedWhetherDatabaseCommittedOrNot(actuallyCommit: True)
+    CloudFileManager.PersistenceTests.PersistenceTests.P10_InvalidDatabaseNeverReseeds(corrupt: "PRAGMA user_version=99;")
+    CloudFileManager.PersistenceTests.PersistenceTests.P10_InvalidDatabaseNeverReseeds(corrupt: "UPDATE node SET created_at='invalid';")
+    CloudFileManager.PersistenceTests.PersistenceTests.P10_InvalidDatabaseNeverReseeds(corrupt: "UPDATE node SET sibling_ordinal=sibling_ordinal+4 "···)
+    CloudFileManager.PersistenceTests.PersistenceTests.P10_InvalidDatabaseNeverReseeds(corrupt: "DELETE FROM node_tag; DELETE FROM store_meta;")
+    CloudFileManager.PersistenceTests.PersistenceTests.P10_InvalidDatabaseNeverReseeds(corrupt: "UPDATE node SET width=2147483648 WHERE kind='Image"···)
+    CloudFileManager.PersistenceTests.PersistenceTests.P11_UnversionedAndCorruptFilesRejectedWithoutOverwrite
+    CloudFileManager.PersistenceTests.PersistenceTests.P12_InvalidSeedLeavesNoInitializedDatabaseAndRetryWorks
+    CloudFileManager.PersistenceTests.PersistenceTests.P13_OwnerLockPreventsSecondApplicationAndReleasesOnDispose
+    CloudFileManager.PersistenceTests.PersistenceTests.P14_DeepTreeAndInvalidTopologyValidation
+    CloudFileManager.PersistenceTests.PersistenceTests.P15_RealSingletonRestartCleansTransientStateKeepsDurableTree
+    CloudFileManager.PersistenceTests.PersistenceTests.P16_WebCompositionReloadAndFallbackSelection
+    CloudFileManager.PersistenceTests.PersistenceTests.P17_WebFailedSaveOnlyAddsErrorAndPreservesSelectionMatchesHistory
+    CloudFileManager.PersistenceTests.PersistenceTests.P18_CoreHasNoProviderDependencyAndHydrationNotPublicMutation
+    CloudFileManager.PersistenceTests.PersistenceTests.P19_StaleDurableRevisionFailsClosedRatherThanOverwrite
+    CloudFileManager.PersistenceTests.PersistenceTests.P20_FaultedSingletonCannotProjectOrContinueWorkspace
+    CloudFileManager.PersistenceTests.PersistenceTests.P21_SeparateTemporaryDatabasesHaveIndependentDurableState

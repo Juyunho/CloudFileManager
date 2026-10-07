@@ -86,9 +86,10 @@ public sealed class LayerDependencyTests
             var name = owner.FullName;
             var member = edge.Member!.Name;
             bool allowed = member switch {
-                "Insert" or "Remove" => name is "CloudFileManager.Core.Application.Commands.DeleteCommand" or "CloudFileManager.Core.Application.Commands.PasteCommand",
+                "Remove" => name is "CloudFileManager.Core.Application.Commands.DeleteCommand" or "CloudFileManager.Core.Application.Commands.PasteCommand",
+                "Insert" => name is "CloudFileManager.Core.Application.Commands.DeleteCommand" or "CloudFileManager.Core.Application.Commands.PasteCommand" or "CloudFileManager.Core.Application.Persistence.FileSystemDocumentMapper",
                 "SetTag" => name == "CloudFileManager.Core.Application.Commands.TagCommand",
-                "LoadTags" => name == "CloudFileManager.Core.Application.Samples.ReferenceTree",
+                "LoadTags" => name is "CloudFileManager.Core.Application.Samples.ReferenceTree" or "CloudFileManager.Core.Application.Persistence.FileSystemDocumentMapper",
                 "get_State" or "Revision" => name == "CloudFileManager.Core.Application.Sessions.EditingSession",
                 _ => false
             };

@@ -1,0 +1,332 @@
+[
+  {
+    "cls": "toolbar",
+    "font": "16px",
+    "height": 94,
+    "tag": "NAV",
+    "text": "複製貼上刪除名稱大小 ↑類型標籤+ Urgent0+ Work1+ Personal2",
+    "width": 2139.734375,
+    "x": 26,
+    "y": 36
+  },
+  {
+    "cls": "icon-button",
+    "font": "10px",
+    "height": 50,
+    "tag": "BUTTON",
+    "text": "",
+    "width": 50,
+    "x": 46,
+    "y": 58
+  },
+  {
+    "cls": "icon-button",
+    "font": "10px",
+    "height": 50,
+    "tag": "BUTTON",
+    "text": "",
+    "width": 50,
+    "x": 108,
+    "y": 58
+  },
+  {
+    "cls": "",
+    "font": "10px",
+    "height": 46,
+    "tag": "BUTTON",
+    "text": "複製",
+    "width": 104,
+    "x": 200,
+    "y": 60
+  },
+  {
+    "cls": "",
+    "font": "10px",
+    "height": 46,
+    "tag": "BUTTON",
+    "text": "貼上",
+    "width": 104,
+    "x": 316,
+    "y": 60
+  },
+  {
+    "cls": "danger",
+    "font": "10px",
+    "height": 46,
+    "tag": "BUTTON",
+    "text": "刪除",
+    "width": 104,
+    "x": 432,
+    "y": 60
+  },
+  {
+    "cls": "",
+    "font": "10px",
+    "height": 46,
+    "tag": "BUTTON",
+    "text": "名稱",
+    "width": 68,
+    "x": 630,
+    "y": 60
+  },
+  {
+    "cls": "active",
+    "font": "10px",
+    "height": 46,
+    "tag": "BUTTON",
+    "text": "大小 ↑",
+    "width": 83.5625,
+    "x": 710,
+    "y": 60
+  },
+  {
+    "cls": "",
+    "font": "10px",
+    "height": 46,
+    "tag": "BUTTON",
+    "text": "類型",
+    "width": 68,
+    "x": 805.5625,
+    "y": 60
+  },
+  {
+    "cls": "",
+    "font": "10px",
+    "height": 46,
+    "tag": "BUTTON",
+    "text": "標籤",
+    "width": 68,
+    "x": 885.5625,
+    "y": 60
+  },
+  {
+    "cls": "tag-add urgent",
+    "font": "9px",
+    "height": 46,
+    "tag": "BUTTON",
+    "text": "+ Urgent0",
+    "width": 105.515625,
+    "x": 1057.5625,
+    "y": 60
+  },
+  {
+    "cls": "tag-add work",
+    "font": "9px",
+    "height": 46,
+    "tag": "BUTTON",
+    "text": "+ Work1",
+    "width": 92.1875,
+    "x": 1185.078125,
+    "y": 60
+  },
+  {
+    "cls": "personal tag-add",
+    "font": "9px",
+    "height": 46,
+    "tag": "BUTTON",
+    "text": "+ Personal2",
+    "width": 123.546875,
+    "x": 1299.265625,
+    "y": 60
+  },
+  {
+    "cls": "panel tree-panel",
+    "font": "16px",
+    "height": 772,
+    "tag": "SECTION",
+    "text": "檔案階層 (Composite)我的根目錄(0 KB)個人筆記(0 KB)2025備份(0",
+    "width": 1417.46875,
+    "x": 26,
+    "y": 154
+  },
+  {
+    "cls": "row directory",
+    "font": "12px",
+    "height": 56,
+    "tag": "DIV",
+    "text": "我的根目錄(0 KB)",
+    "width": 1283.46875,
+    "x": 108,
+    "y": 274
+  },
+  {
+    "cls": "row directory",
+    "font": "12px",
+    "height": 56,
+    "tag": "DIV",
+    "text": "個人筆記(0 KB)",
+    "width": 1233.46875,
+    "x": 158,
+    "y": 334
+  },
+  {
+    "cls": "row directory",
+    "font": "12px",
+    "height": 56,
+    "tag": "DIV",
+    "text": "2025備份(0 KB)PERSONAL×",
+    "width": 1183.46875,
+    "x": 208,
+    "y": 394
+  },
+  {
+    "cls": "",
+    "font": "9px",
+    "height": 24,
+    "tag": "BUTTON",
+    "text": "×",
+    "width": 14,
+    "x": 1357.46875,
+    "y": 410
+  },
+  {
+    "cls": "row",
+    "font": "12px",
+    "height": 56,
+    "tag": "DIV",
+    "text": "會議記錄.docx(200 KB, pages: 5)WORK×",
+    "width": 1133.46875,
+    "x": 258,
+    "y": 454
+  },
+  {
+    "cls": "",
+    "font": "9px",
+    "height": 24,
+    "tag": "BUTTON",
+    "text": "×",
+    "width": 14,
+    "x": 1357.46875,
+    "y": 470
+  },
+  {
+    "cls": "row",
+    "font": "12px",
+    "height": 56,
+    "tag": "DIV",
+    "text": "待辦清單.txt(1 KB, enc: UTF-8)",
+    "width": 1183.46875,
+    "x": 208,
+    "y": 514
+  },
+  {
+    "cls": "row directory",
+    "font": "12px",
+    "height": 56,
+    "tag": "DIV",
+    "text": "專案文件(0 KB)",
+    "width": 1233.46875,
+    "x": 158,
+    "y": 574
+  },
+  {
+    "cls": "row selected",
+    "font": "12px",
+    "height": 56,
+    "tag": "DIV",
+    "text": "API介面定義.docx(120 KB, pages: 12)PERSONAL×",
+    "width": 1183.46875,
+    "x": 208,
+    "y": 634
+  },
+  {
+    "cls": "",
+    "font": "9px",
+    "height": 24,
+    "tag": "BUTTON",
+    "text": "×",
+    "width": 14,
+    "x": 1357.46875,
+    "y": 650
+  },
+  {
+    "cls": "row",
+    "font": "12px",
+    "height": 56,
+    "tag": "DIV",
+    "text": "需求規格書.docx(500 KB, pages: 35)",
+    "width": 1183.46875,
+    "x": 208,
+    "y": 694
+  },
+  {
+    "cls": "row",
+    "font": "12px",
+    "height": 56,
+    "tag": "DIV",
+    "text": "系統架構圖.png(2048 KB, res: 1920x1080)",
+    "width": 1183.46875,
+    "x": 208,
+    "y": 754
+  },
+  {
+    "cls": "row",
+    "font": "12px",
+    "height": 56,
+    "tag": "DIV",
+    "text": "README.txt(0.5 KB, enc: ASCII)",
+    "width": 1233.46875,
+    "x": 158,
+    "y": 814
+  },
+  {
+    "cls": "panel visitor",
+    "font": "16px",
+    "height": 341.4765625,
+    "tag": "SECTION",
+    "text": "訪問者操作 (Visitor)計算大小XML 匯出搜尋",
+    "width": 698.265625,
+    "x": 1467.46875,
+    "y": 154
+  },
+  {
+    "cls": "operation size",
+    "font": "12px",
+    "height": 64,
+    "tag": "BUTTON",
+    "text": "計算大小",
+    "width": 642.265625,
+    "x": 1495.46875,
+    "y": 250
+  },
+  {
+    "cls": "operation xml",
+    "font": "12px",
+    "height": 64,
+    "tag": "BUTTON",
+    "text": "XML 匯出",
+    "width": 642.265625,
+    "x": 1495.46875,
+    "y": 324
+  },
+  {
+    "cls": "search",
+    "font": "11px",
+    "height": 54,
+    "tag": "BUTTON",
+    "text": "搜尋",
+    "width": 120,
+    "x": 2017.734375,
+    "y": 412
+  },
+  {
+    "cls": "panel observer",
+    "font": "16px",
+    "height": 406.5234375,
+    "tag": "SECTION",
+    "text": "監控 (Observer)LIVE目前節點尚未執行掃描進度idle尚未執行",
+    "width": 698.265625,
+    "x": 1467.46875,
+    "y": 519.4765625
+  },
+  {
+    "cls": "console",
+    "font": "16px",
+    "height": 890,
+    "tag": "ASIDE",
+    "text": "● CONSOLE",
+    "width": 698.265625,
+    "x": 2189.734375,
+    "y": 36
+  }
+]

@@ -1,0 +1,1 @@
+First read-only verification command exit 1: asserted equality of complete UI rows, including transient searchMatch. Database tables already equal; expected restart clears searchMatch. No product change. Corrected checker excludes searchMatch from durable row equality and explicitly requires every match false.

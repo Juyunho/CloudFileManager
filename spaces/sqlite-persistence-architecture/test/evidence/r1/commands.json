@@ -1,0 +1,351 @@
+[
+  {
+    "name": "environment",
+    "command": [
+      "dotnet",
+      "--info"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-10-07T12:53:15+08:00",
+    "ended": "2026-10-07T12:53:15+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "environment.stdout.log",
+    "stderr": "environment.stderr.log"
+  },
+  {
+    "name": "head",
+    "command": [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-10-07T12:53:15+08:00",
+    "ended": "2026-10-07T12:53:15+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "head.stdout.log",
+    "stderr": "head.stderr.log"
+  },
+  {
+    "name": "git-before",
+    "command": [
+      "git",
+      "status",
+      "--short"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-10-07T12:53:15+08:00",
+    "ended": "2026-10-07T12:53:16+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "git-before.stdout.log",
+    "stderr": "git-before.stderr.log"
+  },
+  {
+    "name": "release-rebuild",
+    "command": [
+      "dotnet",
+      "build",
+      "CloudFileManager.slnx",
+      "-c",
+      "Release",
+      "-t:Rebuild"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-10-07T12:53:16+08:00",
+    "ended": "2026-10-07T12:53:21+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "release-rebuild.stdout.log",
+    "stderr": "release-rebuild.stderr.log"
+  },
+  {
+    "name": "discovery",
+    "command": [
+      "dotnet",
+      "test",
+      "CloudFileManager.slnx",
+      "-c",
+      "Release",
+      "--no-build",
+      "--list-tests"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-10-07T12:53:21+08:00",
+    "ended": "2026-10-07T12:53:24+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "discovery.stdout.log",
+    "stderr": "discovery.stderr.log"
+  },
+  {
+    "name": "xunit",
+    "command": [
+      "dotnet",
+      "test",
+      "CloudFileManager.slnx",
+      "-c",
+      "Release",
+      "--no-build",
+      "--logger",
+      "trx",
+      "--results-directory",
+      "/Users/juyunho/Documents/Code/winbond/CloudFileManager/spaces/sqlite-persistence-architecture/test/evidence/r1/trx"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-10-07T12:53:24+08:00",
+    "ended": "2026-10-07T12:53:28+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "xunit.stdout.log",
+    "stderr": "xunit.stderr.log"
+  },
+  {
+    "name": "plain-dotnet-test",
+    "command": [
+      "dotnet",
+      "test"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-10-07T12:53:28+08:00",
+    "ended": "2026-10-07T12:53:36+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "plain-dotnet-test.stdout.log",
+    "stderr": "plain-dotnet-test.stderr.log"
+  },
+  {
+    "name": "cold-start-1",
+    "command": [
+      "dotnet",
+      "test",
+      "tests/CloudFileManager.ArchitectureTests",
+      "-c",
+      "Release",
+      "--no-build",
+      "--filter",
+      "LegacyId=A01"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-10-07T12:53:36+08:00",
+    "ended": "2026-10-07T12:53:37+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "cold-start-1.stdout.log",
+    "stderr": "cold-start-1.stderr.log"
+  },
+  {
+    "name": "cold-start-2",
+    "command": [
+      "dotnet",
+      "test",
+      "tests/CloudFileManager.ArchitectureTests",
+      "-c",
+      "Release",
+      "--no-build",
+      "--filter",
+      "LegacyId=A01"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-10-07T12:53:37+08:00",
+    "ended": "2026-10-07T12:53:38+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "cold-start-2.stdout.log",
+    "stderr": "cold-start-2.stderr.log"
+  },
+  {
+    "name": "web-project-cwd",
+    "command": [
+      "dotnet",
+      "test",
+      "-c",
+      "Release",
+      "--no-build",
+      "--filter",
+      "LegacyId=W12"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.WebTests",
+    "started": "2026-10-07T12:53:38+08:00",
+    "ended": "2026-10-07T12:53:39+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "web-project-cwd.stdout.log",
+    "stderr": "web-project-cwd.stderr.log"
+  },
+  {
+    "name": "schema",
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.9/bin/python3",
+      "tests/verify_schema.py"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-10-07T12:53:39+08:00",
+    "ended": "2026-10-07T12:53:39+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "schema.stdout.log",
+    "stderr": "schema.stderr.log"
+  },
+  {
+    "name": "tag-schema",
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.9/bin/python3",
+      "tests/verify_tag_schema.py"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-10-07T12:53:39+08:00",
+    "ended": "2026-10-07T12:53:39+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "tag-schema.stdout.log",
+    "stderr": "tag-schema.stderr.log"
+  },
+  {
+    "name": "console",
+    "command": [
+      "dotnet",
+      "run",
+      "--project",
+      "src/CloudFileManager.Console",
+      "-c",
+      "Release",
+      "--no-build"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-10-07T12:53:39+08:00",
+    "ended": "2026-10-07T12:53:40+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "console.stdout.log",
+    "stderr": "console.stderr.log"
+  },
+  {
+    "name": "console-xml",
+    "command": [
+      "dotnet",
+      "run",
+      "--project",
+      "src/CloudFileManager.Console",
+      "-c",
+      "Release",
+      "--no-build",
+      "--",
+      "--xml"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-10-07T12:53:40+08:00",
+    "ended": "2026-10-07T12:53:41+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "console-xml.stdout.log",
+    "stderr": "console-xml.stderr.log"
+  },
+  {
+    "name": "console-bonus",
+    "command": [
+      "dotnet",
+      "run",
+      "--project",
+      "src/CloudFileManager.Console",
+      "-c",
+      "Release",
+      "--no-build",
+      "--",
+      "--bonus"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-10-07T12:53:41+08:00",
+    "ended": "2026-10-07T12:53:41+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "console-bonus.stdout.log",
+    "stderr": "console-bonus.stderr.log"
+  },
+  {
+    "name": "console-invalid",
+    "command": [
+      "dotnet",
+      "run",
+      "--project",
+      "src/CloudFileManager.Console",
+      "-c",
+      "Release",
+      "--no-build",
+      "--",
+      "--invalid"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-10-07T12:53:41+08:00",
+    "ended": "2026-10-07T12:53:42+08:00",
+    "expected_exit_code": 2,
+    "exit_code": 2,
+    "stdout": "console-invalid.stdout.log",
+    "stderr": "console-invalid.stderr.log"
+  },
+  {
+    "name": "angular-tests",
+    "command": [
+      "npm",
+      "--prefix",
+      "src/CloudFileManager.Angular",
+      "test"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-10-07T12:53:42+08:00",
+    "ended": "2026-10-07T12:53:42+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "angular-tests.stdout.log",
+    "stderr": "angular-tests.stderr.log"
+  },
+  {
+    "name": "angular-build",
+    "command": [
+      "npm",
+      "--prefix",
+      "src/CloudFileManager.Angular",
+      "run",
+      "build"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-10-07T12:53:42+08:00",
+    "ended": "2026-10-07T12:53:44+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "angular-build.stdout.log",
+    "stderr": "angular-build.stderr.log"
+  },
+  {
+    "name": "diff-check",
+    "command": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-10-07T12:53:44+08:00",
+    "ended": "2026-10-07T12:53:44+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "diff-check.stdout.log",
+    "stderr": "diff-check.stderr.log"
+  },
+  {
+    "name": "git-after",
+    "command": [
+      "git",
+      "status",
+      "--short"
+    ],
+    "cwd": "/Users/juyunho/Documents/Code/winbond/CloudFileManager",
+    "started": "2026-10-07T12:53:44+08:00",
+    "ended": "2026-10-07T12:53:44+08:00",
+    "expected_exit_code": 0,
+    "exit_code": 0,
+    "stdout": "git-after.stdout.log",
+    "stderr": "git-after.stderr.log"
+  }
+]

@@ -1,0 +1,3 @@
+# Architecture closure check R1 — environment abort
+Command: `dotnet test tests/CloudFileManager.ArchitectureTests -c Release --no-build --no-restore --logger trx --results-directory /tmp/task011-closure-architecture`
+Working directory: repository root. Exit1. VSTest local communication socket bind failed with `System.Net.Sockets.SocketException (13): Permission denied`. Test Run Aborted. Raw TRX preserved. No product change; authorized external-sandbox retry R2 same command with new results directory exited0,18/18 including L01–L06. This is an environment retry, not a product REWORK or reset of existing1/3 count.

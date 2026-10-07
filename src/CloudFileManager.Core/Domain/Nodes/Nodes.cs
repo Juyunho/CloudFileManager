@@ -6,11 +6,13 @@ namespace CloudFileManager.Core.Domain.Nodes;
 
 public abstract class FsNode
 {
-    private protected FsNode(string name, DateTimeOffset createdAt, DirectoryNode? parent)
+    private protected FsNode(string name, DateTimeOffset createdAt, DirectoryNode? parent, Guid? id = null)
     {
         ArgumentException.ThrowIfNullOrWhiteSpace(name);
         if (name is "." or ".." || name.Any(c => char.IsControl(c) || c is '/' or '\\'))
             throw new ArgumentException("Name cannot be a path or contain control characters.", nameof(name));
+        if (id == Guid.Empty) throw new ArgumentException("Node ID cannot be empty.", nameof(id));
+        Id = id ?? Guid.NewGuid();
         Name = name; CreatedAt = createdAt; Parent = parent;
         State = parent?.State ?? new TreeState();
     }
@@ -24,7 +26,7 @@ public abstract class FsNode
         return changed;
     }
     internal void LoadTags(IEnumerable<TagKind> values) => tags.UnionWith(values);
-    public Guid Id { get; } = Guid.NewGuid();
+    public Guid Id { get; }
     public string Name { get; }
     public DateTimeOffset CreatedAt { get; }
     public DirectoryNode? Parent { get; }
@@ -45,8 +47,8 @@ public sealed class DirectoryNode : FsNode
 {
     private readonly List<FsNode> children = [];
     private readonly ReadOnlyCollection<FsNode> view;
-    internal DirectoryNode(string name, DateTimeOffset createdAt, DirectoryNode? parent, string? xmlAlias)
-        : base(name, createdAt, parent)
+    internal DirectoryNode(string name, DateTimeOffset createdAt, DirectoryNode? parent, string? xmlAlias, Guid? id = null)
+        : base(name, createdAt, parent, id)
     {
         if (xmlAlias is not null) ArgumentException.ThrowIfNullOrWhiteSpace(xmlAlias);
         XmlAlias = xmlAlias; view = children.AsReadOnly();
@@ -90,8 +92,8 @@ public sealed class DirectoryNode : FsNode
 
 public abstract class FileNode : FsNode
 {
-    private protected FileNode(string name, long bytes, DateTimeOffset createdAt, DirectoryNode parent)
-        : base(name, createdAt, parent)
+    private protected FileNode(string name, long bytes, DateTimeOffset createdAt, DirectoryNode parent, Guid? id = null)
+        : base(name, createdAt, parent, id)
     {
         ArgumentNullException.ThrowIfNull(parent);
         ArgumentOutOfRangeException.ThrowIfNegative(bytes);
@@ -103,8 +105,8 @@ public abstract class FileNode : FsNode
 
 public sealed class WordFile : FileNode
 {
-    internal WordFile(string name, long bytes, int pages, DateTimeOffset createdAt, DirectoryNode parent)
-        : base(name, bytes, createdAt, parent)
+    internal WordFile(string name, long bytes, int pages, DateTimeOffset createdAt, DirectoryNode parent, Guid? id = null)
+        : base(name, bytes, createdAt, parent, id)
     { ArgumentOutOfRangeException.ThrowIfNegativeOrZero(pages); Pages = pages; }
     public override void Accept(IFileSystemVisitor visitor)
     { ArgumentNullException.ThrowIfNull(visitor); visitor.Visit(this); }
@@ -113,8 +115,8 @@ public sealed class WordFile : FileNode
 
 public sealed class ImageFile : FileNode
 {
-    internal ImageFile(string name, long bytes, int width, int height, DateTimeOffset createdAt, DirectoryNode parent)
-        : base(name, bytes, createdAt, parent)
+    internal ImageFile(string name, long bytes, int width, int height, DateTimeOffset createdAt, DirectoryNode parent, Guid? id = null)
+        : base(name, bytes, createdAt, parent, id)
     {
         ArgumentOutOfRangeException.ThrowIfNegativeOrZero(width);
         ArgumentOutOfRangeException.ThrowIfNegativeOrZero(height);
@@ -128,8 +130,8 @@ public sealed class ImageFile : FileNode
 
 public sealed class TextFile : FileNode
 {
-    internal TextFile(string name, long bytes, string encoding, DateTimeOffset createdAt, DirectoryNode parent)
-        : base(name, bytes, createdAt, parent)
+    internal TextFile(string name, long bytes, string encoding, DateTimeOffset createdAt, DirectoryNode parent, Guid? id = null)
+        : base(name, bytes, createdAt, parent, id)
     {
         ArgumentException.ThrowIfNullOrWhiteSpace(encoding);
         if (encoding.Any(char.IsControl)) throw new ArgumentException("Encoding cannot contain control characters.", nameof(encoding));

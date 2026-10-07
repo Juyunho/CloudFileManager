@@ -16,3 +16,6 @@ node_modules/
 out-tsc/
 /src/CloudFileManager.Angular/dist/
 /src/CloudFileManager.Web/wwwroot/
+
+# Web SQLite runtime storage (not workflow evidence)
+/src/CloudFileManager.Web/App_Data/

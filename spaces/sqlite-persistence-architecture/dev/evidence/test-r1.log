@@ -1,0 +1,32 @@
+  Determining projects to restore...
+  Restored /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.PersistenceTests/CloudFileManager.PersistenceTests.csproj (in 179 ms).
+  9 of 10 projects are up-to-date for restore.
+  CloudFileManager.Core -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/src/CloudFileManager.Core/bin/Release/net10.0/CloudFileManager.Core.dll
+  CloudFileManager.Infrastructure -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/src/CloudFileManager.Infrastructure/bin/Release/net10.0/CloudFileManager.Infrastructure.dll
+  CloudFileManager.Tests -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.dll
+  CloudFileManager.BonusTests -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.BonusTests/bin/Release/net10.0/CloudFileManager.BonusTests.dll
+  ColdStartProbe -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/ColdStartProbe/bin/Release/net10.0/ColdStartProbe.dll
+Test run for /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.Tests/bin/Release/net10.0/CloudFileManager.Tests.dll (.NETCoreApp,Version=v10.0)
+Test run for /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.BonusTests/bin/Release/net10.0/CloudFileManager.BonusTests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+A total of 1 test files matched the specified pattern.
+  CloudFileManager.ArchitectureTests -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/bin/Release/net10.0/CloudFileManager.ArchitectureTests.dll
+Test run for /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/bin/Release/net10.0/CloudFileManager.ArchitectureTests.dll (.NETCoreApp,Version=v10.0)
+  CloudFileManager.Web -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/src/CloudFileManager.Web/bin/Release/net10.0/CloudFileManager.Web.dll
+A total of 1 test files matched the specified pattern.
+  CloudFileManager.WebTests -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.WebTests/bin/Release/net10.0/CloudFileManager.WebTests.dll
+Test run for /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.WebTests/bin/Release/net10.0/CloudFileManager.WebTests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+Results File: /Users/juyunho/Documents/Code/winbond/CloudFileManager/spaces/sqlite-persistence-architecture/dev/evidence/trx-r1/_yunMacBook-Pro_2026-10-07_12_49_44_net10.0.trx
+
+Passed!  - Failed:     0, Passed:    20, Skipped:     0, Total:    20, Duration: 201 ms - CloudFileManager.BonusTests.dll (net10.0)
+Results File: /Users/juyunho/Documents/Code/winbond/CloudFileManager/spaces/sqlite-persistence-architecture/dev/evidence/trx-r1/_yunMacBook-Pro_2026-10-07_12_49_44_net10.0[1].trx
+
+Passed!  - Failed:     0, Passed:    14, Skipped:     0, Total:    14, Duration: 280 ms - CloudFileManager.Tests.dll (net10.0)
+Results File: /Users/juyunho/Documents/Code/winbond/CloudFileManager/spaces/sqlite-persistence-architecture/dev/evidence/trx-r1/_yunMacBook-Pro_2026-10-07_12_49_45_net10.0.trx
+
+Passed!  - Failed:     0, Passed:    18, Skipped:     0, Total:    18, Duration: 265 ms - CloudFileManager.ArchitectureTests.dll (net10.0)
+/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.PersistenceTests/PersistenceTests.cs(214,9): error xUnit2031: Do not use a Where clause to filter before calling Assert.Single. Use the overload of Assert.Single that accepts a filtering function. (https://xunit.net/xunit.analyzers/rules/xUnit2031) [/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.PersistenceTests/CloudFileManager.PersistenceTests.csproj]
+Results File: /Users/juyunho/Documents/Code/winbond/CloudFileManager/spaces/sqlite-persistence-architecture/dev/evidence/trx-r1/_yunMacBook-Pro_2026-10-07_12_49_45_net10.0[1].trx
+
+Passed!  - Failed:     0, Passed:    46, Skipped:     0, Total:    46, Duration: 344 ms - CloudFileManager.WebTests.dll (net10.0)

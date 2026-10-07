@@ -1,0 +1,18 @@
+{
+  "result": "PASS",
+  "exitCode": 0,
+  "allProjectionFieldsExceptErrorLogIdentical": true,
+  "beforeHistory": [
+    1,
+    1
+  ],
+  "afterHistory": [
+    1,
+    1
+  ],
+  "newLog": {
+    "kind": "Trace",
+    "text": "搜尋目錄: 我的根目錄",
+    "path": "我的根目錄"
+  }
+}

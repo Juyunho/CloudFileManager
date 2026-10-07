@@ -4,7 +4,7 @@
 
 以 **Angular + TypeScript / ASP.NET Core / .NET 10** 實作的雲端檔案管理系統，提供樹狀檔案瀏覽、搜尋與排序、可復原的編輯操作及 XML Export，並結合七種 Design Patterns 與可追溯的 AI Agent 開發流程。
 
-目前提供互動式 Web UI 與 Console，完成 mandatory requirements 與 Bonus。Angular 僅管理畫面，ASP.NET Core API 與 C# Core 是唯一 domain authority。這是記憶體中的檔案模型，沒有真實雲端上傳、檔案內容讀寫或資料庫存取。目前已完成 Core 分層（[TASK-007](spaces/core-layering-refactor/status.md)）與 xUnit migration（[TASK-008](spaces/xunit-test-migration/status.md)），Angular migration 紀錄見 [TASK-006](spaces/angular-frontend-migration/status.md)。TASK-009 保留取消實作的探索歷史；TASK-010 是新的 session dependency injection 演進，保留 classic GoF Singleton，詳見[演進](#11-architecture-evolution)。
+目前提供互動式 Web UI 與 Console，完成 mandatory requirements 與 Bonus。Angular 僅管理畫面，ASP.NET Core API 與 C# Core 是唯一 domain authority。Web 以 SQLite 保存 filesystem metadata 與樹狀結構；Console 保留固定的 in-memory 示範。沒有真實雲端上傳或檔案內容讀寫。目前已完成 Core 分層（[TASK-007](spaces/core-layering-refactor/status.md)）與 xUnit migration（[TASK-008](spaces/xunit-test-migration/status.md)），Angular migration 紀錄見 [TASK-006](spaces/angular-frontend-migration/status.md)。TASK-009 保留取消實作的探索歷史；TASK-010 是新的 session dependency injection 演進，保留 classic GoF Singleton，詳見[演進](#11-architecture-evolution)。
 
 快速閱讀：[Demo](#2-demo) → [架構](#4-architecture-overview) → [七種 Patterns](#7-design-patterns) → [開發學習](#10-development-insights--learning) → [演進](#11-architecture-evolution) → [執行](#12-build--run)／[驗證](#13-testing--verification)
 
@@ -46,6 +46,9 @@ flowchart LR
     C[Console] --> S[FileSystemSession Singleton]
     S --> R[Root / Composite Tree]
     S --> E[EditingSession]
+    E --> P[Application IFileSystemStore]
+    DB[Infrastructure / Microsoft.Data.Sqlite] -.implements.-> P
+    DB --> SQL[(Web SQLite)]
     E --> H[Commands / Clipboard / Undo / Redo]
     C --> O[TreeOperations]
     O --> V[Traversal + Visitors]
@@ -59,9 +62,9 @@ flowchart LR
 - **Operations**：Traversal 管 DFS 與 logging，Visitor 管容量／搜尋／XML，Strategy 管排序鍵與方向，Command 管編輯及復原
 - **Lifecycle**：`FileSystemSession` 持有 Root 與私有 `EditingSession`。`Reset(newRoot)` 替換 Root、清空 Clipboard／Undo／Redo，不屬於 Command、不可 Undo，非法 Root 保留原狀態
 
-**Single-threaded application session**：Root、Clipboard、Command History、Reset 不承諾 thread-safe，Core 本身不加入 locking。WebWorkspace 在 API boundary 序列化 session 存取。Singleton 唯一性不等於 thread safety。首次使用須 Reset 初始化。外部 Add* 應在建立 session 前完成，之後直接改樹會觸發既有 revision 過期檢查。
+**Single-threaded application session**：Root、Clipboard、Command History、Reset 不承諾 thread-safe，Core 本身不加入 locking。WebWorkspace 在 API boundary 序列化 session 存取。Singleton 唯一性不等於 thread safety。首次使用由 composition root 初始化：Console 呼叫 Reset，Web 呼叫 Restore 載入已驗證的 durable tree。外部 Add* 應在建立 session 前完成，之後直接改樹會觸發既有 revision 過期檢查。
 
-Core 保留單一 `.csproj`，以 `CloudFileManager.Core.Domain.*` 與 `CloudFileManager.Core.Application.*` 建立責任邊界：Application → Domain，Domain 不依賴 Application。Domain 保存 Nodes、值、Prototype 與純查詢 Visitors，Application 負責 sessions/history/commands、排序、traversal/progress、XML、formatting/rendering 與 bootstrap samples。這是 namespace 分層，不是 assembly 隔離。現有 ArchitectureTests 另以 compiled metadata／IL 檢查依賴方向與 mutation caller 白名單，包含負向案例。
+Core 保留單一 `.csproj`，以 `CloudFileManager.Core.Domain.*` 與 `CloudFileManager.Core.Application.*` 建立責任邊界：Application → Domain，Domain 不依賴 Application、Infrastructure 或 SQLite。Domain 保存 Nodes、值、Prototype 與純查詢 Visitors，Application 負責 sessions/history/commands、排序、traversal/progress、XML、formatting/rendering 與 bootstrap samples。這是 namespace 分層，不是 assembly 隔離。現有 ArchitectureTests 另以 compiled metadata／IL 檢查依賴方向與 mutation caller 白名單，包含負向案例。
 
 `FsNode.Details` 與 `BinarySize.Format` 已搬至 Application 的 `NodeDetailsFormatter.Format(node)`／`BinarySizeFormatter.Format(bytes)`，既有輸出格式保持不變。`TreeOperations` 是薄入口，委派 Queries／Rendering／Export，原 Console 預設 logging 保留。詳見 [TASK-007 設計](spaces/core-layering-refactor/sa/design.md)。
 
@@ -90,7 +93,7 @@ classDiagram
 
 只有 Root 的 Parent 為 null，其他目錄與所有檔案均有一個父目錄。Delete 移出活樹，但 Command 保留原節點及位置供 Undo，Paste 建立獨立新 ID 與父子關係，不把原節點掛到兩處。
 
-目前 runtime composition 與生命週期限制見 [TASK-010 設計](spaces/session-lifecycle-di-implementation/sa/design.md)；最初 Singleton 模型保留於 [TASK-003 Domain Model](spaces/visitor-singleton-enhancement/sa/domain-model.md)。
+目前 session injection 見 [TASK-010 設計](spaces/session-lifecycle-di-implementation/sa/design.md)，Web persistence bootstrap 與生命週期見 [TASK-011 設計](spaces/sqlite-persistence-architecture/sa/design.md)；最初 Singleton 模型保留於 [TASK-003 Domain Model](spaces/visitor-singleton-enhancement/sa/domain-model.md)。
 
 ## 6. ER Model
 
@@ -119,7 +122,7 @@ erDiagram
 
 上圖為閱讀摘要。完整欄位與約束見 [schema.sql](schema.sql)、[schema-tags.sql](schema-tags.sql)、[詳細 ER](spaces/visitor-singleton-enhancement/sa/er-model.md)：TPH 映射繼承、父節點必須是 Directory、至多一個 Root、型別 metadata CHECK、同層名稱唯一、Tag 關聯不可重複。頁數、解析度、編碼與 XmlAlias 依型別限制。
 
-SQLite schema 用於驗證 ER，應用仍是記憶體模型。Clipboard、History 與 Singleton context 不持久化，也不新增 session 資料表。
+根目錄 SQLite schema 保留原題 ER 驗證；Web 使用 [versioned production schema](src/CloudFileManager.Infrastructure/Schema/v1.sql)，另存 sibling ordering、schema version、durable revision 與 commit receipt。Clipboard、History 與 UI/session state 不持久化。
 
 ## 7. Design Patterns
 
@@ -196,12 +199,13 @@ AI 產出的方案仍需要釐清需求與驗證，因此採用 PM → SA → DE
 | [TASK-008](spaces/xunit-test-migration/) | 為整合標準 `dotnet test` 流程，將四個 custom C# runners 遷移至 xUnit，保留 72 cases 的 assertions、負例與邊界覆蓋，以及非 C# 驗證責任，不改 production | [Status](spaces/xunit-test-migration/status.md)／[coverage mapping](spaces/xunit-test-migration/sa/migration-map.md) |
 | [TASK-009](spaces/session-lifecycle-di-refactor/) | **CANCELLED / NOT IMPLEMENTED — Human scope decision, not technical failure**。完成 DI/session lifecycle architecture exploration 後，Human Gate 決定本版不實作。未進 DEV，未執行實作驗證，既有 classic GoF Singleton 保持不變 | [Status](spaces/session-lifecycle-di-refactor/status.md)／[SA handoff 與結案](spaces/session-lifecycle-di-refactor/sa/handoff.md) |
 | [TASK-010](spaces/session-lifecycle-di-implementation/) | **DONE / PASS**：保留 GoF Singleton，Application contract 注入，bootstrap 管理 Reset；consumer isolation 不等於 production 多 session | [Status](spaces/session-lifecycle-di-implementation/status.md)／[設計](spaces/session-lifecycle-di-implementation/sa/design.md) |
+| [TASK-011](spaces/sqlite-persistence-architecture/) | Web-only SQLite：完整 durable tree transaction、stable-ID hydration、失敗補償與 fail-closed；Console 不變 | [Status](spaces/sqlite-persistence-architecture/status.md)／[設計](spaces/sqlite-persistence-architecture/sa/design.md) |
 
-舊決策與當時的「未 commit」等狀態是歷史快照，不回寫成現在的結果。`spaces/` 保留各次任務原貌，[根目錄 VALIDATION](VALIDATION.md)／[初始套件驗證](docs/VALIDATION.md) 屬早期記錄，**各任務結果以自己的 status／test report 為準。Angular migration 見 TASK-006，Core 分層見 TASK-007，xUnit migration 見 TASK-008；目前 dependency boundary 與 regression 驗證見 TASK-010。TASK-009 仍為取消實作的架構探索**。
+舊決策與當時的「未 commit」等狀態是歷史快照，不回寫成現在的結果。`spaces/` 保留各次任務原貌，[根目錄 VALIDATION](VALIDATION.md)／[初始套件驗證](docs/VALIDATION.md) 屬早期記錄，**各任務結果以自己的 status／test report 為準。Angular migration 見 TASK-006，Core 分層見 TASK-007，xUnit migration 見 TASK-008；目前 dependency boundary 見 TASK-010，SQLite persistence 與最新 regression 驗證見 TASK-011。TASK-009 仍為取消實作的架構探索**。
 
 ## 12. Build / Run
 
-需要 **.NET 10 SDK**（已驗證 10.0.401），Python **3.9+** 含標準庫 SQLite，用於 schema／完整驗證。Production C# 專案沒有外部 NuGet 套件。xUnit 測試專案使用 xunit.v3、xunit.runner.visualstudio 與 Microsoft.NET.Test.Sdk，首次 build/test 需要還原 NuGet dependencies。Web frontend 使用 Node 24.21.0（或 Angular 22 支援的 Node 版本）、Angular 22.2.0、TypeScript 6.0.3，npm lockfile 固定依賴。在 repository 根目錄執行：
+需要 **.NET 10 SDK**（已驗證 10.0.401），Python **3.9+** 含標準庫 SQLite，用於 schema／完整驗證。Core／Console 沒有外部 NuGet 套件；Web 的 Infrastructure 使用 Microsoft.Data.Sqlite 10.0.12。xUnit 測試專案使用 xunit.v3、xunit.runner.visualstudio 與 Microsoft.NET.Test.Sdk，首次 build/test 需要還原 NuGet dependencies。Web frontend 使用 Node 24.21.0（或 Angular 22 支援的 Node 版本）、Angular 22.2.0、TypeScript 6.0.3，npm lockfile 固定依賴。在 repository 根目錄執行：
 
 ```sh
 dotnet build CloudFileManager.slnx -c Release
@@ -225,15 +229,19 @@ dotnet run --project src/CloudFileManager.Web -c Release --no-build -- --urls ht
 
 開啟 http://localhost:5080 。**先 build Angular**：輸出到 ignored `Web/wwwroot`，由 ASP.NET Core 同 origin 提供，單獨 dotnet build 不會產生 frontend。開發時可另在 Angular 目錄 `npm start`（proxy `/api` 到 5080）。
 
-UI 有排序、選取、Tags、Copy/Paste、Delete、Undo/Redo、selected subtree 容量／extension search／XML download。Observer 由真實 traversal events 更新。Refresh 重新取得 server session，不重置樹或歷史，重新啟動 server 才建立乾淨 sample。多個瀏覽器共用同一 application session，不提供使用者隔離。
+UI 有排序、選取、Tags、Copy/Paste、Delete、Undo/Redo、selected subtree 容量／extension search／XML download。Observer 由真實 traversal events 更新。Refresh 重新取得 server session，不重置樹或歷史，重新啟動 server 載入已保存的樹，並清空 Clipboard／History／畫面 runtime state；只有尚未初始化的資料庫才建立 sample。多個瀏覽器共用同一 application session，不提供使用者隔離。
+
+Web 預設資料庫為 `src/CloudFileManager.Web/App_Data/filesystem.db`（ignored）。可用環境變數 `FileSystem__DatabasePath` 或啟動參數 `--FileSystem:DatabasePath /path/to/filesystem.db` 指定位置。每個 DB 僅支援一個 Web application owner；Console 不讀寫此 DB。
+
+每次成功的 Delete／Paste／Tag／Undo／Redo 都在回報成功前完成 durable-tree transaction。確認 rollback 時保留操作前的樹、Clipboard 與完整 history；commit outcome 不明時 session unavailable，需處理原因並重啟，不會清除 history 後假裝成功。無效／不支援版本的 DB 拒絕啟動，不自動覆寫。SQLite 不保存 UI selection、progress、logs 或 Undo／Redo history。
 
 ## 13. Testing & Verification
 
-C# 測試使用 **xUnit v3**，標準入口為 repository root 的 `dotnet test`。四個 projects 共 **98 cases**：Core 14、Bonus 20、Architecture 18（既有 12＋TASK-007 layer checks 6）、Web 46（原 20 案例在 Singleton／isolated 兩種模式執行，加 6 項 dependency/composition checks）。Python schema 12＋Tag schema 6 與 Angular NDJSON 8 項保留原工具，各框架結果分開報告。C# 結果不代表 browser／visual 驗證。
+C# 測試使用 **xUnit v3**，標準入口為 repository root 的 `dotnet test`。五個 projects 共 **127 cases**：Core 14、Bonus 20、Architecture 18（既有 12＋TASK-007 layer checks 6）、Web 46（原 20 案例在 Singleton／isolated 兩種模式執行，加 6 項 dependency/composition checks）、Persistence 29（真實 temporary SQLite 與 failure／restart coverage）。Python schema 12＋Tag schema 6 與 Angular NDJSON 8 項保留原工具，各框架結果分開報告。C# 結果不代表 browser／visual 驗證。
 
-TASK-010 已驗證：C# / xUnit **98/98**（含 Core layering Architecture **6/6**）、Python schema **18/18**、Angular **8/8**。Release Rebuild、Console／Web smoke、真實 XML download、Reference A／B 各自 **PASS**；Angular build 首輪 REWORK 與成功重試均保留於 evidence。
+TASK-011 本輪結果：C# / xUnit **127/127**（保留既有 98，新增 Persistence 29，含 Core layering Architecture **6/6**）、Python schema **18/18**、Angular **8/8**。Release Rebuild、Console／Web smoke、真實 XML download、Reference A／B、Web SQLite restart 各自 **PASS**。失敗嘗試與 REWORK 均保留於各任務 evidence。
 
-[TASK-008 coverage mapping](spaces/xunit-test-migration/sa/migration-map.md) 保留 legacy ID、原 assertions／負例／邊界，[TASK-010 最新報告](spaces/session-lifecycle-di-implementation/test/test-report.md) 提供本輪命令、exit codes 與 evidence。歷史 TASK-006／007 PASS 不代替本輪驗證。
+[TASK-008 coverage mapping](spaces/xunit-test-migration/sa/migration-map.md) 保留 legacy ID、原 assertions／負例／邊界，[TASK-011 最新報告](spaces/sqlite-persistence-architecture/test/test-report.md) 提供本輪命令、exit codes 與 evidence。歷史 TASK-006／007 PASS 不代替本輪驗證。
 
 ```sh
 cd src/CloudFileManager.Angular
@@ -248,9 +256,9 @@ python3 tests/verify_tag_schema.py
 
 Visual acceptance 使用 [Reference A](docs/reference-ui.png) 2914×948 與 [Reference B](docs/reference-ui-search-progress.png) 2028×682。Search match highlight 與 selection 分離，進度／日誌不得預填。XML 必須實際由瀏覽器下載。自動 suites 不能取代 visual／download review。
 
-每個 C# case 可由 xUnit 個別 discovery／執行，failure 由 `dotnet test` 非零 exit code 回報。四個 test assemblies 內採序列執行，真實 Singleton cases 每案 Reset；isolated consumer cases 與純 Visitor cases 不使用全域 Reset，A01 冷啟動以 test-only child process 觀察，沒有 production test hook。可用 `dotnet test tests/CloudFileManager.ArchitectureTests --filter LegacyId=A01` 單獨驗證，或加入 `--logger trx --results-directory /tmp/cloud-file-manager-test-results` 保存標準報告。Web tests 直接驗證 WebWorkspace，真正 HTTP、XML download 與 Reference A/B 另行驗證。
+每個 C# case 可由 xUnit 個別 discovery／執行，failure 由 `dotnet test` 非零 exit code 回報。五個 test assemblies 內採序列執行，真實 Singleton cases 每案 Reset；isolated consumer cases 與純 Visitor cases 不使用全域 Reset，A01 冷啟動以 test-only child process 觀察，沒有 production test hook。可用 `dotnet test tests/CloudFileManager.ArchitectureTests --filter LegacyId=A01` 單獨驗證，或加入 `--logger trx --results-directory /tmp/cloud-file-manager-test-results` 保存標準報告。Web tests 直接驗證 WebWorkspace，真正 HTTP、XML download 與 Reference A/B 另行驗證。
 
-舊 TASK runner 保留作為 baseline-bound 歷史工具，不應對目前版本執行或寫回已完成任務。目前驗證入口與 evidence 位於 `spaces/session-lifecycle-di-implementation/test/`，Python schema scripts 仍是現行獨立檢查。
+舊 TASK runner 保留作為 baseline-bound 歷史工具，不應對目前版本執行或寫回已完成任務。目前驗證入口與 evidence 位於 `spaces/sqlite-persistence-architecture/test/`，Python schema scripts 仍是現行獨立檢查。
 
 ## 14. Repository Structure
 
@@ -259,7 +267,8 @@ CloudFileManager.slnx
 src/
   CloudFileManager.Core/              # 單一 project
     Domain/                          # Nodes / Values / Visiting / Prototypes
-    Application/                     # Sessions / Commands / Sorting / Traversal / Export / Formatting
+    Application/                     # Sessions / Persistence port / Commands / Sorting / Traversal / Export / Formatting
+  CloudFileManager.Infrastructure/    # Web SQLite / versioned schema / aggregate store
   CloudFileManager.Angular/           # Typed components / presentation store / stream parser
   CloudFileManager.Web/               # API / server session projection / generated wwwroot
   CloudFileManager.Console/           # Mandatory / XML / Bonus 入口
@@ -267,6 +276,7 @@ tests/
   CloudFileManager.Tests/             # Core 14；原題資料與 XML fixtures
   CloudFileManager.BonusTests/        # Bonus 20
   CloudFileManager.ArchitectureTests/ # Visitor / Singleton 12 + Core layering checks 6
+  CloudFileManager.PersistenceTests/  # 29 persistence / rollback / restart cases
   verify_schema.py                   # Schema 12
   verify_tag_schema.py                # Tag schema 6
   CloudFileManager.WebTests/          # Web dual-mode 40 + dependency/composition 6
@@ -285,6 +295,7 @@ spaces/
   xunit-test-migration/                # TASK-008
   session-lifecycle-di-refactor/       # TASK-009 CANCELLED / NOT IMPLEMENTED
   session-lifecycle-di-implementation/ # TASK-010
+  sqlite-persistence-architecture/     # TASK-011
 ```
 
 程式／solution 使用 **CloudFileManager**，GitHub repository 名稱為 **CloudFileManager**。Build outputs、local IDE files 與 `.env` 設定由 `.gitignore` 排除，skills 與 workflow artifacts 保留在版本控制中。

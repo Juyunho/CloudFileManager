@@ -1,0 +1,11 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  CloudFileManager.Core -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/src/CloudFileManager.Core/bin/Release/net10.0/CloudFileManager.Core.dll
+  CloudFileManager.Infrastructure -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/src/CloudFileManager.Infrastructure/bin/Release/net10.0/CloudFileManager.Infrastructure.dll
+  CloudFileManager.Web -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/src/CloudFileManager.Web/bin/Release/net10.0/CloudFileManager.Web.dll
+  CloudFileManager.PersistenceTests -> /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.PersistenceTests/bin/Release/net10.0/CloudFileManager.PersistenceTests.dll
+Test run for /Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.PersistenceTests/bin/Release/net10.0/CloudFileManager.PersistenceTests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+Results File: /Users/juyunho/Documents/Code/winbond/CloudFileManager/spaces/sqlite-persistence-architecture/dev/evidence/trx-r3/_yunMacBook-Pro_2026-10-07_12_51_11_net10.0.trx
+
+Passed!  - Failed:     0, Passed:    29, Skipped:     0, Total:    29, Duration: 1 s - CloudFileManager.PersistenceTests.dll (net10.0)

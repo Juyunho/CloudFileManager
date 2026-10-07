@@ -1,0 +1,15 @@
+ M .gitignore
+ M CloudFileManager.slnx
+ M README.md
+ M src/CloudFileManager.Core/Application/Sessions/EditingSession.cs
+ M src/CloudFileManager.Core/Application/Sessions/FileSystemSession.cs
+ M src/CloudFileManager.Core/Domain/Nodes/Nodes.cs
+ M src/CloudFileManager.Web/CloudFileManager.Web.csproj
+ M src/CloudFileManager.Web/Program.cs
+ M src/CloudFileManager.Web/WebWorkspace.cs
+ M tests/CloudFileManager.ArchitectureTests/Architecture/LayerDependencyTests.cs
+ M tests/CloudFileManager.WebTests/DependencyInjectionTests.cs
+?? spaces/sqlite-persistence-architecture/
+?? src/CloudFileManager.Core/Application/Persistence/
+?? src/CloudFileManager.Infrastructure/
+?? tests/CloudFileManager.PersistenceTests/

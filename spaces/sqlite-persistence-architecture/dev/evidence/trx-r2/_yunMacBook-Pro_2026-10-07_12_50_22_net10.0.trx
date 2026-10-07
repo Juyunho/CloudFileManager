@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="5c8ed72e-9f00-4775-802f-38ee3a658b84" name="@yunMacBook-Pro 2026-10-07 12:50:22" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-07T12:50:22.3209160+08:00" queuing="2026-10-07T12:50:22.3209160+08:00" start="2026-10-07T12:50:21.0903300+08:00" finish="2026-10-07T12:50:22.3552560+08:00" />
+  <TestSettings name="default" id="ce0840fc-8aa0-484d-b602-524db1781304">
+    <Deployment runDeploymentRoot="_yunMacBook-Pro_2026-10-07_12_50_22" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="2ed12c1b-f9e4-43bd-8556-38fa3213b140" testId="96b8a7b5-aaf9-7e30-24b4-9be84955ac57" testName="B13 no-op failed Copy and sorting preserve Redo and entry counts" computerName="yunMacBook-Pro" duration="00:00:00.0002739" startTime="2026-10-07T12:50:22.2560530+08:00" endTime="2026-10-07T12:50:22.2563340+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ed12c1b-f9e4-43bd-8556-38fa3213b140" />
+    <UnitTestResult executionId="d6a17496-e8a1-4000-9740-d3434d12b924" testId="b6f5a18d-2bbf-19f0-ac00-8613e53c5966" testName="B06 Delete full subtree and exact original position/identity Undo Redo" computerName="yunMacBook-Pro" duration="00:00:00.0006407" startTime="2026-10-07T12:50:22.2897080+08:00" endTime="2026-10-07T12:50:22.2904010+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6a17496-e8a1-4000-9740-d3434d12b924" />
+    <UnitTestResult executionId="8aea0621-d672-48e4-abb2-5fd65579e117" testId="4f77cdcd-da0e-6a64-87f1-b76dab6a7d85" testName="B12 Tag catalog multi-tag directory/file readonly and exact Undo" computerName="yunMacBook-Pro" duration="00:00:00.0013195" startTime="2026-10-07T12:50:22.2531150+08:00" endTime="2026-10-07T12:50:22.2544590+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8aea0621-d672-48e4-abb2-5fd65579e117" />
+    <UnitTestResult executionId="b9396e28-62b4-492d-994a-015b222ebace" testId="bc886e6b-698c-d92e-a168-87900a7983ef" testName="B15 mixed operations Undo all Redo all exact states" computerName="yunMacBook-Pro" duration="00:00:00.0003568" startTime="2026-10-07T12:50:22.2784910+08:00" endTime="2026-10-07T12:50:22.2788800+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9396e28-62b4-492d-994a-015b222ebace" />
+    <UnitTestResult executionId="65d1cc9d-3d1e-4baf-b2d3-b8c01ab7b601" testId="a85b4d02-0165-d95b-14f3-d17964aedfc6" testName="B04 sorting and Tags leave baseline XML traversal intact" computerName="yunMacBook-Pro" duration="00:00:00.0578515" startTime="2026-10-07T12:50:22.1701720+08:00" endTime="2026-10-07T12:50:22.2337190+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="65d1cc9d-3d1e-4baf-b2d3-b8c01ab7b601" />
+    <UnitTestResult executionId="b912ad96-1666-4c2f-9840-979d8aa85200" testId="3e051bf9-fce5-f1a0-b4e2-c8fecf3450e3" testName="B09 each Paste independent and snapshot immutable" computerName="yunMacBook-Pro" duration="00:00:00.0010704" startTime="2026-10-07T12:50:22.2863970+08:00" endTime="2026-10-07T12:50:22.2875430+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b912ad96-1666-4c2f-9840-979d8aa85200" />
+    <UnitTestResult executionId="1d7ee67c-ec84-4f5a-b156-4caf4477273b" testId="59bc26cc-32ab-8b9c-bd1b-5fe4fca9ad8c" testName="B19 Copy into descendant finite snapshot without cycles" computerName="yunMacBook-Pro" duration="00:00:00.0009639" startTime="2026-10-07T12:50:22.2549630+08:00" endTime="2026-10-07T12:50:22.2559350+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1d7ee67c-ec84-4f5a-b156-4caf4477273b" />
+    <UnitTestResult executionId="8ae3a4a8-c8ad-450a-9bda-ad5cd46a1ab5" testId="882543f8-57d5-6410-7b2c-168f77cdb8d4" testName="B01 Name stable Asc/Desc directories first" computerName="yunMacBook-Pro" duration="00:00:00.0002431" startTime="2026-10-07T12:50:22.2485080+08:00" endTime="2026-10-07T12:50:22.2487750+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ae3a4a8-c8ad-450a-9bda-ad5cd46a1ab5" />
+    <UnitTestResult executionId="ac8794d5-4778-4ef5-95ab-ba595e5420ba" testId="2fadbe8e-d53f-29b4-2f9a-7bede440ce6a" testName="B07 root foreign detached invalid operations preserve state/history" computerName="yunMacBook-Pro" duration="00:00:00.0006382" startTime="2026-10-07T12:50:22.2630020+08:00" endTime="2026-10-07T12:50:22.2636690+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac8794d5-4778-4ef5-95ab-ba595e5420ba" />
+    <UnitTestResult executionId="422cc045-f1a3-4f53-896e-144a17d50cdb" testId="4976b419-5c72-d0fb-ab15-aae959093118" testName="B20 baseline Ordinal uniqueness not changed by sorting policy" computerName="yunMacBook-Pro" duration="00:00:00.0035355" startTime="2026-10-07T12:50:22.2384730+08:00" endTime="2026-10-07T12:50:22.2421200+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="422cc045-f1a3-4f53-896e-144a17d50cdb" />
+    <UnitTestResult executionId="6e87264a-d8a1-4668-b9fa-cbef5afecc28" testId="29528001-baa2-54d3-5762-869d432d42c6" testName="B17 deep subtree snapshot Paste Delete Undo iterative" computerName="yunMacBook-Pro" duration="00:00:00.0027425" startTime="2026-10-07T12:50:22.2574320+08:00" endTime="2026-10-07T12:50:22.2602050+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e87264a-d8a1-4668-b9fa-cbef5afecc28" />
+    <UnitTestResult executionId="e58065ab-2d6b-4630-8b46-8c95b423efbc" testId="1bebc2c9-4188-e3d9-cd4e-a8f12fcaa98d" testName="B16 sessions isolate clipboard/history and reject stale tree" computerName="yunMacBook-Pro" duration="00:00:00.0006656" startTime="2026-10-07T12:50:22.2615440+08:00" endTime="2026-10-07T12:50:22.2624960+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e58065ab-2d6b-4630-8b46-8c95b423efbc" />
+    <UnitTestResult executionId="a9afbae4-a05e-453c-8fa7-1ddc799ffdcf" testId="6a442f2f-703d-61ba-b15c-049f84eaab9b" testName="B11 Paste Undo Redo retains copy ID index metadata" computerName="yunMacBook-Pro" duration="00:00:00.0002421" startTime="2026-10-07T12:50:22.2546200+08:00" endTime="2026-10-07T12:50:22.2548740+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9afbae4-a05e-453c-8fa7-1ddc799ffdcf" />
+    <UnitTestResult executionId="6d966bdf-05bb-4085-8e28-6f5e816b9df6" testId="09c30e96-2873-7d36-2c97-db4a632e312c" testName="B14 each successful new edit clears Redo" computerName="yunMacBook-Pro" duration="00:00:00.0010949" startTime="2026-10-07T12:50:22.2640970+08:00" endTime="2026-10-07T12:50:22.2652290+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d966bdf-05bb-4085-8e28-6f5e816b9df6" />
+    <UnitTestResult executionId="f3755019-6475-45ef-af16-3a88a5e23113" testId="c132b919-7526-af2b-5cdb-118514fb8e37" testName="B18 empty operations and empty directory copy" computerName="yunMacBook-Pro" duration="00:00:00.0000890" startTime="2026-10-07T12:50:22.2572400+08:00" endTime="2026-10-07T12:50:22.2573360+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f3755019-6475-45ef-af16-3a88a5e23113" />
+    <UnitTestResult executionId="9d881255-12f5-4c77-b1cd-51523ef84d4a" testId="9b4c54f3-9e2b-eb4d-25de-4f238a07e47b" testName="B10 conflicting Paste atomic and preserves pending Redo" computerName="yunMacBook-Pro" duration="00:00:00.0006579" startTime="2026-10-07T12:50:22.2883880+08:00" endTime="2026-10-07T12:50:22.2890870+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d881255-12f5-4c77-b1cd-51523ef84d4a" />
+    <UnitTestResult executionId="60670c65-a89e-4cb7-8458-30d7eefd02ac" testId="45fa305c-a236-39b8-44eb-cf3f30250caa" testName="B03 Extension empty directories and case-insensitive stability" computerName="yunMacBook-Pro" duration="00:00:00.0004025" startTime="2026-10-07T12:50:22.2477270+08:00" endTime="2026-10-07T12:50:22.2481620+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60670c65-a89e-4cb7-8458-30d7eefd02ac" />
+    <UnitTestResult executionId="974807e4-d252-4354-a083-e5472a93d7d1" testId="8be20a72-5329-0f7d-fa59-4c20fba9f6a0" testName="B05 sorting overflow invalid direction and readonly result" computerName="yunMacBook-Pro" duration="00:00:00.0038284" startTime="2026-10-07T12:50:22.2427070+08:00" endTime="2026-10-07T12:50:22.2465950+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="974807e4-d252-4354-a083-e5472a93d7d1" />
+    <UnitTestResult executionId="8c3495e7-5fed-4a86-ab2d-684507a21bf1" testId="834501ff-a9a6-119d-3d41-9b4111e82d84" testName="B02 Size subtree keys and stable ties" computerName="yunMacBook-Pro" duration="00:00:00.0003601" startTime="2026-10-07T12:50:22.2470370+08:00" endTime="2026-10-07T12:50:22.2474250+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c3495e7-5fed-4a86-ab2d-684507a21bf1" />
+    <UnitTestResult executionId="76790b10-9b0b-491b-8fec-4527d5483897" testId="a8474cd7-009b-4220-32b6-0d3e10e2f7fc" testName="B08 Copy full metadata Tags snapshot after source modifications/deletion" computerName="yunMacBook-Pro" duration="00:00:00.0006753" startTime="2026-10-07T12:50:22.2564510+08:00" endTime="2026-10-07T12:50:22.2571330+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76790b10-9b0b-491b-8fec-4527d5483897" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="B01 Name stable Asc/Desc directories first" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.bonustests/bin/release/net10.0/cloudfilemanager.bonustests.dll" id="882543f8-57d5-6410-7b2c-168f77cdb8d4">
+      <Execution id="8ae3a4a8-c8ad-450a-9bda-ad5cd46a1ab5" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.BonusTests/bin/Release/net10.0/CloudFileManager.BonusTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.BonusTests.SortingTests" name="B01" />
+    </UnitTest>
+    <UnitTest name="B06 Delete full subtree and exact original position/identity Undo Redo" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.bonustests/bin/release/net10.0/cloudfilemanager.bonustests.dll" id="b6f5a18d-2bbf-19f0-ac00-8613e53c5966">
+      <Execution id="d6a17496-e8a1-4000-9740-d3434d12b924" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.BonusTests/bin/Release/net10.0/CloudFileManager.BonusTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.BonusTests.EditingTests" name="B06" />
+    </UnitTest>
+    <UnitTest name="B17 deep subtree snapshot Paste Delete Undo iterative" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.bonustests/bin/release/net10.0/cloudfilemanager.bonustests.dll" id="29528001-baa2-54d3-5762-869d432d42c6">
+      <Execution id="6e87264a-d8a1-4668-b9fa-cbef5afecc28" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.BonusTests/bin/Release/net10.0/CloudFileManager.BonusTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.BonusTests.EditingTests" name="B17" />
+    </UnitTest>
+    <UnitTest name="B07 root foreign detached invalid operations preserve state/history" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.bonustests/bin/release/net10.0/cloudfilemanager.bonustests.dll" id="2fadbe8e-d53f-29b4-2f9a-7bede440ce6a">
+      <Execution id="ac8794d5-4778-4ef5-95ab-ba595e5420ba" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.BonusTests/bin/Release/net10.0/CloudFileManager.BonusTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.BonusTests.EditingTests" name="B07" />
+    </UnitTest>
+    <UnitTest name="B20 baseline Ordinal uniqueness not changed by sorting policy" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.bonustests/bin/release/net10.0/cloudfilemanager.bonustests.dll" id="4976b419-5c72-d0fb-ab15-aae959093118">
+      <Execution id="422cc045-f1a3-4f53-896e-144a17d50cdb" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.BonusTests/bin/Release/net10.0/CloudFileManager.BonusTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.BonusTests.SortingTests" name="B20" />
+    </UnitTest>
+    <UnitTest name="B14 each successful new edit clears Redo" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.bonustests/bin/release/net10.0/cloudfilemanager.bonustests.dll" id="09c30e96-2873-7d36-2c97-db4a632e312c">
+      <Execution id="6d966bdf-05bb-4085-8e28-6f5e816b9df6" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.BonusTests/bin/Release/net10.0/CloudFileManager.BonusTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.BonusTests.EditingTests" name="B14" />
+    </UnitTest>
+    <UnitTest name="B16 sessions isolate clipboard/history and reject stale tree" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.bonustests/bin/release/net10.0/cloudfilemanager.bonustests.dll" id="1bebc2c9-4188-e3d9-cd4e-a8f12fcaa98d">
+      <Execution id="e58065ab-2d6b-4630-8b46-8c95b423efbc" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.BonusTests/bin/Release/net10.0/CloudFileManager.BonusTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.BonusTests.EditingTests" name="B16" />
+    </UnitTest>
+    <UnitTest name="B18 empty operations and empty directory copy" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.bonustests/bin/release/net10.0/cloudfilemanager.bonustests.dll" id="c132b919-7526-af2b-5cdb-118514fb8e37">
+      <Execution id="f3755019-6475-45ef-af16-3a88a5e23113" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.BonusTests/bin/Release/net10.0/CloudFileManager.BonusTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.BonusTests.EditingTests" name="B18" />
+    </UnitTest>
+    <UnitTest name="B11 Paste Undo Redo retains copy ID index metadata" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.bonustests/bin/release/net10.0/cloudfilemanager.bonustests.dll" id="6a442f2f-703d-61ba-b15c-049f84eaab9b">
+      <Execution id="a9afbae4-a05e-453c-8fa7-1ddc799ffdcf" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.BonusTests/bin/Release/net10.0/CloudFileManager.BonusTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.BonusTests.EditingTests" name="B11" />
+    </UnitTest>
+    <UnitTest name="B04 sorting and Tags leave baseline XML traversal intact" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.bonustests/bin/release/net10.0/cloudfilemanager.bonustests.dll" id="a85b4d02-0165-d95b-14f3-d17964aedfc6">
+      <Execution id="65d1cc9d-3d1e-4baf-b2d3-b8c01ab7b601" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.BonusTests/bin/Release/net10.0/CloudFileManager.BonusTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.BonusTests.SortingTests" name="B04" />
+    </UnitTest>
+    <UnitTest name="B09 each Paste independent and snapshot immutable" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.bonustests/bin/release/net10.0/cloudfilemanager.bonustests.dll" id="3e051bf9-fce5-f1a0-b4e2-c8fecf3450e3">
+      <Execution id="b912ad96-1666-4c2f-9840-979d8aa85200" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.BonusTests/bin/Release/net10.0/CloudFileManager.BonusTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.BonusTests.EditingTests" name="B09" />
+    </UnitTest>
+    <UnitTest name="B08 Copy full metadata Tags snapshot after source modifications/deletion" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.bonustests/bin/release/net10.0/cloudfilemanager.bonustests.dll" id="a8474cd7-009b-4220-32b6-0d3e10e2f7fc">
+      <Execution id="76790b10-9b0b-491b-8fec-4527d5483897" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.BonusTests/bin/Release/net10.0/CloudFileManager.BonusTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.BonusTests.EditingTests" name="B08" />
+    </UnitTest>
+    <UnitTest name="B15 mixed operations Undo all Redo all exact states" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.bonustests/bin/release/net10.0/cloudfilemanager.bonustests.dll" id="bc886e6b-698c-d92e-a168-87900a7983ef">
+      <Execution id="b9396e28-62b4-492d-994a-015b222ebace" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.BonusTests/bin/Release/net10.0/CloudFileManager.BonusTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.BonusTests.EditingTests" name="B15" />
+    </UnitTest>
+    <UnitTest name="B05 sorting overflow invalid direction and readonly result" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.bonustests/bin/release/net10.0/cloudfilemanager.bonustests.dll" id="8be20a72-5329-0f7d-fa59-4c20fba9f6a0">
+      <Execution id="974807e4-d252-4354-a083-e5472a93d7d1" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.BonusTests/bin/Release/net10.0/CloudFileManager.BonusTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.BonusTests.SortingTests" name="B05" />
+    </UnitTest>
+    <UnitTest name="B12 Tag catalog multi-tag directory/file readonly and exact Undo" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.bonustests/bin/release/net10.0/cloudfilemanager.bonustests.dll" id="4f77cdcd-da0e-6a64-87f1-b76dab6a7d85">
+      <Execution id="8aea0621-d672-48e4-abb2-5fd65579e117" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.BonusTests/bin/Release/net10.0/CloudFileManager.BonusTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.BonusTests.EditingTests" name="B12" />
+    </UnitTest>
+    <UnitTest name="B02 Size subtree keys and stable ties" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.bonustests/bin/release/net10.0/cloudfilemanager.bonustests.dll" id="834501ff-a9a6-119d-3d41-9b4111e82d84">
+      <Execution id="8c3495e7-5fed-4a86-ab2d-684507a21bf1" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.BonusTests/bin/Release/net10.0/CloudFileManager.BonusTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.BonusTests.SortingTests" name="B02" />
+    </UnitTest>
+    <UnitTest name="B19 Copy into descendant finite snapshot without cycles" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.bonustests/bin/release/net10.0/cloudfilemanager.bonustests.dll" id="59bc26cc-32ab-8b9c-bd1b-5fe4fca9ad8c">
+      <Execution id="1d7ee67c-ec84-4f5a-b156-4caf4477273b" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.BonusTests/bin/Release/net10.0/CloudFileManager.BonusTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.BonusTests.EditingTests" name="B19" />
+    </UnitTest>
+    <UnitTest name="B13 no-op failed Copy and sorting preserve Redo and entry counts" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.bonustests/bin/release/net10.0/cloudfilemanager.bonustests.dll" id="96b8a7b5-aaf9-7e30-24b4-9be84955ac57">
+      <Execution id="2ed12c1b-f9e4-43bd-8556-38fa3213b140" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.BonusTests/bin/Release/net10.0/CloudFileManager.BonusTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.BonusTests.EditingTests" name="B13" />
+    </UnitTest>
+    <UnitTest name="B03 Extension empty directories and case-insensitive stability" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.bonustests/bin/release/net10.0/cloudfilemanager.bonustests.dll" id="45fa305c-a236-39b8-44eb-cf3f30250caa">
+      <Execution id="60670c65-a89e-4cb7-8458-30d7eefd02ac" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.BonusTests/bin/Release/net10.0/CloudFileManager.BonusTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.BonusTests.SortingTests" name="B03" />
+    </UnitTest>
+    <UnitTest name="B10 conflicting Paste atomic and preserves pending Redo" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.bonustests/bin/release/net10.0/cloudfilemanager.bonustests.dll" id="9b4c54f3-9e2b-eb4d-25de-4f238a07e47b">
+      <Execution id="9d881255-12f5-4c77-b1cd-51523ef84d4a" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.BonusTests/bin/Release/net10.0/CloudFileManager.BonusTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.BonusTests.EditingTests" name="B10" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="96b8a7b5-aaf9-7e30-24b4-9be84955ac57" executionId="2ed12c1b-f9e4-43bd-8556-38fa3213b140" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b6f5a18d-2bbf-19f0-ac00-8613e53c5966" executionId="d6a17496-e8a1-4000-9740-d3434d12b924" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4f77cdcd-da0e-6a64-87f1-b76dab6a7d85" executionId="8aea0621-d672-48e4-abb2-5fd65579e117" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bc886e6b-698c-d92e-a168-87900a7983ef" executionId="b9396e28-62b4-492d-994a-015b222ebace" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a85b4d02-0165-d95b-14f3-d17964aedfc6" executionId="65d1cc9d-3d1e-4baf-b2d3-b8c01ab7b601" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3e051bf9-fce5-f1a0-b4e2-c8fecf3450e3" executionId="b912ad96-1666-4c2f-9840-979d8aa85200" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59bc26cc-32ab-8b9c-bd1b-5fe4fca9ad8c" executionId="1d7ee67c-ec84-4f5a-b156-4caf4477273b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="882543f8-57d5-6410-7b2c-168f77cdb8d4" executionId="8ae3a4a8-c8ad-450a-9bda-ad5cd46a1ab5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2fadbe8e-d53f-29b4-2f9a-7bede440ce6a" executionId="ac8794d5-4778-4ef5-95ab-ba595e5420ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4976b419-5c72-d0fb-ab15-aae959093118" executionId="422cc045-f1a3-4f53-896e-144a17d50cdb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="29528001-baa2-54d3-5762-869d432d42c6" executionId="6e87264a-d8a1-4668-b9fa-cbef5afecc28" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1bebc2c9-4188-e3d9-cd4e-a8f12fcaa98d" executionId="e58065ab-2d6b-4630-8b46-8c95b423efbc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6a442f2f-703d-61ba-b15c-049f84eaab9b" executionId="a9afbae4-a05e-453c-8fa7-1ddc799ffdcf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="09c30e96-2873-7d36-2c97-db4a632e312c" executionId="6d966bdf-05bb-4085-8e28-6f5e816b9df6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c132b919-7526-af2b-5cdb-118514fb8e37" executionId="f3755019-6475-45ef-af16-3a88a5e23113" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9b4c54f3-9e2b-eb4d-25de-4f238a07e47b" executionId="9d881255-12f5-4c77-b1cd-51523ef84d4a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="45fa305c-a236-39b8-44eb-cf3f30250caa" executionId="60670c65-a89e-4cb7-8458-30d7eefd02ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8be20a72-5329-0f7d-fa59-4c20fba9f6a0" executionId="974807e4-d252-4354-a083-e5472a93d7d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="834501ff-a9a6-119d-3d41-9b4111e82d84" executionId="8c3495e7-5fed-4a86-ab2d-684507a21bf1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a8474cd7-009b-4220-32b6-0d3e10e2f7fc" executionId="76790b10-9b0b-491b-8fec-4527d5483897" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="20" executed="20" passed="20" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.5+1b188a7b0a (64-bit .NET 10.0.12)
+[xUnit.net 00:00:00.23]   Discovering: CloudFileManager.BonusTests
+[xUnit.net 00:00:00.46]   Discovered:  CloudFileManager.BonusTests
+[xUnit.net 00:00:00.68]   Starting:    CloudFileManager.BonusTests
+[xUnit.net 00:00:00.89]   Finished:    CloudFileManager.BonusTests (ID = '40585854424698a46a9deeae9e45ddf1fed85220f6beff598da891cf04ffe78d')
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

@@ -92,8 +92,9 @@ public sealed class DependencyInjectionTests
 
 public sealed class ProductionCompositionTests : IDisposable
 {
-    private static void Register(IServiceCollection services) =>
-        typeof(WebWorkspace).Assembly.GetType("Program")!.GetMethod("ConfigureServices", BindingFlags.Public | BindingFlags.Static)!.Invoke(null, new object[] { services });
+    private readonly string directory = Path.Combine(Path.GetTempPath(), "cfm-composition-" + Guid.NewGuid());
+    private void Register(IServiceCollection services) =>
+        typeof(WebWorkspace).Assembly.GetType("Program")!.GetMethod("ConfigureServices", BindingFlags.Public | BindingFlags.Static)!.Invoke(null, new object[] { services, Path.Combine(directory, "filesystem.db") });
 
     [Fact]
     public void ActualRegistrationUsesGoFInstanceAndPreservesStateAcrossScopes()
@@ -140,5 +141,9 @@ public sealed class ProductionCompositionTests : IDisposable
         Assert.Equal(1, isolated.UndoCount);
     }
 
-    public void Dispose() => FileSystemSession.Instance.Reset(DirectoryNode.CreateRoot("cleanup", DateTimeOffset.UnixEpoch));
+    public void Dispose()
+    {
+        FileSystemSession.Instance.Reset(DirectoryNode.CreateRoot("cleanup", DateTimeOffset.UnixEpoch));
+        if (Directory.Exists(directory)) Directory.Delete(directory, true);
+    }
 }

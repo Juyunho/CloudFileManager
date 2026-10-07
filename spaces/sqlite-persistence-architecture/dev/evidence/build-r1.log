@@ -1,0 +1,48 @@
+  Determining projects to restore...
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlite/index.json'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/list_microsoft.data.sqlite.dat-new' is denied.
+    Operation not permitted
+  Failed to download package 'Microsoft.Data.Sqlite.10.0.12' from 'https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlite/10.0.12/microsoft.data.sqlite.10.0.12.nupkg'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/nupkg_microsoft.data.sqlite.10.0.12.dat-new' is denied.
+    Operation not permitted
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlite.core/index.json'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/list_microsoft.data.sqlite.core.dat-new' is denied.
+    Operation not permitted
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/sqlitepclraw.bundle_e_sqlite3/index.json'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/list_sqlitepclraw.bundle_e_sqlite3.dat-new' is denied.
+    Operation not permitted
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/sqlitepclraw.core/index.json'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/list_sqlitepclraw.core.dat-new' is denied.
+    Operation not permitted
+  Failed to download package 'Microsoft.Data.Sqlite.Core.10.0.12' from 'https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlite.core/10.0.12/microsoft.data.sqlite.core.10.0.12.nupkg'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/nupkg_microsoft.data.sqlite.core.10.0.12.dat-new' is denied.
+    Operation not permitted
+  Failed to download package 'SQLitePCLRaw.core.2.1.12' from 'https://api.nuget.org/v3-flatcontainer/sqlitepclraw.core/2.1.12/sqlitepclraw.core.2.1.12.nupkg'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/nupkg_sqlitepclraw.core.2.1.12.dat-new' is denied.
+    Operation not permitted
+  Failed to download package 'SQLitePCLRaw.bundle_e_sqlite3.2.1.12' from 'https://api.nuget.org/v3-flatcontainer/sqlitepclraw.bundle_e_sqlite3/2.1.12/sqlitepclraw.bundle_e_sqlite3.2.1.12.nupkg'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/nupkg_sqlitepclraw.bundle_e_sqlite3.2.1.12.dat-new' is denied.
+    Operation not permitted
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/sqlitepclraw.provider.e_sqlite3/index.json'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/list_sqlitepclraw.provider.e_sqlite3.dat-new' is denied.
+    Operation not permitted
+  Retrying 'FindPackagesByIdAsync' for source 'https://api.nuget.org/v3-flatcontainer/sqlitepclraw.lib.e_sqlite3/index.json'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/list_sqlitepclraw.lib.e_sqlite3.dat-new' is denied.
+    Operation not permitted
+  Failed to download package 'SQLitePCLRaw.provider.e_sqlite3.2.1.12' from 'https://api.nuget.org/v3-flatcontainer/sqlitepclraw.provider.e_sqlite3/2.1.12/sqlitepclraw.provider.e_sqlite3.2.1.12.nupkg'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/nupkg_sqlitepclraw.provider.e_sqlite3.2.1.12.dat-new' is denied.
+    Operation not permitted
+  Failed to download package 'SQLitePCLRaw.lib.e_sqlite3.2.1.12' from 'https://api.nuget.org/v3-flatcontainer/sqlitepclraw.lib.e_sqlite3/2.1.12/sqlitepclraw.lib.e_sqlite3.2.1.12.nupkg'.
+  Access to the path '/Users/juyunho/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/nupkg_sqlitepclraw.lib.e_sqlite3.2.1.12.dat-new' is denied.
+    Operation not permitted
+/usr/local/share/dotnet/sdk/10.0.401/NuGet.targets(198,5): error : Access to the path '/Users/juyunho/.nuget/packages/sqlitepclraw.core' is denied. [/Users/juyunho/Documents/Code/winbond/CloudFileManager/CloudFileManager.slnx]
+/usr/local/share/dotnet/sdk/10.0.401/NuGet.targets(198,5): error :   Operation not permitted [/Users/juyunho/Documents/Code/winbond/CloudFileManager/CloudFileManager.slnx]
+
+Build FAILED.
+
+/usr/local/share/dotnet/sdk/10.0.401/NuGet.targets(198,5): error : Access to the path '/Users/juyunho/.nuget/packages/sqlitepclraw.core' is denied. [/Users/juyunho/Documents/Code/winbond/CloudFileManager/CloudFileManager.slnx]
+/usr/local/share/dotnet/sdk/10.0.401/NuGet.targets(198,5): error :   Operation not permitted [/Users/juyunho/Documents/Code/winbond/CloudFileManager/CloudFileManager.slnx]
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:16.49

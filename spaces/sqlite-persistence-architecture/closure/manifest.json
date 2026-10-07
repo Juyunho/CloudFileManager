@@ -1,0 +1,663 @@
+{
+  "counts": {
+    "Production": 14,
+    "Tests": 4,
+    "TASK-011 evidence": 142,
+    "README or docs": 1
+  },
+  "total": 161,
+  "groups": {
+    "Production": [
+      {
+        "path": ".gitignore",
+        "gitState": "modified"
+      },
+      {
+        "path": "CloudFileManager.slnx",
+        "gitState": "modified"
+      },
+      {
+        "path": "src/CloudFileManager.Core/Application/Persistence/FileSystemDocument.cs",
+        "gitState": "untracked"
+      },
+      {
+        "path": "src/CloudFileManager.Core/Application/Persistence/FileSystemDocumentMapper.cs",
+        "gitState": "untracked"
+      },
+      {
+        "path": "src/CloudFileManager.Core/Application/Persistence/IFileSystemStore.cs",
+        "gitState": "untracked"
+      },
+      {
+        "path": "src/CloudFileManager.Core/Application/Sessions/EditingSession.cs",
+        "gitState": "modified"
+      },
+      {
+        "path": "src/CloudFileManager.Core/Application/Sessions/FileSystemSession.cs",
+        "gitState": "modified"
+      },
+      {
+        "path": "src/CloudFileManager.Core/Domain/Nodes/Nodes.cs",
+        "gitState": "modified"
+      },
+      {
+        "path": "src/CloudFileManager.Infrastructure/CloudFileManager.Infrastructure.csproj",
+        "gitState": "untracked"
+      },
+      {
+        "path": "src/CloudFileManager.Infrastructure/Schema/v1.sql",
+        "gitState": "untracked"
+      },
+      {
+        "path": "src/CloudFileManager.Infrastructure/SqliteFileSystemStore.cs",
+        "gitState": "untracked"
+      },
+      {
+        "path": "src/CloudFileManager.Web/CloudFileManager.Web.csproj",
+        "gitState": "modified"
+      },
+      {
+        "path": "src/CloudFileManager.Web/Program.cs",
+        "gitState": "modified"
+      },
+      {
+        "path": "src/CloudFileManager.Web/WebWorkspace.cs",
+        "gitState": "modified"
+      }
+    ],
+    "Tests": [
+      {
+        "path": "tests/CloudFileManager.ArchitectureTests/Architecture/LayerDependencyTests.cs",
+        "gitState": "modified"
+      },
+      {
+        "path": "tests/CloudFileManager.PersistenceTests/CloudFileManager.PersistenceTests.csproj",
+        "gitState": "untracked"
+      },
+      {
+        "path": "tests/CloudFileManager.PersistenceTests/PersistenceTests.cs",
+        "gitState": "untracked"
+      },
+      {
+        "path": "tests/CloudFileManager.WebTests/DependencyInjectionTests.cs",
+        "gitState": "modified"
+      }
+    ],
+    "TASK-011 evidence": [
+      {
+        "path": "spaces/sqlite-persistence-architecture/closure/architecture-r1-environment.md",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/closure/architecture-r1.trx",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/closure/architecture-r2.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/closure/architecture-r2.trx",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/closure/audit.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/closure/manifest.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/closure/prior-artifact-hashes.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/closure/readme-links.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/closure/review.md",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/dev/checks.md",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/dev/evidence/build-r1.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/dev/evidence/build-r2.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/dev/evidence/test-r1.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/dev/evidence/test-r2.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/dev/evidence/test-r3.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/dev/evidence/trx-r1/_yunMacBook-Pro_2026-10-07_12_49_44_net10.0.trx",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/dev/evidence/trx-r1/_yunMacBook-Pro_2026-10-07_12_49_44_net10.0[1].trx",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/dev/evidence/trx-r1/_yunMacBook-Pro_2026-10-07_12_49_45_net10.0.trx",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/dev/evidence/trx-r1/_yunMacBook-Pro_2026-10-07_12_49_45_net10.0[1].trx",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/dev/evidence/trx-r2/_yunMacBook-Pro_2026-10-07_12_50_22_net10.0.trx",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/dev/evidence/trx-r2/_yunMacBook-Pro_2026-10-07_12_50_22_net10.0[1].trx",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/dev/evidence/trx-r2/_yunMacBook-Pro_2026-10-07_12_50_22_net10.0[2].trx",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/dev/evidence/trx-r2/_yunMacBook-Pro_2026-10-07_12_50_23_net10.0.trx",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/dev/evidence/trx-r2/_yunMacBook-Pro_2026-10-07_12_50_24_net10.0.trx",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/dev/evidence/trx-r3/_yunMacBook-Pro_2026-10-07_12_51_11_net10.0.trx",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/dev/grill-me.md",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/dev/handoff.md",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/dev/implementation.md",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/dev/rework.md",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/human-approval.md",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/pm/evidence/baseline.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/pm/grill-me.md",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/pm/handoff.md",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/pm/inventory.md",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/pm/requirements.md",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/request.md",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/sa/alternatives.md",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/sa/changes-and-tests.md",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/sa/design.md",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/sa/domain-model.md",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/sa/er-model.md",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/sa/grill-me.md",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/sa/handoff.md",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/sa/human-architecture-gate.md",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/sa/protection-check.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/status.md",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/summary.md",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/browser-review.md",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/defects.md",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/browser-r1/after-failure.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/browser-r1/after-restart-db.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/browser-r1/after-restart.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/browser-r1/before-failure-db.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/browser-r1/before-failure-dom.txt",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/browser-r1/before-failure.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/browser-r1/before-restart-db.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/browser-r1/before-restart.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/browser-r1/browser-download.xml",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/browser-r1/db-before-xml.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/browser-r1/downloads-before.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/browser-r1/failed-save-dom.txt",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/browser-r1/geometry-a.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/browser-r1/initial-dom.txt",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/browser-r1/reference-a.png",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/browser-r1/reference-b-dom.txt",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/browser-r1/reference-b.png",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/browser-r1/restart-check-r1.txt",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/browser-r1/restart-dom.txt",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/browser-r1/restart-verification.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/browser-r1/restart.png",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/browser-r1/retry-dom.txt",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/browser-r1/rollback-verification.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/browser-r1/xml-after.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/browser-r1/xml-before.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/browser-r1/xml-dom.txt",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/browser-r1/xml-verification.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/console-db-isolation.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/console-db-isolation.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/coverage-audit.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/final-audit.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/history-audit.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/angular-build.stderr.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/angular-build.stdout.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/angular-tests.stderr.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/angular-tests.stdout.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/cold-start-1.stderr.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/cold-start-1.stdout.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/cold-start-2.stderr.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/cold-start-2.stdout.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/commands.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/console-bonus.stderr.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/console-bonus.stdout.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/console-invalid.stderr.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/console-invalid.stdout.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/console-xml.stderr.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/console-xml.stdout.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/console.stderr.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/console.stdout.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/diff-check.stderr.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/diff-check.stdout.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/discovery.stderr.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/discovery.stdout.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/environment.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/environment.stderr.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/environment.stdout.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/git-after.stderr.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/git-after.stdout.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/git-before.stderr.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/git-before.stdout.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/head.stderr.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/head.stdout.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/inputs-after.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/inputs-before.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/mapped-trx.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/plain-dotnet-test.stderr.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/plain-dotnet-test.stdout.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/protected-baseline.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/release-rebuild.stderr.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/release-rebuild.stdout.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/result.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/schema.stderr.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/schema.stdout.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/smoke-assertions.json",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/tag-schema.stderr.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/tag-schema.stdout.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/trx/_yunMacBook-Pro_2026-10-07_12_53_26_net10.0.trx",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/trx/_yunMacBook-Pro_2026-10-07_12_53_27_net10.0.trx",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/trx/_yunMacBook-Pro_2026-10-07_12_53_27_net10.0[1].trx",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/trx/_yunMacBook-Pro_2026-10-07_12_53_27_net10.0[2].trx",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/trx/_yunMacBook-Pro_2026-10-07_12_53_27_net10.0[3].trx",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/web-project-cwd.stderr.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/web-project-cwd.stdout.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/xunit.stderr.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/r1/xunit.stdout.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/web-server-r1.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/evidence/web-server-r2.log",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/grill-me.md",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/handoff.md",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/run_verification.py",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/test-plan.md",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/test/test-report.md",
+        "gitState": "untracked"
+      },
+      {
+        "path": "spaces/sqlite-persistence-architecture/timeline.md",
+        "gitState": "untracked"
+      }
+    ],
+    "README or docs": [
+      {
+        "path": "README.md",
+        "gitState": "modified"
+      }
+    ]
+  }
+}

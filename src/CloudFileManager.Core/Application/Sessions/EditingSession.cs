@@ -1,3 +1,4 @@
+using CloudFileManager.Core.Application.Persistence;
 using CloudFileManager.Core.Domain.Nodes;
 using CloudFileManager.Core.Domain.Values;
 using CloudFileManager.Core.Domain.Prototypes;
@@ -9,10 +10,24 @@ namespace CloudFileManager.Core.Application.Sessions;
 public sealed class EditingSession
 {
     private readonly DirectoryNode root;
-    private readonly Stack<IEditCommand> undo = new();
-    private readonly Stack<IEditCommand> redo = new();
+    private Stack<IEditCommand> undo = new();
+    private Stack<IEditCommand> redo = new();
     private INodePrototype? clipboard;
     private long revision;
+    private readonly IFileSystemStore? store;
+    private long durableRevision;
+    private bool faulted;
+    public long DurableRevision => durableRevision;
+    public void EnsureAvailable()
+    {
+        if (faulted) throw new SessionUnavailableException("Session unavailable after an uncertain persistence outcome; restart required.");
+    }
+    public EditingSession(DirectoryNode root, IFileSystemStore store, long durableRevision) : this(root)
+    {
+        ArgumentNullException.ThrowIfNull(store);
+        ArgumentOutOfRangeException.ThrowIfNegative(durableRevision);
+        this.store = store; this.durableRevision = durableRevision;
+    }
     public EditingSession(DirectoryNode root)
     {
         ArgumentNullException.ThrowIfNull(root);
@@ -24,6 +39,7 @@ public sealed class EditingSession
     public bool HasClipboard => clipboard is not null;
     private void CheckVersion()
     {
+        EnsureAvailable();
         if (revision != root.State.Revision)
             throw new InvalidOperationException("Tree changed outside this session. Create a new session.");
     }
@@ -40,9 +56,52 @@ public sealed class EditingSession
     }
     private void Execute(IEditCommand command)
     {
-        command.Execute();
-        revision = root.State.Revision;
-        undo.Push(command); redo.Clear();
+        var nextUndo = new Stack<IEditCommand>(undo.Reverse()); nextUndo.Push(command);
+        Apply(command.Execute, command.Undo, nextUndo, new Stack<IEditCommand>());
+    }
+    private void Apply(Action forward, Action inverse, Stack<IEditCommand> nextUndo, Stack<IEditCommand> nextRedo)
+    {
+        var beforeRevision = root.State.Revision;
+        // Built-in commands validate/allocate before mutation; compensation retains the original objects.
+        forward();
+        var committedRevision = durableRevision;
+        try
+        {
+            if (store is not null)
+            {
+                var document = FileSystemDocumentMapper.Capture(root);
+                var operation = Guid.NewGuid();
+                CommitReceipt receipt;
+                try { receipt = store.Commit(document, durableRevision, operation); }
+                catch (PersistenceException ex) when (ex.Outcome == PersistenceOutcome.ConfirmedNotCommitted) { throw; }
+                catch (Exception ex)
+                {
+                    faulted = true;
+                    throw new SessionUnavailableException("Durable commit outcome is unknown; session stopped.", ex);
+                }
+                if (receipt.OperationId != operation || receipt.Revision != checked(durableRevision + 1))
+                {
+                    faulted = true;
+                    throw new SessionUnavailableException("Invalid durable commit receipt; session stopped.");
+                }
+                committedRevision = receipt.Revision;
+            }
+        }
+        catch (SessionUnavailableException) { throw; }
+        catch (Exception)
+        {
+            try { inverse(); root.State.Revision = beforeRevision; }
+            catch (Exception recovery)
+            {
+                faulted = true;
+                throw new SessionUnavailableException("In-memory compensation failed; session stopped.", recovery);
+            }
+            // Old stacks, clipboard, session revision and durable revision were never published.
+            throw;
+        }
+        // No callbacks or allocations after the durable commit.
+        undo = nextUndo; redo = nextRedo;
+        revision = root.State.Revision; durableRevision = committedRevision;
     }
     public void Copy(FsNode node) { CheckLive(node); clipboard = NodeSnapshot.Capture(node); }
     public FsNode Paste(DirectoryNode destination)
@@ -74,11 +133,15 @@ public sealed class EditingSession
     public bool Undo()
     {
         CheckVersion(); if (!undo.TryPeek(out var command)) return false;
-        command.Undo(); revision = root.State.Revision; undo.Pop(); redo.Push(command); return true;
+        var nextUndo = new Stack<IEditCommand>(undo.Reverse()); nextUndo.Pop();
+        var nextRedo = new Stack<IEditCommand>(redo.Reverse()); nextRedo.Push(command);
+        Apply(command.Undo, command.Execute, nextUndo, nextRedo); return true;
     }
     public bool Redo()
     {
         CheckVersion(); if (!redo.TryPeek(out var command)) return false;
-        command.Execute(); revision = root.State.Revision; redo.Pop(); undo.Push(command); return true;
+        var nextRedo = new Stack<IEditCommand>(redo.Reverse()); nextRedo.Pop();
+        var nextUndo = new Stack<IEditCommand>(undo.Reverse()); nextUndo.Push(command);
+        Apply(command.Execute, command.Undo, nextUndo, nextRedo); return true;
     }
 }

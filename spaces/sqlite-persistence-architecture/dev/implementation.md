@@ -1,0 +1,7 @@
+# DEV implementation mapping
+R01/R06: internal optional stable-ID node construction + Application FileSystemDocument/Mapper; validates tree/metadata, immutable DTO lists; no public mutation broadening. Infrastructure Schema/v1.sql extends original constraints with order/version/receipt; original schema scripts untouched.
+R02/R04/R09: Web Program configured DB path and eager validated bootstrap of actual Singleton; selection seed path else Root; transient state clean; Console files/entry untouched.
+R03: EditingSession prepares history containers then applies same-object command; commit whole document; only receipt success publishes history; confirmed rollback internal inverse+revision restore; unexpected/unknown result faults. Real SQL provider resolves commit receipt separately and never reclassifies successful commit because Dispose failed.
+R05/R07: IFileSystemStore only new boundary; one SQLite owner file handle, per-operation connection, version/invalid state fail safely; no EF/Dapper/generic repository. Core references BCL only; Web uses Infrastructure.
+R08:29 new xUnit cases plus existing98, original assertion coverage retained; one composition fixture supplies temp path; L06 narrowly adds mapper Insert/LoadTags, other architecture guards unchanged. No production fault-injection branches; UnknownStore is test-only and calls real DB when modeling commit-before-ack loss.
+R10: all artifacts in TASK011; no prior history/code commits/push.

@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="eedf3884-2cc6-444e-b4ff-5d0e83e1fb8a" name="@yunMacBook-Pro 2026-10-07 12:53:27" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-07T12:53:27.0534880+08:00" queuing="2026-10-07T12:53:27.0534880+08:00" start="2026-10-07T12:53:25.6151890+08:00" finish="2026-10-07T12:53:27.1156740+08:00" />
+  <TestSettings name="default" id="63917be7-f55a-49a6-af4f-755c31086bb2">
+    <Deployment runDeploymentRoot="_yunMacBook-Pro_2026-10-07_12_53_27" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="f89c3a8e-4549-455c-87b5-1fd4a458f3ab" testId="46338258-5bcb-d275-9cd2-0f434bc2afa2" testName="A10 shared references use one Command history and preserve failure/noop" computerName="yunMacBook-Pro" duration="00:00:00.0006692" startTime="2026-10-07T12:53:26.8703590+08:00" endTime="2026-10-07T12:53:26.8710440+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f89c3a8e-4549-455c-87b5-1fd4a458f3ab" />
+    <UnitTestResult executionId="31783e74-89c1-4fc1-b023-422d865bf59f" testId="97ebc00a-3a2f-5498-b1d3-c1685ed6e842" testName="L04 negative control detects fully qualified Application reference in method body" computerName="yunMacBook-Pro" duration="00:00:00.0014122" startTime="2026-10-07T12:53:27.0007580+08:00" endTime="2026-10-07T12:53:27.0021940+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31783e74-89c1-4fc1-b023-422d865bf59f" />
+    <UnitTestResult executionId="437d3932-395a-4d5c-bff3-05d4d7f5fd1e" testId="d22702e2-8176-82f8-e7cb-387f5c5dcd6e" testName="A07 reset replaces Root clears populated clipboard undo redo" computerName="yunMacBook-Pro" duration="00:00:00.0004370" startTime="2026-10-07T12:53:26.8719730+08:00" endTime="2026-10-07T12:53:26.8724250+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="437d3932-395a-4d5c-bff3-05d4d7f5fd1e" />
+    <UnitTestResult executionId="3a69ffcf-fa8f-43ab-8277-c627583ef6de" testId="e7efc74a-1cd0-66b5-90a3-26630f166bc5" testName="A09 same Root Reset cleans session without clearing domain" computerName="yunMacBook-Pro" duration="00:00:00.0045240" startTime="2026-10-07T12:53:26.8601030+08:00" endTime="2026-10-07T12:53:26.8647210+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a69ffcf-fa8f-43ab-8277-c627583ef6de" />
+    <UnitTestResult executionId="56a923de-fa7d-4c04-a50c-b234b3a863e6" testId="a1bdec1d-4f85-05be-26f3-e57d3fc6e19a" testName="A03 production size visitor all types and repeated call isolation" computerName="yunMacBook-Pro" duration="00:00:00.0005580" startTime="2026-10-07T12:53:26.9753240+08:00" endTime="2026-10-07T12:53:26.9759450+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56a923de-fa7d-4c04-a50c-b234b3a863e6" />
+    <UnitTestResult executionId="a9d6d60a-893c-40e0-9b06-fef37739781d" testId="1f9f3f54-f1d1-5e1b-daa3-0f6e262105df" testName="L02 Domain has no Console TextWriter or XML presentation dependencies" computerName="yunMacBook-Pro" duration="00:00:00.0017718" startTime="2026-10-07T12:53:26.9985850+08:00" endTime="2026-10-07T12:53:27.0003840+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9d6d60a-893c-40e0-9b06-fef37739781d" />
+    <UnitTestResult executionId="67f8ee87-5e25-43a2-ba91-10524b6755b0" testId="ce27e6cb-3f10-c749-125f-30d31638844b" testName="L01 Domain compiled metadata and IL depend only on Domain or BCL" computerName="yunMacBook-Pro" duration="00:00:00.0027366" startTime="2026-10-07T12:53:26.9956100+08:00" endTime="2026-10-07T12:53:26.9983940+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67f8ee87-5e25-43a2-ba91-10524b6755b0" />
+    <UnitTestResult executionId="8d96f548-5d29-4cfe-a101-ae7dfba41383" testId="6a317b73-4df6-c26b-5acb-c57e84477b4f" testName="A02 typed Accept dispatch is one node, traversal owns DFS" computerName="yunMacBook-Pro" duration="00:00:00.0009191" startTime="2026-10-07T12:53:26.9764120+08:00" endTime="2026-10-07T12:53:26.9773620+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d96f548-5d29-4cfe-a101-ae7dfba41383" />
+    <UnitTestResult executionId="3dcb02dd-b4fc-4de2-88e9-0d30113ece73" testId="f6a380b1-5c9d-47eb-6f04-00e65595169f" testName="A08 invalid Reset preserves root clipboard and both histories" computerName="yunMacBook-Pro" duration="00:00:00.0049729" startTime="2026-10-07T12:53:26.8650230+08:00" endTime="2026-10-07T12:53:26.8700290+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3dcb02dd-b4fc-4de2-88e9-0d30113ece73" />
+    <UnitTestResult executionId="5410f45f-4cb9-4b3d-bafe-75d583bd12eb" testId="0357f55c-8212-063f-2c8f-033590b47d5f" testName="A01 singleton identity private construction explicit initialization" computerName="yunMacBook-Pro" duration="00:00:00.1412195" startTime="2026-10-07T12:53:26.7069370+08:00" endTime="2026-10-07T12:53:26.8546090+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5410f45f-4cb9-4b3d-bafe-75d583bd12eb" />
+    <UnitTestResult executionId="3d26c336-28e5-4bd6-9983-fd5b633fe560" testId="8d32fdc8-d8b4-3294-0b24-f91cd1200a6f" testName="A06 invalid visitor/search arguments do not visit" computerName="yunMacBook-Pro" duration="00:00:00.0007027" startTime="2026-10-07T12:53:26.9741040+08:00" endTime="2026-10-07T12:53:26.9748680+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d26c336-28e5-4bd6-9983-fd5b633fe560" />
+    <UnitTestResult executionId="d0862150-e946-467c-8d4e-4658041d0913" testId="68a525fc-0f0b-0be4-8cc5-dd3bdb095a0b" testName="L03 all production types classified; Application stays inward" computerName="yunMacBook-Pro" duration="00:00:00.0148463" startTime="2026-10-07T12:53:27.0025320+08:00" endTime="2026-10-07T12:53:27.0174500+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0862150-e946-467c-8d4e-4658041d0913" />
+    <UnitTestResult executionId="d4cbc3b1-c40d-4a0e-9414-f7affa2cd81d" testId="b0c0cce7-8d26-f7fe-cd5b-538608b46ada" testName="A05 visitor deep traversal and checked overflow" computerName="yunMacBook-Pro" duration="00:00:00.0887000" startTime="2026-10-07T12:53:26.8840900+08:00" endTime="2026-10-07T12:53:26.9728300+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d4cbc3b1-c40d-4a0e-9414-f7affa2cd81d" />
+    <UnitTestResult executionId="d27c4058-e29d-45eb-b5ad-cb2b00ca7198" testId="fcb1aa50-5d63-f854-3b0b-9e3a524f8b73" testName="L06 Application mutation access limited to approved commands bootstrap and revision reader" computerName="yunMacBook-Pro" duration="00:00:00.0082775" startTime="2026-10-07T12:53:27.0178700+08:00" endTime="2026-10-07T12:53:27.0262020+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d27c4058-e29d-45eb-b5ad-cb2b00ca7198" />
+    <UnitTestResult executionId="25c8f646-84aa-401d-8f6d-bef310cf0b16" testId="2ea4866e-7868-b878-1ab9-23f863a998d7" testName="A12 serial Reset cycles prevent previous case state leaks" computerName="yunMacBook-Pro" duration="00:00:00.0003244" startTime="2026-10-07T12:53:26.8712670+08:00" endTime="2026-10-07T12:53:26.8716270+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25c8f646-84aa-401d-8f6d-bef310cf0b16" />
+    <UnitTestResult executionId="99cf27c1-fecb-489f-9143-48e4b127dbf4" testId="b7728d61-757c-127b-2ef4-c2549c467b48" testName="A04 production search visitor type filtering normalization readonly" computerName="yunMacBook-Pro" duration="00:00:00.0026820" startTime="2026-10-07T12:53:26.8807180+08:00" endTime="2026-10-07T12:53:26.8834600+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="99cf27c1-fecb-489f-9143-48e4b127dbf4" />
+    <UnitTestResult executionId="255f0b3e-ef44-42a7-b1e0-e63918f8374b" testId="10f8b8ad-c723-580e-d7bf-23bd2ef3a683" testName="A11 Reset does not alter independent EditingSession" computerName="yunMacBook-Pro" duration="00:00:00.0003140" startTime="2026-10-07T12:53:26.8728900+08:00" endTime="2026-10-07T12:53:26.8732500+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="255f0b3e-ef44-42a7-b1e0-e63918f8374b" />
+    <UnitTestResult executionId="d8ac3dfc-266d-49ab-b1b8-66dc5bbf74ea" testId="d14c67ab-5098-337d-ec32-70b10be4b6b3" testName="L05 negative control detects Application nested generic and signature dependency" computerName="yunMacBook-Pro" duration="00:00:00.0162482" startTime="2026-10-07T12:53:26.9781350+08:00" endTime="2026-10-07T12:53:26.9945260+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8ac3dfc-266d-49ab-b1b8-66dc5bbf74ea" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="A01 singleton identity private construction explicit initialization" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.architecturetests/bin/release/net10.0/cloudfilemanager.architecturetests.dll" id="0357f55c-8212-063f-2c8f-033590b47d5f">
+      <Execution id="5410f45f-4cb9-4b3d-bafe-75d583bd12eb" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/bin/Release/net10.0/CloudFileManager.ArchitectureTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.ArchitectureTests.SessionLifecycleTests" name="A01" />
+    </UnitTest>
+    <UnitTest name="A05 visitor deep traversal and checked overflow" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.architecturetests/bin/release/net10.0/cloudfilemanager.architecturetests.dll" id="b0c0cce7-8d26-f7fe-cd5b-538608b46ada">
+      <Execution id="d4cbc3b1-c40d-4a0e-9414-f7affa2cd81d" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/bin/Release/net10.0/CloudFileManager.ArchitectureTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.ArchitectureTests.VisitorBehaviorTests" name="A05" />
+    </UnitTest>
+    <UnitTest name="L03 all production types classified; Application stays inward" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.architecturetests/bin/release/net10.0/cloudfilemanager.architecturetests.dll" id="68a525fc-0f0b-0be4-8cc5-dd3bdb095a0b">
+      <Execution id="d0862150-e946-467c-8d4e-4658041d0913" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/bin/Release/net10.0/CloudFileManager.ArchitectureTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.ArchitectureTests.LayerDependencyTests" name="L03" />
+    </UnitTest>
+    <UnitTest name="A12 serial Reset cycles prevent previous case state leaks" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.architecturetests/bin/release/net10.0/cloudfilemanager.architecturetests.dll" id="2ea4866e-7868-b878-1ab9-23f863a998d7">
+      <Execution id="25c8f646-84aa-401d-8f6d-bef310cf0b16" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/bin/Release/net10.0/CloudFileManager.ArchitectureTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.ArchitectureTests.SessionLifecycleTests" name="A12" />
+    </UnitTest>
+    <UnitTest name="A04 production search visitor type filtering normalization readonly" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.architecturetests/bin/release/net10.0/cloudfilemanager.architecturetests.dll" id="b7728d61-757c-127b-2ef4-c2549c467b48">
+      <Execution id="99cf27c1-fecb-489f-9143-48e4b127dbf4" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/bin/Release/net10.0/CloudFileManager.ArchitectureTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.ArchitectureTests.VisitorBehaviorTests" name="A04" />
+    </UnitTest>
+    <UnitTest name="A03 production size visitor all types and repeated call isolation" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.architecturetests/bin/release/net10.0/cloudfilemanager.architecturetests.dll" id="a1bdec1d-4f85-05be-26f3-e57d3fc6e19a">
+      <Execution id="56a923de-fa7d-4c04-a50c-b234b3a863e6" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/bin/Release/net10.0/CloudFileManager.ArchitectureTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.ArchitectureTests.VisitorBehaviorTests" name="A03" />
+    </UnitTest>
+    <UnitTest name="L05 negative control detects Application nested generic and signature dependency" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.architecturetests/bin/release/net10.0/cloudfilemanager.architecturetests.dll" id="d14c67ab-5098-337d-ec32-70b10be4b6b3">
+      <Execution id="d8ac3dfc-266d-49ab-b1b8-66dc5bbf74ea" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/bin/Release/net10.0/CloudFileManager.ArchitectureTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.ArchitectureTests.LayerDependencyTests" name="L05" />
+    </UnitTest>
+    <UnitTest name="A09 same Root Reset cleans session without clearing domain" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.architecturetests/bin/release/net10.0/cloudfilemanager.architecturetests.dll" id="e7efc74a-1cd0-66b5-90a3-26630f166bc5">
+      <Execution id="3a69ffcf-fa8f-43ab-8277-c627583ef6de" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/bin/Release/net10.0/CloudFileManager.ArchitectureTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.ArchitectureTests.SessionLifecycleTests" name="A09" />
+    </UnitTest>
+    <UnitTest name="A06 invalid visitor/search arguments do not visit" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.architecturetests/bin/release/net10.0/cloudfilemanager.architecturetests.dll" id="8d32fdc8-d8b4-3294-0b24-f91cd1200a6f">
+      <Execution id="3d26c336-28e5-4bd6-9983-fd5b633fe560" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/bin/Release/net10.0/CloudFileManager.ArchitectureTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.ArchitectureTests.VisitorBehaviorTests" name="A06" />
+    </UnitTest>
+    <UnitTest name="A08 invalid Reset preserves root clipboard and both histories" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.architecturetests/bin/release/net10.0/cloudfilemanager.architecturetests.dll" id="f6a380b1-5c9d-47eb-6f04-00e65595169f">
+      <Execution id="3dcb02dd-b4fc-4de2-88e9-0d30113ece73" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/bin/Release/net10.0/CloudFileManager.ArchitectureTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.ArchitectureTests.SessionLifecycleTests" name="A08" />
+    </UnitTest>
+    <UnitTest name="L04 negative control detects fully qualified Application reference in method body" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.architecturetests/bin/release/net10.0/cloudfilemanager.architecturetests.dll" id="97ebc00a-3a2f-5498-b1d3-c1685ed6e842">
+      <Execution id="31783e74-89c1-4fc1-b023-422d865bf59f" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/bin/Release/net10.0/CloudFileManager.ArchitectureTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.ArchitectureTests.LayerDependencyTests" name="L04" />
+    </UnitTest>
+    <UnitTest name="L06 Application mutation access limited to approved commands bootstrap and revision reader" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.architecturetests/bin/release/net10.0/cloudfilemanager.architecturetests.dll" id="fcb1aa50-5d63-f854-3b0b-9e3a524f8b73">
+      <Execution id="d27c4058-e29d-45eb-b5ad-cb2b00ca7198" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/bin/Release/net10.0/CloudFileManager.ArchitectureTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.ArchitectureTests.LayerDependencyTests" name="L06" />
+    </UnitTest>
+    <UnitTest name="A11 Reset does not alter independent EditingSession" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.architecturetests/bin/release/net10.0/cloudfilemanager.architecturetests.dll" id="10f8b8ad-c723-580e-d7bf-23bd2ef3a683">
+      <Execution id="255f0b3e-ef44-42a7-b1e0-e63918f8374b" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/bin/Release/net10.0/CloudFileManager.ArchitectureTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.ArchitectureTests.SessionLifecycleTests" name="A11" />
+    </UnitTest>
+    <UnitTest name="L02 Domain has no Console TextWriter or XML presentation dependencies" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.architecturetests/bin/release/net10.0/cloudfilemanager.architecturetests.dll" id="1f9f3f54-f1d1-5e1b-daa3-0f6e262105df">
+      <Execution id="a9d6d60a-893c-40e0-9b06-fef37739781d" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/bin/Release/net10.0/CloudFileManager.ArchitectureTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.ArchitectureTests.LayerDependencyTests" name="L02" />
+    </UnitTest>
+    <UnitTest name="A10 shared references use one Command history and preserve failure/noop" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.architecturetests/bin/release/net10.0/cloudfilemanager.architecturetests.dll" id="46338258-5bcb-d275-9cd2-0f434bc2afa2">
+      <Execution id="f89c3a8e-4549-455c-87b5-1fd4a458f3ab" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/bin/Release/net10.0/CloudFileManager.ArchitectureTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.ArchitectureTests.SessionLifecycleTests" name="A10" />
+    </UnitTest>
+    <UnitTest name="A02 typed Accept dispatch is one node, traversal owns DFS" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.architecturetests/bin/release/net10.0/cloudfilemanager.architecturetests.dll" id="6a317b73-4df6-c26b-5acb-c57e84477b4f">
+      <Execution id="8d96f548-5d29-4cfe-a101-ae7dfba41383" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/bin/Release/net10.0/CloudFileManager.ArchitectureTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.ArchitectureTests.VisitorBehaviorTests" name="A02" />
+    </UnitTest>
+    <UnitTest name="L01 Domain compiled metadata and IL depend only on Domain or BCL" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.architecturetests/bin/release/net10.0/cloudfilemanager.architecturetests.dll" id="ce27e6cb-3f10-c749-125f-30d31638844b">
+      <Execution id="67f8ee87-5e25-43a2-ba91-10524b6755b0" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/bin/Release/net10.0/CloudFileManager.ArchitectureTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.ArchitectureTests.LayerDependencyTests" name="L01" />
+    </UnitTest>
+    <UnitTest name="A07 reset replaces Root clears populated clipboard undo redo" storage="/users/juyunho/documents/code/winbond/cloudfilemanager/tests/cloudfilemanager.architecturetests/bin/release/net10.0/cloudfilemanager.architecturetests.dll" id="d22702e2-8176-82f8-e7cb-387f5c5dcd6e">
+      <Execution id="437d3932-395a-4d5c-bff3-05d4d7f5fd1e" />
+      <TestMethod codeBase="/Users/juyunho/Documents/Code/winbond/CloudFileManager/tests/CloudFileManager.ArchitectureTests/bin/Release/net10.0/CloudFileManager.ArchitectureTests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="CloudFileManager.ArchitectureTests.SessionLifecycleTests" name="A07" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="46338258-5bcb-d275-9cd2-0f434bc2afa2" executionId="f89c3a8e-4549-455c-87b5-1fd4a458f3ab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="97ebc00a-3a2f-5498-b1d3-c1685ed6e842" executionId="31783e74-89c1-4fc1-b023-422d865bf59f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d22702e2-8176-82f8-e7cb-387f5c5dcd6e" executionId="437d3932-395a-4d5c-bff3-05d4d7f5fd1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7efc74a-1cd0-66b5-90a3-26630f166bc5" executionId="3a69ffcf-fa8f-43ab-8277-c627583ef6de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a1bdec1d-4f85-05be-26f3-e57d3fc6e19a" executionId="56a923de-fa7d-4c04-a50c-b234b3a863e6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1f9f3f54-f1d1-5e1b-daa3-0f6e262105df" executionId="a9d6d60a-893c-40e0-9b06-fef37739781d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce27e6cb-3f10-c749-125f-30d31638844b" executionId="67f8ee87-5e25-43a2-ba91-10524b6755b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6a317b73-4df6-c26b-5acb-c57e84477b4f" executionId="8d96f548-5d29-4cfe-a101-ae7dfba41383" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f6a380b1-5c9d-47eb-6f04-00e65595169f" executionId="3dcb02dd-b4fc-4de2-88e9-0d30113ece73" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0357f55c-8212-063f-2c8f-033590b47d5f" executionId="5410f45f-4cb9-4b3d-bafe-75d583bd12eb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d32fdc8-d8b4-3294-0b24-f91cd1200a6f" executionId="3d26c336-28e5-4bd6-9983-fd5b633fe560" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="68a525fc-0f0b-0be4-8cc5-dd3bdb095a0b" executionId="d0862150-e946-467c-8d4e-4658041d0913" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b0c0cce7-8d26-f7fe-cd5b-538608b46ada" executionId="d4cbc3b1-c40d-4a0e-9414-f7affa2cd81d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fcb1aa50-5d63-f854-3b0b-9e3a524f8b73" executionId="d27c4058-e29d-45eb-b5ad-cb2b00ca7198" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ea4866e-7868-b878-1ab9-23f863a998d7" executionId="25c8f646-84aa-401d-8f6d-bef310cf0b16" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b7728d61-757c-127b-2ef4-c2549c467b48" executionId="99cf27c1-fecb-489f-9143-48e4b127dbf4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="10f8b8ad-c723-580e-d7bf-23bd2ef3a683" executionId="255f0b3e-ef44-42a7-b1e0-e63918f8374b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d14c67ab-5098-337d-ec32-70b10be4b6b3" executionId="d8ac3dfc-266d-49ab-b1b8-66dc5bbf74ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="18" executed="18" passed="18" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.5+1b188a7b0a (64-bit .NET 10.0.12)
+[xUnit.net 00:00:00.24]   Discovering: CloudFileManager.ArchitectureTests
+[xUnit.net 00:00:00.45]   Discovered:  CloudFileManager.ArchitectureTests
+[xUnit.net 00:00:00.72]   Starting:    CloudFileManager.ArchitectureTests
+[xUnit.net 00:00:01.11]   Finished:    CloudFileManager.ArchitectureTests (ID = 'e5fcbe0cd9c4f2ebb38ac055517eab9a4244c1cce1010963d176306f158fd342')
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
