@@ -1,5 +1,4 @@
 using CloudFileManager.Core.Application.Export;
-using CloudFileManager.Core.Application.Samples;
 using CloudFileManager.Core.Application.Sessions;
 using CloudFileManager.Core.Application.Sorting;
 using CloudFileManager.Core.Application.Traversal;
@@ -15,7 +14,7 @@ public sealed class WebWorkspace
 {
     // All access, including projection, is serialized here; Core is not thread-safe.
     public SemaphoreSlim Gate { get; } = new(1, 1);
-    private readonly FileSystemSession session = FileSystemSession.Instance;
+    private readonly IFileSystemSession session;
     private Guid selected;
     private string criterion = "Size";
     private SortDirection direction = SortDirection.Asc;
@@ -24,10 +23,14 @@ public sealed class WebWorkspace
     private string? searchSummary;
     private sealed record ProgressView(string status, string name, int visited, int total, string? path = null);
     private ProgressView progress = new("idle", "尚未執行", 0, 0);
-    public WebWorkspace()
+    public WebWorkspace(IFileSystemSession session, Guid initialSelection)
     {
-        session.Reset(ReferenceTree.Create());
-        selected = Nodes().Single(n => n.Name == "API介面定義.docx").Id;
+        ArgumentNullException.ThrowIfNull(session);
+        if (!session.IsInitialized) throw new InvalidOperationException("Initialize the session before constructing a workspace.");
+        this.session = session;
+        if (!Nodes().Any(n => n.Id == initialSelection))
+            throw new ArgumentException("Initial selection must belong to the live tree.", nameof(initialSelection));
+        selected = initialSelection;
     }
     private List<FsNode> Nodes()
     {

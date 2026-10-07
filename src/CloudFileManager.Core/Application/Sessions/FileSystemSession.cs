@@ -8,7 +8,7 @@ namespace CloudFileManager.Core.Application.Sessions;
 /// Instance uniqueness does not make Root, clipboard, history or Reset thread-safe.
 /// Initialize explicitly with Reset before accessing session state. No locking is provided.
 /// </summary>
-public sealed class FileSystemSession
+public sealed class FileSystemSession : IFileSystemSession
 {
     public static FileSystemSession Instance { get; } = new();
     private FileSystemSession() { }

@@ -1,0 +1,14 @@
+ M README.md
+ M src/CloudFileManager.Console/BonusDemo.cs
+ M src/CloudFileManager.Console/Program.cs
+ M src/CloudFileManager.Core/Application/Sessions/FileSystemSession.cs
+ M src/CloudFileManager.Web/Program.cs
+ M src/CloudFileManager.Web/WebWorkspace.cs
+ M tests/CloudFileManager.ArchitectureTests/Behavior/VisitorBehaviorTests.cs
+ M tests/CloudFileManager.ArchitectureTests/SessionFixture.cs
+ M tests/CloudFileManager.WebTests/CloudFileManager.WebTests.csproj
+ M tests/CloudFileManager.WebTests/WebWorkspaceTests.cs
+?? spaces/session-lifecycle-di-implementation/
+?? src/CloudFileManager.Core/Application/Sessions/IFileSystemSession.cs
+?? tests/CloudFileManager.WebTests/DependencyInjectionTests.cs
+?? tests/CloudFileManager.WebTests/SessionFixtures.cs

@@ -1,0 +1,16 @@
+{
+  "result": "PASS",
+  "filename": "export (9).xml",
+  "sha256": "7131aa1d1c6a782e43487c37ce2901d96c7cd4f856430eab56b3477b0d83affb",
+  "utf8": true,
+  "parse": true,
+  "selected_subtree_elements": [
+    "個人筆記",
+    "_x0032_025備份",
+    "會議記錄_docx",
+    "待辦清單_txt"
+  ],
+  "history_unchanged": true,
+  "progress": "4/4",
+  "mime_source": "Angular production Blob application/xml;charset=utf-8; browser downloaded XML file"
+}

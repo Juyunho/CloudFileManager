@@ -8,7 +8,7 @@ using CloudFileManager.Core.Domain.Visiting;
 
 namespace CloudFileManager.ArchitectureTests;
 
-public sealed class VisitorBehaviorTests : SessionFixture
+public sealed class VisitorBehaviorTests : VisitorFixture
 {
     [Fact(DisplayName = "A02 typed Accept dispatch is one node, traversal owns DFS")]
     [Trait("LegacyId", "A02")]

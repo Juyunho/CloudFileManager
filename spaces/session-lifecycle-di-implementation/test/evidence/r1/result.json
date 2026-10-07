@@ -1,0 +1,10 @@
+{
+  "ended": "2026-10-07T12:09:21+08:00",
+  "gate": "REWORK",
+  "failures": [
+    "angular-build: unexpected exit -6"
+  ],
+  "same_inputs": true,
+  "input_file_count": 111,
+  "protected_count": 1062
+}

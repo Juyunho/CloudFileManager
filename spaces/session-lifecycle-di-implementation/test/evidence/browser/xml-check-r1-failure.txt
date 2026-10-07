@@ -1,0 +1,1 @@
+Ad hoc check failed: raw filenames were incorrectly expected as XML element names. Existing XML contract escapes 2025 as _x0032_025 and replaces dot with underscore. Download parsed successfully. Corrected verification checks exact four contractual elements; no product change. Original terminal exit=1.

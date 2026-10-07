@@ -1,0 +1,5 @@
+M README.md
+A spaces/session-lifecycle-di-implementation/closure/review.md
+A spaces/session-lifecycle-di-implementation/closure/checks.json
+A spaces/session-lifecycle-di-implementation/closure/closure-scope.txt
+A spaces/session-lifecycle-di-implementation/closure/changed-files.txt

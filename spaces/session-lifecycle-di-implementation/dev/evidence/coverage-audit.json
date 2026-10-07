@@ -1,0 +1,162 @@
+[
+  {
+    "id": "W01",
+    "assertion_body_preserved": true,
+    "modes": [
+      "real Singleton",
+      "isolated real EditingSession"
+    ]
+  },
+  {
+    "id": "W02",
+    "assertion_body_preserved": true,
+    "modes": [
+      "real Singleton",
+      "isolated real EditingSession"
+    ]
+  },
+  {
+    "id": "W03",
+    "assertion_body_preserved": true,
+    "modes": [
+      "real Singleton",
+      "isolated real EditingSession"
+    ]
+  },
+  {
+    "id": "W04",
+    "assertion_body_preserved": true,
+    "modes": [
+      "real Singleton",
+      "isolated real EditingSession"
+    ]
+  },
+  {
+    "id": "W05",
+    "assertion_body_preserved": true,
+    "modes": [
+      "real Singleton",
+      "isolated real EditingSession"
+    ]
+  },
+  {
+    "id": "W06",
+    "assertion_body_preserved": true,
+    "modes": [
+      "real Singleton",
+      "isolated real EditingSession"
+    ]
+  },
+  {
+    "id": "W07",
+    "assertion_body_preserved": true,
+    "modes": [
+      "real Singleton",
+      "isolated real EditingSession"
+    ]
+  },
+  {
+    "id": "W08",
+    "assertion_body_preserved": true,
+    "modes": [
+      "real Singleton",
+      "isolated real EditingSession"
+    ]
+  },
+  {
+    "id": "W09",
+    "assertion_body_preserved": true,
+    "modes": [
+      "real Singleton",
+      "isolated real EditingSession"
+    ]
+  },
+  {
+    "id": "W10",
+    "assertion_body_preserved": true,
+    "modes": [
+      "real Singleton",
+      "isolated real EditingSession"
+    ]
+  },
+  {
+    "id": "W11",
+    "assertion_body_preserved": true,
+    "modes": [
+      "real Singleton",
+      "isolated real EditingSession"
+    ]
+  },
+  {
+    "id": "W12",
+    "assertion_body_preserved": true,
+    "modes": [
+      "real Singleton",
+      "isolated real EditingSession"
+    ]
+  },
+  {
+    "id": "W13",
+    "assertion_body_preserved": true,
+    "modes": [
+      "real Singleton",
+      "isolated real EditingSession"
+    ]
+  },
+  {
+    "id": "W14",
+    "assertion_body_preserved": true,
+    "modes": [
+      "real Singleton",
+      "isolated real EditingSession"
+    ]
+  },
+  {
+    "id": "W15",
+    "assertion_body_preserved": true,
+    "modes": [
+      "real Singleton",
+      "isolated real EditingSession"
+    ]
+  },
+  {
+    "id": "W16",
+    "assertion_body_preserved": true,
+    "modes": [
+      "real Singleton",
+      "isolated real EditingSession"
+    ]
+  },
+  {
+    "id": "W17",
+    "assertion_body_preserved": true,
+    "modes": [
+      "real Singleton",
+      "isolated real EditingSession"
+    ]
+  },
+  {
+    "id": "W18",
+    "assertion_body_preserved": true,
+    "modes": [
+      "real Singleton",
+      "isolated real EditingSession"
+    ]
+  },
+  {
+    "id": "W19",
+    "assertion_body_preserved": true,
+    "modes": [
+      "real Singleton",
+      "isolated real EditingSession"
+    ]
+  },
+  {
+    "id": "W20",
+    "assertion_body_preserved": true,
+    "modes": [
+      "real Singleton",
+      "isolated real EditingSession"
+    ]
+  }
+]

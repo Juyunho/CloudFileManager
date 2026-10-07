@@ -1,5 +1,4 @@
 using CloudFileManager.Core.Application.Formatting;
-using CloudFileManager.Core.Application.Samples;
 using CloudFileManager.Core.Application.Sessions;
 using CloudFileManager.Core.Application.Sorting;
 using CloudFileManager.Core.Domain.Nodes;
@@ -7,13 +6,11 @@ using CloudFileManager.Core.Domain.Values;
 
 internal static class BonusDemo
 {
-    public static void Run()
+    public static void Run(IFileSystemSession session)
     {
-        var root = SampleTree.Create();
-        var destination = root.AddDirectory("Bonus_Copies", root.CreatedAt);
+        var root = session.Root;
+        var destination = (DirectoryNode)root.Children.Single(n => n.Name == "Bonus_Copies");
         var source = (DirectoryNode)root.Children[0];
-        var session = FileSystemSession.Instance;
-        session.Reset(root);
         Console.WriteLine("=== TASK-002 Bonus: in-memory session ===");
         session.AddTag(source, TagKind.Work); session.AddTag(source.Children[0], TagKind.Urgent);
         session.AddTag(source.Children[0], TagKind.Personal);
@@ -41,7 +38,7 @@ internal static class BonusDemo
             }
         Console.WriteLine("BONUS COMPLETE");
     }
-    private static void Show(DirectoryNode root, FileSystemSession session, string title)
+    private static void Show(DirectoryNode root, IFileSystemSession session, string title)
     {
         Console.WriteLine($"=== {title} | Undo={session.UndoCount} Redo={session.RedoCount} ===");
         var pending = new Stack<FsNode>(); pending.Push(root);

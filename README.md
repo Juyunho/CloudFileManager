@@ -4,7 +4,7 @@
 
 以 **Angular + TypeScript / ASP.NET Core / .NET 10** 實作的雲端檔案管理系統，提供樹狀檔案瀏覽、搜尋與排序、可復原的編輯操作及 XML Export，並結合七種 Design Patterns 與可追溯的 AI Agent 開發流程。
 
-目前提供互動式 Web UI 與 Console，完成 mandatory requirements 與 Bonus。Angular 僅管理畫面，ASP.NET Core API 與 C# Core 是唯一 domain authority。這是記憶體中的檔案模型，沒有真實雲端上傳、檔案內容讀寫或資料庫存取。目前已完成 Core 分層（[TASK-007](spaces/core-layering-refactor/status.md)）與 xUnit migration（[TASK-008](spaces/xunit-test-migration/status.md)），Angular migration 紀錄見 [TASK-006](spaces/angular-frontend-migration/status.md)。TASK-009 僅保留 DI/session lifecycle 架構探索，本版未實作，詳見[演進](#11-architecture-evolution)。
+目前提供互動式 Web UI 與 Console，完成 mandatory requirements 與 Bonus。Angular 僅管理畫面，ASP.NET Core API 與 C# Core 是唯一 domain authority。這是記憶體中的檔案模型，沒有真實雲端上傳、檔案內容讀寫或資料庫存取。目前已完成 Core 分層（[TASK-007](spaces/core-layering-refactor/status.md)）與 xUnit migration（[TASK-008](spaces/xunit-test-migration/status.md)），Angular migration 紀錄見 [TASK-006](spaces/angular-frontend-migration/status.md)。TASK-009 保留取消實作的探索歷史；TASK-010 是新的 session dependency injection 演進，保留 classic GoF Singleton，詳見[演進](#11-architecture-evolution)。
 
 快速閱讀：[Demo](#2-demo) → [架構](#4-architecture-overview) → [七種 Patterns](#7-design-patterns) → [開發學習](#10-development-insights--learning) → [演進](#11-architecture-evolution) → [執行](#12-build--run)／[驗證](#13-testing--verification)
 
@@ -42,7 +42,7 @@
 flowchart LR
     A[Angular / TypeScript] --> API[ASP.NET Core API / NDJSON]
     API --> W[WebWorkspace / serialized session access]
-    W --> S[FileSystemSession Singleton]
+    W --> I[IFileSystemSession] --> S[FileSystemSession Singleton]
     C[Console] --> S[FileSystemSession Singleton]
     S --> R[Root / Composite Tree]
     S --> E[EditingSession]
@@ -90,7 +90,7 @@ classDiagram
 
 只有 Root 的 Parent 為 null，其他目錄與所有檔案均有一個父目錄。Delete 移出活樹，但 Command 保留原節點及位置供 Undo，Paste 建立獨立新 ID 與父子關係，不把原節點掛到兩處。
 
-完整 runtime composition 與生命週期限制見 [TASK-003 Domain Model](spaces/visitor-singleton-enhancement/sa/domain-model.md)／[架構決策](spaces/visitor-singleton-enhancement/sa/design.md)
+目前 runtime composition 與生命週期限制見 [TASK-010 設計](spaces/session-lifecycle-di-implementation/sa/design.md)；最初 Singleton 模型保留於 [TASK-003 Domain Model](spaces/visitor-singleton-enhancement/sa/domain-model.md)。
 
 ## 6. ER Model
 
@@ -129,11 +129,11 @@ SQLite schema 用於驗證 ER，應用仍是記憶體模型。Clipboard、Histor
 | **Strategy** | 執行時切換名稱、大小、副檔名、標籤排序，分開鍵計算與顯示順序 | [INodeSortStrategy、Name/Size/Extension/TagSortStrategy、SortedView](src/CloudFileManager.Core/Application/Sorting/Sorting.cs)，Bonus 排序 | 比單一 switch 多介面與類別，但可獨立測試／替換策略 |
 | **Command** | Delete、Paste、Tag 加減須各自保留復原資訊，並共用線性歷史 | [IEditCommand、DeleteCommand、PasteCommand、TagCommand、EditingSession](src/CloudFileManager.Core/Application/Sessions/EditingSession.cs)，Bonus 編輯與 Undo/Redo | 保存節點、快照及歷史占用記憶體，操作須維持成功／失敗一致性 |
 | **Visitor** | 在穩定 Node types 上分離容量、搜尋與 XML operations，新增 operation 不需把演算法塞入 Node | [IFileSystemVisitor、SizeVisitor、ExtensionSearchVisitor、FileSystemTraversal](src/CloudFileManager.Core/Domain/Visiting/QueryVisitors.cs)，TreeOperations、XML 匯出與大小排序，XmlExportVisitor | 新增 Node type 須更新 visitor 介面及實作，每次操作建立新 accumulator |
-| **Singleton** | 明確需要 application-wide Root、Clipboard 與 History context，集中初始化／Reset | [FileSystemSession.Instance](src/CloudFileManager.Core/Application/Sessions/FileSystemSession.cs)，Program 與 BonusDemo 實際使用，委派 EditingSession | 全域 mutable state 需測試隔離且不 thread-safe，DI singleton 可由容器管理生命週期，Web 使用 DI 管理 WebWorkspace，但保留既有 GoF FileSystemSession，其 API 存取序列化 |
+| **Singleton** | 明確需要 application-wide Root、Clipboard 與 History context，集中初始化／Reset | [FileSystemSession.Instance](src/CloudFileManager.Core/Application/Sessions/FileSystemSession.cs)，composition root 提供既有 Instance，BonusDemo／WebWorkspace 透過 IFileSystemSession 使用，委派 EditingSession | 全域 mutable state 需測試隔離且不 thread-safe，GoF 控制唯一實體；DI singleton lifetime 控制同一 provider 的解析重用，此處提供既有 Instance，不建立另一個 session；Web API 存取序列化 |
 | **Observer** | UI 需要接收真實 traversal 進度，而不讓 Visitor 依賴畫面 | TraversalProgressSource.Progressed → WebWorkspace → NDJSON → Angular ObserverPanel | 每次 operation 訂閱並釋放，進度不是 timer 模擬 |
 | **Prototype** | Copy 當下保存完整獨立快照，來源後續修改不得影響 Paste | INodePrototype / NodeSnapshot → EditingSession Copy／Paste | 完整子樹快照占記憶體，貼上仍由 Command 維護原子性與 history |
 
-**Production paths**：容量／搜尋由 [Program](src/CloudFileManager.Console/Program.cs) → [TreeOperations](src/CloudFileManager.Core/Application/TreeOperations.cs) → Traversal → `Accept` → typed Visitor，[BonusDemo](src/CloudFileManager.Console/BonusDemo.cs) 編輯透過 `FileSystemSession.Instance` 共用 Clipboard 與 History。兩者都不是只有 class 或 test。
+**Production paths**：容量／搜尋由 [Program](src/CloudFileManager.Console/Program.cs) → [TreeOperations](src/CloudFileManager.Core/Application/TreeOperations.cs) → Traversal → `Accept` → typed Visitor，[BonusDemo](src/CloudFileManager.Console/BonusDemo.cs) 編輯透過注入的 `IFileSystemSession`（由 Console Program 提供 `FileSystemSession.Instance`）共用 Clipboard 與 History。兩者都不是只有 class 或 test。
 
 Visitor 不接管所有操作：Render 保持原責任。TASK-004 加入 XmlExportVisitor，集中 XML traversal／serialization state 並保持原 contract。替代方案與取捨見 [TASK-002 設計](spaces/design-pattern-enhancement/sa/design.md)／[TASK-003 ADR](spaces/visitor-singleton-enhancement/sa/design.md)。
 
@@ -180,7 +180,7 @@ Core 同時承擔模型規則與應用流程，責任邊界不易辨識，因此
 
 ### AI-assisted Development
 
-AI 產出的方案仍需要釐清需求與驗證，因此採用 PM → SA → DEV → TEST 流程，搭配 Grill Me 與 Human Gate，保留提案、修正及驗證紀錄。TASK-009 的 DI/session lifecycle 探索最後由 Human Gate 決定本版不實作，讓我理解 AI 能協助分析，但實作範圍與架構選擇仍須由開發者理解並決定。
+AI 產出的方案仍需要釐清需求與驗證，因此採用 PM → SA → DEV → TEST 流程，搭配 Grill Me 與 Human Gate，保留提案、修正及驗證紀錄。TASK-009 的 DI/session lifecycle 探索當時由 Human Gate 決定不實作，讓我理解 AI 能協助分析，但實作範圍與架構選擇仍須由開發者理解並決定。
 
 ## 11. Architecture Evolution
 
@@ -195,8 +195,9 @@ AI 產出的方案仍需要釐清需求與驗證，因此採用 PM → SA → DE
 | [TASK-007](spaces/core-layering-refactor/) | 為釐清 Core responsibilities，在單一 project 整理 Domain／Application 邊界，加入 Architecture Tests 約束依賴方向，保留七 Patterns 及產品行為 | [Status](spaces/core-layering-refactor/status.md)／[設計](spaces/core-layering-refactor/sa/design.md) |
 | [TASK-008](spaces/xunit-test-migration/) | 為整合標準 `dotnet test` 流程，將四個 custom C# runners 遷移至 xUnit，保留 72 cases 的 assertions、負例與邊界覆蓋，以及非 C# 驗證責任，不改 production | [Status](spaces/xunit-test-migration/status.md)／[coverage mapping](spaces/xunit-test-migration/sa/migration-map.md) |
 | [TASK-009](spaces/session-lifecycle-di-refactor/) | **CANCELLED / NOT IMPLEMENTED — Human scope decision, not technical failure**。完成 DI/session lifecycle architecture exploration 後，Human Gate 決定本版不實作。未進 DEV，未執行實作驗證，既有 classic GoF Singleton 保持不變 | [Status](spaces/session-lifecycle-di-refactor/status.md)／[SA handoff 與結案](spaces/session-lifecycle-di-refactor/sa/handoff.md) |
+| [TASK-010](spaces/session-lifecycle-di-implementation/) | **DONE / PASS**：保留 GoF Singleton，Application contract 注入，bootstrap 管理 Reset；consumer isolation 不等於 production 多 session | [Status](spaces/session-lifecycle-di-implementation/status.md)／[設計](spaces/session-lifecycle-di-implementation/sa/design.md) |
 
-舊決策與當時的「未 commit」等狀態是歷史快照，不回寫成現在的結果。`spaces/` 保留各次任務原貌，[根目錄 VALIDATION](VALIDATION.md)／[初始套件驗證](docs/VALIDATION.md) 屬早期記錄，**各任務結果以自己的 status／test report 為準。Angular migration 見 TASK-006，Core 分層見 TASK-007，xUnit migration 與 regression 驗證見 TASK-008。TASK-009 為取消實作的架構探索**。
+舊決策與當時的「未 commit」等狀態是歷史快照，不回寫成現在的結果。`spaces/` 保留各次任務原貌，[根目錄 VALIDATION](VALIDATION.md)／[初始套件驗證](docs/VALIDATION.md) 屬早期記錄，**各任務結果以自己的 status／test report 為準。Angular migration 見 TASK-006，Core 分層見 TASK-007，xUnit migration 見 TASK-008；目前 dependency boundary 與 regression 驗證見 TASK-010。TASK-009 仍為取消實作的架構探索**。
 
 ## 12. Build / Run
 
@@ -228,9 +229,11 @@ UI 有排序、選取、Tags、Copy/Paste、Delete、Undo/Redo、selected subtre
 
 ## 13. Testing & Verification
 
-C# 測試使用 **xUnit v3**，標準入口為 repository root 的 `dotnet test`。四個 projects 共 **72 cases**：Core 14、Bonus 20、Architecture 18（既有 12＋TASK-007 layer checks 6）、Web 20。Python schema 12＋Tag schema 6 與 Angular NDJSON 8 項保留原工具，合計 98 項 regression obligations。C# 結果不代表 browser／visual 驗證。
+C# 測試使用 **xUnit v3**，標準入口為 repository root 的 `dotnet test`。四個 projects 共 **98 cases**：Core 14、Bonus 20、Architecture 18（既有 12＋TASK-007 layer checks 6）、Web 46（原 20 案例在 Singleton／isolated 兩種模式執行，加 6 項 dependency/composition checks）。Python schema 12＋Tag schema 6 與 Angular NDJSON 8 項保留原工具，各框架結果分開報告。C# 結果不代表 browser／visual 驗證。
 
-[TASK-008 coverage mapping](spaces/xunit-test-migration/sa/migration-map.md) 保留 legacy ID、原 assertions／負例／邊界，[最新報告](spaces/xunit-test-migration/test/test-report.md) 提供本輪命令、exit codes 與 evidence。歷史 TASK-006／007 PASS 不代替本輪驗證。
+TASK-010 已驗證：C# / xUnit **98/98**（含 Core layering Architecture **6/6**）、Python schema **18/18**、Angular **8/8**。Release Rebuild、Console／Web smoke、真實 XML download、Reference A／B 各自 **PASS**；Angular build 首輪 REWORK 與成功重試均保留於 evidence。
+
+[TASK-008 coverage mapping](spaces/xunit-test-migration/sa/migration-map.md) 保留 legacy ID、原 assertions／負例／邊界，[TASK-010 最新報告](spaces/session-lifecycle-di-implementation/test/test-report.md) 提供本輪命令、exit codes 與 evidence。歷史 TASK-006／007 PASS 不代替本輪驗證。
 
 ```sh
 cd src/CloudFileManager.Angular
@@ -245,9 +248,9 @@ python3 tests/verify_tag_schema.py
 
 Visual acceptance 使用 [Reference A](docs/reference-ui.png) 2914×948 與 [Reference B](docs/reference-ui-search-progress.png) 2028×682。Search match highlight 與 selection 分離，進度／日誌不得預填。XML 必須實際由瀏覽器下載。自動 suites 不能取代 visual／download review。
 
-每個 C# case 可由 xUnit 個別 discovery／執行，failure 由 `dotnet test` 非零 exit code 回報。四個 test assemblies 內採序列執行，Singleton cases 每案 Reset，A01 冷啟動以 test-only child process 觀察，沒有 production test hook。可用 `dotnet test tests/CloudFileManager.ArchitectureTests --filter LegacyId=A01` 單獨驗證，或加入 `--logger trx --results-directory /tmp/cloud-file-manager-test-results` 保存標準報告。Web tests 直接驗證 WebWorkspace，真正 HTTP、XML download 與 Reference A/B 另行驗證。
+每個 C# case 可由 xUnit 個別 discovery／執行，failure 由 `dotnet test` 非零 exit code 回報。四個 test assemblies 內採序列執行，真實 Singleton cases 每案 Reset；isolated consumer cases 與純 Visitor cases 不使用全域 Reset，A01 冷啟動以 test-only child process 觀察，沒有 production test hook。可用 `dotnet test tests/CloudFileManager.ArchitectureTests --filter LegacyId=A01` 單獨驗證，或加入 `--logger trx --results-directory /tmp/cloud-file-manager-test-results` 保存標準報告。Web tests 直接驗證 WebWorkspace，真正 HTTP、XML download 與 Reference A/B 另行驗證。
 
-舊 TASK runner 保留作為 baseline-bound 歷史工具，不應對目前版本執行或寫回已完成任務。本輪驗證入口與 evidence 位於 `spaces/xunit-test-migration/`，Python schema scripts 仍是現行獨立檢查。
+舊 TASK runner 保留作為 baseline-bound 歷史工具，不應對目前版本執行或寫回已完成任務。目前驗證入口與 evidence 位於 `spaces/session-lifecycle-di-implementation/test/`，Python schema scripts 仍是現行獨立檢查。
 
 ## 14. Repository Structure
 
@@ -266,7 +269,7 @@ tests/
   CloudFileManager.ArchitectureTests/ # Visitor / Singleton 12 + Core layering checks 6
   verify_schema.py                   # Schema 12
   verify_tag_schema.py                # Tag schema 6
-  CloudFileManager.WebTests/          # Web semantics 20
+  CloudFileManager.WebTests/          # Web dual-mode 40 + dependency/composition 6
 schema.sql / schema-tags.sql          # 可執行 ER 約束
 .agents/skills/                       # sdlc-workflow / grill-me
 docs/                                # Workflow 教學、初始驗證記錄
@@ -281,6 +284,9 @@ spaces/
   core-layering-refactor/              # TASK-007
   xunit-test-migration/                # TASK-008
   session-lifecycle-di-refactor/       # TASK-009 CANCELLED / NOT IMPLEMENTED
+  session-lifecycle-di-implementation/ # TASK-010
 ```
 
 程式／solution 使用 **CloudFileManager**，GitHub repository 名稱為 **CloudFileManager**。Build outputs、local IDE files 與 `.env` 設定由 `.gitignore` 排除，skills 與 workflow artifacts 保留在版本控制中。
+
+TASK-010 的 WebWorkspace 不自行取得 Singleton 或 Reset；Web Program 以 DI factory 提供既有 Instance，Console Program 顯式傳入。GoF 控制唯一實體，DI lifetime 控制解析重用，兩者不同。Production 仍單 host/process、共享 session 且由 Web Gate 序列化；不同 provider 不代表獨立 session。Test-only adapter 只委派真實 EditingSession，A01 cold-start 與實際 Singleton lifecycle tests 保留。

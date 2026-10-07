@@ -1,8 +1,10 @@
+using CloudFileManager.Core.Application.Samples;
+using CloudFileManager.Core.Application.Sessions;
 using System.Text.Json;
 using System.Threading.Channels;
 using CloudFileManager.Web;
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddSingleton<WebWorkspace>();
+Program.ConfigureServices(builder.Services);
 var app = builder.Build();
 app.UseDefaultFiles(); app.UseStaticFiles();
 var json = new JsonSerializerOptions(JsonSerializerDefaults.Web);
@@ -29,3 +31,24 @@ app.MapPost("/api/action", async (ActionRequest request, WebWorkspace workspace,
     finally { await operation; }
 });
 app.Run();
+
+public partial class Program
+{
+    // One host/workspace per process: DI supplies the existing GoF object, not a new session.
+    public static void ConfigureServices(IServiceCollection services)
+    {
+        services.AddSingleton<IFileSystemSession>(_ =>
+        {
+            var session = FileSystemSession.Instance;
+            session.Reset(ReferenceTree.Create());
+            return session;
+        });
+        services.AddSingleton<WebWorkspace>(provider =>
+        {
+            var session = provider.GetRequiredService<IFileSystemSession>();
+            var project = session.Root.Children.Single(n => n.Name == "專案文件");
+            var initial = project.Children.Single(n => n.Name == "API介面定義.docx");
+            return new WebWorkspace(session, initial.Id);
+        });
+    }
+}

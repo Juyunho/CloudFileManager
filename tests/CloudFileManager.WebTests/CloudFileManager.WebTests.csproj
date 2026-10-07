@@ -9,6 +9,7 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="3.1.5" PrivateAssets="all" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.10.1" />
     <Using Include="Xunit" />
+    <Compile Include="../CloudFileManager.ArchitectureTests/LayerDependencies.cs" Link="LayerDependencies.cs" />
     <ProjectReference Include="../../src/CloudFileManager.Web/CloudFileManager.Web.csproj" />
     <None Include="../CloudFileManager.Tests/Fixtures/expected.xml" Link="Fixtures/expected.xml" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
